@@ -11,6 +11,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<script>
+  // Intro del chip: una vez por sesión; ?intro la fuerza; con movimiento reducido va en versión suave
+  (function () {
+    var d = document.documentElement, force = /[?&]intro(?:[=&]|$)/.test(location.search), reduce = false, seen = false;
+    try { reduce = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+    try { seen = sessionStorage.getItem('introSeen') === '1'; } catch (e) {}
+    if (force || !seen) { d.classList.add('intro-on'); if (reduce) d.classList.add('intro-soft'); }
+  })();
+</script>
 <style>
   :root {
     --bg: #f6f5f1;
@@ -173,9 +182,44 @@
     a { color: #000; text-decoration: none; }
     body { font-size: 12px; }
   }
+
+  /* Intro: viaje dentro del chip */
+  #chipIntro { display: none; }
+  .intro-on #chipIntro {
+    display: block; position: fixed; inset: 0; z-index: 1000; background: #040706; cursor: pointer;
+    animation: introFailsafe .4s 14s forwards;
+  }
+  #chipIntro canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #chipIntro.intro-out { opacity: 0; transition: opacity .8s ease; pointer-events: none; }
+  .intro-caption {
+    position: absolute; left: 16px; bottom: 16px; color: #8fe3bb;
+    font: 12px/1.5 "JetBrains Mono", monospace; letter-spacing: .08em; text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(60,255,160,.45); pointer-events: none;
+  }
+  .intro-caption b { display: block; color: #eafff4; font-size: 13px; }
+  .intro-skip {
+    position: absolute; right: 16px; bottom: 16px; padding: 8px 14px; border-radius: 999px;
+    background: rgba(255,255,255,.08); color: #eafff4; border: 1px solid rgba(255,255,255,.25);
+    font: 13px "JetBrains Mono", monospace; cursor: pointer;
+  }
+  .intro-skip:hover { background: rgba(255,255,255,.16); }
+  @keyframes introFailsafe { to { opacity: 0; visibility: hidden; } }
+  .intro-reveal nav.top { animation: introPop .7s .05s cubic-bezier(.2,.8,.2,1) both; }
+  .intro-reveal header.hero .wrap { animation: introPop 1s .1s cubic-bezier(.2,.8,.2,1) both; }
+  @keyframes introPop {
+    from { opacity: 0; transform: scale(.96) translateY(14px); filter: blur(6px); }
+    to { opacity: 1; transform: none; filter: none; }
+  }
+  @media print { #chipIntro { display: none !important; } }
 </style>
 </head>
 <body>
+
+<div id="chipIntro">
+  <canvas aria-hidden="true"></canvas>
+  <div class="intro-caption" aria-hidden="true"><b>PCB · YJS-01 · rev 2026</b><span>×1</span></div>
+  <button class="intro-skip" type="button">Saltar ↵</button>
+</div>
 
 <nav class="top">
   <div class="wrap">
@@ -608,7 +652,7 @@
 <footer>
   <div class="wrap">
     <span>© 2026 Yeffri J. Salazar</span>
-    <span>Educar, compartir, innovar y emprender.</span>
+    <span>Educar, compartir, innovar y emprender. · <a href="?intro">Ver intro de nuevo</a></span>
   </div>
 </footer>
 
@@ -641,5 +685,6 @@
     });
   })();
 </script>
+<script src="assets/js/chip-intro.js"></script>
 </body>
 </html>
