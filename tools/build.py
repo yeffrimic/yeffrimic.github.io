@@ -232,8 +232,7 @@ def render_page(data, L):
         <p class="role">{esc(u("role"))}</p>
         <p class="lead">{esc(u("lead"))}</p>
         <div class="contact-row">
-          <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
-          <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
+          <a class="chip-link primary" href="https://www.linkedin.com/in/yeffrimic/">in · LinkedIn</a>
           <a class="chip-link" href="https://github.com/yeffrimic">GitHub</a>
           <a class="chip-link" href="https://themicrofcontrol.wordpress.com">{esc(u("blog"))}</a>
           <button class="chip-link print-btn" onclick="window.print()">{esc(u("print_cv"))}</button>
@@ -341,9 +340,8 @@ def render_page(data, L):
       <p>{esc(u("contact_desc"))}</p>
     </div>
     <div class="contact-row">
-      <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
+      <a class="chip-link primary" href="https://www.linkedin.com/in/yeffrimic/">in · LinkedIn</a>
       <a class="chip-link" href="tel:+50241116553">☎ +502 4111-6553</a>
-      <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
       <a class="chip-link" href="https://github.com/yeffrimic">GitHub</a>
       <a class="chip-link" href="https://twitter.com/yeffrimic">X / Twitter</a>
       <a class="chip-link" href="https://www.instagram.com/yeffrimic/">Instagram</a>

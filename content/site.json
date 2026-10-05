@@ -96,10 +96,10 @@
     "contact_kicker": { "es": "Hablemos", "en": "Let's talk", "de": "Kontakt aufnehmen", "zh": "保持联系" },
     "contact_title": { "es": "Contacto", "en": "Contact", "de": "Kontakt", "zh": "联系方式" },
     "contact_desc": {
-      "es": "¿Proyecto de hardware, charla, taller o colaboración? Escríbeme.",
-      "en": "Hardware project, talk, workshop or collaboration? Get in touch.",
-      "de": "Ein Hardwareprojekt, ein Vortrag, ein Workshop oder eine Zusammenarbeit? Schreiben Sie mir.",
-      "zh": "硬件项目、演讲、工作坊或合作？欢迎来信。"
+      "es": "¿Proyecto de hardware, charla, taller o colaboración? Escríbeme por LinkedIn.",
+      "en": "Hardware project, talk, workshop or collaboration? Message me on LinkedIn.",
+      "de": "Ein Hardwareprojekt, ein Vortrag, ein Workshop oder eine Zusammenarbeit? Schreiben Sie mir auf LinkedIn.",
+      "zh": "硬件项目、演讲、工作坊或合作？欢迎通过 LinkedIn 联系我。"
     },
     "location": {
       "es": "Guatemala · Sacatepéquez · Disponible para trabajo remoto",
