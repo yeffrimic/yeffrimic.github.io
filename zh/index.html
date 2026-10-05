@@ -1,0 +1,476 @@
+<!doctype html>
+<!-- Generado por tools/build.py desde content/site.json. No editar a mano. -->
+<html lang="zh-Hans" data-lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yeffri J. Salazar · 电子工程师</title>
+<meta name="description" content="Yeffri J. Salazar 的作品集与简历：首席技术官、电子工程师，专注于危地马拉的机器人、物联网与科技教育。" />
+<meta property="og:title" content="Yeffri J. Salazar · 电子工程师" />
+<meta property="og:description" content="机器人、物联网、PCB 设计与科技教育。项目、演讲与履历。" />
+<meta property="og:image" content="https://yeffrimic.github.io/images/yo.jpg" />
+<meta property="og:locale" content="zh_CN" />
+<link rel="canonical" href="https://yeffrimic.github.io/zh/" />
+<link rel="alternate" hreflang="es" href="https://yeffrimic.github.io/" />
+<link rel="alternate" hreflang="en" href="https://yeffrimic.github.io/en/" />
+<link rel="alternate" hreflang="de" href="https://yeffrimic.github.io/de/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://yeffrimic.github.io/zh/" />
+<link rel="alternate" hreflang="x-default" href="https://yeffrimic.github.io/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<script>
+  (function () {
+    // Intro del chip: una vez por sesión; ?intro la fuerza; con movimiento reducido va en versión suave
+    var d = document.documentElement, force = /[?&]intro(?:[=&]|$)/.test(location.search), reduce = false, seen = false;
+    try { reduce = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+    try { seen = sessionStorage.getItem('introSeen') === '1'; } catch (e) {}
+    if (force || !seen) { d.classList.add('intro-on'); if (reduce) d.classList.add('intro-soft'); }
+  })();
+</script>
+<link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body>
+
+<div id="chipIntro" data-captions="[&quot;电路板 · YJS-01 · 2026 版&quot;, &quot;QFP-64 封装 · X 光透视&quot;, &quot;硅晶片 · 键合线&quot;, &quot;功能模块&quot;, &quot;标准单元与金属层&quot;, &quot;金属层 1 · 设计者签名&quot;]">
+  <canvas aria-hidden="true"></canvas>
+  <div class="intro-caption" aria-hidden="true"><b>电路板 · YJS-01 · 2026 版</b><span>×1</span></div>
+  <button class="intro-skip" type="button">跳过 ↵</button>
+</div>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio">Yeffri J. Salazar</a>
+    <div class="links">
+      <a href="#proyectos">项目</a>
+      <a href="#charlas">演讲</a>
+      <a href="#experiencia">经历</a>
+      <a href="#formacion">教育</a>
+      <a href="#contacto">联系</a>
+    </div>
+    <div class="lang-switch" role="group" aria-label="语言"><a href="../" hreflang="es" lang="es" data-lang="es" data-suggest="¿Prefieres leer en español?" data-suggest-btn="Ver en español">ES</a><a href="../en/" hreflang="en" lang="en" data-lang="en" data-suggest="Prefer to read in English?" data-suggest-btn="View in English">EN</a><a href="../de/" hreflang="de" lang="de" data-lang="de" data-suggest="Lieber auf Deutsch lesen?" data-suggest-btn="Auf Deutsch ansehen">DE</a><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh" data-suggest="想用中文阅读吗？" data-suggest-btn="查看中文版" aria-current="true">中文</a></div>
+    <button id="themeToggle" aria-label="切换浅色或深色主题" title="切换浅色或深色主题">◐</button>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Yeffri J. Salazar</h1>
+        <p class="role">首席技术官 · 电子工程师 · 机器人、物联网与科技教育</p>
+        <p class="lead">十多年来，我端到端地打造硬件产品：从 PCB 原理图到固件、后端，直至产品落地部署。两度担任首席技术官，曾为航天应用设计电路板，并领导 Arduino 危地马拉社区。我致力于把技术带给最需要它的人，包括没有互联网的学校。</p>
+        <div class="contact-row">
+          <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
+          <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
+          <a class="chip-link" href="https://github.com/yeffrimic">GitHub</a>
+          <a class="chip-link" href="https://themicrofcontrol.wordpress.com">博客</a>
+          <button class="chip-link print-btn" onclick="window.print()">⎙ 下载简历 (PDF)</button>
+        </div>
+      </div>
+      <img src="../images/yo.jpg" alt="Yeffri J. Salazar 的照片" />
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>20,000+</b><span>覆盖学生</span></div>
+      <div class="stat"><b>4 个国家</b><span>危地马拉、萨尔瓦多、尼加拉瓜、哥斯达黎加</span></div>
+      <div class="stat"><b>10 年以上</b><span>深耕硬件、固件与社区</span></div>
+      <div class="stat"><b>3 次</b><span>登上《福布斯》报道</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="block" id="proyectos">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">作品集</span>
+      <h2>项目</h2>
+      <p>按时间倒序排列。部分项目为我任职的公司所做，卡片上均有标注。</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="筛选项目">
+      <button data-filter="all" aria-pressed="true">全部</button>
+      <button data-filter="robotica" aria-pressed="false">机器人与 AI</button>
+      <button data-filter="edu" aria-pressed="false">教育</button>
+      <button data-filter="hardware" aria-pressed="false">硬件与物联网</button>
+      <button data-filter="software" aria-pressed="false">软件与网页</button>
+    </div>
+
+    <div class="grid" id="projectGrid">
+      <article class="card" data-cat="robotica hardware software">
+        <span class="badge">黑客马拉松</span>
+        <span class="date">2026年9月</span>
+        <h3>Tinimit：无需云端的医疗 AI</h3>
+        <p>为没有手机信号的偏远村庄提供聊天式医疗指导。带 LoRa 电台的 ESP32 节点为村庄提供自有 WiFi，咨询内容经压缩传送到中心节点，由医疗模型 MedPsy-4B 完全在本地推理。数据从不离开社区，K'iche' 语回答由社区自行审核。</p>
+        <div class="tags"><span class="tag">ESP32</span><span class="tag">LoRa</span><span class="tag">FastAPI</span><span class="tag">本地 AI</span><span class="tag">QVAC</span><span class="tag">K'iche'</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tinimit">查看代码仓库 →</a><a class="more" href="https://www.tiktok.com/@yeffrimic/video/7684117435041074450">观看视频 →</a></div>
+      </article>
+      <article class="card" data-cat="hardware software edu">
+        <span class="date">2026年9月</span>
+        <h3>Kemon Q'ayis</h3>
+        <p>为一所学校打造的植物百科。访客扫描每棵树旁的二维码或 NFC 标签，即可查看其介绍，包括学名和玛雅含义。ESP32 监测站实时监测环境。全部运行在本地网络上，无需互联网。</p>
+        <div class="tags"><span class="tag">ESP32</span><span class="tag">FastAPI</span><span class="tag">Astro</span><span class="tag">SQLite</span><span class="tag">WebSockets</span><span class="tag">NFC/QR</span></div>
+      </article>
+      <article class="card" data-cat="software hardware">
+        <span class="date">2026年9月</span>
+        <h3>Cubot KINGKONG 11 背屏</h3>
+        <p>对这款 Android 15 手机 360×360 背屏的逆向工程。我发现它并非 Android 显示屏，而是通过 JNI 绘制的 RGB565 帧缓冲区；在无需 root 的情况下，借助 Python 工具和不依赖 Android Studio 编译的应用，实现了开关屏幕并显示自定义文字。附有复盘：哪些方法奏效，哪些没有。</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">ADB</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">逆向工程</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/kingkong11-subscreen">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="software edu">
+        <span class="date">2026年9月</span>
+        <h3>玛雅历法：纳瓦尔与守护石</h3>
+        <p>介绍玛雅历法中的纳瓦尔（守护灵）及其对应宝石的互动网站。</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      </article>
+      <article class="card" data-cat="software edu">
+        <span class="date">2026年8月 – 9月</span>
+        <h3>BlockLab</h3>
+        <p>控制系统方框图编辑器与求解器。画出方框图，即可通过梅森增益公式得到精确的符号传递函数 C(s)/R(s)，并逐项观察 Δ 的构建过程。配有 95 个自动化测试。</p>
+        <div class="tags"><span class="tag">TypeScript</span><span class="tag">React Flow</span><span class="tag">KaTeX</span><span class="tag">Vitest</span></div>
+        <div class="links-row"><a class="more" href="https://yeffrimic.github.io/blocklab/">在线试用 →</a><a class="more" href="https://github.com/yeffrimic/blocklab">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="robotica hardware">
+        <span class="badge">CREABOT</span>
+        <span class="date">2025年 – 2026年</span>
+        <h3>Hermes 人形机器人</h3>
+        <p>融合计算机视觉、自然语言处理、语音合成与舵机控制的人形机器人，支持手动控制与网络控制两种模式。</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">视觉</span><span class="tag">NLP</span><span class="tag">TTS</span><span class="tag">舵机</span></div>
+      </article>
+      <article class="card" data-cat="robotica software">
+        <span class="date">2026年7月 – 8月</span>
+        <h3>陪伴机器人语音服务器</h3>
+        <p>Python 服务器：通过 TCP 接收机器人录制的音频，处理后返回语音回复供机器人播放。</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">TCP sockets</span><span class="tag">Audio</span></div>
+      </article>
+      <article class="card" data-cat="edu software">
+        <span class="date">2026年3月 – 7月</span>
+        <h3>Indra / IndraJS：电路拼图游戏</h3>
+        <p>面向 6–8 岁尚不识字儿童的电子教育游戏：看就能懂，无需阅读。一条小蛇代表电流，玩家引导它依次经过电池、电阻、电容和开关，直到 LED 亮起。包含商店、关卡进度、游戏经济系统和关卡编辑器。最初是 Godot 4.6 原型，后改用 Phaser 开发。</p>
+        <div class="tags"><span class="tag">Phaser 3</span><span class="tag">JavaScript</span><span class="tag">Godot 4</span><span class="tag">GDScript</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/IndraJs">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="edu hardware">
+        <span class="date">2026年6月 – 7月</span>
+        <h3>焊接与 KiCad 视频课程</h3>
+        <p>实操视频系列：电烙铁的工作原理、套件里有什么、底座组装、焊点与极性练习、测量 LED 和电阻，以及 KiCad 入门。</p>
+        <div class="tags"><span class="tag">焊接</span><span class="tag">KiCad</span><span class="tag">教学视频</span></div>
+      </article>
+      <article class="card" data-cat="edu">
+        <span class="date">2026年6月</span>
+        <h3>STEAM 教学教程</h3>
+        <p>面向中小学及教育机构的开放 STEAM、机器人与电子教程。</p>
+        <div class="tags"><span class="tag">STEAM</span><span class="tag">机器人</span><span class="tag">电子</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tutoriales-educativos-">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="software">
+        <span class="date">2026年6月</span>
+        <h3>Apex Tourney Board</h3>
+        <p>根据截图自动生成《Apex 英雄》赛事排行榜。视觉 AI（Gemini 或 Groq）识别队伍、名次和击杀数，并按 ALGS 规则计分。支持双语，可导出 PNG。</p>
+        <div class="tags"><span class="tag">Vite</span><span class="tag">视觉 AI</span><span class="tag">Gemini</span><span class="tag">Groq</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/apex-tourney-board">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="edu hardware">
+        <span class="date">2025年5月 – 9月</span>
+        <h3>物联网工作坊教学资料</h3>
+        <p>我的工作坊代码与示例：基于 ESP8266 的物联网、面向初学者的 Arduino 数字通信，以及使用 MQTT 和 WebSockets 的实时网页面板（ESP8266 + DHT22）。</p>
+        <div class="tags"><span class="tag">ESP8266</span><span class="tag">MQTT</span><span class="tag">WebSockets</span><span class="tag">Arduino</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/TallerIoTEsp8266">物联网工作坊 →</a><a class="more" href="https://github.com/yeffrimic/Comunicaciones-Digitales">数字通信 →</a><a class="more" href="https://github.com/yeffrimic/Mqtt-HTML-websockets-esp8266-DHT">MQTT 面板 →</a></div>
+      </article>
+      <article class="card" data-cat="hardware robotica">
+        <span class="date">2025年5月</span>
+        <h3>Mandjet</h3>
+        <p>基于 XIAO ESP32-C3 的舵机与直流电机控制板。</p>
+        <div class="tags"><span class="tag">PCB</span><span class="tag">ESP32-C3</span><span class="tag">电机</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/mandjet">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="hardware edu">
+        <span class="date">2025年5月</span>
+        <h3>Cansat Tzunun</h3>
+        <p>CanSat 小卫星与空气质量监测站。</p>
+        <div class="tags"><span class="tag">CanSat</span><span class="tag">传感器</span><span class="tag">遥测</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/Cansat-Tzunun">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="hardware edu">
+        <span class="date">2023年 – 2026年</span>
+        <h3>水质监测站</h3>
+        <p>用于搭建、复刻和改进水质监测站的完整文档，该监测站在 SINCYT 项目中开发。</p>
+        <div class="tags"><span class="tag">C++</span><span class="tag">传感器</span><span class="tag">开源硬件</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/water-Quality-Station">查看代码仓库 →</a></div>
+      </article>
+      <article class="card" data-cat="hardware">
+        <span class="badge">SKYLINE CELESTIAL</span>
+        <span class="date">2023年</span>
+        <h3>CubeSat 遥测与航天电子</h3>
+        <p>5×5 厘米、通信距离 500 公里的遥测板，太阳能能量采集系统，以及用于模拟地磁场的线圈驱动器。在 KiCad 中设计最多 4 层的 PCB，并进行 EMC 测试。</p>
+        <div class="tags"><span class="tag">KiCad</span><span class="tag">4 层 PCB</span><span class="tag">EMC</span><span class="tag">航天</span></div>
+      </article>
+      <article class="card" data-cat="edu hardware software">
+        <span class="badge">1BOT</span>
+        <span class="date">2019年 – 2022年</span>
+        <h3>ADA 自主数字教室</h3>
+        <p>一种部署本地无线网络并提供教育内容的设备，让没有互联网的学校里的孩子也能使用。混合式服务器在有网络时自动同步。</p>
+        <div class="tags"><span class="tag">Offline-first</span><span class="tag">Linux</span><span class="tag">服务器</span><span class="tag">EdTech</span></div>
+      </article>
+      <article class="card" data-cat="hardware">
+        <span class="date">2016年</span>
+        <h3>MQTT.io.gt</h3>
+        <p>免费开放的 MQTT 技术项目与资源。</p>
+        <div class="tags"><span class="tag">MQTT</span><span class="tag">IoT</span></div>
+      </article>
+      <article class="card" data-cat="hardware">
+        <span class="badge">NAJT LABS</span>
+        <span class="date">2016年</span>
+        <h3>Sonar (BlindProject)</h3>
+        <p>面向视障人士的开源低成本设备。通过超声波检测障碍物并以振动提醒。设计上任何拥有 3D 打印机的人都能自己制作。</p>
+        <div class="tags"><span class="tag">Arduino</span><span class="tag">超声波</span><span class="tag">3D 打印</span><span class="tag">无障碍</span></div>
+        <div class="links-row"><a class="more" href="../proyectos/sonar.html">了解更多（西班牙语） →</a><a class="more" href="https://github.com/yeffrimic/BlindProject">查看代码仓库 →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="charlas">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">社区</span>
+      <h2>演讲、工作坊与活动</h2>
+      <p>十多年来在危地马拉、萨尔瓦多、尼加拉瓜和哥斯达黎加担任国际讲者。以下为近期活动。</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <span class="badge">参赛者</span>
+        <span class="date">2026年9月9日–11日</span>
+        <h3>Decentralized AI Hackathon</h3>
+        <div class="org">ISD Summit + Tether/QVAC · Sovereign Intelligence at the Edge</div>
+        <p>携 Tinimit 参赛：为无网络覆盖的村庄提供完全本地运行的 AI 医疗指导，通过 LoRa 连接。</p>
+        <div class="tags"><span class="tag">黑客马拉松</span><span class="tag">边缘 AI</span><span class="tag">LoRa</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tinimit">查看代码仓库 →</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">组织者</span>
+        <span class="date">2026年8月28日</span>
+        <h3>Arduino Day 2026，危地马拉城</h3>
+        <div class="org">Arduino 危地马拉社区 · 伽利略大学</div>
+        <p>我组织了社区 14 年来规模最大的一届活动：Arduino 联合创始人 David Cuartielles 担任主讲嘉宾，讲者来自拉丁美洲各地，教室和实验室中同时进行演讲与工作坊。我还搭建了包含日程的活动网站。</p>
+        <div class="tags"><span class="tag">组织</span><span class="tag">社区</span><span class="tag">Arduino</span></div>
+        <div class="links-row"><a class="more" href="https://yeffrimic.github.io/ArduinoDay2026/">访问活动网站 →</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">讲师</span>
+        <span class="date">2026年8月 – 9月</span>
+        <h3>工作坊：Arduino 初体验</h3>
+        <div class="org">“Dejando huella en la Vera de la Paz”</div>
+        <p>入门工作坊：以简单有趣的方式连接并编程基础电子元件。</p>
+        <div class="tags"><span class="tag">Arduino</span><span class="tag">工作坊</span><span class="tag">入门</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">讲师</span>
+        <span class="date">2026年7月</span>
+        <h3>工业机器人工作坊</h3>
+        <p>面向工业应用的机器人实践工作坊。</p>
+        <div class="tags"><span class="tag">机器人</span><span class="tag">自动化</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">联合组织者</span>
+        <span class="date">2026年6月</span>
+        <h3>Hazlo Ahora：AI 黑客马拉松</h3>
+        <div class="org">Creabot + Hazlo Ahora · INTECAP 支持 · La Ruta del Chip</div>
+        <p>为期 3 天的线下黑客马拉松项目，年轻人用 AI 解决所在社区的真实问题，获 PRONACOM、ProGuatemala 和 MINECO 支持。包括在 Santa Lucía Cotzumalguapa 举办的 INTECAP 黑客马拉松，以及一本工作坊引导手册。</p>
+        <div class="tags"><span class="tag">黑客马拉松</span><span class="tag">AI</span><span class="tag">创业</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">负责人</span>
+        <span class="date">2025年 – 2026年</span>
+        <h3>La Ruta del Chip</h3>
+        <div class="org">Creabot · SENACYT、PRONACOM 与 MINECO 支持</div>
+        <p>我在 Creabot 负责的全国性科技培训与黑客马拉松项目。</p>
+        <div class="tags"><span class="tag">培训</span><span class="tag">科技</span></div>
+      </article>
+    </div>
+
+    <div class="cols" style="margin-top:16px">
+      <div class="panel">
+        <h3>演讲主题</h3>
+        <ul>
+          <li><b>物联网与嵌入式系统</b>：真实场景架构、LoRa、BLE、GSM、单片机与 PCB 设计。</li>
+          <li><b>机器人与人形机器人</b>：机电设计、舵机控制以及实体机器人中的 AI。</li>
+          <li><b>开源硬件</b>：KiCad、DIY 制造与拉丁美洲创客生态。</li>
+          <li><b>STEM 与创客教育</b>：把编程和电子带进校园，并建设社区。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="experiencia">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">履历</span>
+      <h2>工作经历</h2>
+    </div>
+
+    <ul class="timeline">
+      <li>
+        <span class="when">2025年6月 – 至今</span>
+        <h3>Chief Technology Officer</h3>
+        <div class="where">Creabot · Guatemala</div>
+        <ul><li>负责一家教育机器人公司的技术方向与战略，覆盖中美洲 20,000 多名学生。</li><li>Hermes 人形机器人的创造者，集视觉、NLP、语音与舵机控制于一体。</li><li>开发机器人套件、STEEAM 课程内容与学习平台。</li><li>负责 La Ruta del Chip 项目，以及与 SENACYT、PRONACOM、MINECO 合作的全国黑客马拉松。</li></ul>
+      </li>
+      <li>
+        <span class="when">2017年5月 – 至今</span>
+        <h3>联合创始人兼首席技术官</h3>
+        <div class="where">Xibalba Hackerspace · Santa Lucía Milpas Altas, Sacatepéquez</div>
+        <ul><li>一个分享各类技术知识的空间，推动社区建设与开源。</li></ul>
+      </li>
+      <li>
+        <span class="when">2024年8月 – 11月</span>
+        <h3>全栈开发工程师</h3>
+        <div class="where">Genesis Empresarial · Guatemala</div>
+        <ul><li>在生产环境的金融系统上开发 React 前端与后端核心银行模块，参与代码评审与持续改进。</li></ul>
+      </li>
+      <li>
+        <span class="when">2023年1月 – 12月</span>
+        <h3>嵌入式工程师</h3>
+        <div class="where">Skyline Celestial · 远程（美国公司）</div>
+        <ul><li>在 KiCad 中为航天应用设计多层 PCB（最多 4 层）。</li><li>5×5 厘米 CubeSat 遥测板，通信距离 500 公里，含太阳能采集与线圈驱动。</li><li>SMD/THT 元件、焊接、EMC 测试以及英文技术文档。</li></ul>
+      </li>
+      <li>
+        <span class="when">2019年1月 – 2022年5月</span>
+        <h3>Chief Technology Officer</h3>
+        <div class="where">1bot · Guatemala</div>
+        <ul><li>为无网络学校打造 ADA（自主数字教室）。</li><li>首版 STEEAM 综合练习，采用积木式编程，覆盖学前至高中。</li><li>制作视频、指南和现成课程，让教师无需成为专家也能授课。</li><li>为 10,000 多名儿童和青少年开设在线机器人课程；招聘并组建技术团队。</li></ul>
+      </li>
+      <li>
+        <span class="when">2017年8月 – 2018年3月</span>
+        <h3>开发工程师</h3>
+        <div class="where">EOS Power · 危地马拉城</div>
+        <ul><li>联网设备：项目设计与分析，以及固件编程。</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">2013年 – 2018年3月</span>
+        <h3>联合创始人</h3>
+        <div class="where">Micro ER</div>
+        <ul><li>硬件解决方案，从流程自动化到物联网。</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">2017年1月 – 2018年1月</span>
+        <h3>联合创始人</h3>
+        <div class="where">Antigua Makerspace · Antigua Guatemala</div>
+      </li>
+      <li class="minor">
+        <span class="when">2016年1月 – 2018年1月</span>
+        <h3>联合创始人</h3>
+        <div class="where">Najt Labs · Sacatepéquez</div>
+        <ul><li>为残障人士开发低成本电子设备的社会企业。</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">2016年4月 – 6月</span>
+        <h3>硬件开发工程师</h3>
+        <div class="where">Flatbox</div>
+      </li>
+      <li class="minor">
+        <span class="when">2014年1月 – 2016年1月</span>
+        <h3>行政主任</h3>
+        <div class="where">Liceo Santa Lucía</div>
+        <ul><li>协调和管理教师、学科协调员及学生。</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">2013年 – 2014年</span>
+        <h3>讲师</h3>
+        <div class="where">Tecnológico André Ampère</div>
+        <ul><li>为 15 岁及以上学生讲授计算机、编程与电子课程。</li></ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="formacion">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">基础</span>
+      <h2>教育、技能与荣誉</h2>
+    </div>
+
+    <div class="cols">
+      <div class="panel">
+        <h3>教育背景</h3>
+        <ul>
+          <li><b>电气与电子工程</b><br />Universidad Mesoamericana（中美洲大学）· 2021 – 2024</li>
+          <li><b>LAN/WAN 网络技术员（思科）</b><br />INTECAP Centro TICS · 2014</li>
+          <li><b>数字电子与微处理器技术文凭</b><br />Tecnológico Industrial Mixto “André Ampère” · 2010 – 2012</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>技术技能</h3>
+        <ul>
+          <li><b>嵌入式：</b>C/C++、MicroPython、ESP32/ESP8266、Arduino、RP2040、ARM、Raspberry Pi、Jetson Orin Nano</li>
+          <li><b>PCB：</b>KiCad（最多 4 层）、SMD/THT、EMC 测试、3D 打印、在中国生产制造</li>
+          <li><b>通信协议：</b>MQTT、LoRa、BLE、WiFi、GPS、I2C、SPI、UART、WebSockets</li>
+          <li><b>软件：</b>Python、JavaScript/TypeScript、Node.js、React、PHP、Linux、Docker、Git</li>
+          <li><b>机器人与 AI：</b>计算机视觉、NLP、语音、舵机控制及边缘端本地 AI</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>荣誉</h3>
+        <ul>
+          <li><b>3 次登上《福布斯》</b>，包括《寻求改变中美洲的 6 位创业者》</li>
+          <li>Startup Weekend 克萨尔特南戈站 <b>第一名</b></li>
+          <li>Startup Weekend 拉斐尔·兰迪瓦尔大学站 <b>第一名</b></li>
+          <li><b>Capital Semilla</b> 种子基金获得者</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>社区</h3>
+        <ul>
+          <li><b>Arduino 危地马拉</b>：负责人，2017 年至今</li>
+          <li><b>拉丁美洲开源硬件组织</b>（Open Hardware Latinoamérica）：理事，2020 年至今</li>
+          <li><b>MakersGT</b>：理事，2020 – 2021</li>
+          <li><b>Mozilla 危地马拉</b>：负责人</li>
+          <li><b>Xibalba Hackerspace</b> 与 <b>Antigua Makerspace</b>：联合创始人</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>语言</h3>
+        <ul>
+          <li><b>西班牙语：</b>母语</li>
+          <li><b>英语：</b>工作水平（B2），曾为美国公司远程工作一年。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="contacto">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">保持联系</span>
+      <h2>联系方式</h2>
+      <p>硬件项目、演讲、工作坊或合作？欢迎来信。</p>
+    </div>
+    <div class="contact-row">
+      <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
+      <a class="chip-link" href="tel:+50241116553">☎ +502 4111-6553</a>
+      <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
+      <a class="chip-link" href="https://github.com/yeffrimic">GitHub</a>
+      <a class="chip-link" href="https://twitter.com/yeffrimic">X / Twitter</a>
+      <a class="chip-link" href="https://www.instagram.com/yeffrimic/">Instagram</a>
+      <a class="chip-link" href="https://themicrofcontrol.wordpress.com">博客</a>
+    </div>
+    <p class="no-print" style="color:var(--muted);margin-top:18px">危地马拉 · 萨卡特佩克斯 · 可远程工作</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Yeffri J. Salazar</span>
+    <span>教育、分享、创新、创业。 · <a href="?intro">重新观看开场动画</a></span>
+  </div>
+</footer>
+
+<script src="../assets/js/site.js"></script>
+<script src="../assets/js/chip-intro.js"></script>
+</body>
+</html>

@@ -1,0 +1,674 @@
+{
+  "site_url": "https://yeffrimic.github.io/",
+  "langs": [
+    { "code": "es", "label": "ES", "html_lang": "es", "path": "", "og_locale": "es_GT" },
+    { "code": "en", "label": "EN", "html_lang": "en", "path": "en/", "og_locale": "en_US" },
+    { "code": "de", "label": "DE", "html_lang": "de", "path": "de/", "og_locale": "de_DE" },
+    { "code": "zh", "label": "中文", "html_lang": "zh-Hans", "path": "zh/", "og_locale": "zh_CN" }
+  ],
+
+  "ui": {
+    "title": {
+      "es": "Yeffri J. Salazar · Ingeniero en electrónica",
+      "en": "Yeffri J. Salazar · Electronics Engineer",
+      "de": "Yeffri J. Salazar · Elektronikingenieur",
+      "zh": "Yeffri J. Salazar · 电子工程师"
+    },
+    "meta_desc": {
+      "es": "Portafolio y currículum de Yeffri J. Salazar: CTO, ingeniero en electrónica, robótica, IoT y educación tecnológica en Guatemala.",
+      "en": "Portfolio and résumé of Yeffri J. Salazar: CTO and electronics engineer working on robotics, IoT and tech education in Guatemala.",
+      "de": "Portfolio und Lebenslauf von Yeffri J. Salazar: CTO und Elektronikingenieur für Robotik, IoT und Technikbildung in Guatemala.",
+      "zh": "Yeffri J. Salazar 的作品集与简历：首席技术官、电子工程师，专注于危地马拉的机器人、物联网与科技教育。"
+    },
+    "og_desc": {
+      "es": "Robótica, IoT, diseño de PCB y educación tecnológica. Proyectos, charlas y trayectoria.",
+      "en": "Robotics, IoT, PCB design and tech education. Projects, talks and career.",
+      "de": "Robotik, IoT, Leiterplattendesign und Technikbildung. Projekte, Vorträge und Werdegang.",
+      "zh": "机器人、物联网、PCB 设计与科技教育。项目、演讲与履历。"
+    },
+    "nav_projects": { "es": "Proyectos", "en": "Projects", "de": "Projekte", "zh": "项目" },
+    "nav_talks": { "es": "Charlas", "en": "Talks", "de": "Vorträge", "zh": "演讲" },
+    "nav_experience": { "es": "Experiencia", "en": "Experience", "de": "Erfahrung", "zh": "经历" },
+    "nav_education": { "es": "Formación", "en": "Education", "de": "Ausbildung", "zh": "教育" },
+    "nav_contact": { "es": "Contacto", "en": "Contact", "de": "Kontakt", "zh": "联系" },
+    "theme_label": { "es": "Cambiar tema claro u oscuro", "en": "Toggle light or dark theme", "de": "Helles oder dunkles Design umschalten", "zh": "切换浅色或深色主题" },
+    "lang_label": { "es": "Idioma", "en": "Language", "de": "Sprache", "zh": "语言" },
+    "suggest": { "es": "¿Prefieres leer en español?", "en": "Prefer to read in English?", "de": "Lieber auf Deutsch lesen?", "zh": "想用中文阅读吗？" },
+    "suggest_btn": { "es": "Ver en español", "en": "View in English", "de": "Auf Deutsch ansehen", "zh": "查看中文版" },
+
+    "role": {
+      "es": "CTO · Ingeniero en electrónica · Robótica, IoT y educación tecnológica",
+      "en": "CTO · Electronics Engineer · Robotics, IoT & Tech Education",
+      "de": "CTO · Elektronikingenieur · Robotik, IoT und Technikbildung",
+      "zh": "首席技术官 · 电子工程师 · 机器人、物联网与科技教育"
+    },
+    "lead": {
+      "es": "Llevo más de 10 años construyendo productos de hardware de punta a punta: del esquemático de la PCB al firmware, el backend y el producto desplegado. Dos veces CTO, diseñador de placas para aplicaciones espaciales y líder de la comunidad Arduino Guatemala. Me dedico a que la tecnología llegue a quien más la necesita, incluso en escuelas sin internet.",
+      "en": "For more than 10 years I've built hardware products end to end: from the PCB schematic to firmware, backend and the deployed product. Two-time CTO, designer of boards for space applications, and leader of the Arduino Guatemala community. My mission is to bring technology to the people who need it most, even schools without internet.",
+      "de": "Seit über 10 Jahren entwickle ich Hardwareprodukte von Anfang bis Ende: vom Schaltplan der Leiterplatte über Firmware und Backend bis zum fertigen Produkt im Einsatz. Zweimal CTO, Entwickler von Platinen für Raumfahrtanwendungen und Leiter der Community Arduino Guatemala. Mein Ziel: Technologie dorthin bringen, wo sie am meisten gebraucht wird – auch in Schulen ohne Internet.",
+      "zh": "十多年来，我端到端地打造硬件产品：从 PCB 原理图到固件、后端，直至产品落地部署。两度担任首席技术官，曾为航天应用设计电路板，并领导 Arduino 危地马拉社区。我致力于把技术带给最需要它的人，包括没有互联网的学校。"
+    },
+    "print_cv": { "es": "⎙ Descargar CV (PDF)", "en": "⎙ Download CV (PDF)", "de": "⎙ Lebenslauf als PDF", "zh": "⎙ 下载简历 (PDF)" },
+    "photo_alt": { "es": "Foto de Yeffri J. Salazar", "en": "Photo of Yeffri J. Salazar", "de": "Foto von Yeffri J. Salazar", "zh": "Yeffri J. Salazar 的照片" },
+
+    "projects_kicker": { "es": "Portafolio", "en": "Portfolio", "de": "Portfolio", "zh": "作品集" },
+    "projects_title": { "es": "Proyectos", "en": "Projects", "de": "Projekte", "zh": "项目" },
+    "projects_desc": {
+      "es": "Del más reciente al más antiguo. Algunos son de empresas en las que trabajé; lo indico en cada uno.",
+      "en": "Newest first. Some were built for companies I worked at; each card says so.",
+      "de": "Neueste zuerst. Einige entstanden für Unternehmen, für die ich gearbeitet habe – das ist jeweils vermerkt.",
+      "zh": "按时间倒序排列。部分项目为我任职的公司所做，卡片上均有标注。"
+    },
+    "filters_label": { "es": "Filtrar proyectos", "en": "Filter projects", "de": "Projekte filtern", "zh": "筛选项目" },
+    "f_all": { "es": "Todos", "en": "All", "de": "Alle", "zh": "全部" },
+    "f_robotica": { "es": "Robótica e IA", "en": "Robotics & AI", "de": "Robotik & KI", "zh": "机器人与 AI" },
+    "f_edu": { "es": "Educación", "en": "Education", "de": "Bildung", "zh": "教育" },
+    "f_hardware": { "es": "Hardware e IoT", "en": "Hardware & IoT", "de": "Hardware & IoT", "zh": "硬件与物联网" },
+    "f_software": { "es": "Software y web", "en": "Software & web", "de": "Software & Web", "zh": "软件与网页" },
+
+    "link_repo": { "es": "Ver repositorio", "en": "View repository", "de": "Repository ansehen", "zh": "查看代码仓库" },
+    "link_demo": { "es": "Probar en línea", "en": "Try it online", "de": "Online ausprobieren", "zh": "在线试用" },
+    "link_video": { "es": "Ver video", "en": "Watch video", "de": "Video ansehen", "zh": "观看视频" },
+    "link_more_es": { "es": "Leer más", "en": "Read more (Spanish)", "de": "Mehr lesen (Spanisch)", "zh": "了解更多（西班牙语）" },
+    "link_event": { "es": "Ver sitio del evento", "en": "Visit event site", "de": "Zur Event-Website", "zh": "访问活动网站" },
+
+    "talks_kicker": { "es": "Comunidad", "en": "Community", "de": "Community", "zh": "社区" },
+    "talks_title": { "es": "Charlas, talleres y eventos", "en": "Talks, workshops & events", "de": "Vorträge, Workshops und Events", "zh": "演讲、工作坊与活动" },
+    "talks_desc": {
+      "es": "Conferencista internacional desde hace más de 10 años, en Guatemala, El Salvador, Nicaragua y Costa Rica. Estos son los más recientes.",
+      "en": "International speaker for more than 10 years in Guatemala, El Salvador, Nicaragua and Costa Rica. These are the most recent.",
+      "de": "Seit über 10 Jahren internationaler Referent in Guatemala, El Salvador, Nicaragua und Costa Rica. Hier die neuesten Auftritte.",
+      "zh": "十多年来在危地马拉、萨尔瓦多、尼加拉瓜和哥斯达黎加担任国际讲者。以下为近期活动。"
+    },
+    "topics_title": { "es": "Temas que imparto", "en": "Talk topics", "de": "Vortragsthemen", "zh": "演讲主题" },
+
+    "exp_kicker": { "es": "Trayectoria", "en": "Career", "de": "Werdegang", "zh": "履历" },
+    "exp_title": { "es": "Experiencia", "en": "Experience", "de": "Berufserfahrung", "zh": "工作经历" },
+
+    "base_kicker": { "es": "Base", "en": "Foundation", "de": "Grundlagen", "zh": "基础" },
+    "base_title": { "es": "Formación, habilidades y reconocimientos", "en": "Education, skills & recognition", "de": "Ausbildung, Kenntnisse und Auszeichnungen", "zh": "教育、技能与荣誉" },
+    "p_education": { "es": "Educación", "en": "Education", "de": "Ausbildung", "zh": "教育背景" },
+    "p_skills": { "es": "Habilidades técnicas", "en": "Technical skills", "de": "Technische Kenntnisse", "zh": "技术技能" },
+    "p_awards": { "es": "Reconocimientos", "en": "Recognition", "de": "Auszeichnungen", "zh": "荣誉" },
+    "p_communities": { "es": "Comunidades", "en": "Communities", "de": "Communities", "zh": "社区" },
+    "p_languages": { "es": "Idiomas", "en": "Languages", "de": "Sprachen", "zh": "语言" },
+
+    "contact_kicker": { "es": "Hablemos", "en": "Let's talk", "de": "Kontakt aufnehmen", "zh": "保持联系" },
+    "contact_title": { "es": "Contacto", "en": "Contact", "de": "Kontakt", "zh": "联系方式" },
+    "contact_desc": {
+      "es": "¿Proyecto de hardware, charla, taller o colaboración? Escríbeme.",
+      "en": "Hardware project, talk, workshop or collaboration? Get in touch.",
+      "de": "Ein Hardwareprojekt, ein Vortrag, ein Workshop oder eine Zusammenarbeit? Schreiben Sie mir.",
+      "zh": "硬件项目、演讲、工作坊或合作？欢迎来信。"
+    },
+    "location": {
+      "es": "Guatemala · Sacatepéquez · Disponible para trabajo remoto",
+      "en": "Guatemala · Sacatepéquez · Available for remote work",
+      "de": "Guatemala · Sacatepéquez · Verfügbar für Remote-Arbeit",
+      "zh": "危地马拉 · 萨卡特佩克斯 · 可远程工作"
+    },
+    "blog": { "es": "Blog", "en": "Blog", "de": "Blog", "zh": "博客" },
+    "motto": { "es": "Educar, compartir, innovar y emprender.", "en": "Educate, share, innovate and build.", "de": "Bilden, teilen, innovieren und gründen.", "zh": "教育、分享、创新、创业。" },
+    "replay": { "es": "Ver intro de nuevo", "en": "Watch the intro again", "de": "Intro erneut ansehen", "zh": "重新观看开场动画" },
+
+    "intro_skip": { "es": "Saltar ↵", "en": "Skip ↵", "de": "Überspringen ↵", "zh": "跳过 ↵" },
+    "intro_captions": {
+      "es": ["PCB · YJS-01 · rev 2026", "Encapsulado QFP-64 · rayos X", "Die de silicio · bond wires", "Bloques funcionales", "Celdas estándar y metal", "Capa de metal 1 · firma del diseñador"],
+      "en": ["PCB · YJS-01 · rev 2026", "QFP-64 package · X-ray", "Silicon die · bond wires", "Functional blocks", "Standard cells & metal", "Metal 1 layer · designer's signature"],
+      "de": ["Leiterplatte · YJS-01 · Rev. 2026", "QFP-64-Gehäuse · Röntgenblick", "Silizium-Die · Bonddrähte", "Funktionsblöcke", "Standardzellen und Metall", "Metalllage 1 · Signatur des Designers"],
+      "zh": ["电路板 · YJS-01 · 2026 版", "QFP-64 封装 · X 光透视", "硅晶片 · 键合线", "功能模块", "标准单元与金属层", "金属层 1 · 设计者签名"]
+    }
+  },
+
+  "stats": [
+    { "value": { "es": "20,000+", "en": "20,000+", "de": "20.000+", "zh": "20,000+" },
+      "label": { "es": "estudiantes alcanzados", "en": "students reached", "de": "erreichte Schüler und Studierende", "zh": "覆盖学生" } },
+    { "value": { "es": "4 países", "en": "4 countries", "de": "4 Länder", "zh": "4 个国家" },
+      "label": { "es": "Guatemala, El Salvador, Nicaragua, Costa Rica", "en": "Guatemala, El Salvador, Nicaragua, Costa Rica", "de": "Guatemala, El Salvador, Nicaragua, Costa Rica", "zh": "危地马拉、萨尔瓦多、尼加拉瓜、哥斯达黎加" } },
+    { "value": { "es": "10+ años", "en": "10+ years", "de": "10+ Jahre", "zh": "10 年以上" },
+      "label": { "es": "en hardware, firmware y comunidad", "en": "in hardware, firmware and community", "de": "in Hardware, Firmware und Community", "zh": "深耕硬件、固件与社区" } },
+    { "value": { "es": "3×", "en": "3×", "de": "3×", "zh": "3 次" },
+      "label": { "es": "mencionado en Forbes", "en": "featured in Forbes", "de": "in Forbes erwähnt", "zh": "登上《福布斯》报道" } }
+  ],
+
+  "projects": [
+    {
+      "cat": "robotica hardware software", "date": "2026-09",
+      "badge": { "es": "HACKATÓN", "en": "HACKATHON", "de": "HACKATHON", "zh": "黑客马拉松" },
+      "title": { "es": "Tinimit: IA médica sin nube", "en": "Tinimit: cloud-free medical AI", "de": "Tinimit: medizinische KI ohne Cloud", "zh": "Tinimit：无需云端的医疗 AI" },
+      "text": {
+        "es": "Orientación médica por chat para aldeas remotas sin cobertura. Un nodo ESP32 con radio LoRa le da WiFi propio a la aldea, y las consultas viajan comprimidas hasta un hub donde un modelo médico (MedPsy-4B) corre 100 % local. Los datos nunca salen de la comunidad, y las respuestas en K'iche' las valida la propia comunidad.",
+        "en": "Chat-based medical guidance for remote villages without cell coverage. An ESP32 node with a LoRa radio gives the village its own WiFi, and queries travel compressed to a hub where a medical model (MedPsy-4B) runs 100% locally. Data never leaves the community, and answers in K'iche' are validated by the community itself.",
+        "de": "Medizinische Orientierung per Chat für abgelegene Dörfer ohne Mobilfunkabdeckung. Ein ESP32-Knoten mit LoRa-Funk stellt dem Dorf eigenes WLAN bereit; Anfragen gelangen komprimiert zu einem Hub, auf dem ein medizinisches Modell (MedPsy-4B) vollständig lokal läuft. Die Daten verlassen nie die Gemeinde, und Antworten auf K'iche' prüft die Gemeinde selbst.",
+        "zh": "为没有手机信号的偏远村庄提供聊天式医疗指导。带 LoRa 电台的 ESP32 节点为村庄提供自有 WiFi，咨询内容经压缩传送到中心节点，由医疗模型 MedPsy-4B 完全在本地推理。数据从不离开社区，K'iche' 语回答由社区自行审核。"
+      },
+      "tags": ["ESP32", "LoRa", "FastAPI", { "es": "IA local", "en": "Local AI", "de": "Lokale KI", "zh": "本地 AI" }, "QVAC", "K'iche'"],
+      "links": [
+        { "label": "link_repo", "url": "https://github.com/yeffrimic/tinimit" },
+        { "label": "link_video", "url": "https://www.tiktok.com/@yeffrimic/video/7684117435041074450" }
+      ]
+    },
+    {
+      "cat": "hardware software edu", "date": "2026-09",
+      "title": "Kemon Q'ayis",
+      "text": {
+        "es": "Enciclopedia de flora para un colegio. Los visitantes escanean un código QR o una etiqueta NFC junto a cada árbol y abren su ficha, con nombre científico y significado maya. Estaciones ESP32 miden el ambiente en tiempo real. Todo funciona en la red local, sin internet.",
+        "en": "A flora encyclopedia for a school. Visitors scan a QR code or NFC tag next to each tree to open its profile, with its scientific name and Maya meaning. ESP32 stations monitor the environment in real time. Everything runs on the local network, no internet needed.",
+        "de": "Pflanzenenzyklopädie für eine Schule. Besucher scannen einen QR-Code oder ein NFC-Tag neben jedem Baum und öffnen dessen Steckbrief mit wissenschaftlichem Namen und Maya-Bedeutung. ESP32-Stationen messen die Umgebung in Echtzeit. Alles läuft im lokalen Netz, ganz ohne Internet.",
+        "zh": "为一所学校打造的植物百科。访客扫描每棵树旁的二维码或 NFC 标签，即可查看其介绍，包括学名和玛雅含义。ESP32 监测站实时监测环境。全部运行在本地网络上，无需互联网。"
+      },
+      "tags": ["ESP32", "FastAPI", "Astro", "SQLite", "WebSockets", "NFC/QR"]
+    },
+    {
+      "cat": "software hardware", "date": "2026-09",
+      "title": { "es": "Pantalla trasera del Cubot KINGKONG 11", "en": "Cubot KINGKONG 11 rear screen", "de": "Rückdisplay des Cubot KINGKONG 11", "zh": "Cubot KINGKONG 11 背屏" },
+      "text": {
+        "es": "Ingeniería inversa del panel trasero de 360×360 de este teléfono con Android 15. Descubrí que no es un display de Android sino un framebuffer RGB565 que se pinta por JNI, y logré encenderlo, apagarlo y mostrar texto propio sin root, con una herramienta en Python y una app que se compila sin Android Studio. Incluye una retrospectiva de qué funcionó y qué no.",
+        "en": "Reverse engineering of the 360×360 rear panel on this Android 15 phone. I found it isn't an Android display but an RGB565 framebuffer drawn through JNI, and managed to turn it on and off and show custom text without root, using a Python tool and an app built without Android Studio. Includes a retrospective on what worked and what didn't.",
+        "de": "Reverse Engineering des 360×360-Rückdisplays dieses Android-15-Smartphones. Es ist kein Android-Display, sondern ein per JNI gezeichneter RGB565-Framebuffer. Ohne Root lässt es sich ein- und ausschalten und eigenen Text anzeigen – mit einem Python-Tool und einer App, die ohne Android Studio gebaut wird. Inklusive Retrospektive: was funktioniert hat und was nicht.",
+        "zh": "对这款 Android 15 手机 360×360 背屏的逆向工程。我发现它并非 Android 显示屏，而是通过 JNI 绘制的 RGB565 帧缓冲区；在无需 root 的情况下，借助 Python 工具和不依赖 Android Studio 编译的应用，实现了开关屏幕并显示自定义文字。附有复盘：哪些方法奏效，哪些没有。"
+      },
+      "tags": ["Android", "ADB", "Python", "Java", { "es": "Ingeniería inversa", "en": "Reverse engineering", "de": "Reverse Engineering", "zh": "逆向工程" }],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/kingkong11-subscreen" }]
+    },
+    {
+      "cat": "software edu", "date": "2026-09",
+      "title": { "es": "Calendario Maya: nahuales y piedras", "en": "Maya calendar: nahuales and stones", "de": "Maya-Kalender: Nahuales und Steine", "zh": "玛雅历法：纳瓦尔与守护石" },
+      "text": {
+        "es": "Sitio web interactivo que presenta los nahuales del calendario maya y sus piedras asociadas.",
+        "en": "Interactive website presenting the nahuales of the Maya calendar and their associated stones.",
+        "de": "Interaktive Website über die Nahuales des Maya-Kalenders und die zugehörigen Steine.",
+        "zh": "介绍玛雅历法中的纳瓦尔（守护灵）及其对应宝石的互动网站。"
+      },
+      "tags": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "cat": "software edu", "date": "2026-08..2026-09",
+      "title": "BlockLab",
+      "text": {
+        "es": "Editor y solucionador de diagramas de bloques de sistemas de control. Dibujas el diagrama y obtienes la función de transferencia C(s)/R(s) exacta y simbólica por la fórmula de Mason, viendo cómo se construye Δ término por término. Tiene 95 pruebas automatizadas.",
+        "en": "Editor and solver for control-system block diagrams. Draw the diagram and get the exact, symbolic transfer function C(s)/R(s) via Mason's gain formula, watching Δ being built term by term. Backed by 95 automated tests.",
+        "de": "Editor und Löser für Blockschaltbilder der Regelungstechnik. Diagramm zeichnen und die exakte, symbolische Übertragungsfunktion C(s)/R(s) nach der Mason-Formel erhalten – dabei sieht man, wie Δ Term für Term entsteht. Abgesichert durch 95 automatisierte Tests.",
+        "zh": "控制系统方框图编辑器与求解器。画出方框图，即可通过梅森增益公式得到精确的符号传递函数 C(s)/R(s)，并逐项观察 Δ 的构建过程。配有 95 个自动化测试。"
+      },
+      "tags": ["TypeScript", "React Flow", "KaTeX", "Vitest"],
+      "links": [
+        { "label": "link_demo", "url": "https://yeffrimic.github.io/blocklab/" },
+        { "label": "link_repo", "url": "https://github.com/yeffrimic/blocklab" }
+      ]
+    },
+    {
+      "cat": "robotica hardware", "date": "2025..2026",
+      "badge": "CREABOT",
+      "title": { "es": "Hermes, robot humanoide", "en": "Hermes, humanoid robot", "de": "Hermes, humanoider Roboter", "zh": "Hermes 人形机器人" },
+      "text": {
+        "es": "Robot humanoide que integra visión por computadora, procesamiento de lenguaje natural, síntesis de voz y control de servomotores. Tiene modo de control manual y control por red.",
+        "en": "Humanoid robot combining computer vision, natural language processing, speech synthesis and servo control, with manual and network control modes.",
+        "de": "Humanoider Roboter, der Computer Vision, Sprachverarbeitung, Sprachsynthese und Servosteuerung vereint – mit manuellem Modus und Steuerung über das Netzwerk.",
+        "zh": "融合计算机视觉、自然语言处理、语音合成与舵机控制的人形机器人，支持手动控制与网络控制两种模式。"
+      },
+      "tags": ["Python", { "es": "Visión", "en": "Vision", "de": "Vision", "zh": "视觉" }, "NLP", "TTS", { "es": "Servos", "en": "Servos", "de": "Servos", "zh": "舵机" }]
+    },
+    {
+      "cat": "robotica software", "date": "2026-07..2026-08",
+      "title": { "es": "Servidor de voz para companion bot", "en": "Voice server for a companion bot", "de": "Sprachserver für einen Companion-Bot", "zh": "陪伴机器人语音服务器" },
+      "text": {
+        "es": "Servidor en Python que recibe audio grabado por el robot a través de TCP, lo procesa y devuelve la respuesta hablada para que el bot la reproduzca.",
+        "en": "Python server that receives audio recorded by the robot over TCP, processes it and sends back the spoken reply for the bot to play.",
+        "de": "Python-Server, der vom Roboter aufgenommenes Audio per TCP empfängt, verarbeitet und die gesprochene Antwort zur Wiedergabe zurückschickt.",
+        "zh": "Python 服务器：通过 TCP 接收机器人录制的音频，处理后返回语音回复供机器人播放。"
+      },
+      "tags": ["Python", "TCP sockets", "Audio"]
+    },
+    {
+      "cat": "edu software", "date": "2026-03..2026-07",
+      "title": { "es": "Indra / IndraJS: circuito puzzle", "en": "Indra / IndraJS: circuit puzzle", "de": "Indra / IndraJS: Schaltkreis-Puzzle", "zh": "Indra / IndraJS：电路拼图游戏" },
+      "text": {
+        "es": "Videojuego educativo de electrónica para niños de 6 a 8 años que todavía no leen: se entiende viéndolo, no leyéndolo. Una serpiente representa la corriente y el jugador la guía por batería, resistencia, capacitor e interruptor hasta encender el LED. Incluye tienda, progresión, economía y editor de niveles. Empezó como prototipo en Godot 4.6 y evolucionó a Phaser.",
+        "en": "Educational electronics game for 6- to 8-year-olds who can't read yet: you understand it by seeing, not reading. A snake stands for the current, and the player guides it through a battery, resistor, capacitor and switch until the LED lights up. Includes a shop, progression, an in-game economy and a level editor. It started as a Godot 4.6 prototype and evolved into Phaser.",
+        "de": "Lernspiel über Elektronik für Kinder von 6 bis 8 Jahren, die noch nicht lesen können: Man versteht es durch Hinsehen, nicht durch Lesen. Eine Schlange stellt den Strom dar, und das Kind lenkt sie durch Batterie, Widerstand, Kondensator und Schalter, bis die LED leuchtet. Mit Shop, Fortschrittssystem, Spielökonomie und Level-Editor. Begonnen als Prototyp in Godot 4.6, weiterentwickelt mit Phaser.",
+        "zh": "面向 6–8 岁尚不识字儿童的电子教育游戏：看就能懂，无需阅读。一条小蛇代表电流，玩家引导它依次经过电池、电阻、电容和开关，直到 LED 亮起。包含商店、关卡进度、游戏经济系统和关卡编辑器。最初是 Godot 4.6 原型，后改用 Phaser 开发。"
+      },
+      "tags": ["Phaser 3", "JavaScript", "Godot 4", "GDScript"],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/IndraJs" }]
+    },
+    {
+      "cat": "edu hardware", "date": "2026-06..2026-07",
+      "title": { "es": "Curso en video de soldadura y KiCad", "en": "Video course: soldering & KiCad", "de": "Videokurs: Löten und KiCad", "zh": "焊接与 KiCad 视频课程" },
+      "text": {
+        "es": "Serie de videos prácticos: cómo funciona un cautín, qué trae el kit, armado de la base, ejercicios de puntos y polaridad, medición de LEDs y resistencias, y primeros pasos en KiCad.",
+        "en": "Hands-on video series: how a soldering iron works, what's in the kit, assembling the base, exercises on joints and polarity, measuring LEDs and resistors, and first steps in KiCad.",
+        "de": "Praxisnahe Videoreihe: wie ein Lötkolben funktioniert, was im Set steckt, Aufbau der Basis, Übungen zu Lötstellen und Polarität, LEDs und Widerstände messen sowie erste Schritte in KiCad.",
+        "zh": "实操视频系列：电烙铁的工作原理、套件里有什么、底座组装、焊点与极性练习、测量 LED 和电阻，以及 KiCad 入门。"
+      },
+      "tags": [{ "es": "Soldadura", "en": "Soldering", "de": "Löten", "zh": "焊接" }, "KiCad", { "es": "Video educativo", "en": "Educational video", "de": "Lernvideo", "zh": "教学视频" }]
+    },
+    {
+      "cat": "edu", "date": "2026-06",
+      "title": { "es": "Tutoriales educativos STEAM", "en": "STEAM educational tutorials", "de": "STEAM-Lerntutorials", "zh": "STEAM 教学教程" },
+      "text": {
+        "es": "Tutoriales abiertos de STEAM, robótica y electrónica para escuelas, colegios e instituciones educativas.",
+        "en": "Open tutorials on STEAM, robotics and electronics for schools and educational institutions.",
+        "de": "Offene Tutorials zu STEAM, Robotik und Elektronik für Schulen und Bildungseinrichtungen.",
+        "zh": "面向中小学及教育机构的开放 STEAM、机器人与电子教程。"
+      },
+      "tags": ["STEAM", { "es": "Robótica", "en": "Robotics", "de": "Robotik", "zh": "机器人" }, { "es": "Electrónica", "en": "Electronics", "de": "Elektronik", "zh": "电子" }],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/tutoriales-educativos-" }]
+    },
+    {
+      "cat": "software", "date": "2026-06",
+      "title": "Apex Tourney Board",
+      "text": {
+        "es": "Genera automáticamente la tabla de posiciones de torneos de Apex Legends a partir de capturas de pantalla. Con IA de visión (Gemini o Groq) lee equipo, puesto y kills, y calcula los puntos con el sistema ALGS. Es bilingüe y exporta la tabla a PNG.",
+        "en": "Automatically builds Apex Legends tournament leaderboards from screenshots. Vision AI (Gemini or Groq) reads team, placement and kills, and scores them with the ALGS system. Bilingual, with PNG export.",
+        "de": "Erstellt automatisch Ranglisten für Apex-Legends-Turniere aus Screenshots. Eine Vision-KI (Gemini oder Groq) liest Team, Platzierung und Kills aus und berechnet die Punkte nach dem ALGS-System. Zweisprachig, mit PNG-Export.",
+        "zh": "根据截图自动生成《Apex 英雄》赛事排行榜。视觉 AI（Gemini 或 Groq）识别队伍、名次和击杀数，并按 ALGS 规则计分。支持双语，可导出 PNG。"
+      },
+      "tags": ["Vite", { "es": "IA de visión", "en": "Vision AI", "de": "Vision-KI", "zh": "视觉 AI" }, "Gemini", "Groq"],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/apex-tourney-board" }]
+    },
+    {
+      "cat": "edu hardware", "date": "2025-05..2025-09",
+      "title": { "es": "Material de talleres de IoT", "en": "IoT workshop materials", "de": "Materialien für IoT-Workshops", "zh": "物联网工作坊教学资料" },
+      "text": {
+        "es": "Código y ejemplos de mis talleres: IoT con ESP8266, comunicaciones digitales con Arduino para principiantes y un panel web en tiempo real con MQTT y WebSockets (ESP8266 + DHT22).",
+        "en": "Code and examples from my workshops: IoT with the ESP8266, digital communications with Arduino for beginners, and a real-time web dashboard using MQTT and WebSockets (ESP8266 + DHT22).",
+        "de": "Code und Beispiele aus meinen Workshops: IoT mit dem ESP8266, digitale Kommunikation mit Arduino für Einsteiger und ein Echtzeit-Web-Dashboard mit MQTT und WebSockets (ESP8266 + DHT22).",
+        "zh": "我的工作坊代码与示例：基于 ESP8266 的物联网、面向初学者的 Arduino 数字通信，以及使用 MQTT 和 WebSockets 的实时网页面板（ESP8266 + DHT22）。"
+      },
+      "tags": ["ESP8266", "MQTT", "WebSockets", "Arduino"],
+      "links": [
+        { "label": { "es": "Taller IoT", "en": "IoT workshop", "de": "IoT-Workshop", "zh": "物联网工作坊" }, "url": "https://github.com/yeffrimic/TallerIoTEsp8266" },
+        { "label": { "es": "Comunicaciones digitales", "en": "Digital comms", "de": "Digitale Kommunikation", "zh": "数字通信" }, "url": "https://github.com/yeffrimic/Comunicaciones-Digitales" },
+        { "label": { "es": "Panel MQTT", "en": "MQTT dashboard", "de": "MQTT-Dashboard", "zh": "MQTT 面板" }, "url": "https://github.com/yeffrimic/Mqtt-HTML-websockets-esp8266-DHT" }
+      ]
+    },
+    {
+      "cat": "hardware robotica", "date": "2025-05",
+      "title": "Mandjet",
+      "text": {
+        "es": "Placa de control de servos y motores DC basada en XIAO ESP32-C3.",
+        "en": "Servo and DC motor control board based on the XIAO ESP32-C3.",
+        "de": "Steuerplatine für Servos und DC-Motoren auf Basis des XIAO ESP32-C3.",
+        "zh": "基于 XIAO ESP32-C3 的舵机与直流电机控制板。"
+      },
+      "tags": ["PCB", "ESP32-C3", { "es": "Motores", "en": "Motors", "de": "Motoren", "zh": "电机" }],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/mandjet" }]
+    },
+    {
+      "cat": "hardware edu", "date": "2025-05",
+      "title": "Cansat Tzunun",
+      "text": {
+        "es": "CanSat y estación de monitoreo de calidad del aire.",
+        "en": "CanSat and air-quality monitoring station.",
+        "de": "CanSat und Messstation für Luftqualität.",
+        "zh": "CanSat 小卫星与空气质量监测站。"
+      },
+      "tags": ["CanSat", { "es": "Sensores", "en": "Sensors", "de": "Sensoren", "zh": "传感器" }, { "es": "Telemetría", "en": "Telemetry", "de": "Telemetrie", "zh": "遥测" }],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/Cansat-Tzunun" }]
+    },
+    {
+      "cat": "hardware edu", "date": "2023..2026",
+      "title": { "es": "Estación de calidad del agua", "en": "Water quality station", "de": "Messstation für Wasserqualität", "zh": "水质监测站" },
+      "text": {
+        "es": "Documentación completa para construir, replicar y mejorar una estación de monitoreo de calidad del agua, desarrollada en un proyecto del SINCYT.",
+        "en": "Complete documentation to build, replicate and improve a water-quality monitoring station developed within a SINCYT project.",
+        "de": "Vollständige Dokumentation zum Bau, Nachbau und zur Verbesserung einer Messstation für Wasserqualität, entwickelt in einem SINCYT-Projekt.",
+        "zh": "用于搭建、复刻和改进水质监测站的完整文档，该监测站在 SINCYT 项目中开发。"
+      },
+      "tags": ["C++", { "es": "Sensores", "en": "Sensors", "de": "Sensoren", "zh": "传感器" }, { "es": "Hardware abierto", "en": "Open hardware", "de": "Open Hardware", "zh": "开源硬件" }],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/water-Quality-Station" }]
+    },
+    {
+      "cat": "hardware", "date": "2023",
+      "badge": "SKYLINE CELESTIAL",
+      "title": { "es": "Telemetría para CubeSat y electrónica espacial", "en": "CubeSat telemetry & space electronics", "de": "CubeSat-Telemetrie und Raumfahrtelektronik", "zh": "CubeSat 遥测与航天电子" },
+      "text": {
+        "es": "Placa de telemetría de 5×5 cm con 500 km de alcance, sistema de captación de energía solar y driver de bobinas para simular el campo magnético terrestre. PCBs de hasta 4 capas en KiCad, con pruebas EMC.",
+        "en": "5×5 cm telemetry board with 500 km range, a solar energy-harvesting system and a coil driver to simulate Earth's magnetic field. PCBs of up to 4 layers in KiCad, with EMC testing.",
+        "de": "Telemetrieplatine (5×5 cm) mit 500 km Reichweite, ein Solar-Energy-Harvesting-System und ein Spulentreiber zur Simulation des Erdmagnetfelds. Leiterplatten mit bis zu 4 Lagen in KiCad, inklusive EMV-Tests.",
+        "zh": "5×5 厘米、通信距离 500 公里的遥测板，太阳能能量采集系统，以及用于模拟地磁场的线圈驱动器。在 KiCad 中设计最多 4 层的 PCB，并进行 EMC 测试。"
+      },
+      "tags": ["KiCad", { "es": "PCB 4 capas", "en": "4-layer PCB", "de": "4-Lagen-PCB", "zh": "4 层 PCB" }, { "es": "EMC", "en": "EMC", "de": "EMV", "zh": "EMC" }, { "es": "Espacial", "en": "Space", "de": "Raumfahrt", "zh": "航天" }]
+    },
+    {
+      "cat": "edu hardware software", "date": "2019..2022",
+      "badge": "1BOT",
+      "title": { "es": "ADA, Aula Digital Autónoma", "en": "ADA, Autonomous Digital Classroom", "de": "ADA – Autonomes digitales Klassenzimmer", "zh": "ADA 自主数字教室" },
+      "text": {
+        "es": "Dispositivo que despliega una red inalámbrica local con contenidos educativos para que niños y jóvenes de escuelas sin internet puedan usarlos. Usa servidores híbridos que se sincronizan cuando hay conexión.",
+        "en": "A device that deploys a local wireless network with educational content so children and teens in schools without internet can use it. Hybrid servers sync whenever a connection is available.",
+        "de": "Ein Gerät, das ein lokales WLAN mit Lerninhalten aufspannt, damit Kinder und Jugendliche in Schulen ohne Internet darauf zugreifen können. Hybride Server synchronisieren, sobald eine Verbindung besteht.",
+        "zh": "一种部署本地无线网络并提供教育内容的设备，让没有互联网的学校里的孩子也能使用。混合式服务器在有网络时自动同步。"
+      },
+      "tags": ["Offline-first", "Linux", { "es": "Servidores", "en": "Servers", "de": "Server", "zh": "服务器" }, "EdTech"]
+    },
+    {
+      "cat": "hardware", "date": "2016",
+      "title": "MQTT.io.gt",
+      "text": {
+        "es": "Proyectos y recursos sobre tecnología MQTT, gratuitos y de libre acceso.",
+        "en": "Free, openly accessible projects and resources about MQTT.",
+        "de": "Kostenlose, frei zugängliche Projekte und Ressourcen rund um MQTT.",
+        "zh": "免费开放的 MQTT 技术项目与资源。"
+      },
+      "tags": ["MQTT", "IoT"]
+    },
+    {
+      "cat": "hardware", "date": "2016",
+      "badge": "NAJT LABS",
+      "title": "Sonar (BlindProject)",
+      "text": {
+        "es": "Dispositivo abierto y de bajo costo para personas no videntes. Detecta obstáculos con ultrasonido y avisa por vibración. Pensado para que cualquiera con una impresora 3D pueda construirlo.",
+        "en": "Open, low-cost device for blind people. It detects obstacles with ultrasound and warns through vibration. Designed so anyone with a 3D printer can build it.",
+        "de": "Offenes, kostengünstiges Gerät für blinde Menschen. Es erkennt Hindernisse per Ultraschall und warnt durch Vibration. So konzipiert, dass jeder mit einem 3D-Drucker es nachbauen kann.",
+        "zh": "面向视障人士的开源低成本设备。通过超声波检测障碍物并以振动提醒。设计上任何拥有 3D 打印机的人都能自己制作。"
+      },
+      "tags": ["Arduino", { "es": "Ultrasonido", "en": "Ultrasound", "de": "Ultraschall", "zh": "超声波" }, { "es": "Impresión 3D", "en": "3D printing", "de": "3D-Druck", "zh": "3D 打印" }, { "es": "Accesibilidad", "en": "Accessibility", "de": "Barrierefreiheit", "zh": "无障碍" }],
+      "links": [
+        { "label": "link_more_es", "url": "proyectos/sonar.html" },
+        { "label": "link_repo", "url": "https://github.com/yeffrimic/BlindProject" }
+      ]
+    }
+  ],
+
+  "talks": [
+    {
+      "date": "2026-09-09..2026-09-11",
+      "badge": { "es": "PARTICIPANTE", "en": "PARTICIPANT", "de": "TEILNEHMER", "zh": "参赛者" },
+      "title": "Decentralized AI Hackathon",
+      "org": "ISD Summit + Tether/QVAC · Sovereign Intelligence at the Edge",
+      "text": {
+        "es": "Participé con Tinimit: orientación médica con IA 100 % local para aldeas sin cobertura, conectadas por LoRa.",
+        "en": "Competed with Tinimit: medical guidance powered by 100% local AI for villages without coverage, connected over LoRa.",
+        "de": "Teilnahme mit Tinimit: medizinische Orientierung mit vollständig lokaler KI für Dörfer ohne Netzabdeckung, verbunden per LoRa.",
+        "zh": "携 Tinimit 参赛：为无网络覆盖的村庄提供完全本地运行的 AI 医疗指导，通过 LoRa 连接。"
+      },
+      "tags": [{ "es": "Hackatón", "en": "Hackathon", "de": "Hackathon", "zh": "黑客马拉松" }, { "es": "IA en el borde", "en": "Edge AI", "de": "Edge-KI", "zh": "边缘 AI" }, "LoRa"],
+      "links": [{ "label": "link_repo", "url": "https://github.com/yeffrimic/tinimit" }]
+    },
+    {
+      "date": "2026-08-28",
+      "badge": { "es": "ORGANIZADOR", "en": "ORGANIZER", "de": "ORGANISATOR", "zh": "组织者" },
+      "title": { "es": "Arduino Day 2026, Ciudad de Guatemala", "en": "Arduino Day 2026, Guatemala City", "de": "Arduino Day 2026, Guatemala-Stadt", "zh": "Arduino Day 2026，危地马拉城" },
+      "org": { "es": "Comunidad Arduino Guatemala · Universidad Galileo", "en": "Arduino Guatemala Community · Universidad Galileo", "de": "Community Arduino Guatemala · Universidad Galileo", "zh": "Arduino 危地马拉社区 · 伽利略大学" },
+      "text": {
+        "es": "Organicé la edición más grande de la comunidad en 14 años, con David Cuartielles (cofundador de Arduino) como keynote, ponentes de Latinoamérica y charlas y talleres simultáneos en salones y laboratorios. También hice el sitio web con la agenda.",
+        "en": "I organized the community's biggest edition in 14 years, with Arduino co-founder David Cuartielles as keynote, speakers from across Latin America, and parallel talks and workshops in classrooms and labs. I also built the event website with the schedule.",
+        "de": "Ich habe die größte Ausgabe der Community seit 14 Jahren organisiert – mit Arduino-Mitgründer David Cuartielles als Keynote-Speaker, Referenten aus ganz Lateinamerika sowie parallelen Vorträgen und Workshops in Hörsälen und Laboren. Auch die Event-Website mit dem Programm habe ich gebaut.",
+        "zh": "我组织了社区 14 年来规模最大的一届活动：Arduino 联合创始人 David Cuartielles 担任主讲嘉宾，讲者来自拉丁美洲各地，教室和实验室中同时进行演讲与工作坊。我还搭建了包含日程的活动网站。"
+      },
+      "tags": [{ "es": "Organización", "en": "Organization", "de": "Organisation", "zh": "组织" }, { "es": "Comunidad", "en": "Community", "de": "Community", "zh": "社区" }, "Arduino"],
+      "links": [{ "label": "link_event", "url": "https://yeffrimic.github.io/ArduinoDay2026/" }]
+    },
+    {
+      "date": "2026-08..2026-09",
+      "badge": { "es": "FACILITADOR", "en": "FACILITATOR", "de": "LEITUNG", "zh": "讲师" },
+      "title": { "es": "Taller: primera experiencia con Arduino", "en": "Workshop: first steps with Arduino", "de": "Workshop: erste Schritte mit Arduino", "zh": "工作坊：Arduino 初体验" },
+      "org": "“Dejando huella en la Vera de la Paz”",
+      "text": {
+        "es": "Taller introductorio para conectar y programar componentes electrónicos básicos de forma sencilla y divertida.",
+        "en": "Introductory workshop on wiring and programming basic electronic components in a simple, fun way.",
+        "de": "Einführungsworkshop, in dem grundlegende elektronische Bauteile einfach und spielerisch angeschlossen und programmiert werden.",
+        "zh": "入门工作坊：以简单有趣的方式连接并编程基础电子元件。"
+      },
+      "tags": ["Arduino", { "es": "Taller", "en": "Workshop", "de": "Workshop", "zh": "工作坊" }, { "es": "Principiantes", "en": "Beginners", "de": "Einsteiger", "zh": "入门" }]
+    },
+    {
+      "date": "2026-07",
+      "badge": { "es": "FACILITADOR", "en": "FACILITATOR", "de": "LEITUNG", "zh": "讲师" },
+      "title": { "es": "Taller de robótica industrial", "en": "Industrial robotics workshop", "de": "Workshop Industrierobotik", "zh": "工业机器人工作坊" },
+      "text": {
+        "es": "Taller práctico de robótica aplicada a la industria.",
+        "en": "Hands-on workshop on robotics applied to industry.",
+        "de": "Praxisworkshop zur Robotik in der Industrie.",
+        "zh": "面向工业应用的机器人实践工作坊。"
+      },
+      "tags": [{ "es": "Robótica", "en": "Robotics", "de": "Robotik", "zh": "机器人" }, { "es": "Automatización", "en": "Automation", "de": "Automatisierung", "zh": "自动化" }]
+    },
+    {
+      "date": "2026-06",
+      "badge": { "es": "CO-ORGANIZADOR", "en": "CO-ORGANIZER", "de": "MITORGANISATOR", "zh": "联合组织者" },
+      "title": { "es": "Hazlo Ahora: hackatones de IA", "en": "Hazlo Ahora: AI hackathons", "de": "Hazlo Ahora: KI-Hackathons", "zh": "Hazlo Ahora：AI 黑客马拉松" },
+      "org": { "es": "Creabot + Hazlo Ahora · con apoyo de INTECAP · La Ruta del Chip", "en": "Creabot + Hazlo Ahora · supported by INTECAP · La Ruta del Chip", "de": "Creabot + Hazlo Ahora · mit Unterstützung von INTECAP · La Ruta del Chip", "zh": "Creabot + Hazlo Ahora · INTECAP 支持 · La Ruta del Chip" },
+      "text": {
+        "es": "Programa de hackatones presenciales de 3 días para jóvenes que resuelven problemas reales de su comunidad con IA, respaldado por PRONACOM, ProGuatemala y MINECO. Incluye el hackatón INTECAP en Santa Lucía Cotzumalguapa y un manual para facilitar workshops.",
+        "en": "A program of 3-day in-person hackathons where young people solve real problems in their communities with AI, backed by PRONACOM, ProGuatemala and MINECO. Includes the INTECAP hackathon in Santa Lucía Cotzumalguapa and a workshop facilitation manual.",
+        "de": "Ein Programm dreitägiger Präsenz-Hackathons, in denen junge Menschen mit KI echte Probleme ihrer Gemeinden lösen – unterstützt von PRONACOM, ProGuatemala und MINECO. Dazu gehören der INTECAP-Hackathon in Santa Lucía Cotzumalguapa und ein Leitfaden für die Moderation von Workshops.",
+        "zh": "为期 3 天的线下黑客马拉松项目，年轻人用 AI 解决所在社区的真实问题，获 PRONACOM、ProGuatemala 和 MINECO 支持。包括在 Santa Lucía Cotzumalguapa 举办的 INTECAP 黑客马拉松，以及一本工作坊引导手册。"
+      },
+      "tags": [{ "es": "Hackatón", "en": "Hackathon", "de": "Hackathon", "zh": "黑客马拉松" }, { "es": "IA", "en": "AI", "de": "KI", "zh": "AI" }, { "es": "Emprendimiento", "en": "Entrepreneurship", "de": "Unternehmertum", "zh": "创业" }]
+    },
+    {
+      "date": "2025..2026",
+      "badge": { "es": "LÍDER", "en": "LEAD", "de": "LEITUNG", "zh": "负责人" },
+      "title": "La Ruta del Chip",
+      "org": { "es": "Creabot · con apoyo de SENACYT, PRONACOM y MINECO", "en": "Creabot · supported by SENACYT, PRONACOM and MINECO", "de": "Creabot · mit Unterstützung von SENACYT, PRONACOM und MINECO", "zh": "Creabot · SENACYT、PRONACOM 与 MINECO 支持" },
+      "text": {
+        "es": "Programa nacional de formación en tecnología y hackatones del que soy líder desde Creabot.",
+        "en": "National technology training and hackathon program that I lead at Creabot.",
+        "de": "Nationales Programm für Technologieausbildung und Hackathons, das ich bei Creabot leite.",
+        "zh": "我在 Creabot 负责的全国性科技培训与黑客马拉松项目。"
+      },
+      "tags": [{ "es": "Formación", "en": "Training", "de": "Ausbildung", "zh": "培训" }, { "es": "Tecnología", "en": "Technology", "de": "Technologie", "zh": "科技" }]
+    }
+  ],
+
+  "topics": [
+    {
+      "es": "<b>IoT y sistemas embebidos</b>: arquitecturas reales, LoRa, BLE, GSM, microcontroladores y PCB.",
+      "en": "<b>IoT &amp; embedded systems</b>: real-world architectures, LoRa, BLE, GSM, microcontrollers and PCB design.",
+      "de": "<b>IoT und eingebettete Systeme</b>: Architekturen aus der Praxis, LoRa, BLE, GSM, Mikrocontroller und Leiterplattendesign.",
+      "zh": "<b>物联网与嵌入式系统</b>：真实场景架构、LoRa、BLE、GSM、单片机与 PCB 设计。"
+    },
+    {
+      "es": "<b>Robótica y humanoides</b>: diseño mecatrónico, servos e IA en robots físicos.",
+      "en": "<b>Robotics &amp; humanoids</b>: mechatronic design, servos and AI in physical robots.",
+      "de": "<b>Robotik und Humanoide</b>: mechatronisches Design, Servos und KI in physischen Robotern.",
+      "zh": "<b>机器人与人形机器人</b>：机电设计、舵机控制以及实体机器人中的 AI。"
+    },
+    {
+      "es": "<b>Hardware open source</b>: KiCad, fabricación DIY y el ecosistema maker latinoamericano.",
+      "en": "<b>Open-source hardware</b>: KiCad, DIY fabrication and the Latin American maker ecosystem.",
+      "de": "<b>Open-Source-Hardware</b>: KiCad, DIY-Fertigung und das lateinamerikanische Maker-Ökosystem.",
+      "zh": "<b>开源硬件</b>：KiCad、DIY 制造与拉丁美洲创客生态。"
+    },
+    {
+      "es": "<b>Educación STEM y maker</b>: programación y electrónica en las escuelas, y cómo formar comunidades.",
+      "en": "<b>STEM &amp; maker education</b>: bringing programming and electronics into schools, and building communities.",
+      "de": "<b>MINT- und Maker-Bildung</b>: Programmieren und Elektronik in die Schulen bringen und Communities aufbauen.",
+      "zh": "<b>STEM 与创客教育</b>：把编程和电子带进校园，并建设社区。"
+    }
+  ],
+
+  "jobs": [
+    {
+      "date": "2025-06..now", "title": "Chief Technology Officer", "where": "Creabot · Guatemala",
+      "bullets": [
+        { "es": "Dirección tecnológica y estrategia de una empresa de robótica educativa que llega a más de 20,000 estudiantes en Centroamérica.", "en": "Technology direction and strategy for an educational robotics company reaching more than 20,000 students across Central America.", "de": "Technologische Leitung und Strategie eines Unternehmens für Bildungsrobotik, das mehr als 20.000 Lernende in Mittelamerika erreicht.", "zh": "负责一家教育机器人公司的技术方向与战略，覆盖中美洲 20,000 多名学生。" },
+        { "es": "Creador de Hermes, robot humanoide con visión, NLP, voz y servocontrol.", "en": "Creator of Hermes, a humanoid robot with vision, NLP, voice and servo control.", "de": "Entwickler von Hermes, einem humanoiden Roboter mit Bildverarbeitung, NLP, Sprachausgabe und Servosteuerung.", "zh": "Hermes 人形机器人的创造者，集视觉、NLP、语音与舵机控制于一体。" },
+        { "es": "Desarrollo de kits de robótica, contenido STEEAM y plataformas educativas.", "en": "Development of robotics kits, STEEAM content and learning platforms.", "de": "Entwicklung von Robotik-Bausätzen, STEEAM-Inhalten und Lernplattformen.", "zh": "开发机器人套件、STEEAM 课程内容与学习平台。" },
+        { "es": "Líder de La Ruta del Chip y de hackatones nacionales con SENACYT, PRONACOM y MINECO.", "en": "Lead of La Ruta del Chip and national hackathons with SENACYT, PRONACOM and MINECO.", "de": "Leitung von La Ruta del Chip und nationalen Hackathons mit SENACYT, PRONACOM und MINECO.", "zh": "负责 La Ruta del Chip 项目，以及与 SENACYT、PRONACOM、MINECO 合作的全国黑客马拉松。" }
+      ]
+    },
+    {
+      "date": "2017-05..now",
+      "title": { "es": "Cofundador y CTO", "en": "Co-founder & CTO", "de": "Mitgründer und CTO", "zh": "联合创始人兼首席技术官" },
+      "where": "Xibalba Hackerspace · Santa Lucía Milpas Altas, Sacatepéquez",
+      "bullets": [
+        { "es": "Espacio para compartir conocimiento sobre todo tipo de tecnologías, que impulsa la comunidad y las fuentes abiertas.", "en": "A space to share knowledge about all kinds of technology, fostering community and open source.", "de": "Ein Ort, um Wissen über alle Arten von Technologie zu teilen – mit Fokus auf Community und Open Source.", "zh": "一个分享各类技术知识的空间，推动社区建设与开源。" }
+      ]
+    },
+    {
+      "date": "2024-08..2024-11",
+      "title": { "es": "Full Stack Developer", "en": "Full Stack Developer", "de": "Full-Stack-Entwickler", "zh": "全栈开发工程师" },
+      "where": "Genesis Empresarial · Guatemala",
+      "bullets": [
+        { "es": "Módulos de core bancario en React y backend, en sistemas financieros en producción, con revisión de código y mejora continua.", "en": "Core banking modules in React and the backend, on production financial systems, with code review and continuous improvement.", "de": "Core-Banking-Module in React und im Backend für produktive Finanzsysteme, inklusive Code-Reviews und kontinuierlicher Verbesserung.", "zh": "在生产环境的金融系统上开发 React 前端与后端核心银行模块，参与代码评审与持续改进。" }
+      ]
+    },
+    {
+      "date": "2023-01..2023-12",
+      "title": { "es": "Embedded Engineer", "en": "Embedded Engineer", "de": "Embedded-Ingenieur", "zh": "嵌入式工程师" },
+      "where": { "es": "Skyline Celestial · Remoto (empresa de EE. UU.)", "en": "Skyline Celestial · Remote (US company)", "de": "Skyline Celestial · Remote (US-Unternehmen)", "zh": "Skyline Celestial · 远程（美国公司）" },
+      "bullets": [
+        { "es": "PCBs multicapa (hasta 4 capas) en KiCad para aplicaciones espaciales.", "en": "Multilayer PCBs (up to 4 layers) in KiCad for space applications.", "de": "Mehrlagige Leiterplatten (bis zu 4 Lagen) in KiCad für Raumfahrtanwendungen.", "zh": "在 KiCad 中为航天应用设计多层 PCB（最多 4 层）。" },
+        { "es": "Placa de telemetría CubeSat de 5×5 cm con 500 km de alcance, captación solar y driver de bobinas.", "en": "5×5 cm CubeSat telemetry board with 500 km range, solar harvesting and a coil driver.", "de": "CubeSat-Telemetrieplatine (5×5 cm) mit 500 km Reichweite, Solar-Energy-Harvesting und Spulentreiber.", "zh": "5×5 厘米 CubeSat 遥测板，通信距离 500 公里，含太阳能采集与线圈驱动。" },
+        { "es": "Componentes SMD/THT, soldadura, pruebas EMC y documentación técnica en inglés.", "en": "SMD/THT components, soldering, EMC testing and technical documentation in English.", "de": "SMD-/THT-Bauteile, Löten, EMV-Tests und technische Dokumentation auf Englisch.", "zh": "SMD/THT 元件、焊接、EMC 测试以及英文技术文档。" }
+      ]
+    },
+    {
+      "date": "2019-01..2022-05", "title": "Chief Technology Officer", "where": "1bot · Guatemala",
+      "bullets": [
+        { "es": "Creador de ADA (Aula Digital Autónoma) para escuelas sin internet.", "en": "Creator of ADA (Autonomous Digital Classroom) for schools without internet.", "de": "Entwickler von ADA (Autonomes digitales Klassenzimmer) für Schulen ohne Internet.", "zh": "为无网络学校打造 ADA（自主数字教室）。" },
+        { "es": "Primera versión de los ejercicios integradores STEEAM con programación por bloques, de preprimaria a bachillerato.", "en": "First version of the integrated STEEAM exercises with block-based programming, from preschool to high school.", "de": "Erste Version der fächerübergreifenden STEEAM-Übungen mit blockbasierter Programmierung – vom Vorschulalter bis zum Schulabschluss.", "zh": "首版 STEEAM 综合练习，采用积木式编程，覆盖学前至高中。" },
+        { "es": "Videos, guías y clases prediseñadas para que los maestros guíen sin necesidad de ser expertos.", "en": "Videos, guides and ready-made lessons so teachers can lead classes without being experts.", "de": "Videos, Leitfäden und fertige Unterrichtseinheiten, damit Lehrkräfte ohne Expertenwissen unterrichten können.", "zh": "制作视频、指南和现成课程，让教师无需成为专家也能授课。" },
+        { "es": "Cursos en línea de robótica para más de 10,000 niños y jóvenes. Contratación y estructura del equipo técnico.", "en": "Online robotics courses for more than 10,000 children and teens. Hired and structured the technical team.", "de": "Online-Robotikkurse für mehr als 10.000 Kinder und Jugendliche. Aufbau und Strukturierung des Technikteams.", "zh": "为 10,000 多名儿童和青少年开设在线机器人课程；招聘并组建技术团队。" }
+      ]
+    },
+    {
+      "date": "2017-08..2018-03",
+      "title": { "es": "Desarrollador", "en": "Developer", "de": "Entwickler", "zh": "开发工程师" },
+      "where": { "es": "EOS Power · Ciudad de Guatemala", "en": "EOS Power · Guatemala City", "de": "EOS Power · Guatemala-Stadt", "zh": "EOS Power · 危地马拉城" },
+      "bullets": [
+        { "es": "Dispositivos conectados a internet: diseño y análisis del proyecto, y programación del firmware.", "en": "Internet-connected devices: project design and analysis, and firmware programming.", "de": "Vernetzte Geräte: Projektdesign und -analyse sowie Firmware-Programmierung.", "zh": "联网设备：项目设计与分析，以及固件编程。" }
+      ]
+    },
+    {
+      "minor": true, "date": "2013..2018-03",
+      "title": { "es": "Cofundador", "en": "Co-founder", "de": "Mitgründer", "zh": "联合创始人" },
+      "where": "Micro ER",
+      "bullets": [
+        { "es": "Soluciones de hardware, de la automatización de procesos al IoT.", "en": "Hardware solutions, from process automation to IoT.", "de": "Hardwarelösungen – von der Prozessautomatisierung bis zum IoT.", "zh": "硬件解决方案，从流程自动化到物联网。" }
+      ]
+    },
+    {
+      "minor": true, "date": "2017-01..2018-01",
+      "title": { "es": "Cofundador", "en": "Co-founder", "de": "Mitgründer", "zh": "联合创始人" },
+      "where": "Antigua Makerspace · Antigua Guatemala"
+    },
+    {
+      "minor": true, "date": "2016-01..2018-01",
+      "title": { "es": "Cofundador", "en": "Co-founder", "de": "Mitgründer", "zh": "联合创始人" },
+      "where": "Najt Labs · Sacatepéquez",
+      "bullets": [
+        { "es": "Emprendimiento social que crea dispositivos electrónicos de bajo costo para personas con discapacidad.", "en": "Social venture creating low-cost electronic devices for people with disabilities.", "de": "Sozialunternehmen, das kostengünstige elektronische Geräte für Menschen mit Behinderung entwickelt.", "zh": "为残障人士开发低成本电子设备的社会企业。" }
+      ]
+    },
+    {
+      "minor": true, "date": "2016-04..2016-06",
+      "title": { "es": "Desarrollador de hardware", "en": "Hardware Developer", "de": "Hardware-Entwickler", "zh": "硬件开发工程师" },
+      "where": "Flatbox"
+    },
+    {
+      "minor": true, "date": "2014-01..2016-01",
+      "title": { "es": "Director Administrativo", "en": "Administrative Director", "de": "Verwaltungsleiter", "zh": "行政主任" },
+      "where": "Liceo Santa Lucía",
+      "bullets": [
+        { "es": "Coordinación y supervisión de maestros, coordinadores de área y alumnos.", "en": "Coordinated and supervised teachers, area coordinators and students.", "de": "Koordination und Aufsicht von Lehrkräften, Fachbereichsleitungen und Schülern.", "zh": "协调和管理教师、学科协调员及学生。" }
+      ]
+    },
+    {
+      "minor": true, "date": "2013..2014",
+      "title": { "es": "Catedrático", "en": "Lecturer", "de": "Dozent", "zh": "讲师" },
+      "where": "Tecnológico André Ampère",
+      "bullets": [
+        { "es": "Clases de computación, programación y electrónica para mayores de 15 años.", "en": "Taught computing, programming and electronics to students aged 15 and up.", "de": "Unterricht in Informatik, Programmierung und Elektronik für Lernende ab 15 Jahren.", "zh": "为 15 岁及以上学生讲授计算机、编程与电子课程。" }
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "es": "<b>Ingeniería Eléctrica y Electrónica</b><br />Universidad Mesoamericana · 2021 – 2024",
+      "en": "<b>Electrical &amp; Electronic Engineering</b><br />Universidad Mesoamericana · 2021 – 2024",
+      "de": "<b>Elektrotechnik und Elektronik</b><br />Universidad Mesoamericana · 2021 – 2024",
+      "zh": "<b>电气与电子工程</b><br />Universidad Mesoamericana（中美洲大学）· 2021 – 2024"
+    },
+    {
+      "es": "<b>Técnico en Redes LAN/WAN CISCO</b><br />INTECAP Centro TICS · 2014",
+      "en": "<b>LAN/WAN Networking Technician (Cisco)</b><br />INTECAP Centro TICS · 2014",
+      "de": "<b>Techniker für LAN/WAN-Netzwerke (Cisco)</b><br />INTECAP Centro TICS · 2014",
+      "zh": "<b>LAN/WAN 网络技术员（思科）</b><br />INTECAP Centro TICS · 2014"
+    },
+    {
+      "es": "<b>Perito en Electrónica Digital y Microprocesadores</b><br />Tecnológico Industrial Mixto “André Ampère” · 2010 – 2012",
+      "en": "<b>Technical Diploma in Digital Electronics &amp; Microprocessors</b><br />Tecnológico Industrial Mixto “André Ampère” · 2010 – 2012",
+      "de": "<b>Technisches Diplom in Digitalelektronik und Mikroprozessoren</b><br />Tecnológico Industrial Mixto „André Ampère“ · 2010 – 2012",
+      "zh": "<b>数字电子与微处理器技术文凭</b><br />Tecnológico Industrial Mixto “André Ampère” · 2010 – 2012"
+    }
+  ],
+
+  "skills": [
+    {
+      "es": "<b>Embebidos:</b> C/C++, MicroPython, ESP32/ESP8266, Arduino, RP2040, ARM, Raspberry Pi, Jetson Orin Nano",
+      "en": "<b>Embedded:</b> C/C++, MicroPython, ESP32/ESP8266, Arduino, RP2040, ARM, Raspberry Pi, Jetson Orin Nano",
+      "de": "<b>Embedded:</b> C/C++, MicroPython, ESP32/ESP8266, Arduino, RP2040, ARM, Raspberry Pi, Jetson Orin Nano",
+      "zh": "<b>嵌入式：</b>C/C++、MicroPython、ESP32/ESP8266、Arduino、RP2040、ARM、Raspberry Pi、Jetson Orin Nano"
+    },
+    {
+      "es": "<b>PCB:</b> KiCad (hasta 4 capas), SMD/THT, pruebas EMC, impresión 3D, fabricación en China",
+      "en": "<b>PCB:</b> KiCad (up to 4 layers), SMD/THT, EMC testing, 3D printing, manufacturing in China",
+      "de": "<b>Leiterplatten:</b> KiCad (bis zu 4 Lagen), SMD/THT, EMV-Tests, 3D-Druck, Fertigung in China",
+      "zh": "<b>PCB：</b>KiCad（最多 4 层）、SMD/THT、EMC 测试、3D 打印、在中国生产制造"
+    },
+    {
+      "es": "<b>Protocolos:</b> MQTT, LoRa, BLE, WiFi, GPS, I2C, SPI, UART, WebSockets",
+      "en": "<b>Protocols:</b> MQTT, LoRa, BLE, WiFi, GPS, I2C, SPI, UART, WebSockets",
+      "de": "<b>Protokolle:</b> MQTT, LoRa, BLE, WLAN, GPS, I2C, SPI, UART, WebSockets",
+      "zh": "<b>通信协议：</b>MQTT、LoRa、BLE、WiFi、GPS、I2C、SPI、UART、WebSockets"
+    },
+    {
+      "es": "<b>Software:</b> Python, JavaScript/TypeScript, Node.js, React, PHP, Linux, Docker, Git",
+      "en": "<b>Software:</b> Python, JavaScript/TypeScript, Node.js, React, PHP, Linux, Docker, Git",
+      "de": "<b>Software:</b> Python, JavaScript/TypeScript, Node.js, React, PHP, Linux, Docker, Git",
+      "zh": "<b>软件：</b>Python、JavaScript/TypeScript、Node.js、React、PHP、Linux、Docker、Git"
+    },
+    {
+      "es": "<b>Robótica e IA:</b> visión por computadora, NLP, voz, servocontrol e IA local en el borde",
+      "en": "<b>Robotics &amp; AI:</b> computer vision, NLP, speech, servo control and local edge AI",
+      "de": "<b>Robotik und KI:</b> Computer Vision, NLP, Sprache, Servosteuerung und lokale Edge-KI",
+      "zh": "<b>机器人与 AI：</b>计算机视觉、NLP、语音、舵机控制及边缘端本地 AI"
+    }
+  ],
+
+  "awards": [
+    {
+      "es": "<b>3 menciones en Forbes</b>, entre ellas “6 emprendedores que buscan transformar a Centroamérica”",
+      "en": "<b>3 mentions in Forbes</b>, including “6 entrepreneurs seeking to transform Central America”",
+      "de": "<b>3 Erwähnungen in Forbes</b>, darunter „6 Gründer, die Mittelamerika verändern wollen“",
+      "zh": "<b>3 次登上《福布斯》</b>，包括《寻求改变中美洲的 6 位创业者》"
+    },
+    {
+      "es": "<b>1er lugar</b> en Startup Weekend Quetzaltenango",
+      "en": "<b>1st place</b> at Startup Weekend Quetzaltenango",
+      "de": "<b>1. Platz</b> beim Startup Weekend Quetzaltenango",
+      "zh": "Startup Weekend 克萨尔特南戈站 <b>第一名</b>"
+    },
+    {
+      "es": "<b>1er lugar</b> en Startup Weekend Universidad Rafael Landívar",
+      "en": "<b>1st place</b> at Startup Weekend Universidad Rafael Landívar",
+      "de": "<b>1. Platz</b> beim Startup Weekend der Universidad Rafael Landívar",
+      "zh": "Startup Weekend 拉斐尔·兰迪瓦尔大学站 <b>第一名</b>"
+    },
+    {
+      "es": "<b>Ganador de Capital Semilla</b>",
+      "en": "<b>Capital Semilla</b> seed-grant winner",
+      "de": "<b>Gewinner von Capital Semilla</b> (Gründungsförderung)",
+      "zh": "<b>Capital Semilla</b> 种子基金获得者"
+    }
+  ],
+
+  "communities": [
+    { "es": "<b>Arduino Guatemala</b>: líder, 2017 – actualidad", "en": "<b>Arduino Guatemala</b>: lead, 2017 – present", "de": "<b>Arduino Guatemala</b>: Leiter, 2017 – heute", "zh": "<b>Arduino 危地马拉</b>：负责人，2017 年至今" },
+    { "es": "<b>Open Hardware Latinoamérica</b>: junta directiva, 2020 – actualidad", "en": "<b>Open Hardware Latin America</b>: board member, 2020 – present", "de": "<b>Open Hardware Lateinamerika</b>: Vorstandsmitglied, 2020 – heute", "zh": "<b>拉丁美洲开源硬件组织</b>（Open Hardware Latinoamérica）：理事，2020 年至今" },
+    { "es": "<b>MakersGT</b>: junta directiva, 2020 – 2021", "en": "<b>MakersGT</b>: board member, 2020 – 2021", "de": "<b>MakersGT</b>: Vorstandsmitglied, 2020 – 2021", "zh": "<b>MakersGT</b>：理事，2020 – 2021" },
+    { "es": "<b>Mozilla Guatemala</b>: líder", "en": "<b>Mozilla Guatemala</b>: lead", "de": "<b>Mozilla Guatemala</b>: Leiter", "zh": "<b>Mozilla 危地马拉</b>：负责人" },
+    { "es": "<b>Xibalba Hackerspace</b> y <b>Antigua Makerspace</b>: cofundador", "en": "<b>Xibalba Hackerspace</b> and <b>Antigua Makerspace</b>: co-founder", "de": "<b>Xibalba Hackerspace</b> und <b>Antigua Makerspace</b>: Mitgründer", "zh": "<b>Xibalba Hackerspace</b> 与 <b>Antigua Makerspace</b>：联合创始人" }
+  ],
+
+  "languages": [
+    { "es": "<b>Español:</b> nativo", "en": "<b>Spanish:</b> native", "de": "<b>Spanisch:</b> Muttersprache", "zh": "<b>西班牙语：</b>母语" },
+    { "es": "<b>Inglés:</b> profesional (B2). Trabajé un año en remoto para una empresa de EE. UU.", "en": "<b>English:</b> professional (B2). One year working remotely for a US company.", "de": "<b>Englisch:</b> berufliche Kenntnisse (B2). Ein Jahr Remote-Arbeit für ein US-Unternehmen.", "zh": "<b>英语：</b>工作水平（B2），曾为美国公司远程工作一年。" }
+  ]
+}

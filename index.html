@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="es">
+<!-- Generado por tools/build.py desde content/site.json. No editar a mano. -->
+<html lang="es" data-lang="es">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,215 +8,33 @@
 <meta name="description" content="Portafolio y currículum de Yeffri J. Salazar: CTO, ingeniero en electrónica, robótica, IoT y educación tecnológica en Guatemala." />
 <meta property="og:title" content="Yeffri J. Salazar · Ingeniero en electrónica" />
 <meta property="og:description" content="Robótica, IoT, diseño de PCB y educación tecnológica. Proyectos, charlas y trayectoria." />
-<meta property="og:image" content="images/yo.jpg" />
+<meta property="og:image" content="https://yeffrimic.github.io/images/yo.jpg" />
+<meta property="og:locale" content="es_GT" />
+<link rel="canonical" href="https://yeffrimic.github.io/" />
+<link rel="alternate" hreflang="es" href="https://yeffrimic.github.io/" />
+<link rel="alternate" hreflang="en" href="https://yeffrimic.github.io/en/" />
+<link rel="alternate" hreflang="de" href="https://yeffrimic.github.io/de/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://yeffrimic.github.io/zh/" />
+<link rel="alternate" hreflang="x-default" href="https://yeffrimic.github.io/" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
 <script>
-  // Intro del chip: una vez por sesión; ?intro la fuerza; con movimiento reducido va en versión suave
   (function () {
+    try { var L = localStorage.getItem('lang'), M = {"en": "en/", "de": "de/", "zh": "zh/"};
+      if (L && M[L]) { location.replace(M[L] + location.search + location.hash); return; } } catch (e) {}
+    // Intro del chip: una vez por sesión; ?intro la fuerza; con movimiento reducido va en versión suave
     var d = document.documentElement, force = /[?&]intro(?:[=&]|$)/.test(location.search), reduce = false, seen = false;
     try { reduce = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
     try { seen = sessionStorage.getItem('introSeen') === '1'; } catch (e) {}
     if (force || !seen) { d.classList.add('intro-on'); if (reduce) d.classList.add('intro-soft'); }
   })();
 </script>
-<style>
-  :root {
-    --bg: #f6f5f1;
-    --surface: #ffffff;
-    --ink: #16201b;
-    --muted: #5b665f;
-    --line: #dfe3dc;
-    --accent: #0f7a4f;
-    --accent-soft: #e2f1e9;
-    --copper: #b8661f;
-    --copper-soft: #f7ebdf;
-    --shadow: 0 1px 2px rgba(20,30,25,.06), 0 4px 16px rgba(20,30,25,.05);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #0f1412; --surface: #161d1a; --ink: #e7ece8; --muted: #9aa6a0;
-      --line: #26302b; --accent: #4fc890; --accent-soft: #173127;
-      --copper: #e39a57; --copper-soft: #3a2a1b; --shadow: none;
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #0f1412; --surface: #161d1a; --ink: #e7ece8; --muted: #9aa6a0;
-    --line: #26302b; --accent: #4fc890; --accent-soft: #173127;
-    --copper: #e39a57; --copper-soft: #3a2a1b; --shadow: none;
-  }
-
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0; overflow-wrap: anywhere; background: var(--bg); color: var(--ink);
-    font: 16px/1.6 "Inter", system-ui, sans-serif;
-  }
-  a { color: var(--accent); }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
-  .mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
-
-  /* Nav */
-  nav.top {
-    position: sticky; top: 0; z-index: 10;
-    background: color-mix(in srgb, var(--bg) 88%, transparent);
-    backdrop-filter: blur(8px); border-bottom: 1px solid var(--line);
-  }
-  nav.top .wrap { display: flex; align-items: center; gap: 16px; height: 56px; }
-  nav.top .brand { font-weight: 700; color: var(--ink); text-decoration: none; margin-right: auto; }
-  nav.top .links { min-width: 0; display: flex; gap: 18px; overflow-x: auto; scrollbar-width: none; }
-  nav.top .links a { color: var(--muted); text-decoration: none; font-size: 14px; white-space: nowrap; }
-  nav.top .links a:hover { color: var(--ink); }
-  #themeToggle {
-    border: 1px solid var(--line); background: var(--surface); color: var(--ink);
-    border-radius: 8px; width: 34px; height: 34px; cursor: pointer; flex: none;
-  }
-  @media (max-width: 720px) { nav.top .brand { display: none; } }
-
-  /* Hero */
-  header.hero { padding: 64px 0 40px; }
-  .hero-grid { display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center; }
-  .hero h1 { font-size: clamp(34px, 6vw, 54px); line-height: 1.05; margin: 0 0 10px; letter-spacing: -0.02em; }
-  .hero .role { font-size: 18px; color: var(--accent); font-weight: 600; margin: 0 0 18px; }
-  .hero p.lead { font-size: 18px; color: var(--muted); max-width: 640px; margin: 0 0 24px; }
-  .hero img {
-    width: 200px; height: 200px; object-fit: cover; border-radius: 50%;
-    border: 4px solid var(--surface); box-shadow: var(--shadow), 0 0 0 2px var(--accent);
-  }
-  .contact-row { display: flex; flex-wrap: wrap; gap: 10px; }
-  .chip-link {
-    display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px;
-    border: 1px solid var(--line); border-radius: 999px; background: var(--surface);
-    color: var(--ink); text-decoration: none; font-size: 14px;
-  }
-  .chip-link:hover { border-color: var(--accent); }
-  .chip-link.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-  .chip-link.print-btn { cursor: pointer; font: inherit; font-size: 14px; }
-  @media (max-width: 720px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .hero img { width: 120px; height: 120px; order: -1; }
-  }
-
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 40px; }
-  .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
-  .stat b { display: block; font-size: 28px; line-height: 1.1; color: var(--ink); }
-  .stat span { font-size: 13px; color: var(--muted); }
-  @media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } }
-
-  /* Sections */
-  section.block { padding: 48px 0; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
-  .sec-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
-  .sec-head h2 { margin: 0; font-size: 28px; letter-spacing: -0.01em; }
-  .sec-head .kicker { font-size: 12px; color: var(--copper); text-transform: uppercase; letter-spacing: .12em; }
-  .sec-head p { margin: 0; color: var(--muted); flex-basis: 100%; }
-
-  /* Filters */
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
-  .filters button {
-    border: 1px solid var(--line); background: var(--surface); color: var(--muted);
-    padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 14px;
-  }
-  .filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-
-  /* Cards */
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 16px; }
-  .card {
-    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
-    padding: 20px; display: flex; flex-direction: column; gap: 10px; box-shadow: var(--shadow);
-  }
-  .card[hidden] { display: none; }
-  .card .date { font-size: 12px; color: var(--copper); font-family: "JetBrains Mono", monospace; }
-  .card h3 { margin: 0; font-size: 18px; line-height: 1.3; }
-  .card .org { font-size: 13px; color: var(--muted); margin-top: -6px; }
-  .card p { margin: 0; color: var(--muted); font-size: 15px; }
-  .card ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 14px; }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
-  .tag {
-    font-size: 12px; padding: 2px 9px; border-radius: 6px;
-    background: var(--accent-soft); color: var(--accent); font-family: "JetBrains Mono", monospace;
-  }
-  .card a.more { font-size: 14px; font-weight: 600; text-decoration: none; }
-  .card a.more:hover { text-decoration: underline; }
-  .badge {
-    align-self: flex-start; font-size: 11px; padding: 2px 8px; border-radius: 6px;
-    background: var(--copper-soft); color: var(--copper); font-weight: 600; letter-spacing: .03em;
-  }
-
-  /* Timeline */
-  .timeline { position: relative; margin: 0; padding: 0; list-style: none; }
-  .timeline::before {
-    content: ""; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 2px; background: var(--line);
-  }
-  .timeline li { position: relative; padding: 0 0 26px 34px; }
-  .timeline li::before {
-    content: ""; position: absolute; left: 0; top: 6px; width: 16px; height: 16px;
-    border-radius: 50%; background: var(--bg); border: 3px solid var(--accent);
-  }
-  .timeline li.minor::before { border-color: var(--line); }
-  .timeline .when { font-size: 13px; color: var(--copper); font-family: "JetBrains Mono", monospace; }
-  .timeline h3 { margin: 2px 0 0; font-size: 18px; }
-  .timeline .where { color: var(--muted); font-size: 14px; }
-  .timeline ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); font-size: 15px; }
-
-  /* Two col lists */
-  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 16px; }
-  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
-  .panel h3 { margin: 0 0 12px; font-size: 16px; }
-  .panel ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 15px; }
-  .panel li + li { margin-top: 6px; }
-  .panel li b { color: var(--ink); font-weight: 600; }
-
-  footer { padding: 40px 0 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
-  footer .wrap { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; }
-
-  /* Print: sale como un CV limpio */
-  @media print {
-    :root { --bg: #fff; --surface: #fff; --ink: #000; --muted: #333; --line: #ccc; --shadow: none; }
-    nav.top, .filters, #themeToggle, .print-btn, .no-print { display: none !important; }
-    header.hero { padding: 0 0 12px; }
-    section.block { padding: 16px 0; break-inside: auto; }
-    .card, .panel, .timeline li { break-inside: avoid; }
-    .card[hidden] { display: flex !important; }
-    .grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-    .card { padding: 10px; }
-    a { color: #000; text-decoration: none; }
-    body { font-size: 12px; }
-  }
-
-  /* Intro: viaje dentro del chip */
-  #chipIntro { display: none; }
-  .intro-on #chipIntro {
-    display: block; position: fixed; inset: 0; z-index: 1000; background: #040706; cursor: pointer;
-    animation: introFailsafe .4s 14s forwards;
-  }
-  #chipIntro canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
-  #chipIntro.intro-out { opacity: 0; transition: opacity .8s ease; pointer-events: none; }
-  .intro-caption {
-    position: absolute; left: 16px; bottom: 16px; color: #8fe3bb;
-    font: 12px/1.5 "JetBrains Mono", monospace; letter-spacing: .08em; text-transform: uppercase;
-    text-shadow: 0 0 10px rgba(60,255,160,.45); pointer-events: none;
-  }
-  .intro-caption b { display: block; color: #eafff4; font-size: 13px; }
-  .intro-skip {
-    position: absolute; right: 16px; bottom: 16px; padding: 8px 14px; border-radius: 999px;
-    background: rgba(255,255,255,.08); color: #eafff4; border: 1px solid rgba(255,255,255,.25);
-    font: 13px "JetBrains Mono", monospace; cursor: pointer;
-  }
-  .intro-skip:hover { background: rgba(255,255,255,.16); }
-  @keyframes introFailsafe { to { opacity: 0; visibility: hidden; } }
-  .intro-reveal nav.top { animation: introPop .7s .05s cubic-bezier(.2,.8,.2,1) both; }
-  .intro-reveal header.hero .wrap { animation: introPop 1s .1s cubic-bezier(.2,.8,.2,1) both; }
-  @keyframes introPop {
-    from { opacity: 0; transform: scale(.96) translateY(14px); filter: blur(6px); }
-    to { opacity: 1; transform: none; filter: none; }
-  }
-  @media print { #chipIntro { display: none !important; } }
-</style>
+<link rel="stylesheet" href="assets/css/site.css" />
 </head>
 <body>
 
-<div id="chipIntro">
+<div id="chipIntro" data-captions="[&quot;PCB · YJS-01 · rev 2026&quot;, &quot;Encapsulado QFP-64 · rayos X&quot;, &quot;Die de silicio · bond wires&quot;, &quot;Bloques funcionales&quot;, &quot;Celdas estándar y metal&quot;, &quot;Capa de metal 1 · firma del diseñador&quot;]">
   <canvas aria-hidden="true"></canvas>
   <div class="intro-caption" aria-hidden="true"><b>PCB · YJS-01 · rev 2026</b><span>×1</span></div>
   <button class="intro-skip" type="button">Saltar ↵</button>
@@ -231,7 +50,8 @@
       <a href="#formacion">Formación</a>
       <a href="#contacto">Contacto</a>
     </div>
-    <button id="themeToggle" aria-label="Cambiar tema claro u oscuro" title="Cambiar tema">◐</button>
+    <div class="lang-switch" role="group" aria-label="Idioma"><a href="./" hreflang="es" lang="es" data-lang="es" data-suggest="¿Prefieres leer en español?" data-suggest-btn="Ver en español" aria-current="true">ES</a><a href="en/" hreflang="en" lang="en" data-lang="en" data-suggest="Prefer to read in English?" data-suggest-btn="View in English">EN</a><a href="de/" hreflang="de" lang="de" data-lang="de" data-suggest="Lieber auf Deutsch lesen?" data-suggest-btn="Auf Deutsch ansehen">DE</a><a href="zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh" data-suggest="想用中文阅读吗？" data-suggest-btn="查看中文版">中文</a></div>
+    <button id="themeToggle" aria-label="Cambiar tema claro u oscuro" title="Cambiar tema claro u oscuro">◐</button>
   </div>
 </nav>
 
@@ -241,12 +61,7 @@
       <div>
         <h1>Yeffri J. Salazar</h1>
         <p class="role">CTO · Ingeniero en electrónica · Robótica, IoT y educación tecnológica</p>
-        <p class="lead">
-          Llevo más de 10 años construyendo productos de hardware de punta a punta: del esquemático
-          de la PCB al firmware, el backend y el producto desplegado. Dos veces CTO, diseñador de
-          placas para aplicaciones espaciales y líder de la comunidad Arduino Guatemala. Me dedico a
-          que la tecnología llegue a quien más la necesita, incluso en escuelas sin internet.
-        </p>
+        <p class="lead">Llevo más de 10 años construyendo productos de hardware de punta a punta: del esquemático de la PCB al firmware, el backend y el producto desplegado. Dos veces CTO, diseñador de placas para aplicaciones espaciales y líder de la comunidad Arduino Guatemala. Me dedico a que la tecnología llegue a quien más la necesita, incluso en escuelas sin internet.</p>
         <div class="contact-row">
           <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
           <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
@@ -267,7 +82,6 @@
   </div>
 </header>
 
-<!-- ============ PROYECTOS ============ -->
 <section class="block" id="proyectos">
   <div class="wrap">
     <div class="sec-head">
@@ -285,35 +99,40 @@
     </div>
 
     <div class="grid" id="projectGrid">
-
+      <article class="card" data-cat="robotica hardware software">
+        <span class="badge">HACKATÓN</span>
+        <span class="date">Sep 2026</span>
+        <h3>Tinimit: IA médica sin nube</h3>
+        <p>Orientación médica por chat para aldeas remotas sin cobertura. Un nodo ESP32 con radio LoRa le da WiFi propio a la aldea, y las consultas viajan comprimidas hasta un hub donde un modelo médico (MedPsy-4B) corre 100 % local. Los datos nunca salen de la comunidad, y las respuestas en K'iche' las valida la propia comunidad.</p>
+        <div class="tags"><span class="tag">ESP32</span><span class="tag">LoRa</span><span class="tag">FastAPI</span><span class="tag">IA local</span><span class="tag">QVAC</span><span class="tag">K'iche'</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tinimit">Ver repositorio →</a><a class="more" href="https://www.tiktok.com/@yeffrimic/video/7684117435041074450">Ver video →</a></div>
+      </article>
       <article class="card" data-cat="hardware software edu">
         <span class="date">Sep 2026</span>
         <h3>Kemon Q'ayis</h3>
         <p>Enciclopedia de flora para un colegio. Los visitantes escanean un código QR o una etiqueta NFC junto a cada árbol y abren su ficha, con nombre científico y significado maya. Estaciones ESP32 miden el ambiente en tiempo real. Todo funciona en la red local, sin internet.</p>
         <div class="tags"><span class="tag">ESP32</span><span class="tag">FastAPI</span><span class="tag">Astro</span><span class="tag">SQLite</span><span class="tag">WebSockets</span><span class="tag">NFC/QR</span></div>
       </article>
-
+      <article class="card" data-cat="software hardware">
+        <span class="date">Sep 2026</span>
+        <h3>Pantalla trasera del Cubot KINGKONG 11</h3>
+        <p>Ingeniería inversa del panel trasero de 360×360 de este teléfono con Android 15. Descubrí que no es un display de Android sino un framebuffer RGB565 que se pinta por JNI, y logré encenderlo, apagarlo y mostrar texto propio sin root, con una herramienta en Python y una app que se compila sin Android Studio. Incluye una retrospectiva de qué funcionó y qué no.</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">ADB</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">Ingeniería inversa</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/kingkong11-subscreen">Ver repositorio →</a></div>
+      </article>
       <article class="card" data-cat="software edu">
         <span class="date">Sep 2026</span>
         <h3>Calendario Maya: nahuales y piedras</h3>
         <p>Sitio web interactivo que presenta los nahuales del calendario maya y sus piedras asociadas.</p>
         <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
       </article>
-
-      <article class="card" data-cat="software hardware">
-        <span class="date">Sep 2026</span>
-        <h3>Pantalla trasera de Android por ADB</h3>
-        <p>Investigación para aprovechar la pantalla trasera secundaria de un teléfono Android. Hice un diagnóstico por ADB del sistema y del display lógico, exploré alternativas con Python para enviarle contenido propio y documenté qué funcionó, qué no y qué haría mejor.</p>
-        <div class="tags"><span class="tag">Android</span><span class="tag">ADB</span><span class="tag">Python</span><span class="tag">Ingeniería inversa</span></div>
-      </article>
-
       <article class="card" data-cat="software edu">
-        <span class="date">Ago 2026</span>
+        <span class="date">Ago – Sep 2026</span>
         <h3>BlockLab</h3>
-        <p>Editor y solucionador de diagramas de bloques de sistemas de control. Dibujas el diagrama y obtienes la función de transferencia C(s)/R(s) exacta y simbólica por la fórmula de Mason, viendo cómo se construye Δ término por término. Cuenta con 95 pruebas automatizadas.</p>
-        <div class="tags"><span class="tag">TypeScript</span><span class="tag">Vite</span><span class="tag">Vitest</span><span class="tag">Control</span></div>
+        <p>Editor y solucionador de diagramas de bloques de sistemas de control. Dibujas el diagrama y obtienes la función de transferencia C(s)/R(s) exacta y simbólica por la fórmula de Mason, viendo cómo se construye Δ término por término. Tiene 95 pruebas automatizadas.</p>
+        <div class="tags"><span class="tag">TypeScript</span><span class="tag">React Flow</span><span class="tag">KaTeX</span><span class="tag">Vitest</span></div>
+        <div class="links-row"><a class="more" href="https://yeffrimic.github.io/blocklab/">Probar en línea →</a><a class="more" href="https://github.com/yeffrimic/blocklab">Ver repositorio →</a></div>
       </article>
-
       <article class="card" data-cat="robotica hardware">
         <span class="badge">CREABOT</span>
         <span class="date">2025 – 2026</span>
@@ -321,53 +140,67 @@
         <p>Robot humanoide que integra visión por computadora, procesamiento de lenguaje natural, síntesis de voz y control de servomotores. Tiene modo de control manual y control por red.</p>
         <div class="tags"><span class="tag">Python</span><span class="tag">Visión</span><span class="tag">NLP</span><span class="tag">TTS</span><span class="tag">Servos</span></div>
       </article>
-
       <article class="card" data-cat="robotica software">
         <span class="date">Jul – Ago 2026</span>
         <h3>Servidor de voz para companion bot</h3>
         <p>Servidor en Python que recibe audio grabado por el robot a través de TCP, lo procesa y devuelve la respuesta hablada para que el bot la reproduzca.</p>
         <div class="tags"><span class="tag">Python</span><span class="tag">TCP sockets</span><span class="tag">Audio</span></div>
       </article>
-
       <article class="card" data-cat="edu software">
         <span class="date">Mar – Jul 2026</span>
         <h3>Indra / IndraJS: circuito puzzle</h3>
         <p>Videojuego educativo de electrónica para niños de 6 a 8 años que todavía no leen: se entiende viéndolo, no leyéndolo. Una serpiente representa la corriente y el jugador la guía por batería, resistencia, capacitor e interruptor hasta encender el LED. Incluye tienda, progresión, economía y editor de niveles. Empezó como prototipo en Godot 4.6 y evolucionó a Phaser.</p>
         <div class="tags"><span class="tag">Phaser 3</span><span class="tag">JavaScript</span><span class="tag">Godot 4</span><span class="tag">GDScript</span></div>
-        <a class="more" href="https://github.com/yeffrimic/IndraJs">Ver repositorio →</a>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/IndraJs">Ver repositorio →</a></div>
       </article>
-
       <article class="card" data-cat="edu hardware">
         <span class="date">Jun – Jul 2026</span>
         <h3>Curso en video de soldadura y KiCad</h3>
         <p>Serie de videos prácticos: cómo funciona un cautín, qué trae el kit, armado de la base, ejercicios de puntos y polaridad, medición de LEDs y resistencias, y primeros pasos en KiCad.</p>
         <div class="tags"><span class="tag">Soldadura</span><span class="tag">KiCad</span><span class="tag">Video educativo</span></div>
       </article>
-
+      <article class="card" data-cat="edu">
+        <span class="date">Jun 2026</span>
+        <h3>Tutoriales educativos STEAM</h3>
+        <p>Tutoriales abiertos de STEAM, robótica y electrónica para escuelas, colegios e instituciones educativas.</p>
+        <div class="tags"><span class="tag">STEAM</span><span class="tag">Robótica</span><span class="tag">Electrónica</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tutoriales-educativos-">Ver repositorio →</a></div>
+      </article>
       <article class="card" data-cat="software">
         <span class="date">Jun 2026</span>
         <h3>Apex Tourney Board</h3>
         <p>Genera automáticamente la tabla de posiciones de torneos de Apex Legends a partir de capturas de pantalla. Con IA de visión (Gemini o Groq) lee equipo, puesto y kills, y calcula los puntos con el sistema ALGS. Es bilingüe y exporta la tabla a PNG.</p>
         <div class="tags"><span class="tag">Vite</span><span class="tag">IA de visión</span><span class="tag">Gemini</span><span class="tag">Groq</span></div>
-        <a class="more" href="https://github.com/yeffrimic/apex-tourney-board">Ver repositorio →</a>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/apex-tourney-board">Ver repositorio →</a></div>
       </article>
-
+      <article class="card" data-cat="edu hardware">
+        <span class="date">May – Sep 2025</span>
+        <h3>Material de talleres de IoT</h3>
+        <p>Código y ejemplos de mis talleres: IoT con ESP8266, comunicaciones digitales con Arduino para principiantes y un panel web en tiempo real con MQTT y WebSockets (ESP8266 + DHT22).</p>
+        <div class="tags"><span class="tag">ESP8266</span><span class="tag">MQTT</span><span class="tag">WebSockets</span><span class="tag">Arduino</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/TallerIoTEsp8266">Taller IoT →</a><a class="more" href="https://github.com/yeffrimic/Comunicaciones-Digitales">Comunicaciones digitales →</a><a class="more" href="https://github.com/yeffrimic/Mqtt-HTML-websockets-esp8266-DHT">Panel MQTT →</a></div>
+      </article>
       <article class="card" data-cat="hardware robotica">
         <span class="date">May 2025</span>
         <h3>Mandjet</h3>
         <p>Placa de control de servos y motores DC basada en XIAO ESP32-C3.</p>
         <div class="tags"><span class="tag">PCB</span><span class="tag">ESP32-C3</span><span class="tag">Motores</span></div>
-        <a class="more" href="https://github.com/yeffrimic/mandjet">Ver repositorio →</a>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/mandjet">Ver repositorio →</a></div>
       </article>
-
       <article class="card" data-cat="hardware edu">
         <span class="date">May 2025</span>
         <h3>Cansat Tzunun</h3>
         <p>CanSat y estación de monitoreo de calidad del aire.</p>
         <div class="tags"><span class="tag">CanSat</span><span class="tag">Sensores</span><span class="tag">Telemetría</span></div>
-        <a class="more" href="https://github.com/yeffrimic/Cansat-Tzunun">Ver repositorio →</a>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/Cansat-Tzunun">Ver repositorio →</a></div>
       </article>
-
+      <article class="card" data-cat="hardware edu">
+        <span class="date">2023 – 2026</span>
+        <h3>Estación de calidad del agua</h3>
+        <p>Documentación completa para construir, replicar y mejorar una estación de monitoreo de calidad del agua, desarrollada en un proyecto del SINCYT.</p>
+        <div class="tags"><span class="tag">C++</span><span class="tag">Sensores</span><span class="tag">Hardware abierto</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/water-Quality-Station">Ver repositorio →</a></div>
+      </article>
       <article class="card" data-cat="hardware">
         <span class="badge">SKYLINE CELESTIAL</span>
         <span class="date">2023</span>
@@ -375,7 +208,6 @@
         <p>Placa de telemetría de 5×5 cm con 500 km de alcance, sistema de captación de energía solar y driver de bobinas para simular el campo magnético terrestre. PCBs de hasta 4 capas en KiCad, con pruebas EMC.</p>
         <div class="tags"><span class="tag">KiCad</span><span class="tag">PCB 4 capas</span><span class="tag">EMC</span><span class="tag">Espacial</span></div>
       </article>
-
       <article class="card" data-cat="edu hardware software">
         <span class="badge">1BOT</span>
         <span class="date">2019 – 2022</span>
@@ -383,28 +215,24 @@
         <p>Dispositivo que despliega una red inalámbrica local con contenidos educativos para que niños y jóvenes de escuelas sin internet puedan usarlos. Usa servidores híbridos que se sincronizan cuando hay conexión.</p>
         <div class="tags"><span class="tag">Offline-first</span><span class="tag">Linux</span><span class="tag">Servidores</span><span class="tag">EdTech</span></div>
       </article>
-
       <article class="card" data-cat="hardware">
         <span class="date">2016</span>
         <h3>MQTT.io.gt</h3>
         <p>Proyectos y recursos sobre tecnología MQTT, gratuitos y de libre acceso.</p>
         <div class="tags"><span class="tag">MQTT</span><span class="tag">IoT</span></div>
       </article>
-
       <article class="card" data-cat="hardware">
         <span class="badge">NAJT LABS</span>
         <span class="date">2016</span>
         <h3>Sonar (BlindProject)</h3>
         <p>Dispositivo abierto y de bajo costo para personas no videntes. Detecta obstáculos con ultrasonido y avisa por vibración. Pensado para que cualquiera con una impresora 3D pueda construirlo.</p>
         <div class="tags"><span class="tag">Arduino</span><span class="tag">Ultrasonido</span><span class="tag">Impresión 3D</span><span class="tag">Accesibilidad</span></div>
-        <a class="more" href="proyectos/sonar.html">Leer más →</a>
+        <div class="links-row"><a class="more" href="proyectos/sonar.html">Leer más →</a><a class="more" href="https://github.com/yeffrimic/BlindProject">Ver repositorio →</a></div>
       </article>
-
     </div>
   </div>
 </section>
 
-<!-- ============ CHARLAS ============ -->
 <section class="block" id="charlas">
   <div class="wrap">
     <div class="sec-head">
@@ -415,24 +243,31 @@
 
     <div class="grid">
       <article class="card">
+        <span class="badge">PARTICIPANTE</span>
+        <span class="date">9–11 Sep 2026</span>
+        <h3>Decentralized AI Hackathon</h3>
+        <div class="org">ISD Summit + Tether/QVAC · Sovereign Intelligence at the Edge</div>
+        <p>Participé con Tinimit: orientación médica con IA 100 % local para aldeas sin cobertura, conectadas por LoRa.</p>
+        <div class="tags"><span class="tag">Hackatón</span><span class="tag">IA en el borde</span><span class="tag">LoRa</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tinimit">Ver repositorio →</a></div>
+      </article>
+      <article class="card">
         <span class="badge">ORGANIZADOR</span>
         <span class="date">28 Ago 2026</span>
         <h3>Arduino Day 2026, Ciudad de Guatemala</h3>
         <div class="org">Comunidad Arduino Guatemala · Universidad Galileo</div>
         <p>Organicé la edición más grande de la comunidad en 14 años, con David Cuartielles (cofundador de Arduino) como keynote, ponentes de Latinoamérica y charlas y talleres simultáneos en salones y laboratorios. También hice el sitio web con la agenda.</p>
         <div class="tags"><span class="tag">Organización</span><span class="tag">Comunidad</span><span class="tag">Arduino</span></div>
-        <a class="more" href="https://yeffrimic.github.io/ArduinoDay2026/">Ver sitio del evento →</a>
+        <div class="links-row"><a class="more" href="https://yeffrimic.github.io/ArduinoDay2026/">Ver sitio del evento →</a></div>
       </article>
-
       <article class="card">
         <span class="badge">FACILITADOR</span>
         <span class="date">Ago – Sep 2026</span>
         <h3>Taller: primera experiencia con Arduino</h3>
-        <div class="org">"Dejando huella en la Vera de la Paz"</div>
+        <div class="org">“Dejando huella en la Vera de la Paz”</div>
         <p>Taller introductorio para conectar y programar componentes electrónicos básicos de forma sencilla y divertida.</p>
         <div class="tags"><span class="tag">Arduino</span><span class="tag">Taller</span><span class="tag">Principiantes</span></div>
       </article>
-
       <article class="card">
         <span class="badge">FACILITADOR</span>
         <span class="date">Jul 2026</span>
@@ -440,7 +275,6 @@
         <p>Taller práctico de robótica aplicada a la industria.</p>
         <div class="tags"><span class="tag">Robótica</span><span class="tag">Automatización</span></div>
       </article>
-
       <article class="card">
         <span class="badge">CO-ORGANIZADOR</span>
         <span class="date">Jun 2026</span>
@@ -449,14 +283,13 @@
         <p>Programa de hackatones presenciales de 3 días para jóvenes que resuelven problemas reales de su comunidad con IA, respaldado por PRONACOM, ProGuatemala y MINECO. Incluye el hackatón INTECAP en Santa Lucía Cotzumalguapa y un manual para facilitar workshops.</p>
         <div class="tags"><span class="tag">Hackatón</span><span class="tag">IA</span><span class="tag">Emprendimiento</span></div>
       </article>
-
       <article class="card">
         <span class="badge">LÍDER</span>
         <span class="date">2025 – 2026</span>
         <h3>La Ruta del Chip</h3>
         <div class="org">Creabot · con apoyo de SENACYT, PRONACOM y MINECO</div>
         <p>Programa nacional de formación en tecnología y hackatones del que soy líder desde Creabot.</p>
-        <div class="tags"><span class="tag">Tecnología</span><span class="tag">Formación</span></div>
+        <div class="tags"><span class="tag">Formación</span><span class="tag">Tecnología</span></div>
       </article>
     </div>
 
@@ -474,7 +307,6 @@
   </div>
 </section>
 
-<!-- ============ EXPERIENCIA ============ -->
 <section class="block" id="experiencia">
   <div class="wrap">
     <div class="sec-head">
@@ -487,12 +319,7 @@
         <span class="when">Jun 2025 – actualidad</span>
         <h3>Chief Technology Officer</h3>
         <div class="where">Creabot · Guatemala</div>
-        <ul>
-          <li>Dirección tecnológica y estrategia de una empresa de robótica educativa que llega a más de 20,000 estudiantes en Centroamérica.</li>
-          <li>Creador de Hermes, robot humanoide con visión, NLP, voz y servocontrol.</li>
-          <li>Desarrollo de kits de robótica, contenido STEEAM y plataformas educativas.</li>
-          <li>Líder de La Ruta del Chip y de hackatones nacionales con SENACYT, PRONACOM y MINECO.</li>
-        </ul>
+        <ul><li>Dirección tecnológica y estrategia de una empresa de robótica educativa que llega a más de 20,000 estudiantes en Centroamérica.</li><li>Creador de Hermes, robot humanoide con visión, NLP, voz y servocontrol.</li><li>Desarrollo de kits de robótica, contenido STEEAM y plataformas educativas.</li><li>Líder de La Ruta del Chip y de hackatones nacionales con SENACYT, PRONACOM y MINECO.</li></ul>
       </li>
       <li>
         <span class="when">May 2017 – actualidad</span>
@@ -510,22 +337,13 @@
         <span class="when">Ene – Dic 2023</span>
         <h3>Embedded Engineer</h3>
         <div class="where">Skyline Celestial · Remoto (empresa de EE. UU.)</div>
-        <ul>
-          <li>PCBs multicapa (hasta 4 capas) en KiCad para aplicaciones espaciales.</li>
-          <li>Placa de telemetría CubeSat de 5×5 cm con 500 km de alcance, captación solar y driver de bobinas.</li>
-          <li>Componentes SMD/THT, soldadura, pruebas EMC y documentación técnica en inglés.</li>
-        </ul>
+        <ul><li>PCBs multicapa (hasta 4 capas) en KiCad para aplicaciones espaciales.</li><li>Placa de telemetría CubeSat de 5×5 cm con 500 km de alcance, captación solar y driver de bobinas.</li><li>Componentes SMD/THT, soldadura, pruebas EMC y documentación técnica en inglés.</li></ul>
       </li>
       <li>
         <span class="when">Ene 2019 – May 2022</span>
         <h3>Chief Technology Officer</h3>
         <div class="where">1bot · Guatemala</div>
-        <ul>
-          <li>Creador de ADA (Aula Digital Autónoma) para escuelas sin internet.</li>
-          <li>Primera versión de los ejercicios integradores STEEAM con programación por bloques, de preprimaria a bachillerato.</li>
-          <li>Videos, guías y clases prediseñadas para que los maestros guíen sin necesidad de ser expertos.</li>
-          <li>Cursos en línea de robótica para más de 10,000 niños y jóvenes. Contratación y estructura del equipo técnico.</li>
-        </ul>
+        <ul><li>Creador de ADA (Aula Digital Autónoma) para escuelas sin internet.</li><li>Primera versión de los ejercicios integradores STEEAM con programación por bloques, de preprimaria a bachillerato.</li><li>Videos, guías y clases prediseñadas para que los maestros guíen sin necesidad de ser expertos.</li><li>Cursos en línea de robótica para más de 10,000 niños y jóvenes. Contratación y estructura del equipo técnico.</li></ul>
       </li>
       <li>
         <span class="when">Ago 2017 – Mar 2018</span>
@@ -571,7 +389,6 @@
   </div>
 </section>
 
-<!-- ============ FORMACIÓN / HABILIDADES ============ -->
 <section class="block" id="formacion">
   <div class="wrap">
     <div class="sec-head">
@@ -585,7 +402,7 @@
         <ul>
           <li><b>Ingeniería Eléctrica y Electrónica</b><br />Universidad Mesoamericana · 2021 – 2024</li>
           <li><b>Técnico en Redes LAN/WAN CISCO</b><br />INTECAP Centro TICS · 2014</li>
-          <li><b>Perito en Electrónica Digital y Microprocesadores</b><br />Tecnológico Industrial Mixto "André Ampère" · 2010 – 2012</li>
+          <li><b>Perito en Electrónica Digital y Microprocesadores</b><br />Tecnológico Industrial Mixto “André Ampère” · 2010 – 2012</li>
         </ul>
       </div>
       <div class="panel">
@@ -595,13 +412,13 @@
           <li><b>PCB:</b> KiCad (hasta 4 capas), SMD/THT, pruebas EMC, impresión 3D, fabricación en China</li>
           <li><b>Protocolos:</b> MQTT, LoRa, BLE, WiFi, GPS, I2C, SPI, UART, WebSockets</li>
           <li><b>Software:</b> Python, JavaScript/TypeScript, Node.js, React, PHP, Linux, Docker, Git</li>
-          <li><b>Robótica e IA:</b> visión por computadora, NLP, voz y servocontrol</li>
+          <li><b>Robótica e IA:</b> visión por computadora, NLP, voz, servocontrol e IA local en el borde</li>
         </ul>
       </div>
       <div class="panel">
         <h3>Reconocimientos</h3>
         <ul>
-          <li><b>3 menciones en Forbes</b>, entre ellas "6 emprendedores que buscan transformar a Centroamérica"</li>
+          <li><b>3 menciones en Forbes</b>, entre ellas “6 emprendedores que buscan transformar a Centroamérica”</li>
           <li><b>1er lugar</b> en Startup Weekend Quetzaltenango</li>
           <li><b>1er lugar</b> en Startup Weekend Universidad Rafael Landívar</li>
           <li><b>Ganador de Capital Semilla</b></li>
@@ -628,7 +445,6 @@
   </div>
 </section>
 
-<!-- ============ CONTACTO ============ -->
 <section class="block" id="contacto">
   <div class="wrap">
     <div class="sec-head">
@@ -656,35 +472,7 @@
   </div>
 </footer>
 
-<script>
-  // Tema claro/oscuro (preferencia guardada solo en este navegador)
-  (function () {
-    var root = document.documentElement;
-    try { var saved = localStorage.getItem('theme'); if (saved) root.setAttribute('data-theme', saved); } catch (e) {}
-    document.getElementById('themeToggle').addEventListener('click', function () {
-      var current = root.getAttribute('data-theme') ||
-        (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      var next = current === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', next);
-      try { localStorage.setItem('theme', next); } catch (e) {}
-    });
-  })();
-
-  // Filtros de proyectos
-  (function () {
-    var buttons = document.querySelectorAll('.filters button');
-    var cards = document.querySelectorAll('#projectGrid .card');
-    buttons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var f = btn.getAttribute('data-filter');
-        buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
-        cards.forEach(function (c) {
-          c.hidden = f !== 'all' && c.getAttribute('data-cat').split(' ').indexOf(f) === -1;
-        });
-      });
-    });
-  })();
-</script>
+<script src="assets/js/site.js"></script>
 <script src="assets/js/chip-intro.js"></script>
 </body>
 </html>

@@ -24,6 +24,12 @@
   var capZoom = overlay.querySelector('.intro-caption span');
   var skipBtn = overlay.querySelector('.intro-skip');
 
+  // Textos de cada etapa, en el idioma de la página (data-captions en el HTML)
+  var CAPS = ['PCB · YJS-01 · rev 2026', 'Encapsulado QFP-64 · rayos X', 'Die de silicio · bond wires',
+    'Bloques funcionales', 'Celdas estándar y metal', 'Capa de metal 1 · firma del diseñador'];
+  try { var c = JSON.parse(overlay.getAttribute('data-captions')); if (c && c.length === 6) CAPS = c; } catch (e) {}
+  var LOCALE = root.getAttribute('lang') || 'es';
+
   // ---------- utilidades ----------
   function rng(seed) {
     return function () {
@@ -392,13 +398,8 @@
     drawTile(-CORE, -CORE, 2 * CORE, 0, 1234, true, 1);
     if (!dieCovers) drawPackage(pkgAlpha);
 
-    caption(pkgPx < 1.0 ? 'PCB · YJS-01 · rev 2026'
-      : pkgPx < 2.3 ? 'Encapsulado QFP-64 · rayos X'
-      : coreRel < 3 ? 'Die de silicio · bond wires'
-      : coreRel < 40 ? 'Bloques funcionales'
-      : coreRel < 2500 ? 'Celdas estándar y metal'
-      : 'Capa de metal 1 · firma del diseñador');
-    capZoom.textContent = '×' + Math.round(s / s0).toLocaleString('es-GT');
+    caption(CAPS[pkgPx < 1.0 ? 0 : pkgPx < 2.3 ? 1 : coreRel < 3 ? 2 : coreRel < 40 ? 3 : coreRel < 2500 ? 4 : 5]);
+    capZoom.textContent = '×' + Math.round(s / s0).toLocaleString(LOCALE);
 
     if (t > END) {
       var f = clamp01((t - END) / FLASH);

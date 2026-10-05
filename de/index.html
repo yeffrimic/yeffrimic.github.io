@@ -1,0 +1,476 @@
+<!doctype html>
+<!-- Generado por tools/build.py desde content/site.json. No editar a mano. -->
+<html lang="de" data-lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yeffri J. Salazar · Elektronikingenieur</title>
+<meta name="description" content="Portfolio und Lebenslauf von Yeffri J. Salazar: CTO und Elektronikingenieur für Robotik, IoT und Technikbildung in Guatemala." />
+<meta property="og:title" content="Yeffri J. Salazar · Elektronikingenieur" />
+<meta property="og:description" content="Robotik, IoT, Leiterplattendesign und Technikbildung. Projekte, Vorträge und Werdegang." />
+<meta property="og:image" content="https://yeffrimic.github.io/images/yo.jpg" />
+<meta property="og:locale" content="de_DE" />
+<link rel="canonical" href="https://yeffrimic.github.io/de/" />
+<link rel="alternate" hreflang="es" href="https://yeffrimic.github.io/" />
+<link rel="alternate" hreflang="en" href="https://yeffrimic.github.io/en/" />
+<link rel="alternate" hreflang="de" href="https://yeffrimic.github.io/de/" />
+<link rel="alternate" hreflang="zh-Hans" href="https://yeffrimic.github.io/zh/" />
+<link rel="alternate" hreflang="x-default" href="https://yeffrimic.github.io/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<script>
+  (function () {
+    // Intro del chip: una vez por sesión; ?intro la fuerza; con movimiento reducido va en versión suave
+    var d = document.documentElement, force = /[?&]intro(?:[=&]|$)/.test(location.search), reduce = false, seen = false;
+    try { reduce = matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+    try { seen = sessionStorage.getItem('introSeen') === '1'; } catch (e) {}
+    if (force || !seen) { d.classList.add('intro-on'); if (reduce) d.classList.add('intro-soft'); }
+  })();
+</script>
+<link rel="stylesheet" href="../assets/css/site.css" />
+</head>
+<body>
+
+<div id="chipIntro" data-captions="[&quot;Leiterplatte · YJS-01 · Rev. 2026&quot;, &quot;QFP-64-Gehäuse · Röntgenblick&quot;, &quot;Silizium-Die · Bonddrähte&quot;, &quot;Funktionsblöcke&quot;, &quot;Standardzellen und Metall&quot;, &quot;Metalllage 1 · Signatur des Designers&quot;]">
+  <canvas aria-hidden="true"></canvas>
+  <div class="intro-caption" aria-hidden="true"><b>Leiterplatte · YJS-01 · Rev. 2026</b><span>×1</span></div>
+  <button class="intro-skip" type="button">Überspringen ↵</button>
+</div>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio">Yeffri J. Salazar</a>
+    <div class="links">
+      <a href="#proyectos">Projekte</a>
+      <a href="#charlas">Vorträge</a>
+      <a href="#experiencia">Erfahrung</a>
+      <a href="#formacion">Ausbildung</a>
+      <a href="#contacto">Kontakt</a>
+    </div>
+    <div class="lang-switch" role="group" aria-label="Sprache"><a href="../" hreflang="es" lang="es" data-lang="es" data-suggest="¿Prefieres leer en español?" data-suggest-btn="Ver en español">ES</a><a href="../en/" hreflang="en" lang="en" data-lang="en" data-suggest="Prefer to read in English?" data-suggest-btn="View in English">EN</a><a href="../de/" hreflang="de" lang="de" data-lang="de" data-suggest="Lieber auf Deutsch lesen?" data-suggest-btn="Auf Deutsch ansehen" aria-current="true">DE</a><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh" data-suggest="想用中文阅读吗？" data-suggest-btn="查看中文版">中文</a></div>
+    <button id="themeToggle" aria-label="Helles oder dunkles Design umschalten" title="Helles oder dunkles Design umschalten">◐</button>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Yeffri J. Salazar</h1>
+        <p class="role">CTO · Elektronikingenieur · Robotik, IoT und Technikbildung</p>
+        <p class="lead">Seit über 10 Jahren entwickle ich Hardwareprodukte von Anfang bis Ende: vom Schaltplan der Leiterplatte über Firmware und Backend bis zum fertigen Produkt im Einsatz. Zweimal CTO, Entwickler von Platinen für Raumfahrtanwendungen und Leiter der Community Arduino Guatemala. Mein Ziel: Technologie dorthin bringen, wo sie am meisten gebraucht wird – auch in Schulen ohne Internet.</p>
+        <div class="contact-row">
+          <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
+          <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
+          <a class="chip-link" href="https://github.com/yeffrimic">GitHub</a>
+          <a class="chip-link" href="https://themicrofcontrol.wordpress.com">Blog</a>
+          <button class="chip-link print-btn" onclick="window.print()">⎙ Lebenslauf als PDF</button>
+        </div>
+      </div>
+      <img src="../images/yo.jpg" alt="Foto von Yeffri J. Salazar" />
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>20.000+</b><span>erreichte Schüler und Studierende</span></div>
+      <div class="stat"><b>4 Länder</b><span>Guatemala, El Salvador, Nicaragua, Costa Rica</span></div>
+      <div class="stat"><b>10+ Jahre</b><span>in Hardware, Firmware und Community</span></div>
+      <div class="stat"><b>3×</b><span>in Forbes erwähnt</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="block" id="proyectos">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Portfolio</span>
+      <h2>Projekte</h2>
+      <p>Neueste zuerst. Einige entstanden für Unternehmen, für die ich gearbeitet habe – das ist jeweils vermerkt.</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Projekte filtern">
+      <button data-filter="all" aria-pressed="true">Alle</button>
+      <button data-filter="robotica" aria-pressed="false">Robotik &amp; KI</button>
+      <button data-filter="edu" aria-pressed="false">Bildung</button>
+      <button data-filter="hardware" aria-pressed="false">Hardware &amp; IoT</button>
+      <button data-filter="software" aria-pressed="false">Software &amp; Web</button>
+    </div>
+
+    <div class="grid" id="projectGrid">
+      <article class="card" data-cat="robotica hardware software">
+        <span class="badge">HACKATHON</span>
+        <span class="date">Sep 2026</span>
+        <h3>Tinimit: medizinische KI ohne Cloud</h3>
+        <p>Medizinische Orientierung per Chat für abgelegene Dörfer ohne Mobilfunkabdeckung. Ein ESP32-Knoten mit LoRa-Funk stellt dem Dorf eigenes WLAN bereit; Anfragen gelangen komprimiert zu einem Hub, auf dem ein medizinisches Modell (MedPsy-4B) vollständig lokal läuft. Die Daten verlassen nie die Gemeinde, und Antworten auf K'iche' prüft die Gemeinde selbst.</p>
+        <div class="tags"><span class="tag">ESP32</span><span class="tag">LoRa</span><span class="tag">FastAPI</span><span class="tag">Lokale KI</span><span class="tag">QVAC</span><span class="tag">K'iche'</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tinimit">Repository ansehen →</a><a class="more" href="https://www.tiktok.com/@yeffrimic/video/7684117435041074450">Video ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="hardware software edu">
+        <span class="date">Sep 2026</span>
+        <h3>Kemon Q'ayis</h3>
+        <p>Pflanzenenzyklopädie für eine Schule. Besucher scannen einen QR-Code oder ein NFC-Tag neben jedem Baum und öffnen dessen Steckbrief mit wissenschaftlichem Namen und Maya-Bedeutung. ESP32-Stationen messen die Umgebung in Echtzeit. Alles läuft im lokalen Netz, ganz ohne Internet.</p>
+        <div class="tags"><span class="tag">ESP32</span><span class="tag">FastAPI</span><span class="tag">Astro</span><span class="tag">SQLite</span><span class="tag">WebSockets</span><span class="tag">NFC/QR</span></div>
+      </article>
+      <article class="card" data-cat="software hardware">
+        <span class="date">Sep 2026</span>
+        <h3>Rückdisplay des Cubot KINGKONG 11</h3>
+        <p>Reverse Engineering des 360×360-Rückdisplays dieses Android-15-Smartphones. Es ist kein Android-Display, sondern ein per JNI gezeichneter RGB565-Framebuffer. Ohne Root lässt es sich ein- und ausschalten und eigenen Text anzeigen – mit einem Python-Tool und einer App, die ohne Android Studio gebaut wird. Inklusive Retrospektive: was funktioniert hat und was nicht.</p>
+        <div class="tags"><span class="tag">Android</span><span class="tag">ADB</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">Reverse Engineering</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/kingkong11-subscreen">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="software edu">
+        <span class="date">Sep 2026</span>
+        <h3>Maya-Kalender: Nahuales und Steine</h3>
+        <p>Interaktive Website über die Nahuales des Maya-Kalenders und die zugehörigen Steine.</p>
+        <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      </article>
+      <article class="card" data-cat="software edu">
+        <span class="date">Aug – Sep 2026</span>
+        <h3>BlockLab</h3>
+        <p>Editor und Löser für Blockschaltbilder der Regelungstechnik. Diagramm zeichnen und die exakte, symbolische Übertragungsfunktion C(s)/R(s) nach der Mason-Formel erhalten – dabei sieht man, wie Δ Term für Term entsteht. Abgesichert durch 95 automatisierte Tests.</p>
+        <div class="tags"><span class="tag">TypeScript</span><span class="tag">React Flow</span><span class="tag">KaTeX</span><span class="tag">Vitest</span></div>
+        <div class="links-row"><a class="more" href="https://yeffrimic.github.io/blocklab/">Online ausprobieren →</a><a class="more" href="https://github.com/yeffrimic/blocklab">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="robotica hardware">
+        <span class="badge">CREABOT</span>
+        <span class="date">2025 – 2026</span>
+        <h3>Hermes, humanoider Roboter</h3>
+        <p>Humanoider Roboter, der Computer Vision, Sprachverarbeitung, Sprachsynthese und Servosteuerung vereint – mit manuellem Modus und Steuerung über das Netzwerk.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Vision</span><span class="tag">NLP</span><span class="tag">TTS</span><span class="tag">Servos</span></div>
+      </article>
+      <article class="card" data-cat="robotica software">
+        <span class="date">Jul – Aug 2026</span>
+        <h3>Sprachserver für einen Companion-Bot</h3>
+        <p>Python-Server, der vom Roboter aufgenommenes Audio per TCP empfängt, verarbeitet und die gesprochene Antwort zur Wiedergabe zurückschickt.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">TCP sockets</span><span class="tag">Audio</span></div>
+      </article>
+      <article class="card" data-cat="edu software">
+        <span class="date">Mär – Jul 2026</span>
+        <h3>Indra / IndraJS: Schaltkreis-Puzzle</h3>
+        <p>Lernspiel über Elektronik für Kinder von 6 bis 8 Jahren, die noch nicht lesen können: Man versteht es durch Hinsehen, nicht durch Lesen. Eine Schlange stellt den Strom dar, und das Kind lenkt sie durch Batterie, Widerstand, Kondensator und Schalter, bis die LED leuchtet. Mit Shop, Fortschrittssystem, Spielökonomie und Level-Editor. Begonnen als Prototyp in Godot 4.6, weiterentwickelt mit Phaser.</p>
+        <div class="tags"><span class="tag">Phaser 3</span><span class="tag">JavaScript</span><span class="tag">Godot 4</span><span class="tag">GDScript</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/IndraJs">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="edu hardware">
+        <span class="date">Jun – Jul 2026</span>
+        <h3>Videokurs: Löten und KiCad</h3>
+        <p>Praxisnahe Videoreihe: wie ein Lötkolben funktioniert, was im Set steckt, Aufbau der Basis, Übungen zu Lötstellen und Polarität, LEDs und Widerstände messen sowie erste Schritte in KiCad.</p>
+        <div class="tags"><span class="tag">Löten</span><span class="tag">KiCad</span><span class="tag">Lernvideo</span></div>
+      </article>
+      <article class="card" data-cat="edu">
+        <span class="date">Jun 2026</span>
+        <h3>STEAM-Lerntutorials</h3>
+        <p>Offene Tutorials zu STEAM, Robotik und Elektronik für Schulen und Bildungseinrichtungen.</p>
+        <div class="tags"><span class="tag">STEAM</span><span class="tag">Robotik</span><span class="tag">Elektronik</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tutoriales-educativos-">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="software">
+        <span class="date">Jun 2026</span>
+        <h3>Apex Tourney Board</h3>
+        <p>Erstellt automatisch Ranglisten für Apex-Legends-Turniere aus Screenshots. Eine Vision-KI (Gemini oder Groq) liest Team, Platzierung und Kills aus und berechnet die Punkte nach dem ALGS-System. Zweisprachig, mit PNG-Export.</p>
+        <div class="tags"><span class="tag">Vite</span><span class="tag">Vision-KI</span><span class="tag">Gemini</span><span class="tag">Groq</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/apex-tourney-board">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="edu hardware">
+        <span class="date">Mai – Sep 2025</span>
+        <h3>Materialien für IoT-Workshops</h3>
+        <p>Code und Beispiele aus meinen Workshops: IoT mit dem ESP8266, digitale Kommunikation mit Arduino für Einsteiger und ein Echtzeit-Web-Dashboard mit MQTT und WebSockets (ESP8266 + DHT22).</p>
+        <div class="tags"><span class="tag">ESP8266</span><span class="tag">MQTT</span><span class="tag">WebSockets</span><span class="tag">Arduino</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/TallerIoTEsp8266">IoT-Workshop →</a><a class="more" href="https://github.com/yeffrimic/Comunicaciones-Digitales">Digitale Kommunikation →</a><a class="more" href="https://github.com/yeffrimic/Mqtt-HTML-websockets-esp8266-DHT">MQTT-Dashboard →</a></div>
+      </article>
+      <article class="card" data-cat="hardware robotica">
+        <span class="date">Mai 2025</span>
+        <h3>Mandjet</h3>
+        <p>Steuerplatine für Servos und DC-Motoren auf Basis des XIAO ESP32-C3.</p>
+        <div class="tags"><span class="tag">PCB</span><span class="tag">ESP32-C3</span><span class="tag">Motoren</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/mandjet">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="hardware edu">
+        <span class="date">Mai 2025</span>
+        <h3>Cansat Tzunun</h3>
+        <p>CanSat und Messstation für Luftqualität.</p>
+        <div class="tags"><span class="tag">CanSat</span><span class="tag">Sensoren</span><span class="tag">Telemetrie</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/Cansat-Tzunun">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="hardware edu">
+        <span class="date">2023 – 2026</span>
+        <h3>Messstation für Wasserqualität</h3>
+        <p>Vollständige Dokumentation zum Bau, Nachbau und zur Verbesserung einer Messstation für Wasserqualität, entwickelt in einem SINCYT-Projekt.</p>
+        <div class="tags"><span class="tag">C++</span><span class="tag">Sensoren</span><span class="tag">Open Hardware</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/water-Quality-Station">Repository ansehen →</a></div>
+      </article>
+      <article class="card" data-cat="hardware">
+        <span class="badge">SKYLINE CELESTIAL</span>
+        <span class="date">2023</span>
+        <h3>CubeSat-Telemetrie und Raumfahrtelektronik</h3>
+        <p>Telemetrieplatine (5×5 cm) mit 500 km Reichweite, ein Solar-Energy-Harvesting-System und ein Spulentreiber zur Simulation des Erdmagnetfelds. Leiterplatten mit bis zu 4 Lagen in KiCad, inklusive EMV-Tests.</p>
+        <div class="tags"><span class="tag">KiCad</span><span class="tag">4-Lagen-PCB</span><span class="tag">EMV</span><span class="tag">Raumfahrt</span></div>
+      </article>
+      <article class="card" data-cat="edu hardware software">
+        <span class="badge">1BOT</span>
+        <span class="date">2019 – 2022</span>
+        <h3>ADA – Autonomes digitales Klassenzimmer</h3>
+        <p>Ein Gerät, das ein lokales WLAN mit Lerninhalten aufspannt, damit Kinder und Jugendliche in Schulen ohne Internet darauf zugreifen können. Hybride Server synchronisieren, sobald eine Verbindung besteht.</p>
+        <div class="tags"><span class="tag">Offline-first</span><span class="tag">Linux</span><span class="tag">Server</span><span class="tag">EdTech</span></div>
+      </article>
+      <article class="card" data-cat="hardware">
+        <span class="date">2016</span>
+        <h3>MQTT.io.gt</h3>
+        <p>Kostenlose, frei zugängliche Projekte und Ressourcen rund um MQTT.</p>
+        <div class="tags"><span class="tag">MQTT</span><span class="tag">IoT</span></div>
+      </article>
+      <article class="card" data-cat="hardware">
+        <span class="badge">NAJT LABS</span>
+        <span class="date">2016</span>
+        <h3>Sonar (BlindProject)</h3>
+        <p>Offenes, kostengünstiges Gerät für blinde Menschen. Es erkennt Hindernisse per Ultraschall und warnt durch Vibration. So konzipiert, dass jeder mit einem 3D-Drucker es nachbauen kann.</p>
+        <div class="tags"><span class="tag">Arduino</span><span class="tag">Ultraschall</span><span class="tag">3D-Druck</span><span class="tag">Barrierefreiheit</span></div>
+        <div class="links-row"><a class="more" href="../proyectos/sonar.html">Mehr lesen (Spanisch) →</a><a class="more" href="https://github.com/yeffrimic/BlindProject">Repository ansehen →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="charlas">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Community</span>
+      <h2>Vorträge, Workshops und Events</h2>
+      <p>Seit über 10 Jahren internationaler Referent in Guatemala, El Salvador, Nicaragua und Costa Rica. Hier die neuesten Auftritte.</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <span class="badge">TEILNEHMER</span>
+        <span class="date">9.–11. Sep 2026</span>
+        <h3>Decentralized AI Hackathon</h3>
+        <div class="org">ISD Summit + Tether/QVAC · Sovereign Intelligence at the Edge</div>
+        <p>Teilnahme mit Tinimit: medizinische Orientierung mit vollständig lokaler KI für Dörfer ohne Netzabdeckung, verbunden per LoRa.</p>
+        <div class="tags"><span class="tag">Hackathon</span><span class="tag">Edge-KI</span><span class="tag">LoRa</span></div>
+        <div class="links-row"><a class="more" href="https://github.com/yeffrimic/tinimit">Repository ansehen →</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">ORGANISATOR</span>
+        <span class="date">28. Aug 2026</span>
+        <h3>Arduino Day 2026, Guatemala-Stadt</h3>
+        <div class="org">Community Arduino Guatemala · Universidad Galileo</div>
+        <p>Ich habe die größte Ausgabe der Community seit 14 Jahren organisiert – mit Arduino-Mitgründer David Cuartielles als Keynote-Speaker, Referenten aus ganz Lateinamerika sowie parallelen Vorträgen und Workshops in Hörsälen und Laboren. Auch die Event-Website mit dem Programm habe ich gebaut.</p>
+        <div class="tags"><span class="tag">Organisation</span><span class="tag">Community</span><span class="tag">Arduino</span></div>
+        <div class="links-row"><a class="more" href="https://yeffrimic.github.io/ArduinoDay2026/">Zur Event-Website →</a></div>
+      </article>
+      <article class="card">
+        <span class="badge">LEITUNG</span>
+        <span class="date">Aug – Sep 2026</span>
+        <h3>Workshop: erste Schritte mit Arduino</h3>
+        <div class="org">“Dejando huella en la Vera de la Paz”</div>
+        <p>Einführungsworkshop, in dem grundlegende elektronische Bauteile einfach und spielerisch angeschlossen und programmiert werden.</p>
+        <div class="tags"><span class="tag">Arduino</span><span class="tag">Workshop</span><span class="tag">Einsteiger</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">LEITUNG</span>
+        <span class="date">Jul 2026</span>
+        <h3>Workshop Industrierobotik</h3>
+        <p>Praxisworkshop zur Robotik in der Industrie.</p>
+        <div class="tags"><span class="tag">Robotik</span><span class="tag">Automatisierung</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">MITORGANISATOR</span>
+        <span class="date">Jun 2026</span>
+        <h3>Hazlo Ahora: KI-Hackathons</h3>
+        <div class="org">Creabot + Hazlo Ahora · mit Unterstützung von INTECAP · La Ruta del Chip</div>
+        <p>Ein Programm dreitägiger Präsenz-Hackathons, in denen junge Menschen mit KI echte Probleme ihrer Gemeinden lösen – unterstützt von PRONACOM, ProGuatemala und MINECO. Dazu gehören der INTECAP-Hackathon in Santa Lucía Cotzumalguapa und ein Leitfaden für die Moderation von Workshops.</p>
+        <div class="tags"><span class="tag">Hackathon</span><span class="tag">KI</span><span class="tag">Unternehmertum</span></div>
+      </article>
+      <article class="card">
+        <span class="badge">LEITUNG</span>
+        <span class="date">2025 – 2026</span>
+        <h3>La Ruta del Chip</h3>
+        <div class="org">Creabot · mit Unterstützung von SENACYT, PRONACOM und MINECO</div>
+        <p>Nationales Programm für Technologieausbildung und Hackathons, das ich bei Creabot leite.</p>
+        <div class="tags"><span class="tag">Ausbildung</span><span class="tag">Technologie</span></div>
+      </article>
+    </div>
+
+    <div class="cols" style="margin-top:16px">
+      <div class="panel">
+        <h3>Vortragsthemen</h3>
+        <ul>
+          <li><b>IoT und eingebettete Systeme</b>: Architekturen aus der Praxis, LoRa, BLE, GSM, Mikrocontroller und Leiterplattendesign.</li>
+          <li><b>Robotik und Humanoide</b>: mechatronisches Design, Servos und KI in physischen Robotern.</li>
+          <li><b>Open-Source-Hardware</b>: KiCad, DIY-Fertigung und das lateinamerikanische Maker-Ökosystem.</li>
+          <li><b>MINT- und Maker-Bildung</b>: Programmieren und Elektronik in die Schulen bringen und Communities aufbauen.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="experiencia">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Werdegang</span>
+      <h2>Berufserfahrung</h2>
+    </div>
+
+    <ul class="timeline">
+      <li>
+        <span class="when">Jun 2025 – heute</span>
+        <h3>Chief Technology Officer</h3>
+        <div class="where">Creabot · Guatemala</div>
+        <ul><li>Technologische Leitung und Strategie eines Unternehmens für Bildungsrobotik, das mehr als 20.000 Lernende in Mittelamerika erreicht.</li><li>Entwickler von Hermes, einem humanoiden Roboter mit Bildverarbeitung, NLP, Sprachausgabe und Servosteuerung.</li><li>Entwicklung von Robotik-Bausätzen, STEEAM-Inhalten und Lernplattformen.</li><li>Leitung von La Ruta del Chip und nationalen Hackathons mit SENACYT, PRONACOM und MINECO.</li></ul>
+      </li>
+      <li>
+        <span class="when">Mai 2017 – heute</span>
+        <h3>Mitgründer und CTO</h3>
+        <div class="where">Xibalba Hackerspace · Santa Lucía Milpas Altas, Sacatepéquez</div>
+        <ul><li>Ein Ort, um Wissen über alle Arten von Technologie zu teilen – mit Fokus auf Community und Open Source.</li></ul>
+      </li>
+      <li>
+        <span class="when">Aug – Nov 2024</span>
+        <h3>Full-Stack-Entwickler</h3>
+        <div class="where">Genesis Empresarial · Guatemala</div>
+        <ul><li>Core-Banking-Module in React und im Backend für produktive Finanzsysteme, inklusive Code-Reviews und kontinuierlicher Verbesserung.</li></ul>
+      </li>
+      <li>
+        <span class="when">Jan – Dez 2023</span>
+        <h3>Embedded-Ingenieur</h3>
+        <div class="where">Skyline Celestial · Remote (US-Unternehmen)</div>
+        <ul><li>Mehrlagige Leiterplatten (bis zu 4 Lagen) in KiCad für Raumfahrtanwendungen.</li><li>CubeSat-Telemetrieplatine (5×5 cm) mit 500 km Reichweite, Solar-Energy-Harvesting und Spulentreiber.</li><li>SMD-/THT-Bauteile, Löten, EMV-Tests und technische Dokumentation auf Englisch.</li></ul>
+      </li>
+      <li>
+        <span class="when">Jan 2019 – Mai 2022</span>
+        <h3>Chief Technology Officer</h3>
+        <div class="where">1bot · Guatemala</div>
+        <ul><li>Entwickler von ADA (Autonomes digitales Klassenzimmer) für Schulen ohne Internet.</li><li>Erste Version der fächerübergreifenden STEEAM-Übungen mit blockbasierter Programmierung – vom Vorschulalter bis zum Schulabschluss.</li><li>Videos, Leitfäden und fertige Unterrichtseinheiten, damit Lehrkräfte ohne Expertenwissen unterrichten können.</li><li>Online-Robotikkurse für mehr als 10.000 Kinder und Jugendliche. Aufbau und Strukturierung des Technikteams.</li></ul>
+      </li>
+      <li>
+        <span class="when">Aug 2017 – Mär 2018</span>
+        <h3>Entwickler</h3>
+        <div class="where">EOS Power · Guatemala-Stadt</div>
+        <ul><li>Vernetzte Geräte: Projektdesign und -analyse sowie Firmware-Programmierung.</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">2013 – Mär 2018</span>
+        <h3>Mitgründer</h3>
+        <div class="where">Micro ER</div>
+        <ul><li>Hardwarelösungen – von der Prozessautomatisierung bis zum IoT.</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">Jan 2017 – Jan 2018</span>
+        <h3>Mitgründer</h3>
+        <div class="where">Antigua Makerspace · Antigua Guatemala</div>
+      </li>
+      <li class="minor">
+        <span class="when">Jan 2016 – Jan 2018</span>
+        <h3>Mitgründer</h3>
+        <div class="where">Najt Labs · Sacatepéquez</div>
+        <ul><li>Sozialunternehmen, das kostengünstige elektronische Geräte für Menschen mit Behinderung entwickelt.</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">Apr – Jun 2016</span>
+        <h3>Hardware-Entwickler</h3>
+        <div class="where">Flatbox</div>
+      </li>
+      <li class="minor">
+        <span class="when">Jan 2014 – Jan 2016</span>
+        <h3>Verwaltungsleiter</h3>
+        <div class="where">Liceo Santa Lucía</div>
+        <ul><li>Koordination und Aufsicht von Lehrkräften, Fachbereichsleitungen und Schülern.</li></ul>
+      </li>
+      <li class="minor">
+        <span class="when">2013 – 2014</span>
+        <h3>Dozent</h3>
+        <div class="where">Tecnológico André Ampère</div>
+        <ul><li>Unterricht in Informatik, Programmierung und Elektronik für Lernende ab 15 Jahren.</li></ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="formacion">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Grundlagen</span>
+      <h2>Ausbildung, Kenntnisse und Auszeichnungen</h2>
+    </div>
+
+    <div class="cols">
+      <div class="panel">
+        <h3>Ausbildung</h3>
+        <ul>
+          <li><b>Elektrotechnik und Elektronik</b><br />Universidad Mesoamericana · 2021 – 2024</li>
+          <li><b>Techniker für LAN/WAN-Netzwerke (Cisco)</b><br />INTECAP Centro TICS · 2014</li>
+          <li><b>Technisches Diplom in Digitalelektronik und Mikroprozessoren</b><br />Tecnológico Industrial Mixto „André Ampère“ · 2010 – 2012</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Technische Kenntnisse</h3>
+        <ul>
+          <li><b>Embedded:</b> C/C++, MicroPython, ESP32/ESP8266, Arduino, RP2040, ARM, Raspberry Pi, Jetson Orin Nano</li>
+          <li><b>Leiterplatten:</b> KiCad (bis zu 4 Lagen), SMD/THT, EMV-Tests, 3D-Druck, Fertigung in China</li>
+          <li><b>Protokolle:</b> MQTT, LoRa, BLE, WLAN, GPS, I2C, SPI, UART, WebSockets</li>
+          <li><b>Software:</b> Python, JavaScript/TypeScript, Node.js, React, PHP, Linux, Docker, Git</li>
+          <li><b>Robotik und KI:</b> Computer Vision, NLP, Sprache, Servosteuerung und lokale Edge-KI</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Auszeichnungen</h3>
+        <ul>
+          <li><b>3 Erwähnungen in Forbes</b>, darunter „6 Gründer, die Mittelamerika verändern wollen“</li>
+          <li><b>1. Platz</b> beim Startup Weekend Quetzaltenango</li>
+          <li><b>1. Platz</b> beim Startup Weekend der Universidad Rafael Landívar</li>
+          <li><b>Gewinner von Capital Semilla</b> (Gründungsförderung)</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Communities</h3>
+        <ul>
+          <li><b>Arduino Guatemala</b>: Leiter, 2017 – heute</li>
+          <li><b>Open Hardware Lateinamerika</b>: Vorstandsmitglied, 2020 – heute</li>
+          <li><b>MakersGT</b>: Vorstandsmitglied, 2020 – 2021</li>
+          <li><b>Mozilla Guatemala</b>: Leiter</li>
+          <li><b>Xibalba Hackerspace</b> und <b>Antigua Makerspace</b>: Mitgründer</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Sprachen</h3>
+        <ul>
+          <li><b>Spanisch:</b> Muttersprache</li>
+          <li><b>Englisch:</b> berufliche Kenntnisse (B2). Ein Jahr Remote-Arbeit für ein US-Unternehmen.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="contacto">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Kontakt aufnehmen</span>
+      <h2>Kontakt</h2>
+      <p>Ein Hardwareprojekt, ein Vortrag, ein Workshop oder eine Zusammenarbeit? Schreiben Sie mir.</p>
+    </div>
+    <div class="contact-row">
+      <a class="chip-link primary" href="mailto:yeffri@protonmail.com">✉ yeffri@protonmail.com</a>
+      <a class="chip-link" href="tel:+50241116553">☎ +502 4111-6553</a>
+      <a class="chip-link" href="https://www.linkedin.com/in/yeffrimic/">LinkedIn</a>
+      <a class="chip-link" href="https://github.com/yeffrimic">GitHub</a>
+      <a class="chip-link" href="https://twitter.com/yeffrimic">X / Twitter</a>
+      <a class="chip-link" href="https://www.instagram.com/yeffrimic/">Instagram</a>
+      <a class="chip-link" href="https://themicrofcontrol.wordpress.com">Blog</a>
+    </div>
+    <p class="no-print" style="color:var(--muted);margin-top:18px">Guatemala · Sacatepéquez · Verfügbar für Remote-Arbeit</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Yeffri J. Salazar</span>
+    <span>Bilden, teilen, innovieren und gründen. · <a href="?intro">Intro erneut ansehen</a></span>
+  </div>
+</footer>
+
+<script src="../assets/js/site.js"></script>
+<script src="../assets/js/chip-intro.js"></script>
+</body>
+</html>
