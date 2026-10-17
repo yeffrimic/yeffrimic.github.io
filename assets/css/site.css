@@ -230,3 +230,8 @@
   @media (max-width: 600px) {
     .intro-caption { bottom: 64px; right: 16px; }
   }
+
+  .all-repos { margin: 20px 0 0; font-weight: 600; }
+  .all-repos a { text-decoration: none; }
+  .all-repos a:hover { text-decoration: underline; }
+  @media print { .all-repos { display: none; } }

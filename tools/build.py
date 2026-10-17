@@ -259,6 +259,7 @@ def render_page(data, L):
 
     <div class="grid" id="projectGrid">
 {projects}    </div>
+    <p class="all-repos"><a class="more" href="https://github.com/yeffrimic?tab=repositories">{esc(u("all_repos"))} →</a></p>
   </div>
 </section>
 
