@@ -79,6 +79,12 @@
       "de": "Kontakt",
       "zh": "联系"
     },
+    "nav_ride": {
+      "es": "Ruta en bici",
+      "en": "Bike trip",
+      "de": "Radreise",
+      "zh": "骑行之旅"
+    },
     "theme_label": {
       "es": "Cambiar tema claro u oscuro",
       "en": "Toggle light or dark theme",

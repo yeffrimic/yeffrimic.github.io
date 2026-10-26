@@ -10,6 +10,9 @@ este script. No edites los index.html a mano; se sobrescriben.
 import html
 import json
 import os
+import re
+import urllib.parse
+from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -218,6 +221,7 @@ def render_page(data, L):
       <a href="#experiencia">{esc(u("nav_experience"))}</a>
       <a href="#formacion">{esc(u("nav_education"))}</a>
       <a href="#contacto">{esc(u("nav_contact"))}</a>
+      <a href="ruta/">{esc(u("nav_ride"))}</a>
     </div>
     <div class="lang-switch" role="group" aria-label="{attr(u("lang_label"))}">{"".join(switch)}</div>
     <button id="themeToggle" aria-label="{attr(u("theme_label"))}" title="{attr(u("theme_label"))}">◐</button>
@@ -366,15 +370,366 @@ def render_page(data, L):
 """
 
 
+# ---------- ruta en bici (content/ruta.json → ruta/ y un capítulo por historia) ----------
+def embed(url, ru, lang):
+    """Inserta una publicación de TikTok o Instagram a partir de su enlace."""
+    m = re.search(r"tiktok\.com/@[^/]+/video/(\d+)", url)
+    if m:
+        return (f'<blockquote class="tiktok-embed" cite="{attr(url)}" data-video-id="{m.group(1)}">'
+                f'<section><a href="{attr(url)}">{esc(tr(ru["watch"], lang))} →</a></section></blockquote>')
+    if re.search(r"instagram\.com/(p|reel|tv)/", url):
+        return (f'<blockquote class="instagram-media" data-instgrm-permalink="{attr(url)}" data-instgrm-version="14">'
+                f'<a href="{attr(url)}">{esc(tr(ru["watch"], lang))} →</a></blockquote>')
+    return f'<a class="more" href="{attr(url)}">{esc(tr(ru["watch"], lang))} →</a>'
+
+
+def numbered(word, n):
+    """'Capítulo' → 'Capítulo 3'; en chino la palabra trae {n}: '第{n}章' → '第3章'."""
+    return word.replace("{n}", str(n)) if "{n}" in word else f"{word} {n}"
+
+
+def chapter_meta(e, n, ruta, lang):
+    """'Capítulo 1 · Día 1 · 25 Oct 2026' y 'Ciudad de Guatemala → El Cerinal · Guatemala · 25 km'."""
+    ru = ruta["ui"]
+    head = [numbered(tr(ru["chapter"], lang), n)]
+    if ruta.get("start_date"):
+        head.append(numbered(tr(ru["day"], lang), (date.fromisoformat(e["date"]) - date.fromisoformat(ruta["start_date"])).days + 1))
+    head.append(fmt_date(e["date"], lang))
+    place = tr(e["place"], lang)
+    if e.get("from"):
+        place = f'{tr(e["from"], lang)} → {place}'
+    where = [place, tr(ruta["countries"][e["country"]], lang)]
+    if e.get("km"):
+        where.append(numbered(tr(ru["km"], lang), e["km"]))
+    return " · ".join(head), " · ".join(where)
+
+
+def excerpt(e, lang, size=200):
+    text = tr(e["body"], lang)[0]
+    if len(text) <= size:
+        return text
+    return text[:size].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
+
+
+def ruta_page(data, ruta, L, sub, title, desc, image, main, extra_js=""):
+    """Esqueleto común de las páginas de la ruta. `sub` es la ruta bajo ruta/ ('' o 'slug/')."""
+    lang = L["code"]
+    ru = ruta["ui"]
+    ui = data["ui"]
+    site = data["site_url"]
+    root = "../" * (L["path"].count("/") + 1 + sub.count("/"))
+    page = "ruta/" + sub
+
+    switch = []
+    alternates = []
+    for o in data["langs"]:
+        current = ' aria-current="true"' if o["code"] == lang else ""
+        switch.append(
+            f'<a href="{attr(root + o["path"] + page)}" hreflang="{o["html_lang"]}" lang="{o["html_lang"]}" data-lang="{o["code"]}"'
+            f' data-suggest="{attr(tr(ui["suggest"], o["code"]))}" data-suggest-btn="{attr(tr(ui["suggest_btn"], o["code"]))}"'
+            f"{current}>{esc(o['label'])}</a>"
+        )
+        alternates.append(f'<link rel="alternate" hreflang="{o["html_lang"]}" href="{site}{o["path"]}{page}" />')
+    alternates.append(f'<link rel="alternate" hreflang="x-default" href="{site}{page}" />')
+
+    redirect = ""
+    if lang == "es":
+        lang_map = {o["code"]: root + o["path"] + page for o in data["langs"] if o["path"]}
+        redirect = (
+            "<script>\n  try { var L = localStorage.getItem('lang'), M = " + json.dumps(lang_map) + ";\n"
+            "    if (L && M[L]) location.replace(M[L] + location.search + location.hash); } catch (e) {}\n</script>\n"
+        )
+
+    index = root + L["path"] + "ruta/"
+    return f"""<!doctype html>
+<!-- Generado por tools/build.py desde content/ruta.json. No editar a mano. -->
+<html lang="{L["html_lang"]}" data-lang="{lang}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{esc(title)}</title>
+<meta name="description" content="{attr(desc)}" />
+<meta property="og:type" content="{"article" if sub else "website"}" />
+<meta property="og:site_name" content="Yeffri J. Salazar" />
+<meta property="og:title" content="{attr(title)}" />
+<meta property="og:description" content="{attr(desc)}" />
+<meta property="og:image" content="{site}{image}" />
+<meta property="og:url" content="{site}{L["path"]}{page}" />
+<meta property="og:locale" content="{L["og_locale"]}" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="{site}{L["path"]}{page}" />
+{chr(10).join(alternates)}
+{redirect}<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="stylesheet" href="{root}assets/css/site.css" />
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="{root}{L["path"]}">Yeffri J. Salazar</a>
+    <div class="links">
+      <a href="{root}{L["path"]}">← {esc(tr(ru["nav_home"], lang))}</a>
+      <a href="{index}#por-que">{esc(tr(ru["nav_why"], lang))}</a>
+      <a href="{index}#fechas">{esc(tr(ruta["events_ui"]["heading"], lang))}</a>
+      <a href="{index}#mapa">{esc(tr(ru["nav_map"], lang))}</a>
+      <a href="{index}#capitulos">{esc(tr(ru["nav_chapters"], lang))}</a>
+    </div>
+    <div class="lang-switch" role="group" aria-label="{attr(tr(ui["lang_label"], lang))}">{"".join(switch)}</div>
+    <button id="themeToggle" aria-label="{attr(tr(ui["theme_label"], lang))}" title="{attr(tr(ui["theme_label"], lang))}">◐</button>
+  </div>
+</nav>
+{main}
+<footer>
+  <div class="wrap">
+    <span>© 2026 Yeffri J. Salazar</span>
+    <span>{esc(tr(ui["motto"], lang))}</span>
+  </div>
+</footer>
+
+<script src="{root}assets/js/site.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="{root}assets/js/ruta.js"></script>
+{extra_js}</body>
+</html>
+"""
+
+
+def share_links(url, title, ru, lang):
+    q = urllib.parse.quote(url, safe="")
+    return f"""<div class="share" data-url="{attr(url)}">
+      <span>{esc(tr(ru["share"], lang))}</span>
+      <a class="chip-link" href="https://www.facebook.com/sharer/sharer.php?u={q}">Facebook</a>
+      <a class="chip-link" href="https://www.linkedin.com/sharing/share-offsite/?url={q}">LinkedIn</a>
+      <a class="chip-link" href="https://wa.me/?text={urllib.parse.quote(title + " " + url, safe="")}">WhatsApp</a>
+      <button class="chip-link copy-link" type="button" data-done="{attr(tr(ru["copied"], lang))}">{esc(tr(ru["copy"], lang))}</button>
+    </div>"""
+
+
+def entry_image(e, ruta):
+    """Imagen al compartir: `cover` (1200×630) si existe; si no, la primera foto."""
+    if e.get("cover"):
+        return e["cover"]
+    photos = e.get("photos") or []
+    return photos[0]["src"] if photos else ruta["default_image"]
+
+
+def map_points(ruta, entries, lang, prefix):
+    points = []
+    if ruta.get("start"):
+        s = ruta["start"]
+        points.append({"lat": s["coords"][0], "lng": s["coords"][1], "href": "", "title": "", "place": tr(s["place"], lang)})
+    points += [{"lat": e["coords"][0], "lng": e["coords"][1], "href": prefix + e["slug"] + "/",
+                "title": tr(e["title"], lang), "place": tr(e["place"], lang)}
+               for e in entries if e.get("coords")]
+    return attr(json.dumps(points, ensure_ascii=False))
+
+
+def render_ruta(data, ruta, L):
+    lang = L["code"]
+    ru = ruta["ui"]
+    u = lambda k: tr(ru[k], lang)  # noqa: E731
+    root = "../" * (L["path"].count("/") + 1)
+    entries = sorted(ruta["entries"], key=lambda e: e["date"])
+
+    total_km = sum(e.get("km") or 0 for e in entries)
+    countries = {e["country"] for e in entries}
+    days = ""
+    if entries and ruta.get("start_date"):
+        days = str((date.fromisoformat(entries[-1]["date"]) - date.fromisoformat(ruta["start_date"])).days + 1)
+    stats = [(f"{total_km:,}".replace(",", " "), "stat_km"), (days or "–", "stat_days"),
+             (str(len(countries)) if countries else "–", "stat_countries"), (str(len(entries)), "stat_chapters")]
+    stats_html = "".join(f'\n      <div class="stat"><b>{v}</b><span>{esc(u(k))}</span></div>' for v, k in stats)
+
+    cards = []
+    for n, e in enumerate(entries, 1):
+        head, where = chapter_meta(e, n, ruta, lang)
+        cards.append(f"""      <a class="chapter-card" href="{attr(e["slug"])}/">
+        <span class="date">{esc(head)}</span>
+        <h3>{esc(tr(e["title"], lang))}</h3>
+        <div class="where">{esc(where)}</div>
+        <p>{esc(excerpt(e, lang))}</p>
+        <span class="more">{esc(u("read"))} →</span>
+      </a>
+""")
+    chapters = "".join(cards) or f'      <p class="empty">{esc(u("empty"))}</p>\n'
+    latest = f'\n      <a class="chip-link primary" href="{attr(entries[-1]["slug"])}/">{esc(u("latest"))} →</a>' if entries else ""
+    socials = "".join(f'\n      <a class="chip-link" href="{attr(s["url"])}">{esc(s["label"])}</a>' for s in ruta["socials"])
+    why = ruta["purpose"]
+    why_cards = "".join(f"""
+      <article class="card">
+        <h3>{esc(tr(it["title"], lang))}</h3>
+        <p>{esc(tr(it["text"], lang))}</p>
+      </article>""" for it in why["items"])
+    contact = ruta["contact"]
+    contact_btns = "".join(f'\n      <a class="chip-link{" primary" if i == 0 else ""}" href="{attr(b["url"])}">{esc(tr(b["label"], lang))}</a>'
+                           for i, b in enumerate(contact["buttons"]))
+    ev = ruta["events_ui"]
+    # Solo las fechas que aún no pasan (al momento de generar el sitio)
+    upcoming = sorted((e for e in ruta["events"] if e["date"] >= date.today().isoformat()), key=lambda e: e["date"])
+    events = "".join(f"""
+      <li>
+        <span class="when">{esc(fmt_date(e["date"], lang))}</span>
+        <h3>{esc(tr(e["title"], lang))}</h3>
+        <div class="where">{esc(tr(e["place"], lang))} · {esc(tr(ruta["countries"][e["country"]], lang))}</div>{
+        f'{chr(10)}        <a class="more" href="{attr(e["url"])}">{esc(tr(ev["more"], lang))} →</a>' if e.get("url") else ""}
+      </li>""" for e in upcoming)
+    events_html = f'<ul class="timeline">{events}\n    </ul>' if events else f'<p class="empty">{esc(tr(ev["empty"], lang))}</p>'
+
+    main = f"""
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">{esc(u("kicker"))}</span>
+    <h1>{esc(u("heading"))}</h1>
+    <p class="lead">{esc(u("lead"))}</p>
+    <div class="contact-row">{latest}{socials}
+    </div>
+    <div class="stats">{stats_html}
+    </div>
+  </div>
+</header>
+
+<section class="block" id="por-que">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>{esc(tr(why["heading"], lang))}</h2>
+      <p class="why-intro">{esc(tr(why["intro"], lang))}</p>
+    </div>
+    <p class="why-destination">{esc(tr(why["destination"], lang))}</p>
+    <div class="grid why-grid">{why_cards}
+    </div>
+    <p class="why-closing">{esc(tr(why["closing"], lang))}</p>
+    <div class="embeds why-videos">{"".join(f'<div class="embed">{embed(v, ru, lang)}</div>' for v in why["videos"])}</div>
+  </div>
+</section>
+
+<section class="block" id="contacto">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>{esc(tr(contact["heading"], lang))}</h2>
+      <p>{esc(tr(contact["text"], lang))}</p>
+    </div>
+    <div class="contact-row">{contact_btns}
+    </div>
+  </div>
+</section>
+
+<section class="block" id="fechas">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>{esc(tr(ev["heading"], lang))}</h2>
+    </div>
+    {events_html}
+  </div>
+</section>
+
+<section class="block" id="mapa">
+  <div class="wrap">
+    <div id="routeMap" role="region" aria-label="{attr(u("map_label"))}" data-points="{map_points(ruta, entries, lang, "")}"></div>
+  </div>
+</section>
+
+<section class="block" id="capitulos">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>{esc(u("nav_chapters"))}</h2>
+    </div>
+    <div class="chapters">
+{chapters}    </div>
+  </div>
+</section>
+"""
+    tiktok_js = '<script async src="https://www.tiktok.com/embed.js"></script>\n' if why["videos"] else ""
+    return ruta_page(data, ruta, L, "", u("title"), u("meta_desc"), ruta["default_image"], main, tiktok_js)
+
+
+def render_chapter(data, ruta, L, entries, i):
+    lang = L["code"]
+    ru = ruta["ui"]
+    u = lambda k: tr(ru[k], lang)  # noqa: E731
+    e = entries[i]
+    sub = e["slug"] + "/"
+    root = "../" * (L["path"].count("/") + 2)
+    url = f'{data["site_url"]}{L["path"]}ruta/{sub}'
+    title = tr(e["title"], lang)
+    head, where = chapter_meta(e, i + 1, ruta, lang)
+    page_title = f'{head.split(" · ")[0]}: {title} · {u("short_title")}'
+
+    def figure(p, cls=""):
+        return (f'<figure{cls}><img src="{attr(root + p["src"])}" alt="{attr(tr(p.get("alt", ""), lang))}" loading="lazy" />'
+                + (f'<figcaption>{esc(tr(p["caption"], lang))}</figcaption>' if p.get("caption") else "")
+                + "</figure>")
+
+    # Fotos y videos con "after": n van dentro del texto, después del párrafo n; los demás, al final.
+    # Un video puede ser solo el enlace o {"url": ..., "after": n}.
+    videos = [v if isinstance(v, dict) else {"url": v} for v in e.get("videos", [])]
+    inline = {}
+    for p in e.get("photos", []):
+        if p.get("after"):
+            inline.setdefault(p["after"], []).append(figure(p, ' class="inline"'))
+    for v in videos:
+        if v.get("after"):
+            inline.setdefault(v["after"], []).append(f'<div class="embed inline">{embed(v["url"], ru, lang)}</div>')
+    body = "".join(f"\n      <p>{esc(t)}</p>" + "".join(f"\n      {h}" for h in inline.get(n, []))
+                   for n, t in enumerate(tr(e["body"], lang), 1))
+    photos = "".join(figure(p) for p in e.get("photos", []) if not p.get("after"))
+    embeds = "".join(f'<div class="embed">{embed(v["url"], ru, lang)}</div>' for v in videos if not v.get("after"))
+    videos = [v["url"] for v in videos]
+
+    pager = []
+    if i > 0:
+        p = entries[i - 1]
+        pager.append(f'<a class="prev" href="../{attr(p["slug"])}/"><span>← {esc(u("prev"))}</span><b>{esc(tr(p["title"], lang))}</b></a>')
+    if i + 1 < len(entries):
+        n = entries[i + 1]
+        pager.append(f'<a class="next" href="../{attr(n["slug"])}/"><span>{esc(u("next"))} →</span><b>{esc(tr(n["title"], lang))}</b></a>')
+    else:
+        pager.append(f'<div class="next soon"><span>{esc(u("next"))}</span><b>{esc(u("soon"))}</b></div>')
+
+    extra_js = ""
+    if any("tiktok.com" in v for v in videos):
+        extra_js += '<script async src="https://www.tiktok.com/embed.js"></script>\n'
+    if any("instagram.com" in v for v in videos):
+        extra_js += '<script async src="https://www.instagram.com/embed.js"></script>\n'
+
+    main = f"""
+<article class="chapter">
+  <div class="wrap">
+    <header>
+      <span class="date">{esc(head)}</span>
+      <h1>{esc(title)}</h1>
+      <div class="where">{esc(where)}</div>
+    </header>{body}
+    {f'<div class="photos">{photos}</div>' if photos else ""}
+    {f'<div class="embeds">{embeds}</div>' if embeds else ""}
+    {share_links(url, title, ru, lang)}
+    <nav class="pager">{"".join(pager)}</nav>
+    <div id="routeMap" class="mini" role="region" aria-label="{attr(u("map_label"))}" data-points="{map_points(ruta, entries[: i + 1], lang, "../")}"></div>
+    <p class="all"><a class="more" href="../#capitulos">{esc(u("all_chapters"))} →</a></p>
+  </div>
+</article>
+"""
+    return ruta_page(data, ruta, L, sub, page_title, excerpt(e, lang, 180), entry_image(e, ruta), main, extra_js)
+
+
 def main():
     with open(os.path.join(ROOT, "content", "site.json"), encoding="utf-8") as f:
         data = json.load(f)
+    with open(os.path.join(ROOT, "content", "ruta.json"), encoding="utf-8") as f:
+        ruta = json.load(f)
     for L in data["langs"]:
-        out = os.path.join(ROOT, L["path"], "index.html")
-        os.makedirs(os.path.dirname(out), exist_ok=True)
-        with open(out, "w", encoding="utf-8", newline="\n") as f:
-            f.write(render_page(data, L))
-        print("ok", os.path.relpath(out, ROOT))
+        entries = sorted(ruta["entries"], key=lambda e: e["date"])
+        pages = [("index.html", render_page(data, L)), (os.path.join("ruta", "index.html"), render_ruta(data, ruta, L))]
+        pages += [(os.path.join("ruta", e["slug"], "index.html"), render_chapter(data, ruta, L, entries, i))
+                  for i, e in enumerate(entries)]
+        for name, page in pages:
+            out = os.path.join(ROOT, L["path"], name)
+            os.makedirs(os.path.dirname(out), exist_ok=True)
+            with open(out, "w", encoding="utf-8", newline="\n") as f:
+                f.write(page)
+            print("ok", os.path.relpath(out, ROOT))
 
 
 if __name__ == "__main__":

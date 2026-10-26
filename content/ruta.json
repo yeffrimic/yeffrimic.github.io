@@ -1,0 +1,536 @@
+{
+  "start_date": "2026-10-25",
+  "start": {
+    "place": {
+      "es": "Ciudad de Guatemala",
+      "en": "Guatemala City",
+      "de": "Guatemala-Stadt",
+      "zh": "危地马拉城"
+    },
+    "coords": [
+      14.6349,
+      -90.5069
+    ]
+  },
+  "default_image": "images/yo.jpg",
+  "ui": {
+    "title": {
+      "es": "Guatemala → Costa Rica en bici · Yeffri J. Salazar",
+      "en": "Guatemala → Costa Rica by bike · Yeffri J. Salazar",
+      "de": "Guatemala → Costa Rica mit dem Rad · Yeffri J. Salazar",
+      "zh": "骑行：危地马拉 → 哥斯达黎加 · Yeffri J. Salazar"
+    },
+    "meta_desc": {
+      "es": "Bitácora del viaje en bicicleta de Guatemala a Costa Rica: etapas, mapa y anécdotas del camino.",
+      "en": "Log of a bike trip from Guatemala to Costa Rica: stages, map and stories from the road.",
+      "de": "Tagebuch einer Radreise von Guatemala nach Costa Rica: Etappen, Karte und Geschichten von unterwegs.",
+      "zh": "从危地马拉骑行到哥斯达黎加的旅行日志：路段、地图和路上的故事。"
+    },
+    "kicker": {
+      "es": "Bitácora",
+      "en": "Travel log",
+      "de": "Reisetagebuch",
+      "zh": "旅行日志"
+    },
+    "heading": {
+      "es": "De Guatemala a Costa Rica en bici",
+      "en": "Guatemala to Costa Rica by bike",
+      "de": "Mit dem Rad von Guatemala nach Costa Rica",
+      "zh": "骑行：从危地马拉到哥斯达黎加"
+    },
+    "lead": {
+      "es": "Pedaleando por Centroamérica junto a José Rivas. Aquí voy contando lo que pasa en el camino.",
+      "en": "Riding through Central America with José Rivas. This is where I tell what happens on the road.",
+      "de": "Mit José Rivas quer durch Mittelamerika. Hier erzähle ich, was unterwegs passiert.",
+      "zh": "和 José Rivas 一起骑行穿越中美洲。这里记录路上发生的故事。"
+    },
+    "nav_home": {
+      "es": "Portafolio",
+      "en": "Portfolio",
+      "de": "Portfolio",
+      "zh": "作品集"
+    },
+    "nav_map": {
+      "es": "Mapa",
+      "en": "Map",
+      "de": "Karte",
+      "zh": "地图"
+    },
+    "stat_km": {
+      "es": "km recorridos",
+      "en": "km traveled",
+      "de": "km zurückgelegt",
+      "zh": "已行公里"
+    },
+    "stat_days": {
+      "es": "días en ruta",
+      "en": "days on the road",
+      "de": "Tage unterwegs",
+      "zh": "在路上天数"
+    },
+    "stat_countries": {
+      "es": "países",
+      "en": "countries",
+      "de": "Länder",
+      "zh": "国家"
+    },
+    "day": {
+      "es": "Día",
+      "en": "Day",
+      "de": "Tag",
+      "zh": "第{n}天"
+    },
+    "empty": {
+      "es": "Pronto el primer capítulo.",
+      "en": "The first chapter is coming soon.",
+      "de": "Das erste Kapitel kommt bald.",
+      "zh": "第一章即将发布。"
+    },
+    "map_label": {
+      "es": "Mapa del recorrido",
+      "en": "Route map",
+      "de": "Streckenkarte",
+      "zh": "路线地图"
+    },
+    "watch": {
+      "es": "Ver publicación",
+      "en": "View post",
+      "de": "Beitrag ansehen",
+      "zh": "查看帖子"
+    },
+    "short_title": {
+      "es": "Guatemala → Costa Rica en bici",
+      "en": "Guatemala → Costa Rica by bike",
+      "de": "Guatemala → Costa Rica mit dem Rad",
+      "zh": "骑行：危地马拉 → 哥斯达黎加"
+    },
+    "nav_chapters": {
+      "es": "Capítulos",
+      "en": "Chapters",
+      "de": "Kapitel",
+      "zh": "章节"
+    },
+    "stat_chapters": {
+      "es": "capítulos",
+      "en": "chapters",
+      "de": "Kapitel",
+      "zh": "章节"
+    },
+    "chapter": {
+      "es": "Capítulo",
+      "en": "Chapter",
+      "de": "Kapitel",
+      "zh": "第{n}章"
+    },
+    "read": {
+      "es": "Leer capítulo",
+      "en": "Read chapter",
+      "de": "Kapitel lesen",
+      "zh": "阅读本章"
+    },
+    "latest": {
+      "es": "Leer el último capítulo",
+      "en": "Read the latest chapter",
+      "de": "Neuestes Kapitel lesen",
+      "zh": "阅读最新一章"
+    },
+    "prev": {
+      "es": "Capítulo anterior",
+      "en": "Previous chapter",
+      "de": "Vorheriges Kapitel",
+      "zh": "上一章"
+    },
+    "next": {
+      "es": "Siguiente capítulo",
+      "en": "Next chapter",
+      "de": "Nächstes Kapitel",
+      "zh": "下一章"
+    },
+    "soon": {
+      "es": "Muy pronto, seguimos pedaleando",
+      "en": "Coming soon, still pedaling",
+      "de": "Bald, wir radeln noch",
+      "zh": "即将更新，我们还在骑"
+    },
+    "all_chapters": {
+      "es": "Todos los capítulos",
+      "en": "All chapters",
+      "de": "Alle Kapitel",
+      "zh": "全部章节"
+    },
+    "share": {
+      "es": "Compartir",
+      "en": "Share",
+      "de": "Teilen",
+      "zh": "分享"
+    },
+    "copy": {
+      "es": "Copiar enlace",
+      "en": "Copy link",
+      "de": "Link kopieren",
+      "zh": "复制链接"
+    },
+    "copied": {
+      "es": "¡Enlace copiado!",
+      "en": "Link copied!",
+      "de": "Link kopiert!",
+      "zh": "链接已复制！"
+    },
+    "km": {
+      "es": "{n} km recorridos",
+      "en": "{n} km traveled",
+      "de": "{n} km zurückgelegt",
+      "zh": "行程 {n} 公里"
+    },
+    "nav_why": {
+      "es": "Por qué",
+      "en": "Why",
+      "de": "Warum",
+      "zh": "为什么"
+    }
+  },
+  "countries": {
+    "gt": {
+      "es": "Guatemala",
+      "en": "Guatemala",
+      "de": "Guatemala",
+      "zh": "危地马拉"
+    },
+    "sv": {
+      "es": "El Salvador",
+      "en": "El Salvador",
+      "de": "El Salvador",
+      "zh": "萨尔瓦多"
+    },
+    "hn": {
+      "es": "Honduras",
+      "en": "Honduras",
+      "de": "Honduras",
+      "zh": "洪都拉斯"
+    },
+    "ni": {
+      "es": "Nicaragua",
+      "en": "Nicaragua",
+      "de": "Nicaragua",
+      "zh": "尼加拉瓜"
+    },
+    "cr": {
+      "es": "Costa Rica",
+      "en": "Costa Rica",
+      "de": "Costa Rica",
+      "zh": "哥斯达黎加"
+    }
+  },
+  "socials": [
+    {
+      "label": "Yeffri · TikTok",
+      "url": "https://www.tiktok.com/@yeffrimic"
+    },
+    {
+      "label": "Yeffri · Instagram",
+      "url": "https://www.instagram.com/yeffrimic/"
+    },
+    {
+      "label": "José Rivas · TikTok",
+      "url": "https://www.tiktok.com/@joserivasgt"
+    },
+    {
+      "label": "José Rivas · Instagram",
+      "url": "https://www.instagram.com/joserivasgt/"
+    },
+    {
+      "label": "Hazlo Ahora · Instagram",
+      "url": "https://www.instagram.com/hazloahora_org/"
+    },
+    {
+      "label": "Hazlo Ahora · TikTok",
+      "url": "https://www.tiktok.com/@hazloahora.org"
+    }
+  ],
+  "entries": [
+    {
+      "slug": "dia-1-sin-excusas",
+      "date": "2026-10-25",
+      "from": {
+        "es": "Ciudad de Guatemala",
+        "en": "Guatemala City",
+        "de": "Guatemala-Stadt",
+        "zh": "危地马拉城"
+      },
+      "place": {
+        "es": "El Cerinal, Barberena",
+        "en": "El Cerinal, Barberena",
+        "de": "El Cerinal, Barberena",
+        "zh": "El Cerinal（巴韦雷纳）"
+      },
+      "country": "gt",
+      "km": 47,
+      "coords": [
+        14.3326,
+        -90.3985
+      ],
+      "title": {
+        "es": "Sin excusas",
+        "en": "No excuses",
+        "de": "Keine Ausreden",
+        "zh": "不找借口"
+      },
+      "body": {
+        "es": [
+          "Esa misma mañana casi no salimos. Uno de los planes del viaje es presentar en Costa Rica el libro de José, «Adicto a la pobreza». Los libros ya deberían estar en Guatemala, pero siguen atorados en aduanas: a hoy lunes todavía no nos avisan que podemos ir a traerlos. Pensamos quedarnos un día más en la ciudad y salir el lunes con los libros. Lo dejamos en el tintero un rato, hasta que los dos dijimos: nel. Esto se tiene que hacer con o sin libros, y si al empezar ya estábamos agarrando cualquier excusa para no hacerlo, no era buen presagio. Así que dejamos las excusas atrás.",
+          "Salimos de la Ciudad de Guatemala el domingo 25 de octubre, más o menos al mediodía. José se aventuró con los primeros kilómetros en bici y yo iba detrás en el carro. Como dije en el primer video: nos vamos en bici a Costa Rica, pero uno de los dos no sabe andar en bici. Adivinen quién va en el carro, jaja. Todavía no sabemos qué día vamos a llegar.",
+          "Al principio improvisamos un montón. Empezamos a transmitir con OneStream, pero a mí la cámara de José se me ponía negra, jaja, así que terminamos yendo como en una llamada, pero transmitiendo. A los pocos kilómetros paramos para revisar todo de nuevo. Un día antes compré unos micrófonos que, más que ayudarnos, nos han dado dolores de cabeza. Pero eso es lo interesante: esto es un aprendizaje continuo. Volvimos a parar en una gasolinera Shell en las afueras, sobre la carretera a El Salvador, e hicimos lives en Facebook.",
+          "Después retomamos la travesía, poco a poco. Desde el carro vi cómo casi atropellan a José varias veces: íbamos en carretera abierta y, aunque las señales dicen 80 km/h máximo, los carros pasaban fácilmente a más de 100. En Guatemala la gente no respeta esas señales. El tramo fue casi pura bajada, con un par de subidas cortas en los pasos a desnivel, pero todo bien.",
+          "Cerca del km 45 decidimos parar. Fueron unos 25 km bien trabajados. Para guardar la bici hay que ponerla al revés, con el asiento y el manubrio en el suelo, y en eso se escuchó que algo se quebraba: era el soporte del teléfono con el que José hacía los lives. Se partió en dos, así que ya no pudimos transmitir más.",
+          "Estábamos a unos kilómetros de El Cerinal, donde vive mi abuelo, así que nos fuimos a pasar la noche con él: comiendo, riendo y aprendiendo bastante. Aprovechamos para pulir detallitos, como entender bien cómo funcionan los micrófonos y poner a cargar todo lo que había que cargar: teléfonos, micrófonos, trípode.",
+          "Mientras iba en el carro detrás de José pensaba que esto es realmente en serio. Podríamos regresarnos y decir «por lo menos lo intentamos», pero a pesar del dolor que viene y de que no tenemos una ruta tan definida, lo vamos haciendo: no perfecto, pero poco a poco. Es increíble ver la determinación de José. Y me quedo con otra cosa: la ayuda importa. Tener a alguien con quien pivotear, en este caso yo, sirve para encontrar juntos mejores soluciones."
+        ],
+        "en": [
+          "That same morning we almost didn't leave. One of the plans for this trip is to present José's book, \"Adicto a la pobreza\" (Addicted to Poverty), in Costa Rica. The books should already be in Guatemala, but they're stuck in customs: as of today, Monday, nobody has told us we can pick them up. We thought about staying in the city one more day and leaving on Monday with the books. We left it hanging for a while, until we both said: nah. This has to happen with or without books, and if we were already grabbing any excuse not to do it before even starting, that wasn't a good sign. So we left the excuses behind.",
+          "We left Guatemala City on Sunday, October 25, around noon. José took on the first kilometers by bike and I followed in the car. As I said in the first video: we're riding to Costa Rica by bike, but one of us doesn't know how to ride a bike. Guess who's in the car, haha. We still don't know what day we'll arrive.",
+          "At first we improvised a lot. We started streaming with OneStream, but José's camera kept going black on my end, haha, so we ended up riding as if on a call, but streaming. A few kilometers in we stopped to check everything again. The day before, I bought some microphones that have given us more headaches than help. But that's the interesting part: this is constant learning. We stopped again at a Shell gas station on the outskirts, on the highway to El Salvador, and went live on Facebook.",
+          "Then we got going again, little by little. From the car I watched José almost get hit several times: we were on the open highway and, even though the signs say 80 km/h maximum, cars easily passed at over 100. In Guatemala people don't respect those signs. The stretch was almost all downhill, with a couple of short climbs at the overpasses, but all good.",
+          "Around km 45 we decided to stop. About 25 hard-earned kilometers. To pack the bike we have to flip it upside down, with the seat and handlebars on the ground, and right then we heard something snap: the phone mount José was using for the live streams. It broke in two, so we couldn't stream anymore.",
+          "We were a few kilometers from El Cerinal, where my grandfather lives, so we went to spend the night with him: eating, laughing and learning a lot. We used the time to polish small details, like really understanding how the microphones work, and to charge everything that needed charging: phones, microphones, tripod.",
+          "Riding in the car behind José, I kept thinking that this is for real. We could turn back and say \"at least we tried,\" but despite the pain ahead and not having a fully defined route, we're doing it: not perfectly, but little by little. José's determination is incredible. And I take away something else: help matters. Having someone to bounce ideas off, in this case me, helps you find better solutions together."
+        ],
+        "de": [
+          "Am selben Morgen wären wir fast nicht losgefahren. Einer der Pläne für die Reise ist, Josés Buch „Adicto a la pobreza“ (Süchtig nach Armut) in Costa Rica vorzustellen. Die Bücher sollten schon in Guatemala sein, hängen aber beim Zoll fest: Bis heute, Montag, hat uns niemand gesagt, dass wir sie abholen können. Wir überlegten, noch einen Tag in der Stadt zu bleiben und am Montag mit den Büchern loszufahren. Wir ließen es eine Weile offen, bis wir beide sagten: nö. Das muss passieren, mit oder ohne Bücher, und wenn wir schon vor dem Start nach jeder Ausrede griffen, war das kein gutes Zeichen. Also ließen wir die Ausreden hinter uns.",
+          "Wir fuhren am Sonntag, dem 25. Oktober, gegen Mittag in Guatemala-Stadt los. José wagte sich an die ersten Kilometer auf dem Rad, ich fuhr im Auto hinterher. Wie ich im ersten Video sagte: Wir fahren mit dem Rad nach Costa Rica, aber einer von uns kann gar nicht Rad fahren. Ratet mal, wer im Auto sitzt, haha. Wann wir ankommen, wissen wir noch nicht.",
+          "Am Anfang haben wir viel improvisiert. Wir fingen an, mit OneStream zu streamen, aber bei mir wurde Josés Kamera immer schwarz, haha. Am Ende fuhren wir wie in einem Videoanruf, nur eben live. Nach ein paar Kilometern hielten wir an, um alles noch einmal zu prüfen. Am Tag davor hatte ich Mikrofone gekauft, die uns bisher mehr Kopfschmerzen als Hilfe gebracht haben. Aber genau das ist das Spannende: Es ist ein ständiges Lernen. An einer Shell-Tankstelle am Stadtrand, an der Straße nach El Salvador, hielten wir wieder an und gingen auf Facebook live.",
+          "Dann ging es weiter, Stück für Stück. Vom Auto aus sah ich, wie José mehrmals fast angefahren wurde: Wir waren auf der offenen Landstraße, und obwohl die Schilder höchstens 80 km/h erlauben, rasten die Autos locker mit über 100 vorbei. In Guatemala hält sich kaum jemand daran. Die Strecke ging fast nur bergab, mit ein paar kurzen Anstiegen an den Überführungen, aber alles gut.",
+          "Bei Kilometer 45 beschlossen wir aufzuhören. Rund 25 hart erarbeitete Kilometer. Um das Rad zu verstauen, müssen wir es umdrehen, mit Sattel und Lenker auf dem Boden, und genau da hörten wir etwas brechen: die Handyhalterung, mit der José live ging. Sie brach in zwei Teile, also war mit Streamen Schluss.",
+          "Wir waren nur ein paar Kilometer von El Cerinal entfernt, wo mein Großvater wohnt, also verbrachten wir die Nacht bei ihm: essen, lachen und viel lernen. Wir nutzten die Zeit für Kleinigkeiten, etwa um endlich zu verstehen, wie die Mikrofone funktionieren, und um alles aufzuladen, was geladen werden musste: Handys, Mikrofone, Stativ.",
+          "Im Auto hinter José dachte ich: Das hier ist wirklich ernst. Wir könnten umkehren und sagen „wir haben es wenigstens versucht“. Aber trotz der Schmerzen, die noch kommen, und obwohl unsere Route nicht genau feststeht, ziehen wir es durch: nicht perfekt, aber Schritt für Schritt. Josés Entschlossenheit ist unglaublich. Und noch etwas nehme ich mit: Hilfe ist wichtig. Jemanden zu haben, mit dem man Ideen hin- und herwerfen kann, in diesem Fall mich, hilft, gemeinsam bessere Lösungen zu finden."
+        ],
+        "zh": [
+          "那天早上，我们差点没出发。这次旅行的计划之一，是在哥斯达黎加举办 José 的新书《Adicto a la pobreza》（《贫穷成瘾》）发布会。书本来应该已经到了危地马拉，却一直卡在海关：直到今天（周一），还没人通知我们可以去取。我们想过在城里多待一天，周一带着书再出发。这个念头搁了一会儿，最后我们俩都说：算了。不管有没有书，这件事都得做；如果还没出发就开始找借口，那可不是好兆头。于是我们把借口抛在了身后。",
+          "10 月 25 日星期天中午左右，我们从危地马拉城出发。José 先骑最开始的这段路，我开车跟在后面。就像我在第一个视频里说的：我们要骑自行车去哥斯达黎加，可我们俩当中有一个不会骑车。猜猜是谁在车里，哈哈。到底哪天能到，我们还不知道。",
+          "一开始我们几乎全靠即兴发挥。我们先用 OneStream 直播，可在我这边 José 的画面总是黑屏，哈哈，最后只好像打视频电话一样边走边直播。骑了几公里我们就停下来，把所有东西重新检查一遍。出发前一天我买了几个麦克风，结果帮的忙不多，添的麻烦倒不少。但有意思的地方就在这里：这是一场不停学习的过程。后来我们又在城郊、通往萨尔瓦多的公路边一个壳牌加油站停下，在 Facebook 上做了直播。",
+          "之后我们继续上路，一点一点往前走。我在车里好几次看到 José 差点被车撞到：我们走的是开阔的公路，虽然路牌写着限速 80 公里，车子却轻轻松松开到 100 以上。在危地马拉，大家并不遵守这些标志。这一段几乎全是下坡，只有过立交桥时有几段短上坡，总体还算顺利。",
+          "到了大约 45 公里处，我们决定停下。这是实打实骑出来的 25 公里左右。收自行车时要把它倒过来，让车座和车把着地，就在这时我们听到“咔嚓”一声：José 用来直播的手机支架断了，裂成两半，直播只好到此为止。",
+          "我们离 El Cerinal 只有几公里，我爷爷就住在那里，于是我们去他家过夜：吃饭、聊天、大笑，也学到了很多。我们趁机把一些小细节理顺，比如弄明白麦克风到底怎么用，再把该充电的都充上：手机、麦克风、三脚架。",
+          "坐在车里跟在 José 后面时，我一直在想：这件事是认真的。我们完全可以掉头回去，说一句“至少我们试过了”。但即使前面还有不少辛苦，路线也没有完全定下来，我们还是在往前走：不完美，但一步一步来。José 的决心让人佩服。我还有一个体会：帮助很重要。有一个人能一起商量、一起调整方向（这次是我），就能一起找到更好的办法。"
+        ]
+      },
+      "photos": [
+        {
+          "src": "images/ruta/dia-1-1505.jpg",
+          "alt": {
+            "es": "José pedaleando por la carretera, visto desde el carro que lo acompaña",
+            "en": "José riding along the highway, seen from the car following him",
+            "de": "José auf der Landstraße, aus dem Begleitauto gesehen",
+            "zh": "从后面跟随的车里看到的 José 在公路上骑行"
+          },
+          "caption": {
+            "es": "Saliendo de la ciudad: José adelante, yo detrás en el carro.",
+            "en": "Leaving the city: José up front, me behind in the car.",
+            "de": "Raus aus der Stadt: José vorne, ich hinten im Auto.",
+            "zh": "驶出城市：José 在前面骑，我开车跟在后面。"
+          },
+          "after": 2
+        },
+        {
+          "src": "images/ruta/dia-1-1542.jpg",
+          "alt": {
+            "es": "José en bicicleta por la carretera, con montañas al fondo",
+            "en": "José cycling on the highway with mountains in the background",
+            "de": "José auf dem Rad auf der Landstraße, im Hintergrund Berge",
+            "zh": "José 在公路上骑行，远处是群山"
+          },
+          "caption": {
+            "es": "Rumbo al sur por la carretera a El Salvador.",
+            "en": "Heading south on the highway to El Salvador.",
+            "de": "Richtung Süden auf der Straße nach El Salvador.",
+            "zh": "沿着通往萨尔瓦多的公路一路向南。"
+          },
+          "after": 4
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.tiktok.com/@yeffrimic/video/7700633420002561287",
+          "after": 1
+        },
+        {
+          "url": "https://www.tiktok.com/@yeffrimic/video/7700640120210230536",
+          "after": 1
+        },
+        {
+          "url": "https://www.tiktok.com/@yeffrimic/video/7700717065258208520",
+          "after": 4
+        },
+        {
+          "url": "https://www.tiktok.com/@yeffrimic/video/7700738220606180626",
+          "after": 5
+        },
+        {
+          "url": "https://www.tiktok.com/@yeffrimic/video/7700833243486063880",
+          "after": 6
+        }
+      ],
+      "cover": "images/ruta/dia-1-portada.jpg"
+    }
+  ],
+  "purpose": {
+    "heading": {
+      "es": "¿Por qué esta ruta?",
+      "en": "Why this trip?",
+      "de": "Warum diese Reise?",
+      "zh": "为什么要走这条路？"
+    },
+    "intro": {
+      "es": "Primero, para demostrarnos a nosotros mismos que sí se puede hacer, y que no hace falta estar tan loco para lograrlo… ¿o sí?",
+      "en": "First, to prove to ourselves that it can be done, and that you don't have to be that crazy to pull it off… or do you?",
+      "de": "Vor allem, um uns selbst zu beweisen, dass es machbar ist und dass man dafür gar nicht so verrückt sein muss … oder doch?",
+      "zh": "首先，是为了向我们自己证明：这件事做得到，而且不需要疯狂到那种程度才能做到……还是说，需要？"
+    },
+    "items": [
+      {
+        "title": {
+          "es": "Fotos y video desde el camino",
+          "en": "Photos and video from the road",
+          "de": "Fotos und Videos von unterwegs",
+          "zh": "记录沿途的照片和视频"
+        },
+        "text": {
+          "es": "Vamos documentando la ruta con dron y con la cámara del teléfono.",
+          "en": "We document the route with a drone and our phone cameras.",
+          "de": "Wir dokumentieren die Strecke mit Drohne und Handykamera.",
+          "zh": "我们用无人机和手机相机记录这一路。"
+        }
+      },
+      {
+        "title": {
+          "es": "Tecnología para emprendedores",
+          "en": "Tech for small businesses",
+          "de": "Technik für Kleinunternehmer",
+          "zh": "为小创业者提供技术帮助"
+        },
+        "text": {
+          "es": "Ayudamos a pequeños emprendedores a hacer su página web o sistemas sencillos para digitalizar y transformar sus procesos. A veces es algo tan simple como tener su página con dominio propio.",
+          "en": "We help small entrepreneurs build their website or simple systems to digitize and transform how they work. Sometimes it's as simple as having their own site with their own domain.",
+          "de": "Wir helfen kleinen Unternehmern, eine eigene Website oder einfache Systeme aufzubauen, um ihre Abläufe zu digitalisieren und zu verbessern. Manchmal ist es so einfach wie eine eigene Seite mit eigener Domain.",
+          "zh": "我们帮助小创业者搭建网站或简单的系统，让他们的业务流程实现数字化和转型。有时候，只是拥有一个带自己域名的网站这么简单。"
+        }
+      },
+      {
+        "title": {
+          "es": "Videos y podcast",
+          "en": "Videos and podcasts",
+          "de": "Videos und Podcasts",
+          "zh": "视频和播客"
+        },
+        "text": {
+          "es": "Grabamos videos y podcast con emprendedores y creamos contenido junto a ellos.",
+          "en": "We record videos and podcasts with entrepreneurs and create content together with them.",
+          "de": "Wir nehmen Videos und Podcasts mit Unternehmern auf und erstellen gemeinsam Inhalte.",
+          "zh": "我们和创业者一起录制视频和播客，共同创作内容。"
+        }
+      },
+      {
+        "title": {
+          "es": "Charlas en el camino",
+          "en": "Talks along the way",
+          "de": "Vorträge unterwegs",
+          "zh": "沿途演讲"
+        },
+        "text": {
+          "es": "Damos charlas en diferentes instituciones y universidades de los países por los que pasamos.",
+          "en": "We give talks at institutions and universities in the countries we ride through.",
+          "de": "Wir halten Vorträge an Institutionen und Universitäten in den Ländern, durch die wir fahren.",
+          "zh": "我们在途经国家的各类机构和大学举办讲座。"
+        }
+      }
+    ],
+    "closing": {
+      "es": "La idea es generar tracción para Hazlo Ahora, una organización que busca inspirar, y para yeffrimic, que busca lo mismo. Yo también soy parte de Hazlo Ahora.",
+      "en": "The goal is to build momentum for Hazlo Ahora (\"Do It Now\"), an organization that sets out to inspire people, and for yeffrimic, which has the same goal. I'm also part of Hazlo Ahora.",
+      "de": "Ziel ist es, Hazlo Ahora („Mach es jetzt“), einer Organisation, die Menschen inspirieren will, und yeffrimic, das dasselbe Ziel hat, mehr Reichweite zu geben. Ich bin auch Teil von Hazlo Ahora.",
+      "zh": "我们希望借此为 Hazlo Ahora（“现在就做”）带来更多关注，这是一个致力于激励他人的组织；也为 yeffrimic 带来关注，它的目标是一样的。我本人也是 Hazlo Ahora 的一员。"
+    },
+    "destination": {
+      "es": "El destino: Costa Rica, para la Semana Global del Emprendimiento y para preparar el primer Hackatón de políticas públicas creado por y para jóvenes emprendedores costarricenses. Cada kilómetro nos acerca a convertir ideas en propuestas reales.",
+      "en": "The destination: Costa Rica, for Global Entrepreneurship Week and to prepare the first public policy hackathon created by and for young Costa Rican entrepreneurs. Every kilometer brings us closer to turning ideas into real proposals.",
+      "de": "Das Ziel: Costa Rica, zur Global Entrepreneurship Week und um den ersten Hackathon für öffentliche Politik vorzubereiten, von und für junge costa-ricanische Unternehmer. Jeder Kilometer bringt uns näher daran, Ideen in echte Vorschläge zu verwandeln.",
+      "zh": "目的地：哥斯达黎加，参加全球创业周，并筹备首届由哥斯达黎加青年创业者发起、为青年创业者服务的公共政策黑客松。每一公里，都让我们离把想法变成真正的提案更近一步。"
+    },
+    "videos": [
+      "https://www.tiktok.com/@hazloahora.org/video/7700982850799160606",
+      "https://www.tiktok.com/@hazloahora.org/video/7701020118075116830"
+    ]
+  },
+  "contact": {
+    "heading": {
+      "es": "¿Tienes un emprendimiento en la ruta?",
+      "en": "Run a small business along our route?",
+      "de": "Hast du ein kleines Unternehmen an unserer Strecke?",
+      "zh": "你在我们的沿途经营小生意吗？"
+    },
+    "text": {
+      "es": "Si estás en Guatemala, El Salvador, Honduras, Nicaragua o Costa Rica y quieres tu página web, un sistema sencillo para tu negocio o grabar un video o podcast con nosotros, escríbenos. También si quieres que demos una charla en tu institución o universidad.",
+      "en": "If you're in Guatemala, El Salvador, Honduras, Nicaragua or Costa Rica and want a website, a simple system for your business, or to record a video or podcast with us, message us. Same if you'd like us to give a talk at your institution or university.",
+      "de": "Wenn du in Guatemala, El Salvador, Honduras, Nicaragua oder Costa Rica bist und eine Website, ein einfaches System für dein Geschäft oder ein Video bzw. einen Podcast mit uns möchtest, schreib uns. Auch wenn wir an deiner Institution oder Universität einen Vortrag halten sollen.",
+      "zh": "如果你在危地马拉、萨尔瓦多、洪都拉斯、尼加拉瓜或哥斯达黎加，想要一个网站、一个简单的业务系统，或者想和我们一起录视频、做播客，欢迎联系我们。如果希望我们到你的机构或大学做讲座，也欢迎来信。"
+    },
+    "buttons": [
+      {
+        "label": {
+          "es": "Escríbenos por Instagram",
+          "en": "Message us on Instagram",
+          "de": "Schreib uns auf Instagram",
+          "zh": "在 Instagram 上联系我们"
+        },
+        "url": "https://ig.me/m/hazloahora_org"
+      },
+      {
+        "label": {
+          "es": "Escríbenos por TikTok",
+          "en": "Message us on TikTok",
+          "de": "Schreib uns auf TikTok",
+          "zh": "在 TikTok 上联系我们"
+        },
+        "url": "https://www.tiktok.com/@hazloahora.org"
+      }
+    ]
+  },
+  "events_ui": {
+    "heading": {
+      "es": "Próximas fechas",
+      "en": "Upcoming dates",
+      "de": "Nächste Termine",
+      "zh": "近期日程"
+    },
+    "empty": {
+      "es": "Pronto anunciaremos las fechas de charlas y encuentros en el camino. Síguenos en redes para enterarte.",
+      "en": "We'll announce the dates of talks and meetups along the way soon. Follow us to stay posted.",
+      "de": "Die Termine für Vorträge und Treffen unterwegs geben wir bald bekannt. Folgt uns, um nichts zu verpassen.",
+      "zh": "沿途讲座和见面会的日期即将公布，关注我们获取最新消息。"
+    },
+    "more": {
+      "es": "Más información",
+      "en": "More info",
+      "de": "Mehr Infos",
+      "zh": "了解更多"
+    }
+  },
+  "events": [
+    {
+      "date": "2026-11-16..2026-11-22",
+      "title": {
+        "es": "Semana Global del Emprendimiento (GEW 2026)",
+        "en": "Global Entrepreneurship Week (GEW 2026)",
+        "de": "Global Entrepreneurship Week (GEW 2026)",
+        "zh": "全球创业周（GEW 2026）"
+      },
+      "place": {
+        "es": "Sedes por confirmar",
+        "en": "Venues to be confirmed",
+        "de": "Orte werden noch bekanntgegeben",
+        "zh": "地点待定"
+      },
+      "country": "cr",
+      "url": "https://www.genglobal.org/gew"
+    }
+  ]
+}
