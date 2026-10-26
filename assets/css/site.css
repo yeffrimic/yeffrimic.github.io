@@ -149,6 +149,7 @@
 
   /* Ruta en bici */
   .hero .kicker { font-size: 12px; color: var(--copper); text-transform: uppercase; letter-spacing: .12em; }
+  .hero .kicker .hashtag { text-transform: none; letter-spacing: .02em; font-weight: 600; }
   #routeMap {
     height: min(460px, 70vh); border: 1px solid var(--line); border-radius: 14px;
     background: var(--surface); z-index: 0;

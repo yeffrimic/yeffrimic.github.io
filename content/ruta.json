@@ -13,6 +13,7 @@
     ]
   },
   "default_image": "images/yo.jpg",
+  "hashtag": "#EmprendeTour",
   "ui": {
     "title": {
       "es": "Guatemala → Costa Rica en bici · Yeffri J. Salazar",
@@ -49,12 +50,6 @@
       "en": "Portfolio",
       "de": "Portfolio",
       "zh": "作品集"
-    },
-    "nav_map": {
-      "es": "Mapa",
-      "en": "Map",
-      "de": "Karte",
-      "zh": "地图"
     },
     "stat_km": {
       "es": "km recorridos",
@@ -182,11 +177,23 @@
       "de": "{n} km zurückgelegt",
       "zh": "行程 {n} 公里"
     },
-    "nav_why": {
-      "es": "Por qué",
-      "en": "Why",
-      "de": "Warum",
-      "zh": "为什么"
+    "nav_about": {
+      "es": "Sobre el viaje",
+      "en": "About the trip",
+      "de": "Über die Reise",
+      "zh": "关于这次旅程"
+    },
+    "follow": {
+      "es": "Síguenos",
+      "en": "Follow us",
+      "de": "Folgt uns",
+      "zh": "关注我们"
+    },
+    "hashtag_text": {
+      "es": "Comparte tus fotos y videos del viaje con",
+      "en": "Share your photos and videos of the trip with",
+      "de": "Teilt eure Fotos und Videos von der Reise mit",
+      "zh": "分享这次旅程的照片和视频时，请加上"
     }
   },
   "countries": {

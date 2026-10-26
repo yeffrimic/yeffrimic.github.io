@@ -472,10 +472,8 @@ def ruta_page(data, ruta, L, sub, title, desc, image, main, extra_js=""):
     <a class="brand" href="{root}{L["path"]}">Yeffri J. Salazar</a>
     <div class="links">
       <a href="{root}{L["path"]}">← {esc(tr(ru["nav_home"], lang))}</a>
-      <a href="{index}#por-que">{esc(tr(ru["nav_why"], lang))}</a>
-      <a href="{index}#fechas">{esc(tr(ruta["events_ui"]["heading"], lang))}</a>
-      <a href="{index}#mapa">{esc(tr(ru["nav_map"], lang))}</a>
       <a href="{index}#capitulos">{esc(tr(ru["nav_chapters"], lang))}</a>
+      <a href="{index}viaje/">{esc(tr(ru["nav_about"], lang))}</a>
     </div>
     <div class="lang-switch" role="group" aria-label="{attr(tr(ui["lang_label"], lang))}">{"".join(switch)}</div>
     <button id="themeToggle" aria-label="{attr(tr(ui["theme_label"], lang))}" title="{attr(tr(ui["theme_label"], lang))}">◐</button>
@@ -528,10 +526,10 @@ def map_points(ruta, entries, lang, prefix):
 
 
 def render_ruta(data, ruta, L):
+    """Portada de la ruta: corta a propósito (capítulos y mapa); el resto vive en ruta/viaje/."""
     lang = L["code"]
     ru = ruta["ui"]
     u = lambda k: tr(ru[k], lang)  # noqa: E731
-    root = "../" * (L["path"].count("/") + 1)
     entries = sorted(ruta["entries"], key=lambda e: e["date"])
 
     total_km = sum(e.get("km") or 0 for e in entries)
@@ -556,7 +554,45 @@ def render_ruta(data, ruta, L):
 """)
     chapters = "".join(cards) or f'      <p class="empty">{esc(u("empty"))}</p>\n'
     latest = f'\n      <a class="chip-link primary" href="{attr(entries[-1]["slug"])}/">{esc(u("latest"))} →</a>' if entries else ""
-    socials = "".join(f'\n      <a class="chip-link" href="{attr(s["url"])}">{esc(s["label"])}</a>' for s in ruta["socials"])
+
+    main = f"""
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">{esc(u("kicker"))} · <span class="hashtag">{esc(ruta["hashtag"])}</span></span>
+    <h1>{esc(u("heading"))}</h1>
+    <p class="lead">{esc(u("lead"))}</p>
+    <div class="contact-row">{latest}
+      <a class="chip-link" href="viaje/">{esc(u("nav_about"))} →</a>
+    </div>
+    <div class="stats">{stats_html}
+    </div>
+  </div>
+</header>
+
+<section class="block" id="capitulos">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>{esc(u("nav_chapters"))}</h2>
+    </div>
+    <div class="chapters">
+{chapters}    </div>
+  </div>
+</section>
+
+<section class="block" id="mapa">
+  <div class="wrap">
+    <div id="routeMap" role="region" aria-label="{attr(u("map_label"))}" data-points="{map_points(ruta, entries, lang, "")}"></div>
+  </div>
+</section>
+"""
+    return ruta_page(data, ruta, L, "", u("title"), u("meta_desc"), ruta["default_image"], main)
+
+
+def render_about(data, ruta, L):
+    """ruta/viaje/: por qué, destino, contacto para emprendedores, próximas fechas y redes."""
+    lang = L["code"]
+    ru = ruta["ui"]
+    u = lambda k: tr(ru[k], lang)  # noqa: E731
     why = ruta["purpose"]
     why_cards = "".join(f"""
       <article class="card">
@@ -566,6 +602,7 @@ def render_ruta(data, ruta, L):
     contact = ruta["contact"]
     contact_btns = "".join(f'\n      <a class="chip-link{" primary" if i == 0 else ""}" href="{attr(b["url"])}">{esc(tr(b["label"], lang))}</a>'
                            for i, b in enumerate(contact["buttons"]))
+    socials = "".join(f'\n      <a class="chip-link" href="{attr(s["url"])}">{esc(s["label"])}</a>' for s in ruta["socials"])
     ev = ruta["events_ui"]
     # Solo las fechas que aún no pasan (al momento de generar el sitio)
     upcoming = sorted((e for e in ruta["events"] if e["date"] >= date.today().isoformat()), key=lambda e: e["date"])
@@ -581,23 +618,15 @@ def render_ruta(data, ruta, L):
     main = f"""
 <header class="hero">
   <div class="wrap">
-    <span class="kicker">{esc(u("kicker"))}</span>
-    <h1>{esc(u("heading"))}</h1>
-    <p class="lead">{esc(u("lead"))}</p>
-    <div class="contact-row">{latest}{socials}
-    </div>
-    <div class="stats">{stats_html}
-    </div>
+    <span class="kicker">{esc(u("kicker"))} · <span class="hashtag">{esc(ruta["hashtag"])}</span></span>
+    <h1>{esc(tr(why["heading"], lang))}</h1>
+    <p class="lead">{esc(tr(why["intro"], lang))}</p>
+    <p class="why-destination">{esc(tr(why["destination"], lang))}</p>
   </div>
 </header>
 
 <section class="block" id="por-que">
   <div class="wrap">
-    <div class="sec-head">
-      <h2>{esc(tr(why["heading"], lang))}</h2>
-      <p class="why-intro">{esc(tr(why["intro"], lang))}</p>
-    </div>
-    <p class="why-destination">{esc(tr(why["destination"], lang))}</p>
     <div class="grid why-grid">{why_cards}
     </div>
     <p class="why-closing">{esc(tr(why["closing"], lang))}</p>
@@ -625,24 +654,20 @@ def render_ruta(data, ruta, L):
   </div>
 </section>
 
-<section class="block" id="mapa">
-  <div class="wrap">
-    <div id="routeMap" role="region" aria-label="{attr(u("map_label"))}" data-points="{map_points(ruta, entries, lang, "")}"></div>
-  </div>
-</section>
-
-<section class="block" id="capitulos">
+<section class="block" id="redes">
   <div class="wrap">
     <div class="sec-head">
-      <h2>{esc(u("nav_chapters"))}</h2>
+      <h2>{esc(u("follow"))}</h2>
+      <p>{esc(u("hashtag_text"))} <b>{esc(ruta["hashtag"])}</b></p>
     </div>
-    <div class="chapters">
-{chapters}    </div>
+    <div class="contact-row">{socials}
+    </div>
   </div>
 </section>
 """
     tiktok_js = '<script async src="https://www.tiktok.com/embed.js"></script>\n' if why["videos"] else ""
-    return ruta_page(data, ruta, L, "", u("title"), u("meta_desc"), ruta["default_image"], main, tiktok_js)
+    title = f'{tr(why["heading"], lang)} · {u("short_title")}'
+    return ruta_page(data, ruta, L, "viaje/", title, tr(why["destination"], lang), ruta["default_image"], main, tiktok_js)
 
 
 def render_chapter(data, ruta, L, entries, i):
@@ -722,6 +747,7 @@ def main():
     for L in data["langs"]:
         entries = sorted(ruta["entries"], key=lambda e: e["date"])
         pages = [("index.html", render_page(data, L)), (os.path.join("ruta", "index.html"), render_ruta(data, ruta, L))]
+        pages.append((os.path.join("ruta", "viaje", "index.html"), render_about(data, ruta, L)))
         pages += [(os.path.join("ruta", e["slug"], "index.html"), render_chapter(data, ruta, L, entries, i))
                   for i, e in enumerate(entries)]
         for name, page in pages:
