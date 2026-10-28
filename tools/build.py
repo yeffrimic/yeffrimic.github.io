@@ -371,8 +371,16 @@ def render_page(data, L):
 
 
 # ---------- ruta en bici (content/ruta.json → ruta/ y un capítulo por historia) ----------
-def embed(url, ru, lang):
-    """Inserta una publicación de TikTok o Instagram a partir de su enlace."""
+def embed(url, ru, lang, root=""):
+    """Inserta una publicación de TikTok o Instagram a partir de su enlace, o un .mp4 propio."""
+    if url.endswith(".mp4"):
+        # Si junto al .mp4 hay un .webm (Firefox en Linux a veces no trae H.264) o un .jpg de portada, se usan.
+        base = url[:-4]
+        has = lambda ext: os.path.exists(os.path.join(ROOT, base + ext))
+        poster = f' poster="{attr(root + base + ".jpg")}"' if has(".jpg") else ""
+        webm = f'<source src="{attr(root + base + ".webm")}" type="video/webm" />' if has(".webm") else ""
+        return (f'<video controls playsinline preload="metadata"{poster}>{webm}'
+                f'<source src="{attr(root + url)}" type="video/mp4" /></video>')
     m = re.search(r"tiktok\.com/@[^/]+/video/(\d+)", url)
     if m:
         return (f'<blockquote class="tiktok-embed" cite="{attr(url)}" data-video-id="{m.group(1)}">'
@@ -696,11 +704,11 @@ def render_chapter(data, ruta, L, entries, i):
             inline.setdefault(p["after"], []).append(figure(p, ' class="inline"'))
     for v in videos:
         if v.get("after"):
-            inline.setdefault(v["after"], []).append(f'<div class="embed inline">{embed(v["url"], ru, lang)}</div>')
+            inline.setdefault(v["after"], []).append(f'<div class="embed inline">{embed(v["url"], ru, lang, root)}</div>')
     body = "".join(f"\n      <p>{esc(t)}</p>" + "".join(f"\n      {h}" for h in inline.get(n, []))
                    for n, t in enumerate(tr(e["body"], lang), 1))
     photos = "".join(figure(p) for p in e.get("photos", []) if not p.get("after"))
-    embeds = "".join(f'<div class="embed">{embed(v["url"], ru, lang)}</div>' for v in videos if not v.get("after"))
+    embeds = "".join(f'<div class="embed">{embed(v["url"], ru, lang, root)}</div>' for v in videos if not v.get("after"))
     videos = [v["url"] for v in videos]
 
     pager = []

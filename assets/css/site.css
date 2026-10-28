@@ -196,6 +196,7 @@
   .chapter .embed { flex: 1 1 320px; max-width: 100%; }
   .chapter .embed.inline { margin: 8px 0 28px; display: flex; justify-content: center; }
   .chapter .embed blockquote { margin: 0 !important; min-width: 0 !important; }
+  .chapter .embed video { display: block; width: 100%; max-width: 340px; max-height: min(640px, 85vh); margin: 0 auto; border-radius: 8px; background: #000; }
   .share { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 32px 0; padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
   .share span { font-weight: 600; margin-right: 4px; }
   .share button { cursor: pointer; font: inherit; font-size: 14px; }
