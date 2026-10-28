@@ -87,6 +87,12 @@
       "de": "Streckenkarte",
       "zh": "路线地图"
     },
+    "map_hint": {
+      "es": "👆 Toca o haz clic en cualquier punto del mapa para leer el capítulo de ese día.",
+      "en": "👆 Tap or click any point on the map to read that day's chapter.",
+      "de": "👆 Tippe oder klicke auf einen Punkt der Karte, um das Kapitel dieses Tages zu lesen.",
+      "zh": "👆 点击地图上的任意一个点，即可阅读当天的章节。"
+    },
     "watch": {
       "es": "Ver publicación",
       "en": "View post",

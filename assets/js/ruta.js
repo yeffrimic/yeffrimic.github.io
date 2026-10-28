@@ -33,6 +33,10 @@
         // Con capítulo: el clic lleva directo al día; el nombre se ve al pasar el mouse
         label.appendChild(document.createElement('br'));
         label.appendChild(document.createTextNode(p.title));
+        var cta = document.createElement('div');
+        cta.className = 'cta';
+        cta.textContent = (p.cta || '') + ' →';
+        label.appendChild(cta);
         marker.bindTooltip(label, { direction: 'top', offset: [0, -8] });
         marker.on('click', function () { window.location.href = p.href; });
       } else {

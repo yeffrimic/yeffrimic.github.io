@@ -211,6 +211,8 @@
   .pager .soon b { color: var(--muted); font-weight: 500; }
   @media (max-width: 560px) { .pager { grid-template-columns: 1fr; } .pager .next { grid-column: 1; } }
   #routeMap.mini { height: 260px; }
+  .map-hint { font-size: 14px; color: var(--muted); margin: 0 0 8px; }
+  .leaflet-tooltip .cta { color: #0f7a4f; font-weight: 600; } /* el tooltip de Leaflet siempre es blanco */
   .chapter .all { margin: 16px 0 0; }
   .chapter .all a { font-weight: 600; text-decoration: none; }
 

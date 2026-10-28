@@ -528,7 +528,7 @@ def map_points(ruta, entries, lang, prefix):
         s = ruta["start"]
         points.append({"lat": s["coords"][0], "lng": s["coords"][1], "href": "", "title": "", "place": tr(s["place"], lang)})
     points += [{"lat": e["coords"][0], "lng": e["coords"][1], "href": prefix + e["slug"] + "/",
-                "title": tr(e["title"], lang), "place": tr(e["place"], lang)}
+                "title": tr(e["title"], lang), "place": tr(e["place"], lang), "cta": tr(ruta["ui"]["read"], lang)}
                for e in entries if e.get("coords")]
     return attr(json.dumps(points, ensure_ascii=False))
 
@@ -589,6 +589,7 @@ def render_ruta(data, ruta, L):
 
 <section class="block" id="mapa">
   <div class="wrap">
+    <p class="map-hint">{esc(u("map_hint"))}</p>
     <div id="routeMap" role="region" aria-label="{attr(u("map_label"))}" data-points="{map_points(ruta, entries, lang, "")}"></div>
   </div>
 </section>
@@ -739,6 +740,7 @@ def render_chapter(data, ruta, L, entries, i):
     {f'<div class="embeds">{embeds}</div>' if embeds else ""}
     {share_links(url, title, ru, lang)}
     <nav class="pager">{"".join(pager)}</nav>
+    <p class="map-hint">{esc(u("map_hint"))}</p>
     <div id="routeMap" class="mini" role="region" aria-label="{attr(u("map_label"))}" data-points="{map_points(ruta, entries[: i + 1], lang, "../")}"></div>
     <p class="all"><a class="more" href="../#capitulos">{esc(u("all_chapters"))} →</a></p>
   </div>
