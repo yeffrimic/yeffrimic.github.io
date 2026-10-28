@@ -30,13 +30,14 @@
       place.textContent = p.place;
       label.appendChild(place);
       if (p.href) {
-        var link = document.createElement('a');
-        link.href = p.href;
-        link.textContent = p.title;
+        // Con capítulo: el clic lleva directo al día; el nombre se ve al pasar el mouse
         label.appendChild(document.createElement('br'));
-        label.appendChild(link);
+        label.appendChild(document.createTextNode(p.title));
+        marker.bindTooltip(label, { direction: 'top', offset: [0, -8] });
+        marker.on('click', function () { window.location.href = p.href; });
+      } else {
+        marker.bindPopup(label);
       }
-      marker.bindPopup(label);
     });
 
     map.fitBounds(L.latLngBounds(latlngs).pad(0.2), { maxZoom: 9 });
