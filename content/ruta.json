@@ -841,6 +841,90 @@
         }
       ],
       "cover": "images/ruta/dia-3-portada.jpg"
+    },
+    {
+      "slug": "dia-4-descansar",
+      "date": "2026-10-28",
+      "from": {
+        "es": "Soyapango",
+        "en": "Soyapango",
+        "de": "Soyapango",
+        "zh": "索亚潘戈（Soyapango）"
+      },
+      "place": {
+        "es": "San Salvador",
+        "en": "San Salvador",
+        "de": "San Salvador",
+        "zh": "圣萨尔瓦多"
+      },
+      "country": "sv",
+      "km": 20,
+      "coords": [
+        13.71,
+        -89.15
+      ],
+      "title": {
+        "es": "Todos tenemos que descansar",
+        "en": "We all need to rest",
+        "de": "Wir alle müssen ausruhen",
+        "zh": "每个人都需要休息"
+      },
+      "body": {
+        "es": [
+          "El cuarto día es para descansar. Todos, en algún punto, tenemos que descansar, y eso no está a discusión. Cada vez que hacemos un esfuerzo sobrehumano, ya sea pensando, sacrificándonos en el trabajo o, en este caso, haciendo ejercicio después de tanto tiempo, es necesario descansar.",
+          "Hoy me levanté tarde, pero la noche anterior pasó algo interesante que quiero compartirles. Llevo varios meses desvelándome viendo Naruto. Es un anime que me relaja, que me gusta y, sobre todo, que me inspira: hay algo en la filosofía japonesa y en su forma de ver las cosas que me inspira un montón. Incluso, según yo, hay estudios que dicen que haber visto Naruto lo vuelve a uno más resiliente. Puedo confirmar que me pasó, pero no afirmar que en mi caso haya sido solo por Naruto.",
+          "Los últimos meses he administrado muy mal el sueño, y suelo dormirme hasta que de verdad estoy cansado. Dejé de scrollear en redes sociales por algo que, según yo, era menos dañino, pero eso es como dejar el cigarro y agarrar un vape o masticar nicotina, JAJA: solo cambiamos un mal por otro.",
+          "Ya llevaba un par de días sin caer en esa rutina, pero anoche, como sabía que hoy me podía relajar, me pareció un buen día para retomar esas costumbres tóxicas: dormirme después de las 12 y ver anime hasta desmayarme. Y lo hice, como una especie de trampa que me dio dopamina por no seguir las reglas que yo mismo me puse. Pero hoy, en el día 4, me quedé pensando en lo fácil que es recaer, en lo cómodo que es volver a eso que nos hace daño mientras estamos felices. Y al final, este viaje es para todo lo contrario: agarrar rutinas nuevas, desintoxicarse. No para ser mejor persona, porque eso ya lo somos de maneras distintas, sino para tener más cuidado conmigo mismo.",
+          "Total, me dormí tarde viendo Naruto y me levanté tarde por lo mismo. Hasta me desperté a las 6 de la mañana, porque ya es costumbre, y fui al baño porque iba a reventar mi vejiga. Pero en vez de quedarme despierto, aunque no tuviera nada que hacer, me volví a dormir, jaja. Mi cerebro busca la mayor satisfacción con el mínimo esfuerzo, y eso es dormir hasta que ya no pueda más, como cuando tenía 15 años.",
+          "Me acuerdo de un 15 de septiembre. Yo tocaba en la banda del colegio y no me quería levantar temprano, porque sabía que el desfile empezaba a las 9: ¿para qué me iba a despertar temprano si de todos modos todos iban a llegar tarde? Fue una pelea eterna con mi mamá, en la que obviamente yo me levantaba enojado y ofendido porque no me dejaba dormir. Otra vez mi cerebro diciendo «¿para qué temprano, si empieza más tarde?». Hay cierto placer en dormir hasta tarde que todavía no he descifrado.",
+          "Me levanté a las 9 corriendo e hicimos nuestra caminata mañanera con José. Fuimos a desayunar a Clavo y Canela, un restaurante bastante bonito, más o menos caro, pero lo suficientemente rico como para justificar haber pagado 8 dólares por un omelette, que serían como 70 quetzales.",
+          "Este día José y yo nos separamos: él fue a almorzar y a reuniones por su lado, y yo fui a reencontrarme con los amigos que me invitaron a venir a El Salvador la primera vez: Joksan, del Hackerspace San Salvador. Joksan es de las pocas personas que admiro, no solo por su conocimiento técnico, científico y matemático de telecomunicaciones y electrónica, sino porque es un libro andante, muy propio, que siempre usa las palabras ideales en cada situación. Estuvimos hablando de Nintendo, piratería, FPGA, magia negra de la tecnología, ciencia y videojuegos. Estaba tan interesante que se me olvidó que en El Salvador hay peor tráfico que en Guatemala, así que salí de Soyapango casi a las 5 de la tarde y, en un trayecto que se supone es de 10 km, me hice casi dos horas, JAJAJA.",
+          "Al llegar, José estaba trabajando, como siempre, y yo me puse a ordenar las cosas y a empezar la transformación hacia algo que sé que puedo hacer, aunque también sé que no hacerlo no afecta tanto el resultado. Así que, para los próximos días, quédense con esto: voy a cambiar la rutina, voy a dejar la pereza a un lado y voy a hacer lo mejor que pueda, siempre que pueda.",
+          "Hoy no hay fotos, solo comida deliciosa en mi mente y una cena increíble de Don Li: un ramen que, a pesar de que lo mandamos a traer, tenía una presentación magnánima.",
+          "Gracias por leer el día cuatro. Nos vemos en el día cinco: ya no vamos a ir a San Miguel, vamos a irnos por la costa para pedalear cerca de las hermosas playas de El Salvador. Carretera del Litoral, allá vamos."
+        ],
+        "en": [
+          "Day four is for resting. All of us, at some point, have to rest, and that's not up for debate. Every time we make a superhuman effort, whether it's thinking hard, sacrificing ourselves at work or, in this case, exercising after such a long time, we need to rest.",
+          "Today I got up late, but something interesting happened the night before that I want to share. For several months I've been staying up late watching Naruto. It's an anime that relaxes me, that I like and, above all, that inspires me: there's something in Japanese philosophy and its way of seeing things that inspires me a lot. I even believe there are studies saying that watching Naruto makes you more resilient. I can confirm it happened to me, but I can't claim it was only because of Naruto in my case.",
+          "These last few months I've managed my sleep really badly, and I usually don't fall asleep until I'm truly exhausted. I quit scrolling social media for something I thought was less harmful, but that's like quitting cigarettes and picking up a vape or nicotine gum, HAHA: we just swap one bad habit for another.",
+          "I'd gone a couple of days without falling back into that routine, but last night, knowing I could relax today, it felt like a good day to pick those toxic habits back up: falling asleep after midnight and watching anime until I passed out. And I did, as a kind of cheat that gave me dopamine for breaking the rules I set for myself. But today, on day 4, I kept thinking about how easy it is to relapse, how comfortable it is to go back to the things that hurt us while we're happy. And in the end, this trip is about the exact opposite: building new routines, detoxing. Not to become a better person, because we already are, in different ways, but to take better care of myself.",
+          "Anyway, I fell asleep late watching Naruto and woke up late because of it. I even woke up at 6 a.m., out of habit, and went to the bathroom because my bladder was about to burst. But instead of staying up, even with nothing to do, I went back to sleep, haha. My brain looks for the most satisfaction with the least effort, and that means sleeping until I can't anymore, like when I was 15.",
+          "I remember one September 15th, Guatemala's Independence Day. I played in the school band and didn't want to get up early, because I knew the parade started at 9: why get up early if everyone was going to show up late anyway? It was an endless fight with my mom, in which of course I'd get up angry and offended because she wouldn't let me sleep. Once again my brain saying \"why early, if it starts later?\" There's a certain pleasure in sleeping in that I still haven't figured out.",
+          "I got up at 9 in a rush and José and I went on our morning walk. We had breakfast at Clavo y Canela, a pretty nice restaurant, somewhat pricey, but tasty enough to justify paying 8 dollars for an omelette, which would be about 70 quetzales.",
+          "That day José and I split up: he went to lunch and meetings on his own, and I went to reconnect with the friends who invited me to El Salvador the first time: Joksan, from Hackerspace San Salvador. Joksan is one of the few people I admire, not only for his technical, scientific and mathematical knowledge of telecommunications and electronics, but because he's a walking book, very much his own person, who always uses exactly the right words in every situation. We talked about Nintendo, piracy, FPGAs, the black magic of technology, science and video games. It was so interesting that I forgot traffic in El Salvador is worse than in Guatemala, so I left Soyapango almost at 5 p.m. and a trip that's supposed to be 10 km took me almost two hours, HAHAHA.",
+          "When I got back, José was working, as always, and I started organizing things and beginning the change toward something I know I can do, even though I also know not doing it doesn't affect the result that much. So, for the coming days, remember this: I'm going to change my routine, set laziness aside and do the best I can, whenever I can.",
+          "No photos today, just delicious food in my head and an amazing dinner from Don Li: a ramen that, even though it was delivered, had a magnificent presentation.",
+          "Thanks for reading day four. See you on day five: we're no longer going to San Miguel, we're taking the coast so we can ride near El Salvador's beautiful beaches. Carretera del Litoral, here we come."
+        ],
+        "de": [
+          "Der vierte Tag ist zum Ausruhen da. Wir alle müssen irgendwann ausruhen, und darüber gibt es keine Diskussion. Jedes Mal, wenn wir uns übermenschlich anstrengen, sei es beim Nachdenken, beim Aufopfern für die Arbeit oder, wie hier, beim Sport nach so langer Zeit, brauchen wir Ruhe.",
+          "Heute bin ich spät aufgestanden, aber in der Nacht davor ist etwas Interessantes passiert, das ich euch erzählen will. Seit Monaten bleibe ich nachts lange wach und schaue Naruto. Ein Anime, der mich entspannt, der mir gefällt und der mich vor allem inspiriert: In der japanischen Philosophie und ihrer Art, die Dinge zu sehen, steckt etwas, das mich enorm inspiriert. Soweit ich weiß, gibt es sogar Studien, nach denen Naruto zu schauen einen widerstandsfähiger macht. Bei mir kann ich das bestätigen, aber nicht behaupten, dass es nur an Naruto lag.",
+          "In den letzten Monaten bin ich mit meinem Schlaf sehr schlecht umgegangen und schlafe meist erst ein, wenn ich wirklich müde bin. Ich habe aufgehört, in sozialen Netzwerken zu scrollen, für etwas, das ich für weniger schädlich hielt. Aber das ist, als würde man mit dem Rauchen aufhören und zur E-Zigarette oder zum Nikotinkaugummi greifen, HAHA: Man tauscht nur ein Übel gegen ein anderes.",
+          "Ein paar Tage lang war ich nicht in diese Routine zurückgefallen, aber gestern Abend, weil ich wusste, dass ich mich heute ausruhen kann, schien mir ein guter Tag, diese toxischen Gewohnheiten wieder aufzunehmen: nach Mitternacht einschlafen und Anime schauen, bis ich umkippe. Und das habe ich getan, als eine Art Schummeln, das mir Dopamin gab, weil ich meine eigenen Regeln gebrochen habe. Aber heute, an Tag 4, dachte ich darüber nach, wie leicht man rückfällig wird und wie bequem es ist, zu dem zurückzukehren, was uns schadet, während wir glücklich sind. Und diese Reise soll genau das Gegenteil sein: neue Routinen, Entgiftung. Nicht, um ein besserer Mensch zu werden, denn das sind wir auf unterschiedliche Weise schon, sondern um besser auf mich selbst aufzupassen.",
+          "Kurz gesagt: Ich bin spät mit Naruto eingeschlafen und deswegen spät aufgestanden. Ich bin sogar um 6 Uhr aufgewacht, aus Gewohnheit, und aufs Klo gegangen, weil meine Blase fast geplatzt wäre. Aber statt wach zu bleiben, obwohl ich nichts zu tun hatte, habe ich mich wieder hingelegt, haha. Mein Gehirn sucht die größte Befriedigung mit dem geringsten Aufwand, und das heißt schlafen, bis es nicht mehr geht, wie damals mit 15.",
+          "Ich erinnere mich an einen 15. September, den Unabhängigkeitstag in Guatemala. Ich spielte in der Schulband und wollte nicht früh aufstehen, weil ich wusste, dass die Parade um 9 anfängt: Wozu früh aufstehen, wenn sowieso alle zu spät kommen? Es war ein endloser Kampf mit meiner Mutter, bei dem ich natürlich wütend und beleidigt aufstand, weil sie mich nicht schlafen ließ. Wieder mein Gehirn: „Wozu früh, wenn es erst später losgeht?“ Ausschlafen hat einen gewissen Reiz, den ich noch nicht entschlüsselt habe.",
+          "Ich bin um 9 hastig aufgestanden, und José und ich machten unseren Morgenspaziergang. Wir frühstückten im Clavo y Canela, einem ziemlich schönen, etwas teuren Restaurant, aber lecker genug, um 8 Dollar für ein Omelett zu rechtfertigen, also etwa 70 Quetzales.",
+          "An diesem Tag trennten sich José und ich: Er ging allein zum Mittagessen und zu Treffen, und ich traf die Freunde wieder, die mich das erste Mal nach El Salvador eingeladen hatten: Joksan vom Hackerspace San Salvador. Joksan ist einer der wenigen Menschen, die ich bewundere, nicht nur wegen seines technischen, wissenschaftlichen und mathematischen Wissens über Telekommunikation und Elektronik, sondern weil er ein wandelndes Buch ist, ganz er selbst, der in jeder Situation die passenden Worte findet. Wir sprachen über Nintendo, Piraterie, FPGAs, die schwarze Magie der Technik, Wissenschaft und Videospiele. Es war so spannend, dass ich vergaß, dass der Verkehr in El Salvador schlimmer ist als in Guatemala. Ich fuhr fast um 17 Uhr in Soyapango los und brauchte für eine Strecke von angeblich 10 km fast zwei Stunden, HAHAHA.",
+          "Als ich ankam, arbeitete José, wie immer, und ich fing an, Ordnung zu schaffen und die Veränderung zu beginnen, hin zu etwas, von dem ich weiß, dass ich es kann, auch wenn ich weiß, dass es das Ergebnis kaum beeinflusst, wenn ich es nicht tue. Also, für die nächsten Tage merkt euch das: Ich ändere meine Routine, lasse die Faulheit beiseite und gebe mein Bestes, wann immer ich kann.",
+          "Heute gibt es keine Fotos, nur leckeres Essen in meinem Kopf und ein unglaubliches Abendessen von Don Li: ein Ramen, das, obwohl es geliefert wurde, prachtvoll angerichtet war.",
+          "Danke, dass ihr Tag vier gelesen habt. Wir sehen uns an Tag fünf: Wir fahren nicht mehr nach San Miguel, sondern an der Küste entlang, um nahe an El Salvadors wunderschönen Stränden zu radeln. Carretera del Litoral, wir kommen."
+        ],
+        "zh": [
+          "第四天是休息日。每个人迟早都得休息，这一点没什么好争的。每当我们付出超乎寻常的努力，不管是动脑、为工作拼命，还是像这次这样，隔了这么久重新开始运动，都需要休息。",
+          "今天我起得很晚，但前一天晚上发生了一件有意思的事，想跟大家分享。这几个月我一直熬夜看《火影忍者》。这部动漫让我放松，我很喜欢，最重要的是它激励着我：日本哲学和他们看待事物的方式里，有某种东西特别能激励我。我甚至记得有研究说，看过《火影忍者》的人会更有韧性。我可以确认这在我身上应验了，但不能断言在我这里只是因为《火影忍者》。",
+          "这几个月我的睡眠管理得很糟，通常要到真的累了才睡着。我戒掉了刷社交媒体，换成了一件我以为没那么有害的事，可这就像戒了烟却改抽电子烟、嚼尼古丁口香糖，哈哈：不过是把一个坏习惯换成另一个。",
+          "我已经有两天没再陷入那种作息了，但昨晚，因为知道今天可以放松，我觉得正好可以重拾那些有害的习惯：过了 12 点才睡，看动漫看到昏睡过去。我也真的这么做了，像是一种作弊，打破自己定下的规矩带来了多巴胺。可今天，第 4 天，我一直在想，复发是多么容易，回到那些伤害我们、却让我们开心的事情里是多么舒服。而这趟旅行恰恰是为了相反的东西：养成新的习惯，给自己排毒。不是为了成为更好的人，因为我们本来就以各自的方式很好，而是为了更好地照顾自己。",
+          "总之，我看《火影》看到很晚才睡，也因此起得很晚。其实我 6 点就醒了，已经成了习惯，因为膀胱快憋炸了去了趟厕所。可我没有就此醒着，虽然也没什么事做，而是又回去睡了，哈哈。我的大脑总在寻找用最少的努力换最大的满足，那就是一直睡到睡不着为止，就像我 15 岁时那样。",
+          "我记得有一年的 9 月 15 日，危地马拉独立日。我在学校乐队里演奏，不想早起，因为我知道游行 9 点才开始：反正大家都会迟到，干嘛要早起？那是和我妈妈没完没了的拉锯战，结果当然是我一肚子气、觉得委屈地爬起来，因为她不让我睡。又是我的大脑在说：“既然晚点才开始，干嘛要早起？”睡懒觉有一种我至今没搞懂的快乐。",
+          "我 9 点匆匆起床，和 José 一起去晨走。我们去 Clavo y Canela 吃早餐，那是家挺漂亮的餐厅，价格偏贵，但好吃到让人觉得花 8 美元（约 70 格查尔）吃一份煎蛋卷也值了。",
+          "这天 José 和我分头行动：他自己去吃午饭、开会，我去和当初第一次邀请我来萨尔瓦多的朋友重聚：圣萨尔瓦多黑客空间（Hackerspace San Salvador）的 Joksan。Joksan 是我少数真心佩服的人之一，不只是因为他在通信和电子方面的技术、科学和数学功底，更因为他是一本行走的书，非常有自己的风格，在任何场合都能用最恰当的词。我们聊了任天堂、盗版、FPGA、科技黑魔法、科学和电子游戏。聊得太投入，我忘了萨尔瓦多的交通比危地马拉还糟，结果快 5 点才从索亚潘戈（Soyapango）出发，一段本该只有 10 公里的路，我开了将近两个小时，哈哈哈。",
+          "回到住处，José 照例在工作，我开始整理东西，开始转变，朝着一件我知道自己做得到、但也知道不做对结果影响不大的事情努力。所以，接下来几天请记住：我要改变作息，把懒惰放一边，尽我所能，能做的时候就做到最好。",
+          "今天没有照片，只有脑海里的美食，还有一顿来自 Don Li 的超棒晚餐：一碗拉面，虽然是外卖，摆盘却十分讲究。",
+          "谢谢你读完第四天。第五天见：我们不去圣米格尔了，改走海岸线，在萨尔瓦多美丽的海滩附近骑行。滨海公路（Carretera del Litoral），我们来了。"
+        ]
+      },
+      "photos": [],
+      "videos": []
     }
   ],
   "purpose": {
