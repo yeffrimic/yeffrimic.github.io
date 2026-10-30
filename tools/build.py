@@ -706,6 +706,9 @@ def render_chapter(data, ruta, L, entries, i):
     for v in videos:
         if v.get("after"):
             inline.setdefault(v["after"], []).append(f'<div class="embed inline">{embed(v["url"], ru, lang, root)}</div>')
+    # Enlaces externos sueltos: {"url": ..., "label": {...}, "after": n}
+    for k in e.get("links", []):
+        inline.setdefault(k["after"], []).append(f'<p><a class="more" href="{attr(k["url"])}">{esc(tr(k["label"], lang))} →</a></p>')
     body = "".join(f"\n      <p>{esc(t)}</p>" + "".join(f"\n      {h}" for h in inline.get(n, []))
                    for n, t in enumerate(tr(e["body"], lang), 1))
     photos = "".join(figure(p) for p in e.get("photos", []) if not p.get("after"))
