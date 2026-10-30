@@ -947,6 +947,20 @@
         13.4833,
         -88.1833
       ],
+      "via": [
+        {
+          "coords": [
+            13.2748,
+            -88.5472
+          ],
+          "place": {
+            "es": "Puerto El Triunfo",
+            "en": "Puerto El Triunfo",
+            "de": "Puerto El Triunfo",
+            "zh": "埃尔特里温福港"
+          }
+        }
+      ],
       "title": {
         "es": "Reuniones, reuniones y más reuniones",
         "en": "Meetings, meetings and more meetings",

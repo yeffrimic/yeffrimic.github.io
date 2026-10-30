@@ -527,9 +527,14 @@ def map_points(ruta, entries, lang, prefix):
     if ruta.get("start"):
         s = ruta["start"]
         points.append({"lat": s["coords"][0], "lng": s["coords"][1], "href": "", "title": "", "place": tr(s["place"], lang)})
-    points += [{"lat": e["coords"][0], "lng": e["coords"][1], "href": prefix + e["slug"] + "/",
-                "title": tr(e["title"], lang), "place": tr(e["place"], lang), "cta": tr(ruta["ui"]["read"], lang)}
-               for e in entries if e.get("coords")]
+    for e in entries:
+        if not e.get("coords"):
+            continue
+        # Paradas intermedias del día ("via"): solo dibujan la línea y un punto chico con su nombre
+        points += [{"lat": v["coords"][0], "lng": v["coords"][1], "href": "", "title": "", "place": tr(v["place"], lang), "via": True}
+                   for v in e.get("via", [])]
+        points.append({"lat": e["coords"][0], "lng": e["coords"][1], "href": prefix + e["slug"] + "/",
+                       "title": tr(e["title"], lang), "place": tr(e["place"], lang), "cta": tr(ruta["ui"]["read"], lang)})
     return attr(json.dumps(points, ensure_ascii=False))
 
 

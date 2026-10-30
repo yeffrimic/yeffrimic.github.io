@@ -23,7 +23,7 @@
     points.forEach(function (p, i) {
       var last = i === points.length - 1;
       var marker = L.circleMarker([p.lat, p.lng], {
-        radius: last ? 9 : 6, color: accent, weight: 2, fillColor: last ? accent : '#fff', fillOpacity: 1
+        radius: last ? 9 : p.via ? 4 : 6, color: accent, weight: 2, fillColor: last ? accent : '#fff', fillOpacity: 1
       }).addTo(map);
       var label = document.createElement('div');
       var place = document.createElement('b');
