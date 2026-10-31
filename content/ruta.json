@@ -1258,6 +1258,290 @@
         }
       ],
       "cover": "images/ruta/dia-5-portada.jpg"
+    },
+    {
+      "slug": "dia-6-sin-dolares",
+      "date": "2026-10-30",
+      "from": {
+        "es": "San Miguel",
+        "en": "San Miguel",
+        "de": "San Miguel",
+        "zh": "圣米格尔"
+      },
+      "place": {
+        "es": "Chinandega",
+        "en": "Chinandega",
+        "de": "Chinandega",
+        "zh": "奇南德加"
+      },
+      "country": "ni",
+      "km": 270,
+      "coords": [
+        12.629,
+        -87.13
+      ],
+      "via": [
+        {
+          "coords": [
+            13.424,
+            -87.447
+          ],
+          "country": "hn",
+          "place": {
+            "es": "San Lorenzo, Honduras",
+            "en": "San Lorenzo, Honduras",
+            "de": "San Lorenzo, Honduras",
+            "zh": "圣洛伦索（洪都拉斯）"
+          }
+        },
+        {
+          "coords": [
+            13.3007,
+            -87.1908
+          ],
+          "country": "hn",
+          "place": {
+            "es": "Choluteca",
+            "en": "Choluteca",
+            "de": "Choluteca",
+            "zh": "乔卢特卡"
+          }
+        },
+        {
+          "coords": [
+            13.05,
+            -86.985
+          ],
+          "country": "hn",
+          "place": {
+            "es": "Frontera El Guasaule",
+            "en": "El Guasaule border",
+            "de": "Grenze El Guasaule",
+            "zh": "El Guasaule 边境"
+          }
+        }
+      ],
+      "title": {
+        "es": "Nos quedamos oficialmente sin dólares",
+        "en": "We officially ran out of dollars",
+        "de": "Offiziell keine Dollar mehr",
+        "zh": "我们正式一美元都不剩了"
+      },
+      "body": {
+        "es": [
+          "Salimos de San Miguel a eso de las 11 de la mañana. El plan era pasar a San Lorenzo, en Honduras, almorzar, ir al puerto y encontrar un lugar cerquita para pedalear. En esta parte no hay mucho que destacar, más allá de que, efectivamente, solo en El Salvador está señalizada la ciclovía.",
+          "Llegamos a la frontera entre El Salvador y Honduras a eso de la 1 o 2 de la tarde. Aquí pueden ver a José haciendo cola en migración. Es interesante que en El Salvador no sellan la entrada ni la salida en los pasaportes, solo te dan unos tickets, y siempre da cosa que te los quiten, porque uno no sabe qué pedo con eso. Así que de ahora en adelante le vamos a tomar foto a los papelitos que nos den, para tener un archivo.",
+          "Pasamos al lado hondureño y, como puros nuevos, no vimos que nadie nos detuviera ni nada, jajajaja. Le dije a José: «Nombre, tiene que haber algo que indique que sí entramos y que sí vamos a salir». Así que preguntamos. Él se metió a un edificio bastante bonito y me manda un mensaje: «Simón, sí están sellando, aquí estoy haciendo cola», jajajaja. Estacioné detrás de un pickup, bajamos e hicimos cola unos 10 minutos… para darnos cuenta de que estábamos en la cola de salida, JAJAJA, no en la de entrada. Fuimos al otro lado y nos sellaron: huellas, foto, «¿a qué se dedica?», todo el proceso de siempre, súper eficiente. No nos revisaron el carro ni nada. He de decir que en la frontera de El Salvador sí nos pararon y revisaron el carro, pero ya en Honduras no.",
+          "Seguimos hacia San Lorenzo. Había una recta bien bonita y decidimos pedalearla; aquí pueden ver el video. Como la última vez, nos dimos cuenta de que es más peligroso, para el carro y para el que pedalea, ir detrás todo el tiempo, y más en una carretera de tráilers. Así que José se bajó y empezó a pedalear, y yo me adelantaba casi cada kilómetro para no estorbar. Había subidas, bajadas y un calor abrasador, hasta que decidimos guardar la bicicleta, después de unos 5 km pedaleados. Ya se está notando el cansancio de estos días. Y eso que descansamos en San Salvador… pero realmente no descansamos: yo me fui a meter al tráfico y José también, jajaja. Así que la verdad no hemos trabajado como se debe estos días.",
+          "Dejando atrás a José, empecé a avanzar y había un retén, jajajaja. El policía me pide la licencia y la tarjeta de circulación, que obviamente llevo digital, porque ¿quién la tiene física? Y me dice: «Ahh, mira, jaja, andás sin cinturón, te voy a poner tu multita», jajajaja. Y yo: «Nombre, poli, no sea así. Me acabo de subir al carro, hace unos 100 metros, y ando viendo a mi amigo en bici, cuidándolo». Y ahí estuve diciéndole: «No sea mala onda, poli», jajajaja.",
+          "Hasta que llega José, y el poli me dice: «Ahh, ¿pero agua no tenés ahí?». Y yo: «Nel, pero le puedo dar suero», jaja. «Nombre, agua, agua». Y yo: «Jaja, no, poli, perdón, si ni efectivo tenemos», AJAJAJA, yo cuidando mis 50 centavos de dólar. Al final me dejó ir; solo me dijo: «Ponete el cinturón, pues».",
+          "Después de eso sí había cierta urgencia, porque ese día salimos un poco tarde del hospedaje y eran 5 horas de camino. Por fin llegamos a San Lorenzo, pero ya eran las 3 de la tarde, así que le dije a José: «Mira, no quiero manejar de noche». He tenido malas experiencias de noche en Guatemala: carreteras sin señalizar, gente con reflectores de estadio en sus carros que lo dejan ciego a uno. Así que mejor antes que después, JAJAJA.",
+          "Encontramos un lugar bien interesante en un centro comercial. Los centros comerciales son bien distintos en cada país: uno está acostumbrado a lugares cerrados con un montón de tiendas, y aquí son más bien plazas abiertas alrededor del parqueo. «Las Delicias del Puerto», algo así se llamaba. Por todo el desgaste, le sugerí a José que tomara una sopita para recuperarse: fue sopa de pollo, y para mí un estofado de res que de verdad estaba rico. Comimos en 10 minutos y nos fuimos hacia la frontera de El Guasaule. Entrando a Choluteca encontramos un puente precioso; aquí lo ven en el video. En Honduras sí nos sellaron el pasaporte, así que la colección va creciendo.",
+          "Por fin llegamos a la frontera y empezó la pesadilla. Pasamos el puesto hondureño, todo bien, todo correcto, y al entrar al puesto nicaragüense nos detienen y nos piden los papeles. La cosa es que querían la tarjeta de circulación impresa, jajaja. ¡IMPRESAAAA! Que si no, no podíamos pasar. Y fue tipo: «¿Pero aquí dónde podemos imprimir?». «Allá del otro lado pidan ayuda». Y nos regresaron al lado hondureño.",
+          "Mientras íbamos subiendo el puente había varios policías, y una de ellas nos detiene y nos dice: «Vas rápido, va, vas rápido». Y yo: «No, oficial, perdone si le pareció, pero vamos tranquilos». Y me lo repitió como tres veces, AJAJAJA.",
+          "Regresamos al lado hondureño a darle vueltas a todo hasta que encontramos (aquí lo ven) un lugar con una impresora en medio de la nada. En el mapa decía que había una gasolinera cerca, y fuimos antes, según nosotros, a sacar lempiras para pagar la fotocopia, AJAJ. Esa gasolinera estaba más abandonada que las carreteras de Guatemala y no había nada, así que dijimos: «Bueno, aunque nos cobren unos 100 quetzales por imprimir la tarjeta de circulación, es lo que toca por pendejos», JAJAJA.",
+          "No les había contado, pero al llegar a la frontera había una cola de casi 1 km de camiones esperando pasar. Tuve que ponerme en contra de la vía para poder avanzar, porque los camiones no se iban a mover hasta las 6 de la tarde, pero los carros livianos sí podían pasar, así que bueno, jajajaja. Encontramos la fotocopiadora y nos estacionamos entre dos camiones. Le preguntamos a la señora si aceptaba dólares y nos dijo que sí. Nos imprimió la tarjeta y nos cobró los últimos 50 centavos, AJAJAJ. José se sacó un dólar de la mochila y ella le devolvió 15 lempiras, que son unos 50 centavos de dólar. Así que, oficialmente, nos quedamos sin los primeros y únicos 5 dólares que llevábamos hasta este día.",
+          "Regresamos a la frontera, y eso nos llevó unos 20 o 30 minutos. Mientras hacíamos cola para entrar a Nicaragua, varias personas que trabajan ayudando informalmente a los que andan perdidos como nosotros, jajajaja, nos decían que había caminos mejores para no esperar a los camiones: uno era irnos por otro lado y pasar el río, jajaja, y otro, subirnos a la banqueta, JAJAJAJA, porque tenía el ancho para carritos pequeños. Pero no nos quisimos arriesgar, porque, de nuevo, esto es un proceso de largo plazo: si por avanzar 20 metros se rompía algo del carro, no valía la pena.",
+          "Llegamos, pasamos el puente y la primera inspección. Le digo a la poli: «Ya regresamos de imprimir». Y me dice: «Ahh, yo hambre tengo, ¿comida no cargan por ahí?», JAJAJAJAJAJAJAJAJA. Se rió, nos revisó todo y pasamos. Es bien interesante cómo el mismo proceso, pero sin ayuda ni guía, puede tardarse tanto.",
+          "Antes de llegar a migración anduvimos dando vueltas, perdidos, porque no se entendía a dónde teníamos que llegar con el carro ni dónde estaba la oficina. Al final nos ayudó una persona y llegamos. Nos pidieron pasaporte, razón de la visita y números de teléfono, y nos tomaron fotos y huellas, como siempre. Luego teníamos que registrar el carro, pero yo no entendía ni cómo ni dónde, así que pregunté cada cosa. Para no hacerles el cuento largo: en el proceso del carro pasamos hora y media, tuvimos que comprar un seguro y listo.",
+          "Ya era de noche, así que veníamos algo lento. Llegamos a Chinandega tipo 8 de la noche, y aquí también, jajaja: el amigo de José nos quería llevar a un lugar que estaba súper lleno. Entre una cosa y otra fuimos a dejar el carro al hotel y llegamos a donde nos invitaron a comer. Y vean qué rico, jajajaja: eso parecía más almuerzo que cena. El queso de Nicaragua es increíble, qué belleza, qué ricura, jajaja. Estuvimos hablando un buen rato, regresamos al hotel y nos dimos cuenta de que estábamos súper cansados. Por eso estoy escribiendo el blog hasta hoy.",
+          "Chinandega es una ciudad bastante bonita. Vamos a tener que inventar un término para este tipo de ciudades. En Guatemala uno llega a pueblitos que tienen su magia, cierta identidad, no solo por los pueblos indígenas que les dan colorido, sino por sus costumbres. Aquí, en Chinandega, en San Lorenzo e incluso en San Miguel, las ciudades son grandes, pero creo que como solo íbamos de paso, no nos quedamos lo suficiente como para que nos terminaran de atrapar. No me malinterpreten: es bonito, bastante bonito. Y sorprendido estoy de que, efectivamente, tenemos las peores carreteras de Centroamérica, JAJAJAJA.",
+          "Pero las ciudades son bien parecidas entre todas, y qué bueno, porque eso quiere decir que tenemos más cosas en común y uno se siente bien en todos lados. Nunca nos hicieron desprecios en ningún lugar. Eso sí, el calor… pero esa será otra historia.",
+          "Hoy, en el séptimo día, vamos a descansar, trabajar y hacer lo que nos trazamos la semana pasada. Les seguiremos contando qué tal nos va."
+        ],
+        "en": [
+          "We left San Miguel around 11 a.m. The plan was to go through San Lorenzo, in Honduras, have lunch, visit the port and find a spot nearby to ride. There's not much to highlight in this part, other than that, sure enough, only El Salvador has a marked bike lane.",
+          "We reached the El Salvador–Honduras border around 1 or 2 p.m. Here you can see José waiting in line at immigration. Interestingly, El Salvador doesn't stamp passports on entry or exit, they just give you little tickets, and it's always nerve-racking that they take them from you, because you have no idea what's going on with that. So from now on we'll take photos of every slip of paper they give us, to keep a record.",
+          "We crossed to the Honduran side and, total newbies, we didn't see anyone stopping us or anything, hahahaha. I told José: \"No way, there has to be something that shows we entered and that we're leaving.\" So we asked. He went into a pretty nice building and texts me: \"Yep, they're stamping, I'm in line,\" hahahaha. I parked behind a pickup, we got out and waited in line for about 10 minutes… only to realize we were in the exit line, HAHAHA, not the entry line. We went to the other side and got stamped: fingerprints, photo, \"what do you do for a living?\", the usual process, super efficient. They didn't inspect the car or anything. I have to say that at the Salvadoran border they did stop us and check the car, but in Honduras they didn't.",
+          "We continued toward San Lorenzo. There was a really nice straight stretch and we decided to ride it; you can see the video here. Like last time, we realized it's more dangerous, for the car and for the rider, to stay behind the whole time, especially on a road full of semis. So José got out and started pedaling, and I drove ahead almost every kilometer so I wouldn't be in the way. There were climbs, descents and scorching heat, until we decided to put the bike away, after about 5 km of pedaling. The fatigue of these days is starting to show. And that's even though we rested in San Salvador… but we didn't really rest: I went and got stuck in traffic and so did José, haha. So honestly, we haven't worked as we should these days.",
+          "Leaving José behind, I drove ahead and there was a police checkpoint, hahahaha. The officer asks for my license and vehicle registration card, which of course I carry digitally, because who has the physical one? And he says: \"Ahh, look, haha, you're not wearing a seatbelt, I'm going to give you a little ticket,\" hahahaha. And I'm like: \"Come on, officer, don't be like that. I just got in the car about 100 meters ago, I'm keeping an eye on my friend on the bike.\" And there I was: \"Don't be a buzzkill, officer,\" hahahaha.",
+          "Then José arrives, and the officer says: \"Ahh, but don't you have any water there?\" And I'm like: \"Nope, but I can give you an electrolyte drink,\" haha. \"No, water, water.\" And I said: \"Haha, no, officer, sorry, we don't even have cash,\" HAHAHA, me guarding my 50 cents. In the end he let me go; he just said: \"Put your seatbelt on, then.\"",
+          "After that there was some urgency, because we'd left the lodging a bit late that day and it was a 5-hour drive. We finally reached San Lorenzo, but it was already 3 p.m., so I told José: \"Look, I don't want to drive at night.\" I've had bad experiences driving at night in Guatemala: unmarked roads, people with stadium floodlights on their cars that blind you. So better sooner than later, HAHAHA.",
+          "We found a really interesting place in a shopping center. Shopping centers are very different in each country: you're used to enclosed places with tons of stores, and here they're more like open plazas around the parking lot. \"Las Delicias del Puerto\", or something like that, was the name. Given how worn out he was, I suggested José have some soup to recover: he had chicken soup, and I had a beef stew that was really good. We ate in 10 minutes and headed for the El Guasaule border. Coming into Choluteca we found a beautiful bridge; you can see it in the video. In Honduras they did stamp our passports, so the collection keeps growing.",
+          "We finally reached the border and the nightmare began. We passed the Honduran checkpoint, all good, all correct, and when we entered the Nicaraguan checkpoint they stopped us and asked for our papers. The thing is, they wanted the vehicle registration card printed, haha. PRIIINTED! Otherwise we couldn't cross. And we were like: \"But where can we print around here?\" \"Over on the other side, ask for help.\" And they sent us back to the Honduran side.",
+          "As we drove up the bridge there were several police officers, and one of them stopped us and said: \"You're going fast, eh, you're going fast.\" And I said: \"No, officer, sorry if it seemed that way, but we're going slow.\" And she repeated it like three times, HAHAHA.",
+          "We went back to the Honduran side and drove around until we found (here you can see it) a place with a printer in the middle of nowhere. The map showed a gas station nearby, so we went there first, supposedly to get lempiras to pay for the copy, HAHA. That gas station was more abandoned than Guatemala's roads and there was nothing, so we said: \"Well, even if they charge us around 100 quetzales to print the registration card, that's what we get for being idiots,\" HAHAHA.",
+          "I hadn't told you, but when we got to the border there was a line of trucks almost 1 km long waiting to cross. I had to drive against traffic to get through, because the trucks weren't going to move until 6 p.m., but light vehicles could pass, so, well, hahahaha. We found the copy shop and parked between two trucks. We asked the lady if she took dollars and she said yes. She printed the card and charged us our last 50 cents, HAHAHA. José pulled a dollar out of his backpack and she gave him back 15 lempiras, which is about 50 cents. So, officially, we ran out of the first and only 5 dollars we'd been carrying until that day.",
+          "We went back to the border, which took us about 20 or 30 minutes. While we waited in line to enter Nicaragua, several people who informally help folks who are lost like us, hahahaha, told us there were better ways to skip the trucks: one was to go another way and cross the river, haha, and another was to drive up on the sidewalk, HAHAHAHA, because it was wide enough for small cars. But we didn't want to risk it, because, again, this is a long-term process: if something on the car broke just to get 20 meters ahead, it wasn't worth it.",
+          "We arrived, crossed the bridge and passed the first inspection. I tell the officer: \"We're back from printing.\" And she says: \"Ahh, I'm hungry, you don't have any food on you?\" HAHAHAHAHAHAHAHA. She laughed, checked everything and let us through. It's really interesting how the same process, without help or guidance, can take so long.",
+          "Before getting to immigration we drove around lost, because it wasn't clear where we were supposed to go with the car or where the office was. In the end someone helped us and we got there. They asked for our passports, reason for the visit and phone numbers, and took our photos and fingerprints, as always. Then we had to register the car, but I had no idea how or where, so I asked about everything. To make a long story short: the car process took an hour and a half, we had to buy insurance, and that was it.",
+          "It was already dark, so we were going a bit slow. We got to Chinandega around 8 p.m., and here too, haha: José's friend wanted to take us to a place that was packed. Between one thing and another, we dropped the car off at the hotel and got to where we'd been invited to eat. And look how good it was, hahahaha: it looked more like lunch than dinner. Nicaraguan cheese is incredible, so beautiful, so delicious, haha. We talked for a good while, went back to the hotel and realized we were exhausted. That's why I'm only writing the blog today.",
+          "Chinandega is a pretty nice city. We're going to have to invent a term for this kind of city. In Guatemala you arrive in small towns that have their own magic, a certain identity, not only because of the Indigenous peoples who bring them color, but because of their customs. Here, in Chinandega, in San Lorenzo and even in San Miguel, the cities are big, but I think since we were just passing through, we didn't stay long enough for them to really win us over. Don't get me wrong: it's nice, really nice. And I'm surprised that, sure enough, we have the worst roads in Central America, HAHAHAHA.",
+          "But the cities are all quite similar, which is great, because it means we have more in common and you feel good everywhere. Nobody ever looked down on us anywhere. The heat, though… but that's another story.",
+          "Today, on day seven, we're going to rest, work and do what we set out to do last week. We'll keep you posted on how it goes."
+        ],
+        "de": [
+          "Wir fuhren gegen 11 Uhr in San Miguel los. Der Plan war, über San Lorenzo in Honduras zu fahren, zu Mittag zu essen, zum Hafen zu gehen und in der Nähe eine Stelle zum Radeln zu finden. Über diesen Teil gibt es nicht viel zu sagen, außer dass tatsächlich nur in El Salvador der Radweg ausgeschildert ist.",
+          "Gegen 13 oder 14 Uhr erreichten wir die Grenze zwischen El Salvador und Honduras. Hier seht ihr José in der Schlange bei der Einwanderungsbehörde. Interessant: In El Salvador werden Ein- und Ausreise nicht im Pass gestempelt, man bekommt nur kleine Zettel, und es ist immer unheimlich, wenn sie einem die wieder abnehmen, weil man nicht weiß, was es damit auf sich hat. Deshalb fotografieren wir ab jetzt jeden Zettel, den wir bekommen, um ein Archiv zu haben.",
+          "Wir fuhren auf die honduranische Seite, und als blutige Anfänger sahen wir niemanden, der uns anhielt, hahahaha. Ich sagte zu José: „Nee, es muss doch etwas geben, das zeigt, dass wir eingereist sind und wieder ausreisen.“ Also fragten wir. Er ging in ein ziemlich schönes Gebäude und schrieb mir: „Jep, die stempeln, ich steh in der Schlange“, hahahaha. Ich parkte hinter einem Pick-up, wir stiegen aus und standen etwa 10 Minuten an … nur um zu merken, dass wir in der Ausreiseschlange standen, HAHAHA, nicht in der für die Einreise. Wir gingen auf die andere Seite und bekamen den Stempel: Fingerabdrücke, Foto, „Was machen Sie beruflich?“, das übliche Verfahren, super effizient. Das Auto wurde nicht kontrolliert. An der Grenze von El Salvador wurden wir angehalten und das Auto durchsucht, in Honduras nicht.",
+          "Wir fuhren weiter Richtung San Lorenzo. Es gab eine wunderschöne Gerade, und wir beschlossen, sie zu radeln; hier seht ihr das Video. Wie beim letzten Mal merkten wir, dass es für das Auto und den Radfahrer gefährlicher ist, die ganze Zeit hinterherzufahren, erst recht auf einer Straße voller Sattelschlepper. Also stieg José aufs Rad, und ich fuhr fast jeden Kilometer voraus, um nicht im Weg zu sein. Es gab Anstiege, Abfahrten und eine brütende Hitze, bis wir nach etwa 5 geradelten Kilometern beschlossen, das Rad einzupacken. Die Müdigkeit der letzten Tage macht sich bemerkbar. Und dabei haben wir in San Salvador ausgeruht … aber nicht wirklich: Ich bin in den Stau geraten und José auch, haha. Ehrlich gesagt haben wir in diesen Tagen nicht so gearbeitet, wie wir sollten.",
+          "Ich ließ José hinter mir, fuhr weiter, und da war eine Polizeikontrolle, hahahaha. Der Polizist verlangte Führerschein und Fahrzeugschein, die ich natürlich digital dabeihabe, denn wer hat die schon in Papier? Und er sagte: „Ahh, schau mal, haha, du bist nicht angeschnallt, da gibt's ein kleines Bußgeld“, hahahaha. Und ich: „Ach, Herr Polizist, seien Sie nicht so. Ich bin vor 100 Metern eingestiegen und passe auf meinen Freund auf dem Rad auf.“ Und dann immer wieder: „Seien Sie kein Spielverderber“, hahahaha.",
+          "Bis José ankam und der Polizist sagte: „Ahh, und Wasser hast du da nicht?“ Und ich: „Nee, aber ich kann Ihnen ein Elektrolytgetränk geben“, haha. „Nein, Wasser, Wasser.“ Und ich: „Haha, nein, Herr Polizist, tut mir leid, wir haben nicht mal Bargeld“, HAHAHA, während ich meine 50 Cent hütete. Am Ende ließ er mich fahren und sagte nur: „Dann schnall dich halt an.“",
+          "Danach waren wir etwas in Eile, denn wir waren an dem Tag spät aus der Unterkunft los, und es waren 5 Stunden Fahrt. Endlich kamen wir in San Lorenzo an, aber es war schon 15 Uhr, also sagte ich zu José: „Schau, ich will nicht nachts fahren.“ Ich habe in Guatemala schlechte Erfahrungen mit Nachtfahrten gemacht: Straßen ohne Markierung, Leute mit Stadionflutlicht am Auto, die einen blenden. Also lieber früher als später, HAHAHA.",
+          "Wir fanden einen interessanten Ort in einem Einkaufszentrum. Einkaufszentren sind in jedem Land anders: Man ist geschlossene Gebäude mit vielen Läden gewohnt, hier sind es eher offene Plätze rund um den Parkplatz. „Las Delicias del Puerto“ hieß es, oder so ähnlich. Weil er so erschöpft war, schlug ich José eine Suppe zur Erholung vor: Er nahm Hühnersuppe, ich einen Rindereintopf, der wirklich lecker war. Wir aßen in 10 Minuten und fuhren zur Grenze El Guasaule. Bei der Einfahrt nach Choluteca fanden wir eine wunderschöne Brücke; ihr seht sie im Video. In Honduras wurde unser Pass gestempelt, die Sammlung wächst also.",
+          "Endlich erreichten wir die Grenze, und der Albtraum begann. Wir passierten den honduranischen Posten, alles gut, alles korrekt, und am nicaraguanischen Posten hielten sie uns an und wollten die Papiere sehen. Das Problem: Sie wollten den Fahrzeugschein ausgedruckt, haha. AUSGEDRUUUCKT! Sonst kämen wir nicht durch. Und wir so: „Aber wo können wir hier drucken?“ „Auf der anderen Seite, fragt nach Hilfe.“ Und sie schickten uns auf die honduranische Seite zurück.",
+          "Als wir die Brücke hinauffuhren, standen dort mehrere Polizisten, und eine von ihnen hielt uns an: „Du fährst schnell, gell, du fährst schnell.“ Und ich: „Nein, Frau Polizistin, entschuldigen Sie, falls es so aussah, aber wir fahren langsam.“ Und sie wiederholte es etwa dreimal, HAHAHA.",
+          "Zurück auf der honduranischen Seite fuhren wir umher, bis wir (hier seht ihr es) mitten im Nirgendwo einen Laden mit Drucker fanden. Laut Karte gab es in der Nähe eine Tankstelle, und wir fuhren zuerst dorthin, angeblich um Lempiras für die Kopie abzuheben, HAHA. Die Tankstelle war verlassener als die Straßen Guatemalas, es gab nichts, also sagten wir: „Na gut, auch wenn sie uns rund 100 Quetzales fürs Ausdrucken abknöpfen, das haben wir als Trottel verdient“, HAHAHA.",
+          "Ich hatte es euch noch nicht erzählt: An der Grenze stand eine fast 1 km lange Schlange von Lastwagen. Ich musste gegen die Fahrtrichtung fahren, um durchzukommen, denn die Lastwagen würden sich erst um 18 Uhr bewegen, Pkw durften aber passieren, also gut, hahahaha. Wir fanden den Kopierladen und parkten zwischen zwei Lastwagen. Wir fragten die Frau, ob sie Dollar nimmt, und sie sagte ja. Sie druckte den Schein aus und nahm uns die letzten 50 Cent ab, HAHAHA. José zog einen Dollar aus dem Rucksack, und sie gab ihm 15 Lempiras zurück, etwa 50 Cent. Damit waren die ersten und einzigen 5 Dollar, die wir bis zu diesem Tag dabeihatten, offiziell weg.",
+          "Wir fuhren zurück zur Grenze, was etwa 20 bis 30 Minuten dauerte. Während wir in der Schlange nach Nicaragua standen, sagten uns mehrere Leute, die Verirrten wie uns inoffiziell helfen, hahahaha, es gebe bessere Wege, um die Lastwagen zu umgehen: einer war, einen anderen Weg zu nehmen und durch den Fluss zu fahren, haha, ein anderer, auf den Gehweg zu fahren, HAHAHAHA, weil er breit genug für kleine Autos war. Aber wir wollten nichts riskieren, denn auch hier gilt: Das ist ein langfristiger Prozess. Wenn für 20 Meter Vorsprung etwas am Auto kaputtgeht, lohnt sich das nicht.",
+          "Wir kamen an, fuhren über die Brücke und durch die erste Kontrolle. Ich sage der Polizistin: „Wir sind vom Drucken zurück.“ Und sie: „Ahh, ich hab Hunger, habt ihr nichts zu essen dabei?“, HAHAHAHAHAHAHAHA. Sie lachte, kontrollierte alles, und wir durften durch. Spannend, wie lange derselbe Ablauf ohne Hilfe oder Anleitung dauern kann.",
+          "Vor der Einwanderungsbehörde fuhren wir verloren im Kreis, weil nicht klar war, wohin wir mit dem Auto sollten und wo das Büro war. Schließlich half uns jemand. Man verlangte Pass, Reisegrund und Telefonnummern und nahm wie immer Fotos und Fingerabdrücke. Danach mussten wir das Auto registrieren, aber ich verstand weder wie noch wo, also fragte ich alles nach. Um es kurz zu machen: Der Teil mit dem Auto dauerte anderthalb Stunden, wir mussten eine Versicherung kaufen, und fertig.",
+          "Es war schon dunkel, also fuhren wir etwas langsamer. Gegen 20 Uhr kamen wir in Chinandega an, und auch hier, haha: Josés Freund wollte uns an einen Ort bringen, der total voll war. Zwischen dem einen und dem anderen brachten wir das Auto ins Hotel und kamen dort an, wo wir zum Essen eingeladen waren. Und seht nur, wie lecker, hahahaha: Das sah eher nach Mittag- als nach Abendessen aus. Der Käse in Nicaragua ist unglaublich, so schön, so lecker, haha. Wir redeten lange, fuhren zurück ins Hotel und merkten, dass wir total erschöpft waren. Deshalb schreibe ich den Blog erst heute.",
+          "Chinandega ist eine ziemlich schöne Stadt. Für diese Art von Städten müssen wir ein eigenes Wort erfinden. In Guatemala kommt man in kleine Dörfer, die ihren Zauber und eine eigene Identität haben, nicht nur wegen der indigenen Völker, die ihnen Farbe geben, sondern wegen ihrer Bräuche. Hier, in Chinandega, in San Lorenzo und sogar in San Miguel, sind die Städte groß, aber ich glaube, weil wir nur auf der Durchreise waren, sind wir nicht lange genug geblieben, damit sie uns ganz in ihren Bann ziehen. Versteht mich nicht falsch: Es ist schön, sehr schön. Und ich bin überrascht, dass wir tatsächlich die schlechtesten Straßen Mittelamerikas haben, HAHAHAHA.",
+          "Aber die Städte ähneln sich alle sehr, und das ist gut, denn es heißt, dass wir mehr gemeinsam haben und man sich überall wohlfühlt. Nirgends wurden wir herablassend behandelt. Nur die Hitze … aber das ist eine andere Geschichte.",
+          "Heute, am siebten Tag, ruhen wir uns aus, arbeiten und machen das, was wir uns letzte Woche vorgenommen haben. Wir erzählen euch weiter, wie es läuft."
+        ],
+        "zh": [
+          "我们大约上午 11 点离开圣米格尔。计划是经过洪都拉斯的圣洛伦索（San Lorenzo），吃午饭，去港口看看，再在附近找个地方骑车。这一段没什么特别的，只是确认了一件事：只有萨尔瓦多的自行车道有标识。",
+          "下午一两点，我们到了萨尔瓦多和洪都拉斯的边境。这里能看到 José 在移民局排队。有意思的是，萨尔瓦多出入境都不在护照上盖章，只给几张小票，被收走的时候总让人心里发毛，因为根本不知道那是怎么回事。所以从现在起，我们会把拿到的每张小纸条都拍下来存档。",
+          "我们开到洪都拉斯那边，像两个十足的新手，没看到有人拦我们，哈哈哈哈。我对 José 说：“不对吧，总得有个东西证明我们入境了、也会出境吧。”于是我们去问。他走进一栋挺漂亮的楼，给我发消息：“对，这里在盖章，我在排队”，哈哈哈哈。我把车停在一辆皮卡后面，我们下车排了大约 10 分钟……才发现排的是出境队，哈哈哈，不是入境队。我们换到另一边，盖了章：按指纹、拍照、“您是做什么的？”，一贯的流程，效率超高。车也没被检查。说实话，在萨尔瓦多的边境他们拦下我们检查了车，到了洪都拉斯就没有。",
+          "我们继续开往圣洛伦索。有一段很漂亮的直路，我们决定骑一段，这里有视频。和上次一样，我们发现一直跟在后面对车和骑车的人都更危险，尤其是在满是大货车的路上。于是 José 下车开始骑，我几乎每隔一公里就往前开一段，免得碍事。上坡、下坡，加上酷热，骑了大约 5 公里后，我们决定把车收起来。这几天的疲惫开始显现了。明明在圣萨尔瓦多休息过……其实根本没休息：我去堵车了，José 也是，哈哈。所以说实话，这几天我们都没有好好工作。",
+          "我把 José 甩在后面往前开，结果遇到一个检查站，哈哈哈哈。警察要我出示驾照和行驶证，我当然带的是电子版，谁还带纸质的啊？他说：“啊，你看，哈哈，没系安全带，给你开张小罚单”，哈哈哈哈。我说：“哎呀警官，别这样嘛。我 100 米前才上车，在照看我骑车的朋友。”然后一直说：“别扫兴嘛，警官”，哈哈哈哈。",
+          "这时 José 到了，警察说：“啊，那你那儿没有水吗？”我说：“没有，不过可以给您一瓶电解质水”，哈哈。“不要，要水，水。”我说：“哈哈，不好意思警官，我们连现金都没有”，哈哈哈，我还在守着我那 50 美分。最后他放我走了，只说了一句：“那就把安全带系上。”",
+          "之后确实有点急，因为那天我们出发晚了，路程要 5 个小时。终于到了圣洛伦索，可已经下午 3 点了，我对 José 说：“我不想开夜车。”我在危地马拉开夜车有过不好的经历：路上没有标识，有人在车上装着体育场那么亮的大灯，晃得人什么都看不见。所以宁早勿晚，哈哈哈。",
+          "我们在一个购物中心找到个挺有意思的地方。每个国家的购物中心都很不一样：我们习惯的是封闭的、有一大堆店的商场，这里更像是围着停车场的露天广场。店名好像叫“Las Delicias del Puerto”。考虑到 José 累坏了，我建议他喝点汤恢复体力：他点了鸡汤，我点了炖牛肉，真的很好吃。我们 10 分钟就吃完了，出发去 El Guasaule 边境。进入乔卢特卡（Choluteca）时，我们遇到一座漂亮的桥，视频里能看到。在洪都拉斯，护照上终于盖了章，收藏越来越多了。",
+          "终于到了边境，噩梦开始了。过洪都拉斯的关口，一切顺利，一切正常；可一进尼加拉瓜的关口，就被拦下来查证件。问题是，他们要纸质打印的行驶证，哈哈。打——印——的！不然不让过。我们问：“那这儿哪里能打印？”“去那边找人帮忙吧。”就这样把我们打发回了洪都拉斯那边。",
+          "开上桥的时候，桥上有好几个警察，其中一位女警拦下我们说：“你开太快了，开太快了。”我说：“没有，警官，如果看起来像那样，不好意思，但我们开得很慢。”她重复了大概三遍，哈哈哈。",
+          "回到洪都拉斯那边，我们兜来兜去，终于在荒郊野外找到一个有打印机的地方（这里能看到）。地图上显示附近有个加油站，我们就先去那儿，想着取点伦皮拉付复印费，哈哈。那个加油站比危地马拉的公路还荒废，什么都没有，我们只好说：“算了，哪怕打印行驶证要收我们 100 格查尔左右，也是我们自己蠢，活该”，哈哈哈。",
+          "之前没跟你们说：到边境时，等着过关的大货车排了将近 1 公里。我只好逆行才能过去，因为货车要到晚上 6 点才能动，小车却可以通行，所以嘛，哈哈哈哈。我们找到复印店，把车停在两辆货车中间。问那位太太收不收美元，她说收。她帮我们打印了行驶证，收走了我们最后的 50 美分，哈哈哈。José 从背包里掏出一美元，她找回 15 伦皮拉，大约 50 美分。所以，正式宣布：我们带到今天的最初、也是唯一的 5 美元，花光了。",
+          "我们回到边境，花了大约 20 到 30 分钟。排队进尼加拉瓜时，好几个非正式帮像我们这样迷路的人的“向导”，哈哈哈哈，跟我们说有更好的办法不用等货车：一个是绕另一条路从河里开过去，哈哈；另一个是开上人行道，哈哈哈哈，因为宽度够小车走。但我们不想冒险，因为说到底，这是个长期的过程：如果为了往前挪 20 米把车弄坏了，就不值得。",
+          "我们到了，过了桥，通过第一道检查。我对女警说：“我们打印回来了。”她说：“啊，我饿了，你们没带吃的吗？”哈哈哈哈哈哈哈哈。她笑了，检查完所有东西，放我们过去了。很有意思：同样的流程，没人帮忙、没人指引，就能拖这么久。",
+          "到移民局之前，我们迷路兜了好几圈，因为根本看不明白车该开去哪里、办公室在哪儿。最后有人帮了我们，总算到了。他们要了护照、来访原因和电话号码，照例拍照、按指纹。接着要给车登记，可我完全搞不清怎么办、在哪儿办，只好一项一项地问。长话短说：车的手续办了一个半小时，买了一份保险，就搞定了。",
+          "天已经黑了，所以我们开得比较慢。大约晚上 8 点到了奇南德加（Chinandega），这里也是，哈哈：José 的朋友想带我们去一个人超多的地方。忙来忙去，我们先把车停到酒店，再去了请我们吃饭的地方。看看多好吃，哈哈哈哈：看着更像午饭而不是晚饭。尼加拉瓜的奶酪太棒了，又漂亮又好吃，哈哈。我们聊了好一会儿，回到酒店才发现累坏了。所以这篇博客我拖到今天才写。",
+          "奇南德加是个挺漂亮的城市。我们得给这类城市发明一个新词了。在危地马拉，你会来到一些有自己魔力、有独特气质的小镇，不只是因为原住民带来的色彩，还因为当地的习俗。而在这里，在奇南德加、圣洛伦索，甚至圣米格尔，城市都很大，但我觉得因为我们只是路过，停留的时间不够长，还没被它们彻底吸引。别误会：很漂亮，真的很漂亮。我也很惊讶，原来中美洲最烂的路确实在我们危地马拉，哈哈哈哈。",
+          "不过这些城市彼此都很像，这很好，说明我们有更多共同点，走到哪里都觉得自在。我们从没在任何地方被人看不起。不过那个热啊……那是另一个故事了。",
+          "今天是第七天，我们要休息、工作，把上周定下的事情做完。我们会继续告诉大家进展。"
+        ]
+      },
+      "photos": [
+        {
+          "src": "images/ruta/dia-6-migracion.jpg",
+          "alt": {
+            "es": "José haciendo cola frente a la ventanilla de migración, con conos naranjas",
+            "en": "José waiting in line at the immigration window, with orange cones",
+            "de": "José steht vor dem Schalter der Einwanderungsbehörde an, daneben orange Kegel",
+            "zh": "José 在移民局窗口前排队，旁边是橙色路锥"
+          },
+          "caption": {
+            "es": "José en la cola de migración (la de salida, jaja).",
+            "en": "José in the immigration line (the exit one, haha).",
+            "de": "José in der Schlange der Einwanderungsbehörde (der für die Ausreise, haha).",
+            "zh": "José 在移民局排队（排的是出境队，哈哈）。"
+          },
+          "after": 2
+        },
+        {
+          "src": "images/ruta/dia-6-bici.jpg",
+          "alt": {
+            "es": "La bicicleta parada junto al carro a la orilla de la carretera",
+            "en": "The bike propped next to the car by the side of the road",
+            "de": "Das Rad neben dem Auto am Straßenrand",
+            "zh": "停在路边、车旁的自行车"
+          },
+          "caption": {
+            "es": "Lista para la recta hacia San Lorenzo.",
+            "en": "Ready for the straight toward San Lorenzo.",
+            "de": "Bereit für die Gerade nach San Lorenzo.",
+            "zh": "准备骑往圣洛伦索的直路。"
+          },
+          "after": 4
+        },
+        {
+          "src": "images/ruta/dia-6-almuerzo.jpg",
+          "alt": {
+            "es": "Sopa de pollo y un plato de estofado con arroz y plátano en bandejas rojas",
+            "en": "Chicken soup and a plate of stew with rice and plantain on red trays",
+            "de": "Hühnersuppe und ein Teller Eintopf mit Reis und Kochbanane auf roten Tabletts",
+            "zh": "红色托盘上的鸡汤，和一盘配米饭、芭蕉的炖肉"
+          },
+          "caption": {
+            "es": "Sopita para José, estofado para mí. Diez minutos y a la frontera.",
+            "en": "Soup for José, stew for me. Ten minutes and off to the border.",
+            "de": "Suppe für José, Eintopf für mich. Zehn Minuten, dann zur Grenze.",
+            "zh": "José 喝汤，我吃炖肉。十分钟吃完，直奔边境。"
+          },
+          "after": 8
+        },
+        {
+          "src": "images/ruta/dia-6-impresora.jpg",
+          "alt": {
+            "es": "Una impresora en un cuarto sencillo con techo de lámina",
+            "en": "A printer in a simple room with a sheet-metal roof",
+            "de": "Ein Drucker in einem einfachen Raum mit Wellblechdach",
+            "zh": "铁皮屋顶的简陋小屋里的一台打印机"
+          },
+          "caption": {
+            "es": "La impresora en medio de la nada que nos salvó.",
+            "en": "The printer in the middle of nowhere that saved us.",
+            "de": "Der Drucker mitten im Nirgendwo, der uns gerettet hat.",
+            "zh": "荒郊野外救了我们的那台打印机。"
+          },
+          "after": 11
+        },
+        {
+          "src": "images/ruta/dia-6-ultima-moneda.jpg",
+          "alt": {
+            "es": "Una moneda en la palma de una mano",
+            "en": "A coin in the palm of a hand",
+            "de": "Eine Münze in einer Handfläche",
+            "zh": "手心里的一枚硬币"
+          },
+          "caption": {
+            "es": "Lo último que nos quedaba del presupuesto.",
+            "en": "The last of our budget.",
+            "de": "Das Letzte, was vom Budget übrig war.",
+            "zh": "我们预算里剩下的最后一点。"
+          },
+          "after": 12
+        },
+        {
+          "src": "images/ruta/dia-6-cena.jpg",
+          "alt": {
+            "es": "Carne asada, plátano frito, queso, cebolla encurtida y salsas sobre hoja de plátano",
+            "en": "Grilled beef, fried plantain, cheese, pickled onion and salsas on a banana leaf",
+            "de": "Gegrilltes Rindfleisch, frittierte Kochbanane, Käse, eingelegte Zwiebeln und Soßen auf einem Bananenblatt",
+            "zh": "香蕉叶上的烤牛肉、炸芭蕉、奶酪、腌洋葱和酱料"
+          },
+          "caption": {
+            "es": "La «cena» en Chinandega. El queso de Nicaragua, increíble.",
+            "en": "\"Dinner\" in Chinandega. Nicaraguan cheese, incredible.",
+            "de": "Das „Abendessen“ in Chinandega. Der Käse aus Nicaragua: unglaublich.",
+            "zh": "在奇南德加的“晚餐”。尼加拉瓜的奶酪太棒了。"
+          },
+          "after": 16
+        },
+        {
+          "src": "images/ruta/dia-6-chinandega.jpg",
+          "alt": {
+            "es": "Fachada blanca de una iglesia iluminada de noche",
+            "en": "The white facade of a church lit up at night",
+            "de": "Die weiße Fassade einer nachts beleuchteten Kirche",
+            "zh": "夜里灯光下一座教堂的白色立面"
+          },
+          "caption": {
+            "es": "Chinandega de noche.",
+            "en": "Chinandega at night.",
+            "de": "Chinandega bei Nacht.",
+            "zh": "夜晚的奇南德加。"
+          },
+          "after": 17
+        }
+      ],
+      "videos": [
+        {
+          "url": "videos/ruta/dia-6-pedaleando.mp4",
+          "after": 4
+        },
+        {
+          "url": "videos/ruta/dia-6-puente.mp4",
+          "after": 8
+        },
+        {
+          "url": "videos/ruta/dia-6-camiones.mp4",
+          "after": 12
+        }
+      ],
+      "cover": "images/ruta/dia-6-portada.jpg"
     }
   ],
   "purpose": {

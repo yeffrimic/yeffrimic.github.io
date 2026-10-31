@@ -546,7 +546,8 @@ def render_ruta(data, ruta, L):
     entries = sorted(ruta["entries"], key=lambda e: e["date"])
 
     total_km = sum(e.get("km") or 0 for e in entries)
-    countries = {e["country"] for e in entries}
+    # Cuenta también los países que solo cruzamos (paradas "via" con "country")
+    countries = {e["country"] for e in entries} | {v["country"] for e in entries for v in e.get("via", []) if v.get("country")}
     days = ""
     if entries and ruta.get("start_date"):
         days = str((date.fromisoformat(entries[-1]["date"]) - date.fromisoformat(ruta["start_date"])).days + 1)
