@@ -1629,8 +1629,90 @@
           "我们回到酒店倒头就睡，这一天就这样结束了：累，但休息够了。"
         ]
       },
-      "photos": [],
-      "videos": []
+      "photos": [
+        {
+          "src": "images/ruta/dia-7-comedor.jpg",
+          "alt": {
+            "es": "Entrada del comedor con un letrero de «Bienvenidos» y la barra del bufé",
+            "en": "The comedor's entrance with a \"Bienvenidos\" sign and the buffet counter",
+            "de": "Eingang des Comedors mit „Bienvenidos“-Schild und Büfetttheke",
+            "zh": "餐馆入口，挂着“Bienvenidos”招牌，旁边是自助餐台"
+          },
+          "caption": {
+            "es": "Mamá Ofelia, en Chinandega.",
+            "en": "Mamá Ofelia, in Chinandega.",
+            "de": "Mamá Ofelia in Chinandega.",
+            "zh": "奇南德加的 Mamá Ofelia。"
+          },
+          "after": 7
+        },
+        {
+          "src": "images/ruta/dia-7-bufe.jpg",
+          "alt": {
+            "es": "Bandejas del bufé con gallo pinto, carne y huevos",
+            "en": "Buffet trays with gallo pinto, meat and eggs",
+            "de": "Büfettschalen mit Gallo Pinto, Fleisch und Eiern",
+            "zh": "自助餐盘里的 gallo pinto（豆饭）、肉和鸡蛋"
+          },
+          "caption": {
+            "es": "El bufé, ya bien bonito y listo.",
+            "en": "The buffet, all nicely set out.",
+            "de": "Das Büfett, schön angerichtet.",
+            "zh": "摆得漂漂亮亮的自助餐。"
+          },
+          "after": 7
+        },
+        {
+          "src": "images/ruta/dia-7-almuerzo.jpg",
+          "alt": {
+            "es": "Plato con tajadas de plátano, maduro con queso y carne",
+            "en": "A plate of plantain chips, maduro con queso and meat",
+            "de": "Ein Teller mit Kochbananenchips, Maduro con Queso und Fleisch",
+            "zh": "一盘炸芭蕉片、夹奶酪的熟芭蕉和肉"
+          },
+          "caption": {
+            "es": "Tajadas, maduro con queso y su encurtido.",
+            "en": "Tajadas, maduro con queso and pickled veggies.",
+            "de": "Tajadas, Maduro con Queso und eingelegtes Gemüse.",
+            "zh": "炸芭蕉片、夹奶酪的熟芭蕉，还有腌菜。"
+          },
+          "after": 7
+        },
+        {
+          "src": "images/ruta/dia-7-blanquita.jpg",
+          "alt": {
+            "es": "Entrada del Restaurante Blanquita, con techo de palma y jardín",
+            "en": "The entrance of Restaurante Blanquita, with a palm-thatched roof and garden",
+            "de": "Eingang des Restaurante Blanquita mit Palmdach und Garten",
+            "zh": "Blanquita 餐厅的入口，棕榈叶屋顶和花园"
+          },
+          "caption": {
+            "es": "Restaurante Blanquita.",
+            "en": "Restaurante Blanquita.",
+            "de": "Restaurante Blanquita.",
+            "zh": "Blanquita 餐厅。"
+          },
+          "after": 8
+        },
+        {
+          "src": "images/ruta/dia-7-blanquita-noche.jpg",
+          "alt": {
+            "es": "Ranchón de Blanquita de noche, con luces de colores",
+            "en": "Blanquita's open-air hut at night, with colorful lights",
+            "de": "Blanquitas offene Hütte bei Nacht, mit bunten Lichtern",
+            "zh": "夜晚的 Blanquita 凉棚，挂着彩灯"
+          },
+          "caption": {
+            "es": "Blanquita de noche, antes de salir a buscar un cajero.",
+            "en": "Blanquita at night, before heading out to find an ATM.",
+            "de": "Blanquita bei Nacht, bevor wir einen Geldautomaten suchten.",
+            "zh": "夜晚的 Blanquita，之后我们出去找取款机。"
+          },
+          "after": 10
+        }
+      ],
+      "videos": [],
+      "cover": "images/ruta/dia-7-portada.jpg"
     }
   ],
   "purpose": {
