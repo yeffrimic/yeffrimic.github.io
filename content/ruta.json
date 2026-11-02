@@ -1542,6 +1542,95 @@
         }
       ],
       "cover": "images/ruta/dia-6-portada.jpg"
+    },
+    {
+      "slug": "dia-7-cansado-pero-descansado",
+      "date": "2026-10-31",
+      "place": {
+        "es": "Chinandega",
+        "en": "Chinandega",
+        "de": "Chinandega",
+        "zh": "奇南德加"
+      },
+      "country": "ni",
+      "coords": [
+        12.629,
+        -87.13
+      ],
+      "title": {
+        "es": "Cansado, pero descansado",
+        "en": "Tired, but rested",
+        "de": "Müde, aber ausgeruht",
+        "zh": "累，但休息够了"
+      },
+      "body": {
+        "es": [
+          "El día 7 estuvimos comiendo y descansando. Es bien interesante cómo estos días de descanso se siguen acumulando, igual que el cansancio.",
+          "Me levanté temprano o tarde, ya no me acuerdo, pero antes de las 9, porque a esa hora dejan de servir el desayuno de cortesía en el hotel. Y me fui de nuevo a la cama, porque mágicamente estaba deshidratado: tal vez por tener el aire acondicionado puesto toda la noche, o por la falta de agua, me dio sed durante la noche.",
+          "Estuve unas horas divagando en el teléfono, que creo que posiblemente sea la causa de mi falta de atención, así que lo voy a ir corrigiendo en los próximos días. Pero el problema, queridos lectores, es que no se puede ser perfecto, y menos en las situaciones estresantes con las que nos topamos, no solo en el trabajo sino en el día a día. Hacemos lo que necesitamos para distraernos y no volvernos locos en el proceso.",
+          "José se fue a trabajar y yo me le uní en la cafetería como al mediodía. Estuvimos ahí platicando y trabajando. Pedí una «limonada extrema» o algo así, que decía «limonada con un toque de menta», AJAJ, y un pastel de Oreo. Fueron unos 80 córdobas; todavía no me acostumbro a estar cambiando entre monedas, y seguíamos sin efectivo. La limonada era más menta que limón, jaja, no era lo mío. El pastel de Oreo es interesante, porque yo pensé que iba a ser un pastel mojado o algo parecido, pero estaba bien: normal y bastante dulce.",
+          "Luego fuimos a almorzar. Yo estuve buscando lugares en Chinandega, pero José ya sabía a dónde íbamos: a Mamá Ofelia. Chinandega es una especie de ciudad colonial costeña, con calles amplias y cuadradas, bastante bien cuidadas; al parecer acababan de remodelar unas cuantas. Tiene una carretera bonita y amplia que conecta con el pueblo.",
+          "Pasamos al hotel, según nosotros, a dejar las cosas, pero resulta, resalta y acontece que estaba cerrado. Así es: el hotel en el que nos quedamos tenía las puertas cerradas, AJAJAJA. Me imagino que se fueron a almorzar o salieron por comida; algo pasó, pero no había nadie, ni siquiera el policía.",
+          "Así que nos fuimos con las mochilas al comedor, que era una especie de bufé. Llegamos más o menos temprano, o en el cambio de turno, porque no había mucho, pero para cuando terminamos de comer ya estaba todo bien bonito y listo. Pedimos carne, queso, maduro con queso, que es plátano con queso adentro, y tajadas, y siempre le echan a uno encurtido. La comida aquí tiene un sabor cítrico, como que le ponen limón a todo.",
+          "Comimos y platicamos un poco, pero el calor estaba intenso, así que regresamos al hotel a descansar. No tanto, porque íbamos a ir al restaurante Blanquita con los amigos y la familia de José.",
+          "Ahí conocí a un patojo de 19 años que está estudiando contaduría, pero que sacó su técnico en electrónica, y lo único que le enseñaron fue a reparar planchas y a hacer instalaciones. Yo siempre ando cargando en el carro una cabeza de robot, la de Juanito, así que se la enseñé. Y me dice: «¿Esto es con Arduino, va?». «Simón, ahí está». Y me dice: «Ahh, es que nunca había visto uno». Y yo… qué interesante, qué interesante. Mi mente voló, y de nuevo caí en cuenta de dónde estaba parado.",
+          "Fuimos a la piscina y cenamos/almorzamos, jajaja, no sé qué fue, pero comimos. Después, los amigos de José, que tenían como 20 años de no verlo, estaban tan emocionados que íbamos de lugar en lugar, y los lugares iban cerrando, porque como a las 8 cierra todo. Fuimos a un centro comercial donde por fin encontramos un cajero y pudimos sacar dinero: saqué 500 córdobas, que fueron unos 100 quetzales. Como el café del centro comercial estaba cerrado, regresamos a la cafetería del hotel, y llegando estábamos cuando empezaron a hacer cuentas, jaja, y nosotros tipo: «No puede ser», AJAJAJ.",
+          "Bueno, comimos y platicamos, y de mi pantaloneta saqué un ESP32 súper mini, uno de los chips más avanzados de su tipo hoy en día. Con José le dijimos al hijo del amigo: «Si averiguás qué es esto y lo hacés funcionar, para cuando regresemos tenés las puertas abiertas en Guatemala». Creo que es importante destacar que aquí es más una cuestión de tener acceso a las cosas, de ver qué tan curioso es el patojo y, sobre todo, de que no se rinda, porque el papá le tiene mucha fe, y estas pruebas son lo que siempre le va a tocar mientras esté en tecnología.",
+          "Fuimos a dejar a los familiares y nos quedamos platicando otra media hora o cuarenta minutos, hasta que por fin regresamos al hotel. Estando en la piscina, me di cuenta de que la parte de atrás de las rodillas la tenía como delicada; nadé bastante y eso hizo que me doliera, estaban sensibles.",
+          "Le decía a José que es increíble que, a pesar de todo lo que nos contó su amigo, se le ven las ganas de seguir: de seguir trabajando, de vivir. Me quedo con eso. Es un aprendizaje bien grande saber que uno tiene más privilegios y oportunidades, y que no debería desperdiciarlos. El amigo de José tiene una familia hermosa, tres hijos y su esposa, y se le ve la pasión por todo lo que hace. Así quiero ser cuando sea grande.",
+          "Regresamos al hotel a desmayarnos, y así terminó este día: cansado, pero descansado."
+        ],
+        "en": [
+          "On day 7 we ate and rested. It's really interesting how these rest days keep piling up, just like the fatigue.",
+          "I got up early or late, I don't even remember, but before 9, because that's when the hotel stops serving the complimentary breakfast. And then I went back to bed, because magically I was dehydrated: maybe from having the air conditioning on all night, or from not drinking enough water, I got thirsty during the night.",
+          "I spent a few hours drifting around on my phone, which I think might be the cause of my lack of focus, so I'll be working on that in the coming days. But the problem, dear readers, is that nobody can be perfect, much less in the stressful situations we run into, not only at work but in everyday life. We do what we need to distract ourselves and not go crazy in the process.",
+          "José went off to work and I joined him at the café around noon. We sat there talking and working. I ordered an \"extreme lemonade\" or something like that, which said \"lemonade with a hint of mint\", HAHA, and an Oreo cake. It came to about 80 córdobas; I'm still not used to switching between currencies, and we still had no cash. The lemonade was more mint than lemon, haha, not my thing. The Oreo cake was interesting, because I thought it would be a soaked cake or something like that, but it was fine: normal and pretty sweet.",
+          "Then we went to have lunch. I'd been looking up places in Chinandega, but José already knew where we were going: Mamá Ofelia. Chinandega is a kind of colonial coastal city, with wide, grid-like streets that are pretty well kept; it seems they had just renovated a few of them. It has a nice, wide road connecting it to town.",
+          "We stopped by the hotel, supposedly to drop our things off, but as it turns out, it was closed. That's right: the hotel we were staying at had its doors shut, HAHAHAHA. I imagine they went to lunch or out for food; something happened, but nobody was there, not even the security guard.",
+          "So we went with our backpacks to the comedor, which was a kind of buffet. We got there a bit early, or during the shift change, because there wasn't much, but by the time we finished eating everything was nicely set out and ready. We ordered meat, cheese, \"maduro con queso\", which is plantain with cheese inside, and \"tajadas\", and they always add pickled vegetables. The food here has a citrusy flavor, like they put lime on everything.",
+          "We ate and chatted for a bit, but the heat was intense, so we went back to the hotel to rest. Not for long, because we were going to Restaurante Blanquita with José's friends and family.",
+          "There I met a 19-year-old who's studying accounting but got a technical degree in electronics, and the only thing they taught him was how to repair irons and do wiring. I always carry a robot head in the car, Juanito's, so I showed it to him. And he says: \"This runs on Arduino, right?\" \"Yep, there it is.\" And he says: \"Ahh, I'd never seen one.\" And I'm like… how interesting, how interesting. My mind wandered off, and once again I realized where I was standing.",
+          "We went to the pool and had dinner/lunch, haha, I don't know what it was, but we ate. After that, José's friends, who hadn't seen him in about 20 years, were so excited that we went from place to place, and the places kept closing, because everything closes around 8. We went to a shopping center where we finally found an ATM and could withdraw money: I took out 500 córdobas, about 100 quetzales. Since the mall café was closed, we went back to the hotel café, and we'd just arrived when they started tallying up the bills, haha, and we were like: \"No way,\" HAHAHA.",
+          "Anyway, we ate and talked, and from my shorts I pulled out an ESP32 Super Mini, one of the most advanced chips of its kind today. José and I told our friend's son: \"If you figure out what this is and get it working, by the time we come back you'll have open doors in Guatemala.\" I think it's important to point out that here it's more about access to things, about seeing how curious the kid is and, above all, that he doesn't give up, because his dad has a lot of faith in him, and challenges like this are what he'll always face as long as he's in tech.",
+          "We dropped the family off and stayed chatting for another half hour or forty minutes, until we finally went back to the hotel. While I was in the pool, I noticed the backs of my knees felt kind of tender; I swam quite a bit and that made them hurt, they were sensitive.",
+          "I told José that it's incredible that, despite everything his friend told us, you can see his drive to keep going: to keep working, to keep living. That's what I take away. It's a big lesson to know that I have more privileges and opportunities, and that I shouldn't waste them. José's friend has a beautiful family, three kids and his wife, and you can see the passion in everything he does. That's who I want to be when I grow up.",
+          "We went back to the hotel and passed out, and that's how the day ended: tired, but rested."
+        ],
+        "de": [
+          "Am Tag 7 haben wir gegessen und uns ausgeruht. Spannend, wie sich diese Ruhetage weiter ansammeln, genau wie die Müdigkeit.",
+          "Ich bin früh oder spät aufgestanden, ich weiß es nicht mehr, aber vor 9, denn dann hört das Hotel auf, das kostenlose Frühstück zu servieren. Und dann ging ich wieder ins Bett, weil ich auf magische Weise dehydriert war: Vielleicht wegen der Klimaanlage, die die ganze Nacht lief, oder weil ich zu wenig getrunken hatte, bekam ich nachts Durst.",
+          "Ich verbrachte ein paar Stunden damit, am Handy herumzuschweifen, was wohl der Grund für meine fehlende Konzentration ist. Daran werde ich in den nächsten Tagen arbeiten. Aber das Problem, liebe Leserinnen und Leser, ist, dass niemand perfekt sein kann, erst recht nicht in den stressigen Situationen, denen wir begegnen, nicht nur bei der Arbeit, sondern im Alltag. Wir tun, was wir brauchen, um uns abzulenken und dabei nicht verrückt zu werden.",
+          "José ging arbeiten, und gegen Mittag setzte ich mich zu ihm ins Café. Wir redeten und arbeiteten. Ich bestellte eine „extreme Limonade“ oder so ähnlich, „Limonade mit einem Hauch Minze“, HAHA, und einen Oreo-Kuchen. Das kostete etwa 80 Córdobas; ich gewöhne mich immer noch nicht an das Wechseln zwischen Währungen, und Bargeld hatten wir weiterhin keins. Die Limonade war mehr Minze als Zitrone, haha, nicht mein Ding. Der Oreo-Kuchen war interessant: Ich dachte, es wäre ein getränkter Kuchen oder so etwas, aber er war in Ordnung, ganz normal und ziemlich süß.",
+          "Dann gingen wir zu Mittag essen. Ich hatte nach Lokalen in Chinandega gesucht, aber José wusste schon, wohin: zu Mamá Ofelia. Chinandega ist eine Art koloniale Küstenstadt mit breiten, schachbrettartigen Straßen, ziemlich gepflegt; anscheinend waren gerade einige frisch saniert worden. Eine schöne, breite Straße verbindet sie mit dem Ort.",
+          "Wir fuhren zum Hotel, angeblich um unsere Sachen abzulegen, aber wie sich herausstellte, war es geschlossen. Ganz genau: Das Hotel, in dem wir wohnten, hatte die Türen zu, HAHAHAHA. Ich nehme an, sie waren beim Mittagessen oder Essen holen; irgendetwas war los, aber niemand war da, nicht einmal der Wachmann.",
+          "Also gingen wir mit den Rucksäcken zum Comedor, einer Art Büfett. Wir kamen etwas früh oder zum Schichtwechsel, denn es gab nicht viel, aber als wir fertig waren, war alles schön angerichtet. Wir bestellten Fleisch, Käse, „maduro con queso“, also Kochbanane mit Käsefüllung, und „tajadas“, und immer gibt es eingelegtes Gemüse dazu. Das Essen hier schmeckt zitrusartig, als würde man überall Limette draufgeben.",
+          "Wir aßen und plauderten ein wenig, aber die Hitze war heftig, also fuhren wir zum Ausruhen ins Hotel zurück. Nicht lange, denn wir wollten mit Josés Freunden und Familie ins Restaurant Blanquita.",
+          "Dort lernte ich einen 19-Jährigen kennen, der Buchhaltung studiert, aber eine technische Ausbildung in Elektronik gemacht hat, bei der man ihm nur beibrachte, Bügeleisen zu reparieren und Leitungen zu verlegen. Ich habe immer einen Roboterkopf im Auto, den von Juanito, also zeigte ich ihn ihm. Und er sagt: „Das läuft mit Arduino, oder?“ „Jep, genau.“ Und er: „Ahh, so einen hab ich noch nie gesehen.“ Und ich … wie interessant, wie interessant. Meine Gedanken schweiften ab, und wieder wurde mir bewusst, wo ich gerade stand.",
+          "Wir gingen zum Pool und aßen zu Abend/zu Mittag, haha, ich weiß nicht, was es war, aber wir aßen. Danach waren Josés Freunde, die ihn seit etwa 20 Jahren nicht gesehen hatten, so begeistert, dass wir von Ort zu Ort zogen, und die Lokale schlossen nacheinander, denn gegen 20 Uhr macht alles zu. In einem Einkaufszentrum fanden wir endlich einen Geldautomaten und konnten Geld abheben: Ich nahm 500 Córdobas, etwa 100 Quetzales. Weil das Café im Einkaufszentrum zu war, gingen wir ins Hotelcafé, und kaum waren wir da, fingen sie an abzurechnen, haha, und wir so: „Das gibt's doch nicht“, HAHAHA.",
+          "Na ja, wir aßen und redeten, und aus meiner kurzen Hose zog ich einen ESP32 Super Mini, einen der fortschrittlichsten Chips seiner Art. José und ich sagten zum Sohn des Freundes: „Wenn du herausfindest, was das ist, und es zum Laufen bringst, stehen dir bei unserer Rückkehr in Guatemala die Türen offen.“ Ich finde es wichtig zu betonen, dass es hier mehr um den Zugang zu Dingen geht, darum, wie neugierig der Junge ist, und vor allem darum, dass er nicht aufgibt, denn sein Vater glaubt fest an ihn, und solche Prüfungen werden ihm immer begegnen, solange er in der Technik ist.",
+          "Wir brachten die Familie nach Hause und plauderten noch eine halbe Stunde oder vierzig Minuten, bis wir endlich ins Hotel zurückkehrten. Im Pool merkte ich, dass meine Kniekehlen empfindlich waren; ich schwamm ziemlich viel, und das tat dann weh.",
+          "Ich sagte zu José, wie unglaublich es ist, dass man seinem Freund trotz allem, was er uns erzählt hat, den Willen ansieht weiterzumachen: weiterzuarbeiten, zu leben. Das nehme ich mit. Es ist eine große Lektion zu wissen, dass ich mehr Privilegien und Chancen habe und sie nicht vergeuden sollte. Josés Freund hat eine wunderschöne Familie, drei Kinder und seine Frau, und man sieht ihm die Leidenschaft für alles an, was er tut. So will ich sein, wenn ich groß bin.",
+          "Wir fuhren ins Hotel zurück und fielen um, und so endete dieser Tag: müde, aber ausgeruht."
+        ],
+        "zh": [
+          "第 7 天我们一直在吃东西、休息。很有意思，这些休息日一天天累积，疲惫也一样在累积。",
+          "我起得算早还是算晚，已经记不清了，反正是 9 点前，因为酒店 9 点就停止供应免费早餐。然后我又回床上躺着，因为神奇地脱水了：也许是空调开了一整夜，也许是水喝得不够，夜里一直口渴。",
+          "我刷手机刷了好几个小时，我觉得这很可能就是我注意力不集中的原因，接下来几天我会慢慢改。但问题是，亲爱的读者们，没有人能做到完美，更何况我们面对的压力不只来自工作，也来自日常生活。我们会做一些能让自己分心的事，免得在这个过程中疯掉。",
+          "José 去工作了，中午左右我去咖啡馆找他。我们在那儿一边聊一边工作。我点了一杯“极限柠檬水”还是什么，菜单上写着“带一点薄荷的柠檬水”，哈哈，还有一块奥利奥蛋糕。一共大约 80 科尔多瓦；我还是不习惯在各种货币之间换算，而且我们依然没有现金。那杯柠檬水薄荷比柠檬还多，哈哈，不太合我口味。奥利奥蛋糕挺有意思，我以为会是那种湿润的蛋糕，结果还不错，很普通，挺甜的。",
+          "接着我们去吃午饭。我在网上找奇南德加的餐厅，但 José 早就知道要去哪儿：Mamá Ofelia。奇南德加有点像一座海边的殖民风格城市，街道宽阔、方方正正，维护得挺好；好像刚翻修了几条街。还有一条漂亮宽敞的公路通往城里。",
+          "我们本来打算先回酒店放东西，结果发现酒店关门了。没错：我们住的酒店大门紧闭，哈哈哈哈。我猜他们去吃午饭或者出去买吃的了；反正出了点状况，一个人都没有，连保安都不在。",
+          "于是我们背着背包去了那家餐馆，有点像自助餐。我们去得有点早，或者正好赶上换班，菜不多，但等我们吃完，一切都摆得漂漂亮亮的了。我们点了肉、奶酪、maduro con queso（夹奶酪的熟芭蕉）和 tajadas（炸芭蕉片），每次都会配上腌菜。这里的食物带着柑橘的味道，好像什么都要挤点青柠。",
+          "吃完聊了一会儿，但天实在太热，我们就回酒店休息。没休息多久，因为要和 José 的朋友和家人去 Blanquita 餐厅。",
+          "在那里我认识了一个 19 岁的小伙子，他在读会计，但拿了电子技术的职业证书，可学校只教了他修熨斗和做电路安装。我车里一直放着一个机器人头，是 Juanito 的，我就拿给他看。他说：“这是用 Arduino 做的吧？”“对，就是它。”他又说：“啊，我从来没见过。”我心想……真有意思，真有意思。我的思绪飘远了，又一次意识到自己身在何处。",
+          "我们去了泳池，吃了晚饭/午饭，哈哈，也不知道算哪一顿，反正吃了。之后，José 那些快 20 年没见过他的朋友兴奋得不行，带着我们一家接一家地跑，可店一家接一家地关门，因为大概 8 点就全关了。我们去了一个购物中心，终于找到一台取款机取了钱：我取了 500 科尔多瓦，大约 100 格查尔。因为商场里的咖啡馆关了，我们回到酒店的咖啡厅，刚到他们就开始结账了，哈哈，我们只能说：“不会吧”，哈哈哈。",
+          "总之，我们边吃边聊，我从短裤口袋里掏出一块 ESP32 Super Mini，这是同类芯片里目前最先进的之一。我和 José 对朋友的儿子说：“如果你弄明白这是什么，并让它跑起来，等我们回来，危地马拉的大门就为你敞开。”我觉得有一点很重要：这里更多是能不能接触到这些东西，是看这个年轻人有多好奇，最重要的是他别放弃，因为他爸爸对他很有信心，而只要他做科技，这样的考验就会一直在。",
+          "我们送他的家人回去，又聊了半个小时到四十分钟，才终于回到酒店。在泳池里，我发现膝盖后面有点脆弱；游了不少，结果挺疼的，那里很敏感。",
+          "我对 José 说，真不可思议，尽管他朋友跟我们讲了那么多经历，还是能看出他想继续往前走：继续工作、继续生活。我记住了这一点。意识到自己拥有更多的特权和机会、不该浪费它们，这是很大的收获。José 的朋友有一个美满的家庭，三个孩子和妻子，能看出他对自己做的每件事都充满热情。我长大后也想成为这样的人。",
+          "我们回到酒店倒头就睡，这一天就这样结束了：累，但休息够了。"
+        ]
+      },
+      "photos": [],
+      "videos": []
     }
   ],
   "purpose": {

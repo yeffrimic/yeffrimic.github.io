@@ -20,8 +20,18 @@
     var latlngs = points.map(function (p) { return [p.lat, p.lng]; });
     L.polyline(latlngs, { color: accent, weight: 4, opacity: 0.85 }).addTo(map);
 
+    // Días en el mismo lugar (p. ej. un día de descanso): un solo punto con un enlace por capítulo
+    var groups = {};
+    points.forEach(function (p) {
+      if (!p.href) return;
+      var key = p.lat + ',' + p.lng;
+      (groups[key] = groups[key] || []).push(p);
+    });
+
     points.forEach(function (p, i) {
       var last = i === points.length - 1;
+      var group = p.href ? groups[p.lat + ',' + p.lng] : null;
+      if (group && group.length > 1 && group[group.length - 1] !== p) return; // lo dibuja el último del grupo
       var marker = L.circleMarker([p.lat, p.lng], {
         radius: last ? 9 : p.via ? 4 : 6, color: accent, weight: 2, fillColor: last ? accent : '#fff', fillOpacity: 1
       }).addTo(map);
@@ -29,7 +39,16 @@
       var place = document.createElement('b');
       place.textContent = p.place;
       label.appendChild(place);
-      if (p.href) {
+      if (group && group.length > 1) {
+        group.forEach(function (g) {
+          var link = document.createElement('a');
+          link.href = g.href;
+          link.textContent = g.title + ' →';
+          label.appendChild(document.createElement('br'));
+          label.appendChild(link);
+        });
+        marker.bindPopup(label);
+      } else if (p.href) {
         // Con capítulo: el clic lleva directo al día; el nombre se ve al pasar el mouse
         label.appendChild(document.createElement('br'));
         label.appendChild(document.createTextNode(p.title));
