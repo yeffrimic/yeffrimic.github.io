@@ -1963,6 +1963,145 @@
         }
       ],
       "cover": "images/ruta/dia-8-portada.jpg"
+    },
+    {
+      "slug": "dia-9-el-mismo-rio",
+      "date": "2026-11-02",
+      "place": {
+        "es": "Managua",
+        "en": "Managua",
+        "de": "Managua",
+        "zh": "马那瓜"
+      },
+      "country": "ni",
+      "coords": [
+        12.136,
+        -86.251
+      ],
+      "title": {
+        "es": "Nunca es el mismo río",
+        "en": "It's never the same river",
+        "de": "Nie derselbe Fluss",
+        "zh": "从来不是同一条河"
+      },
+      "body": {
+        "es": [
+          "Ayer fue el Día de los Muertos en Guatemala, y José me decía que es una fecha bien latinoamericana, porque incluso en Nicaragua era feriado. Eso me hizo pensar en la suerte que tuvimos de encontrar el domingo un lugar abierto, porque el lunes obviamente no íbamos a encontrar nada: el feriado se corría hasta el lunes.",
+          "Al final del día 8 estuve viendo redes sociales: muchos fueron al cementerio a visitar a sus difuntos. También vi algo que siempre me pone a pensar: cómo tomamos manifestaciones culturales de otros pueblos y las hacemos nuestras como si siempre las hubiéramos tenido. Creo que tiene que ver con la identidad, con la edad y con esa etapa de la adolescencia en la que rechazamos nuestras raíces porque las vemos anticuadas o porque no son populares, y abrazamos costumbres lejanas.",
+          "Vi personas con altares mexicanos siendo de Guatemala, o celebrando Halloween. Todos tenemos derecho a hacer lo que queramos, pero me gustaría que conociéramos el trasfondo de esas costumbres, que no fueron hechas para salir bonitas en fotos, sino para conmemorar a los ancestros y a los difuntos. Aquí también tenemos lo nuestro: ir al cementerio, volar barriletes y adornar las tumbas. Ojalá no lo dejemos de lado por lo que esté de moda.",
+          "Este fue un día de mucho pensar; realmente no hicimos nada. El día 8, después de tanto estrés, nos dejó noqueados. Pasé toda la mañana durmiendo, tanto que llegué tarde al bufé del desayuno. José ya había desayunado, y de pura casualidad alcancé fruta y unos brownies, y dije: es suficiente. En Nicaragua las porciones son grandes, extremadamente grandes, de cualquier cosa, y si lo comparamos con los precios y las porciones de Guatemala suele ser barato, taaan barato que en la conversión nos perdemos y siempre terminamos pagando de más, JAJAJAJA.",
+          "Para el almuerzo fuimos a Tip-Top, porque al parecer ya agarramos de tarea ir a todos los pollos fritos de los países que vamos visitando. Ya habíamos pasado a Pollo Campestre, que a José le encantó porque le supo a la receta de Pollo Campero de los 80; a mí me pareció salado, pero no estaba mal, aunque también era el pollo de las 9 de la noche, recién hecho, jaja.",
+          "En Tip-Top nuestro plan era dos piezas para cada uno: una de pollo asado y otra rostizado o frito (no entiendo por qué le dicen rostizado si es frito, pero cada quien, JAJA; tal vez soy yo el que no sabe). Le explicamos a la señora que queríamos una pieza frita, otra asada, papas y agua para cada uno, y salimos con una cuenta de 1,300 córdobas, más que la carne que comimos el día anterior en León. Raro, porque el combo de dos piezas estaba en menos de 400 córdobas, pero como no sabíamos pedir, otra vez tocó pagar de más para aprender.",
+          "Al final nos entregaron dos bandejas llenas de pollo, con frijoles, pico de gallo, tortillas, una aguita y la famosísima ensalada de repollo. Evidentemente nos acabamos todo, pero estuvo difícil. Nos fuimos al hotel de nuevo a descansar y a dormir hasta la noche, que pasamos en la piscina como 3 horas, jajajaja.",
+          "Siempre me han dicho que tengo una habilidad impresionante para hacer introspección y darme cuenta de cambios sutiles a mi alrededor. He ido descubriendo que es una respuesta a cosas de la niñez; no necesariamente violencia, pero sí situaciones que lo marcan a uno. Siempre me ha gustado la piscina: es de las cosas que recuerdo de pequeños, cuando mi mamá nos llevaba al Club Aurora a piscinear, tal vez no todos los fines de semana, pero bastante seguido. Suelo quedarme flotando, reteniendo el aire, como estrella de mar, y mientras floto me relajo y empiezo a conectar con mi cerebro. Todo lo que hemos hecho con José esta semana ha sido un ir y venir casi caótico. No tiene nada de malo, porque estamos acostumbrados a niveles de estrés altos, pero no había tenido tiempo de procesarlo.",
+          "Flotando, intentando no ahogarme, recordé las fotos de todos en el cementerio y recordé a mis difuntos: mi abuelo Armando, mi hermano Hanz, mi abuela Odilia. Tengo la gracia de tener a muchos de mis viejitos vivos, pero sé que no será para siempre. Recordé que mi hermano Hanz murió ahogado, hace 10 años. Recordé que hay un dicho que dice que el miedo pesa, y me puse a pensar que nuestra crianza nunca estuvo rodeada de miedo: no le teníamos miedo a nada, literalmente a nada.",
+          "Me acuerdo de una vez que caminábamos por un parque ecológico en el pueblo donde crecimos y apareció una culebra. Mientras todos se hacían para atrás, nosotros dos nos quedamos viéndola con admiración, anonadados con su movimiento, teniendo cuidado de no molestarla, pero nunca con miedo. Metí la cabeza al agua intentando imaginar lo que pudo haber sentido mi hermano: el miedo de no poder ver el fondo del lago, de no tener de dónde aferrarse y, lo más duro, el momento en que posiblemente pidió ayuda y no había nadie lo suficientemente cerca para ayudarlo.",
+          "Cuando murió mi hermano me quedó una espinita. Después de ver tantas películas, series y animes, uno aprende que cuando alguien se va siempre hay un culpable, y todo el dolor se redirige hacia esa persona o esa estructura; eso acompaña y hace que el dolor sea menos, porque por lo menos hay a quién culpar. Pero cuando el culpable es el mismo que murió, ¿qué se hace? La vida me enseñó, de mala manera, que no siempre hay culpables y que a veces simplemente hay que soltar.",
+          "Recordé a mi abuelo Armando, por parte de mi papá, que no pudo ver todo lo bueno y lo malo que hice en estos años que no ha estado; seguro que me habría dado mucho confort tenerlo cerca, y estaría orgulloso. Y a mi abuela Odilia, la mamá de mi mamá, que aunque nos llevamos mal los últimos años, siempre estuvo orgullosa de lo que hacían sus nietos.",
+          "Vi dónde estaba parado: en Nicaragua, en el mismo hotel donde estuve en 2019 por un evento. Pero me di cuenta de que no era el mismo. La paradoja de Heráclito es cierta: uno no se baña dos veces en el mismo río, porque ni el río es el mismo ni uno es la misma persona. Esta piscina era la misma, pero no lo era yo, ni la situación, ni el agua. Sentí orgullo de todo lo que ha cambiado en estos años y me convencí de seguir con esta travesía.",
+          "Fuimos a cenar y luego a dormir. Al parecer tragué mucha agua de la piscina, porque me dolía el estómago. Esperando no amanecer mal, me acosté y dormí profundamente."
+        ],
+        "en": [
+          "Yesterday was the Day of the Dead in Guatemala, and José was telling me it's a very Latin American date, because it was a holiday even in Nicaragua. That made me think about how lucky we were to find a place open on Sunday, because on Monday we obviously wouldn't have found anything: the holiday was moved to Monday.",
+          "At the end of day 8 I was scrolling social media: lots of people went to the cemetery to visit their loved ones. I also saw something that always gets me thinking: how we take cultural expressions from other peoples and make them ours as if we'd always had them. I think it has to do with identity, with age and with that stage in adolescence when we reject our roots because they seem old-fashioned or aren't popular, and embrace faraway customs instead.",
+          "I saw Guatemalans with Mexican altars, or celebrating Halloween. Everyone has the right to do what they want, but I wish we knew the background of those customs, which weren't made to look pretty in photos, but to honor our ancestors and loved ones who have passed. We have our own traditions here too: going to the cemetery, flying giant kites and decorating the graves. I hope we don't set them aside for whatever's trending.",
+          "This was a day of a lot of thinking; we really didn't do anything. Day 8, after so much stress, knocked us out. I spent the whole morning sleeping, so much that I was late for the breakfast buffet. José had already eaten, and by pure luck I grabbed some fruit and a couple of brownies and said: that's enough. In Nicaragua the portions are big, extremely big, of everything, and compared with prices and portions in Guatemala it's usually cheap, sooo cheap that we get lost in the conversion and always end up overpaying, HAHAHAHA.",
+          "For lunch we went to Tip-Top, because apparently we've made it our mission to try every fried chicken chain in the countries we visit. We'd already been to Pollo Campestre, which José loved because it tasted like Pollo Campero's recipe from the 80s; I found it salty, but not bad, although it was also 9 p.m. chicken, fresh out of the fryer, haha.",
+          "At Tip-Top our plan was two pieces each: one grilled and one \"rostizado\", or fried (I don't get why they call it rostizado if it's fried, but to each their own, HAHA; maybe I'm the one who doesn't know). We explained to the lady that we wanted one fried piece, one grilled piece, fries and water each, and walked out with a bill of 1,300 córdobas, more than the steak we'd had the day before in León. Strange, because the two-piece combo was under 400 córdobas, but since we didn't know how to order, once again we paid extra to learn.",
+          "In the end they handed us two trays full of chicken, with beans, pico de gallo, tortillas, a drink and the famous cabbage salad. Of course we finished it all, but it was tough. We went back to the hotel to rest and slept until nightfall, which we spent in the pool for about 3 hours, hahahaha.",
+          "People have always told me I have an impressive ability for introspection and for noticing subtle changes around me. I've been discovering that it's a response to things from childhood; not necessarily violence, but situations that leave a mark. I've always loved pools: it's one of the things I remember from when we were little, when my mom took us swimming at Club Aurora, maybe not every weekend, but pretty often. I usually float, holding my breath, like a starfish, and while I float I relax and start connecting with my own mind. Everything José and I have done this week has been an almost chaotic back-and-forth. There's nothing wrong with that, since we're used to high stress, but I hadn't had time to process it.",
+          "Floating, trying not to drown, I remembered everyone's photos at the cemetery and remembered my own loved ones who have passed: my grandfather Armando, my brother Hanz, my grandmother Odilia. I'm blessed to still have many of my elders alive, but I know it won't be forever. I remembered that my brother Hanz drowned, 10 years ago. I remembered the saying that fear weighs you down, and I started thinking that we were never raised around fear: we weren't afraid of anything, literally anything.",
+          "I remember once we were walking through an ecological park in the town where we grew up and a snake appeared. While everyone stepped back, the two of us stood there watching it in awe, mesmerized by its movement, careful not to bother it, but never afraid. I put my head under the water trying to imagine what my brother might have felt: the fear of not seeing the bottom of the lake, of having nothing to hold on to and, hardest of all, the moment he probably called for help and nobody was close enough to help him right away.",
+          "When my brother died, something stayed with me. After so many movies, series and anime, you learn that when someone leaves this life there's always someone to blame, and all the pain gets redirected toward that person or that structure; that keeps you company and makes the pain smaller, because at least there's someone to blame. But when the one to blame is the very person who died, what do you do? Life taught me, the hard way, that there isn't always someone to blame, and that sometimes you just have to let go.",
+          "I remembered my grandfather Armando, on my dad's side, who couldn't see all the good and the bad I've done in the years he's been gone; I'm sure having him close would have been a great comfort, and he'd be proud. And my grandmother Odilia, my mom's mother, who, even though we didn't get along in her last years, was always proud of what her grandchildren did.",
+          "I saw where I was standing: in Nicaragua, in the same hotel where I stayed in 2019 for an event. But I realized it wasn't the same. Heraclitus's paradox is true: you never step into the same river twice, because neither the river nor you are the same. This pool was the same, but I wasn't, nor was the situation, nor the water. I felt proud of everything that has changed in these years, and I convinced myself to keep going on this journey.",
+          "We went to dinner and then to bed. Apparently I swallowed a lot of pool water, because my stomach hurt. Hoping not to wake up sick, I lay down and slept deeply."
+        ],
+        "de": [
+          "Gestern war in Guatemala der Tag der Toten, und José meinte, das sei ein sehr lateinamerikanisches Datum, denn sogar in Nicaragua war Feiertag. Da wurde mir klar, welches Glück wir hatten, am Sonntag noch etwas Geöffnetes zu finden, denn am Montag hätten wir natürlich nichts gefunden: Der Feiertag wurde auf Montag verschoben.",
+          "Am Ende von Tag 8 schaute ich in die sozialen Netzwerke: Viele besuchten ihre Verstorbenen auf dem Friedhof. Ich sah auch etwas, das mich immer nachdenklich macht: wie wir kulturelle Ausdrucksformen anderer Völker übernehmen, als hätten wir sie schon immer gehabt. Ich glaube, das hat mit Identität zu tun, mit dem Alter und mit jener Phase in der Jugend, in der wir unsere Wurzeln ablehnen, weil sie altmodisch wirken oder nicht beliebt sind, und stattdessen ferne Bräuche annehmen.",
+          "Ich sah Guatemalteken mit mexikanischen Altären oder beim Halloween-Feiern. Jeder hat das Recht zu tun, was er will, aber ich wünschte, wir kennten den Hintergrund dieser Bräuche, die nicht dafür gemacht sind, auf Fotos hübsch auszusehen, sondern um der Ahnen und Verstorbenen zu gedenken. Wir haben hier auch unsere eigenen Traditionen: auf den Friedhof gehen, Riesendrachen steigen lassen und die Gräber schmücken. Hoffentlich lassen wir sie nicht wegen des nächsten Trends links liegen.",
+          "Es war ein Tag voller Gedanken; eigentlich haben wir nichts gemacht. Tag 8 hatte uns nach so viel Stress k. o. gesetzt. Ich habe den ganzen Vormittag geschlafen, so lange, dass ich zu spät zum Frühstücksbüfett kam. José hatte schon gefrühstückt, und rein zufällig erwischte ich noch Obst und ein paar Brownies und sagte mir: Das reicht. In Nicaragua sind die Portionen groß, extrem groß, egal was, und verglichen mit Preisen und Portionen in Guatemala ist es meist günstig, sooo günstig, dass wir uns beim Umrechnen verrechnen und am Ende immer zu viel zahlen, HAHAHAHA.",
+          "Zum Mittagessen gingen wir zu Tip-Top, denn anscheinend haben wir es uns zur Aufgabe gemacht, jede Brathähnchenkette in den Ländern auszuprobieren, die wir besuchen. Bei Pollo Campestre waren wir schon, und José liebte es, weil es ihn an das Rezept von Pollo Campero aus den 80ern erinnerte; ich fand es salzig, aber nicht schlecht, wobei es auch das frisch frittierte Hähnchen um 21 Uhr war, haha.",
+          "Bei Tip-Top war unser Plan zwei Stücke pro Person: eins gegrillt und eins „rostizado“, also frittiert (warum es rostizado heißt, wenn es frittiert ist, verstehe ich nicht, aber jedem das Seine, HAHA; vielleicht bin ich derjenige, der es nicht weiß). Wir erklärten der Frau, dass wir je ein frittiertes Stück, ein gegrilltes, Pommes und Wasser wollten, und kamen mit einer Rechnung von 1.300 Córdobas raus, mehr als das Fleisch am Vortag in León. Seltsam, denn das Zwei-Stück-Menü kostete unter 400 Córdobas, aber weil wir nicht wussten, wie man bestellt, zahlten wir wieder Lehrgeld.",
+          "Am Ende bekamen wir zwei Tabletts voller Hähnchen, mit Bohnen, Pico de Gallo, Tortillas, einem Getränk und dem berühmten Krautsalat. Natürlich haben wir alles aufgegessen, aber es war hart. Wir fuhren zurück ins Hotel, ruhten uns aus und schliefen bis zum Abend, den wir etwa 3 Stunden im Pool verbrachten, hahahaha.",
+          "Man hat mir immer gesagt, ich hätte eine beeindruckende Fähigkeit zur Selbstreflexion und bemerke feine Veränderungen um mich herum. Ich habe herausgefunden, dass das eine Reaktion auf Dinge aus der Kindheit ist; nicht unbedingt Gewalt, aber Situationen, die einen prägen. Ich mochte Pools schon immer: Es ist eine der Erinnerungen an unsere Kindheit, als meine Mutter uns zum Schwimmen in den Club Aurora mitnahm, vielleicht nicht jedes Wochenende, aber ziemlich oft. Ich lasse mich meist treiben, halte die Luft an, wie ein Seestern, und während ich treibe, entspanne ich mich und komme in Kontakt mit meinem Kopf. Alles, was José und ich diese Woche gemacht haben, war ein fast chaotisches Hin und Her. Das ist nicht schlimm, wir sind hohen Stress gewohnt, aber ich hatte keine Zeit gehabt, es zu verarbeiten.",
+          "Während ich trieb und versuchte, nicht unterzugehen, erinnerte ich mich an die Fotos vom Friedhof und an meine eigenen Verstorbenen: meinen Großvater Armando, meinen Bruder Hanz, meine Großmutter Odilia. Ich habe das Glück, dass viele meiner Alten noch leben, aber ich weiß, dass es nicht für immer ist. Ich erinnerte mich, dass mein Bruder Hanz vor 10 Jahren ertrunken ist. Ich dachte an das Sprichwort, dass Angst schwer wiegt, und daran, dass wir nie in Angst aufgewachsen sind: Wir hatten vor nichts Angst, buchstäblich vor nichts.",
+          "Ich erinnere mich, wie wir einmal durch einen Naturpark in dem Ort gingen, in dem wir aufgewachsen sind, und eine Schlange auftauchte. Während alle zurückwichen, standen wir beide da und sahen ihr bewundernd zu, gebannt von ihrer Bewegung, vorsichtig, sie nicht zu stören, aber nie ängstlich. Ich tauchte den Kopf unter Wasser und versuchte mir vorzustellen, was mein Bruder gefühlt haben muss: die Angst, den Grund des Sees nicht zu sehen, nichts zum Festhalten zu haben, und, am schwersten, den Moment, in dem er vermutlich um Hilfe rief und niemand nah genug war, um sofort zu helfen.",
+          "Als mein Bruder starb, blieb etwas in mir zurück. Nach so vielen Filmen, Serien und Animes lernt man, dass es immer einen Schuldigen gibt, wenn jemand geht, und dass sich der ganze Schmerz gegen diese Person oder Struktur richtet; das begleitet einen und macht den Schmerz kleiner, weil es wenigstens jemanden gibt, dem man die Schuld geben kann. Aber wenn der Schuldige derjenige ist, der gestorben ist, was macht man dann? Das Leben hat mir auf die harte Tour beigebracht, dass es nicht immer Schuldige gibt und dass man manchmal einfach loslassen muss.",
+          "Ich dachte an meinen Großvater Armando väterlicherseits, der all das Gute und Schlechte nicht mehr erleben konnte, das ich in den Jahren ohne ihn gemacht habe; ihn in der Nähe zu haben, hätte mir sicher viel Trost gegeben, und er wäre stolz. Und an meine Großmutter Odilia, die Mutter meiner Mutter, die, obwohl wir uns in ihren letzten Jahren nicht gut verstanden, immer stolz auf ihre Enkel war.",
+          "Ich sah, wo ich stand: in Nicaragua, im selben Hotel, in dem ich 2019 wegen einer Veranstaltung war. Aber mir wurde klar, dass es nicht dasselbe war. Das Paradox des Heraklit stimmt: Man steigt nicht zweimal in denselben Fluss, denn weder der Fluss noch man selbst ist derselbe. Dieser Pool war derselbe, aber ich war es nicht, nicht die Situation, nicht das Wasser. Ich war stolz auf alles, was sich in diesen Jahren verändert hat, und beschloss, diese Reise fortzusetzen.",
+          "Wir gingen zu Abend essen und dann schlafen. Anscheinend hatte ich viel Poolwasser geschluckt, denn mein Bauch tat weh. In der Hoffnung, nicht krank aufzuwachen, legte ich mich hin und schlief tief."
+        ],
+        "zh": [
+          "昨天是危地马拉的亡灵节，José 跟我说，这是一个很拉丁美洲的日子，因为连尼加拉瓜也放假。这让我想到，我们周日能找到一家开门的地方真是幸运，因为周一肯定什么都找不到：假期顺延到了周一。",
+          "第 8 天结束时我在刷社交媒体：很多人去墓地看望逝去的亲人。我也看到了一件总让我深思的事：我们会把别的民族的文化表现拿来，当成自己一直都有的。我觉得这和身份认同有关，和年龄有关，也和青春期那个阶段有关——那时我们因为觉得自己的根老土、不流行而排斥它，转而拥抱遥远的习俗。",
+          "我看到危地马拉人摆墨西哥式的祭坛，或者过万圣节。每个人都有权做自己想做的事，但我希望我们能了解这些习俗的来历：它们不是为了拍照好看，而是为了纪念祖先和逝者。我们也有自己的传统：去墓地、放大风筝、装点坟墓。希望我们不要因为一时的潮流而把它们丢在一边。",
+          "这是思考很多的一天；其实我们什么也没做。第 8 天的压力让我们彻底累垮了。我睡了一整个上午，睡到早餐自助都迟到了。José 早就吃过了，我碰巧还拿到了一些水果和几块布朗尼，心想：够了。在尼加拉瓜，什么东西的分量都很大，特别大，而和危地马拉的价格与分量相比，通常很便宜，便宜到我们换算时都算糊涂了，结果总是多付钱，哈哈哈哈。",
+          "午饭我们去了 Tip-Top，因为我们好像已经给自己定了个任务：把途经国家的炸鸡店都吃一遍。之前我们去过 Pollo Campestre，José 很喜欢，说吃起来像 80 年代 Pollo Campero 的配方；我觉得有点咸，但还不错，不过那也是晚上 9 点刚出锅的鸡，哈哈。",
+          "在 Tip-Top，我们的计划是每人两块：一块烤的，一块“rostizado”，也就是炸的（我搞不懂明明是炸的为什么叫 rostizado，不过各有各的叫法，哈哈；也许是我不懂）。我们跟那位阿姨说，每人要一块炸鸡、一块烤鸡、薯条和水，结果账单是 1,300 科尔多瓦，比前一天在莱昂吃的牛排还贵。挺奇怪的，因为两块鸡的套餐不到 400 科尔多瓦，但我们不会点，又交了一次学费。",
+          "最后他们给了我们两大盘鸡肉，配豆子、pico de gallo 莎莎酱、玉米饼、饮料，还有那道有名的卷心菜沙拉。我们当然全吃光了，但吃得很费劲。我们回酒店继续休息，一直睡到晚上，然后在泳池里泡了大约 3 个小时，哈哈哈哈。",
+          "大家总说我有很强的自省能力，能察觉身边细微的变化。我慢慢发现，这是对童年一些事情的反应；不一定是暴力，但确实是会在人身上留下印记的处境。我一直很喜欢泳池：这是我对小时候的记忆之一，妈妈常带我们去 Aurora 俱乐部游泳，也许不是每个周末，但挺频繁的。我常常像海星一样憋着气漂浮，一边漂一边放松，开始和自己的大脑对话。这一周我和 José 做的事情几乎是一片混乱的来回奔波。这本身没什么不好，我们习惯了高压，但我一直没时间消化。",
+          "漂着、努力不呛水的时候，我想起了大家在墓地的照片，也想起了我逝去的亲人：我的爷爷 Armando、我的弟弟 Hanz、我的外婆 Odilia。我很幸运，还有很多长辈健在，但我知道这不会是永远。我想起弟弟 Hanz 是溺水去世的，已经 10 年了。我想起一句话：恐惧是沉重的。我开始想，我们从小就不是在恐惧中长大的：我们什么都不怕，真的什么都不怕。",
+          "我记得有一次，我们在长大的小镇上的生态公园里散步，突然出现了一条蛇。别人都往后退，我们俩却站在那里，惊叹地看着它游动的样子，小心不去打扰它，但从来没有害怕。我把头埋进水里，试着想象弟弟当时可能的感受：看不见湖底的恐惧，没有可以抓住的东西，还有最难受的那一刻——他也许呼救了，却没有人离得足够近，能马上救他。",
+          "弟弟走后，我心里一直有根刺。看了那么多电影、剧集和动漫，你会以为有人离开时总有一个该怪的人，所有的痛都会转向那个人或那个体制；这会陪着你，让痛少一点，因为至少有人可以怪。可如果该怪的正是离开的那个人自己，又该怎么办？生活用很残酷的方式教会我：不是总有罪魁祸首，有时候只能放手。",
+          "我想起爸爸那边的爷爷 Armando，他没能看到他离开这些年里我做过的好事和坏事；有他在身边一定会让我很安心，他也会为我骄傲。还有妈妈的妈妈，外婆 Odilia，虽然她最后几年我们相处得不好，但她始终为孙辈们做的事感到骄傲。",
+          "我看清了自己所在的地方：在尼加拉瓜，在 2019 年因为一次活动住过的同一家酒店。但我意识到，一切都不一样了。赫拉克利特的悖论是真的：人不能两次踏进同一条河流，因为河已不是那条河，人也不是那个人。这个泳池还是那个泳池，可我不是了，处境不是了，水也不是了。我为这些年的改变感到骄傲，也下定决心继续这段旅程。",
+          "我们去吃了晚饭，然后睡觉。看来我在泳池里喝了不少水，肚子有点疼。希望第二天别不舒服，我躺下就睡得很沉。"
+        ]
+      },
+      "photos": [
+        {
+          "src": "images/ruta/dia-9-arbol.jpg",
+          "alt": {
+            "es": "Árbol de la Vida metálico azul en una rotonda de Managua, con adornos navideños",
+            "en": "A blue metal Tree of Life on a Managua roundabout, with Christmas decorations",
+            "de": "Ein blauer Metall-Lebensbaum in einem Kreisverkehr in Managua, mit Weihnachtsschmuck",
+            "zh": "马那瓜环岛上的蓝色金属“生命之树”，旁边有圣诞装饰"
+          },
+          "caption": {
+            "es": "Rumbo al almuerzo por Managua.",
+            "en": "On the way to lunch in Managua.",
+            "de": "Auf dem Weg zum Mittagessen in Managua.",
+            "zh": "在马那瓜去吃午饭的路上。"
+          },
+          "after": 4
+        },
+        {
+          "src": "images/ruta/dia-9-tiptop.jpg",
+          "alt": {
+            "es": "Dos bandejas rojas llenas de pollo, frijoles, tortillas, ensalada y bebidas",
+            "en": "Two red trays full of chicken, beans, tortillas, salad and drinks",
+            "de": "Zwei rote Tabletts voller Hähnchen, Bohnen, Tortillas, Salat und Getränke",
+            "zh": "两个红色托盘，装满鸡肉、豆子、玉米饼、沙拉和饮料"
+          },
+          "caption": {
+            "es": "Las dos bandejas de Tip-Top. Nos acabamos todo.",
+            "en": "The two Tip-Top trays. We finished it all.",
+            "de": "Die zwei Tabletts von Tip-Top. Wir haben alles aufgegessen.",
+            "zh": "Tip-Top 的两大盘。我们全吃光了。"
+          },
+          "after": 7
+        },
+        {
+          "src": "images/ruta/dia-9-piscina.jpg",
+          "alt": {
+            "es": "Piscina iluminada de noche en el patio de un hotel",
+            "en": "A lit pool at night in a hotel courtyard",
+            "de": "Ein beleuchteter Pool bei Nacht im Innenhof eines Hotels",
+            "zh": "夜晚酒店庭院里亮着灯的泳池"
+          },
+          "caption": {
+            "es": "Tres horas de piscina para procesar la semana.",
+            "en": "Three hours in the pool to process the week.",
+            "de": "Drei Stunden im Pool, um die Woche zu verarbeiten.",
+            "zh": "在泳池里泡了三个小时，消化这一周。"
+          },
+          "after": 7
+        }
+      ],
+      "videos": [],
+      "cover": "images/ruta/dia-9-portada.jpg"
     }
   ],
   "purpose": {
