@@ -2102,6 +2102,259 @@
       ],
       "videos": [],
       "cover": "images/ruta/dia-9-portada.jpg"
+    },
+    {
+      "slug": "dia-10-turistear",
+      "date": "2026-11-03",
+      "place": {
+        "es": "Managua",
+        "en": "Managua",
+        "de": "Managua",
+        "zh": "马那瓜"
+      },
+      "country": "ni",
+      "coords": [
+        12.136,
+        -86.251
+      ],
+      "title": {
+        "es": "Por fin salimos a turistear",
+        "en": "Finally, some sightseeing",
+        "de": "Endlich Sightseeing",
+        "zh": "终于出去观光了"
+      },
+      "body": {
+        "es": [
+          "Es bien gracioso cómo la gente piensa que uno anda viajando por placer, de vacaciones, desconectado de todo y sin trabajar. Pero no es así: uno siempre está trabajando, porque hacer conexiones también es trabajar. Ya tenemos a toda Centroamérica para hacer los eventos el próximo año con nuestra propia marca, y ahora solo queda formalizarlo con alianzas, fotos, etc.",
+          "El martes por fin pudimos salir, gracias a David en la tarde y a Lua en la noche. David es un amigo que hice allá por 2015-2016, cuando empezaba en las comunidades de software libre en Guatemala. Luego resultó que había una comunidad a nivel centroamericano, y la primera vez que nos juntamos fue en 2016, en Costa Rica. Les recomiendo que se unan a los grupos de Telegram, @software_libre_gt y @slcentroamerica, y que les digan que se enteraron por yeffrimic.",
+          "Fuimos a almorzar a Ecorustik y por primera vez comí una pizza con base de plátano en vez de harina. Estuvo bastante buena. Yo pedí una que tenía puyazo, y José pidió la pizza, JAJAJAJAJA. Qué rico, la verdad. Es el tipo de cosas que uno solo encuentra de manera local en cada país, muy autóctono. Si viajan a Nicaragua, tienen que probarlo.",
+          "Pasamos luego al centro histórico, donde está el Palacio Nacional. El centro de Managua es bastante pintoresco, con muchos árboles de la vida, flores y, sobre todo, bastante limpio.",
+          "Llegamos a la antigua catedral y de pronto me vinieron los recuerdos de Zelda, específicamente de Breath of the Wild, donde uno de los primeros lugares que visitas es justamente una iglesia en ruinas. Se parecía un montón. Qué belleza toda esta parte histórica del país. Tomé muchas fotos, que les dejo aquí.",
+          "Después fuimos al mirador de Tiscapa, en una colina en el centro de Managua desde donde se ve todo. Las fotos no le hacen justicia a lo hermoso que es. Junto al mirador está la laguna de Tiscapa, y había impresiones gigantes de personajes históricos.",
+          "Estuvimos platicando David, José y yo. Es bien interesante cómo personas que no se conocen, pero que tienen cosas en común, pueden congeniar tan bien. Tenía mucho tiempo sin ver a David: la última vez fue en 2019, cuando vine al Mozilla Activate y estábamos en su casa con Lexo, otro amigo. Hacía tanto calor ese día que tuvimos que comprarnos un caldo de res para sentirnos mejor, JAJAJA. Estábamos TIRADOOOS, TIRADOS en el piso, porque era lo más fresco de la casa, que él recién había comprado, y nosotros ahí haciendo el ridículo como siempre, JAJAJAJAJA.",
+          "Regresamos al hotel. No sabía que comer tanto plátano nos iba a cansar tanto. A las 7 teníamos que estar con Lua en El Chante, uno de los que hay en Managua, así que descansamos un rato. Casi me quedo dormido, pero le hablé a José y nos fuimos.",
+          "Aquí tengo que hacer una salvedad: en mi post anterior hablé de lo bien que están las carreteras, y es cierto para las principales, que se nota que han sido prioridad; otras calles están más sencillas. Llegamos sin mucho tráfico. Es bien interesante, porque realmente no hemos encontrado tráfico en ningún lugar de Nicaragua, tal vez porque andamos a lo que yo llamo deshoras, pero nada parecido al de la Ciudad de Guatemala.",
+          "Pudimos platicar con Lua, a quien no conocía en persona, pero que fue al Arduino Day del año pasado, ¡hasta hay una foto, JAJAJA! Aquí me volví a dar cuenta de que la comida en Nicaragua es abundante y bastante más barata que en Guatemala: comimos un montón en el almuerzo, y ahora con un bowl de carne desmechada ya no pude. Eso sí, las cocoas, que es chocolate con leche, han sido de lo mejor que he tomado.",
+          "Hablamos de comunidades, de proyectos y de las alianzas que vamos a hacer el próximo año. Así que sí: Lua ya es nuestra aliada oficial en Nicaragua, y nos va a ayudar a hacer más y mejores eventos. No me terminé la comida, grabamos el video del día y nos fuimos a dormir temprano, porque al día siguiente teníamos que salir a las 7 de la mañana.",
+          "Creo que este fue el día en que me permití tomar fotos y ser turista. Los días anteriores no fueron malos, pero hoy sí descansamos, conocimos y turisteamos, porque nos la hemos pasado trabajando, moviéndonos, pedaleando, comiendo y durmiendo, y no queda espacio para visitar lugares. Lo peor es que los dos somos workaholics, así que es complicado.",
+          "Vamos mejorando el plan poco a poco. Lo importante, de nuevo, no es tener el plan perfecto, sino irlo mejorando en cada iteración, y con José lo hemos ido mejorando todos los días. Ha habido días buenos, días malos y días más cansados que otros, pero cada día es un aprendizaje nuevo. Esperemos que todo salga bien. Vamos a seguir creando alianzas y haciendo crecer el movimiento. Gracias a todos por leer hasta aquí; espero que disfruten las fotos."
+        ],
+        "en": [
+          "It's funny how people think we're traveling for fun, on vacation, disconnected from everything and not working. But that's not how it is: you're always working, because making connections is work too. We now have all of Central America lined up to hold events next year under our own brand, and all that's left is to make it official with partnerships, photos and so on.",
+          "On Tuesday we finally got to go out, thanks to David in the afternoon and Lua in the evening. David is a friend I made back in 2015–2016, when I was starting out in Guatemala's free software communities. Then it turned out there was a Central America–wide community, and the first time we all got together was in 2016, in Costa Rica. I recommend joining the Telegram groups, @software_libre_gt and @slcentroamerica, and telling them you heard about them from yeffrimic.",
+          "We had lunch at Ecorustik and, for the first time, I ate a pizza with a plantain base instead of flour. It was really good. I ordered one with puyazo (a cut of beef), and José ordered the pizza, HAHAHAHAHA. So good, honestly. It's the kind of thing you only find locally in each country, very authentic. If you travel to Nicaragua, you have to try it.",
+          "Then we went to the historic center, where the National Palace is. Downtown Managua is quite picturesque, with lots of Trees of Life, flowers and, above all, very clean.",
+          "We reached the old cathedral and suddenly memories of Zelda came back, specifically Breath of the Wild, where one of the first places you visit is a ruined church. It looked a lot like it. This whole historic part of the country is beautiful. I took lots of photos, which I'm leaving here.",
+          "Then we went to the Tiscapa viewpoint, on a hill in the middle of Managua where you can see everything. The photos don't do justice to how beautiful it is. Next to the viewpoint is the Tiscapa lagoon, and there were giant prints of historical figures.",
+          "David, José and I were chatting. It's really interesting how people who don't know each other, but have things in common, can get along so well. I hadn't seen David in a long time: the last time was in 2019, when I came for Mozilla Activate and we were at his house with Lexo, another friend. It was so hot that day that we bought ourselves a beef soup to feel better, HAHAHA. We were LYIIING, LYING on the floor, because it was the coolest spot in the house, which he'd just bought, and there we were being silly as always, HAHAHAHAHA.",
+          "We went back to the hotel. I had no idea eating so much plantain would make us so tired. At 7 we had to meet Lua at El Chante, one of the ones in Managua, so we rested for a bit. I almost fell asleep, but I called José and we headed out.",
+          "I have to add a caveat here: in my previous post I talked about how good the roads are, and that's true of the main ones, which have clearly been a priority; other streets are simpler. We arrived without much traffic. It's really interesting, because we haven't hit traffic anywhere in Nicaragua, maybe because we travel at what I call odd hours, but nothing like Guatemala City.",
+          "We got to talk with Lua, whom I hadn't met in person, but who came to last year's Arduino Day; there's even a photo, HAHAHA! Here I realized once again that food in Nicaragua is plentiful and quite a bit cheaper than in Guatemala: we ate a ton at lunch, and now I couldn't finish a bowl of shredded beef. That said, the cocoa, chocolate with milk, has been some of the best I've ever had.",
+          "We talked about communities, projects and the partnerships we're going to build next year. So yes: Lua is now our official ally in Nicaragua, and she's going to help us run more and better events. I didn't finish my food, we recorded the day's video and went to bed early, because the next day we had to leave at 7 a.m.",
+          "I think this was the day I allowed myself to take photos and be a tourist. The previous days weren't bad, but today we really rested, explored and played tourist, because we've been working, moving, pedaling, eating and sleeping, and there's no room left for sightseeing. The worst part is that we're both workaholics, so it's tricky.",
+          "We're improving the plan little by little. What matters, again, isn't having the perfect plan, but improving it with every iteration, and José and I have been improving it every day. There have been good days, bad days and days more tiring than others, but every day is something new to learn. Let's hope it all goes well. We'll keep building partnerships and growing the movement. Thanks to everyone for reading this far; I hope you enjoy the photos."
+        ],
+        "de": [
+          "Lustig, wie die Leute denken, wir würden zum Vergnügen reisen, im Urlaub, von allem abgeschaltet und ohne zu arbeiten. Aber so ist es nicht: Man arbeitet immer, denn Kontakte knüpfen ist auch Arbeit. Wir haben jetzt ganz Mittelamerika beisammen, um nächstes Jahr Veranstaltungen unter unserer eigenen Marke zu machen, und es fehlt nur noch, das mit Partnerschaften, Fotos usw. offiziell zu machen.",
+          "Am Dienstag kamen wir endlich raus, dank David am Nachmittag und Lua am Abend. David ist ein Freund aus den Jahren 2015–2016, als ich in den Freie-Software-Communities in Guatemala anfing. Dann stellte sich heraus, dass es eine mittelamerikanische Community gab, und das erste Treffen war 2016 in Costa Rica. Ich empfehle euch die Telegram-Gruppen @software_libre_gt und @slcentroamerica, und sagt ihnen, dass ihr durch yeffrimic davon erfahren habt.",
+          "Zum Mittagessen gingen wir ins Ecorustik, und zum ersten Mal aß ich eine Pizza mit einem Boden aus Kochbanane statt Mehl. Sie war richtig gut. Ich bestellte eine mit Puyazo (einem Rindfleischstück), und José bestellte die Pizza, HAHAHAHAHA. Wirklich lecker. So etwas findet man nur vor Ort im jeweiligen Land, ganz ursprünglich. Wenn ihr nach Nicaragua reist, müsst ihr das probieren.",
+          "Danach ging es ins historische Zentrum, wo der Nationalpalast steht. Das Zentrum von Managua ist ziemlich malerisch, mit vielen Lebensbäumen, Blumen und vor allem sehr sauber.",
+          "Wir kamen zur alten Kathedrale, und plötzlich kamen Erinnerungen an Zelda hoch, genauer an Breath of the Wild, wo einer der ersten Orte, die man besucht, eine Kirchenruine ist. Es sah sehr ähnlich aus. Wunderschön, dieser ganze historische Teil des Landes. Ich habe viele Fotos gemacht, die ich euch hier lasse.",
+          "Danach fuhren wir zum Aussichtspunkt Tiscapa auf einem Hügel mitten in Managua, von dem aus man alles sieht. Die Fotos werden nicht gerecht, wie schön es ist. Neben dem Aussichtspunkt liegt die Lagune von Tiscapa, und dort standen riesige Drucke historischer Persönlichkeiten.",
+          "David, José und ich unterhielten uns. Spannend, wie Menschen, die sich nicht kennen, aber Gemeinsamkeiten haben, sich so gut verstehen können. Ich hatte David lange nicht gesehen: Das letzte Mal war 2019, als ich zu Mozilla Activate kam und wir mit Lexo, einem anderen Freund, bei ihm zu Hause waren. Es war an dem Tag so heiß, dass wir uns eine Rindfleischsuppe kauften, um uns besser zu fühlen, HAHAHA. Wir lagen PLATT, PLATT auf dem Boden, weil es der kühlste Ort im Haus war, das er gerade gekauft hatte, und wir machten uns wie immer zum Affen, HAHAHAHAHA.",
+          "Wir fuhren zurück ins Hotel. Ich wusste nicht, dass so viel Kochbanane uns so müde machen würde. Um 19 Uhr waren wir mit Lua im El Chante verabredet, einem der Lokale in Managua, also ruhten wir uns etwas aus. Fast wäre ich eingeschlafen, aber ich rief José, und wir fuhren los.",
+          "Hier muss ich etwas ergänzen: In meinem letzten Beitrag schrieb ich, wie gut die Straßen sind, und das stimmt für die Hauptstraßen, die eindeutig Priorität hatten; andere Straßen sind einfacher. Wir kamen ohne viel Verkehr an. Interessant, denn wir hatten nirgends in Nicaragua Stau, vielleicht weil wir zu, wie ich es nenne, Unzeiten unterwegs sind, aber nichts im Vergleich zu Guatemala-Stadt.",
+          "Wir konnten mit Lua sprechen, die ich nicht persönlich kannte, die aber letztes Jahr beim Arduino Day war; es gibt sogar ein Foto, HAHAHA! Hier wurde mir wieder klar, dass das Essen in Nicaragua reichlich und deutlich günstiger ist als in Guatemala: Mittags hatten wir sehr viel gegessen, und jetzt schaffte ich eine Schüssel mit gezupftem Rindfleisch nicht mehr. Dafür war die Cocoa, Schokolade mit Milch, mit das Beste, was ich je getrunken habe.",
+          "Wir sprachen über Communities, Projekte und die Partnerschaften, die wir nächstes Jahr eingehen werden. Also ja: Lua ist jetzt unsere offizielle Partnerin in Nicaragua und wird uns helfen, mehr und bessere Veranstaltungen zu machen. Ich aß nicht auf, wir nahmen das Tagesvideo auf und gingen früh schlafen, denn am nächsten Tag mussten wir um 7 Uhr los.",
+          "Ich glaube, das war der Tag, an dem ich mir erlaubt habe, Fotos zu machen und Tourist zu sein. Die Tage davor waren nicht schlecht, aber heute haben wir wirklich ausgeruht, Neues gesehen und Sightseeing gemacht, denn sonst arbeiten, fahren, radeln, essen und schlafen wir, und für Besichtigungen bleibt kein Platz. Das Schlimmste ist, dass wir beide Workaholics sind, also ist es kompliziert.",
+          "Wir verbessern den Plan nach und nach. Wichtig ist, wie gesagt, nicht der perfekte Plan, sondern ihn mit jeder Iteration zu verbessern, und José und ich verbessern ihn jeden Tag. Es gab gute Tage, schlechte Tage und anstrengendere Tage, aber jeder Tag bringt etwas Neues. Hoffen wir, dass alles gut geht. Wir werden weiter Partnerschaften aufbauen und die Bewegung wachsen lassen. Danke an alle, die bis hierher gelesen haben; ich hoffe, euch gefallen die Fotos."
+        ],
+        "zh": [
+          "很好笑，大家总以为我们是出来玩的，在度假，跟一切断开，不用工作。其实不是：我们一直在工作，因为建立人脉本身就是工作。我们已经和整个中美洲谈好，明年用我们自己的品牌办活动，现在只差通过合作协议、照片等把它正式落实。",
+          "周二我们终于出门了，下午多亏了 David，晚上多亏了 Lua。David 是我 2015—2016 年认识的朋友，那时我刚开始参与危地马拉的自由软件社区。后来发现还有一个中美洲范围的社区，我们第一次相聚是 2016 年在哥斯达黎加。推荐大家加入 Telegram 群组 @software_libre_gt 和 @slcentroamerica，告诉他们你是通过 yeffrimic 知道的。",
+          "我们去 Ecorustik 吃午饭，我第一次吃到用芭蕉代替面粉做饼底的披萨。真的很好吃。我点了一份带 puyazo（一种牛肉部位）的，José 点了披萨，哈哈哈哈哈。说实话太好吃了。这种东西只能在当地吃到，非常本土。如果你去尼加拉瓜，一定要尝尝。",
+          "然后我们去了老城区，国家宫就在那里。马那瓜的市中心很有特色，到处是“生命之树”和鲜花，最重要的是很干净。",
+          "我们来到老教堂，我一下子想起了《塞尔达传说：旷野之息》，游戏里最早去的地方之一就是一座废墟教堂。真的很像。这一片历史街区太美了。我拍了很多照片，放在这里给大家看。",
+          "之后我们去了蒂斯卡帕（Tiscapa）观景台，在马那瓜市中心的一座小山上，能看到整座城市。照片拍不出它真正的美。观景台旁边就是蒂斯卡帕湖，那里还立着历史人物的巨幅画像。",
+          "David、José 和我一起聊天。很有意思，素不相识却有共同点的人，可以这么合得来。我很久没见 David 了：上次是 2019 年，我来参加 Mozilla Activate，和另一个朋友 Lexo 一起在他家。那天热得要命，我们居然买了一碗牛肉汤来“缓解”，哈哈哈。我们全都瘫——在地上，因为那是他刚买的房子里最凉快的地方，我们像往常一样出洋相，哈哈哈哈哈。",
+          "我们回到酒店。没想到吃那么多芭蕉会让人这么累。7 点要在 El Chante（马那瓜有好几家）和 Lua 见面，于是我们先休息了一会儿。我差点睡着，不过还是叫上 José 出发了。",
+          "这里我要补充一句：上一篇我说这里的公路很好，主干道确实如此，看得出是优先建设的；其他街道就简单一些。我们一路没怎么堵车。很有意思，我们在尼加拉瓜还没遇到过堵车，也许是因为我们总在我所说的“错峰时段”出行，但跟危地马拉城完全没法比。",
+          "我们和 Lua 聊了天，之前我没见过她本人，但她去年参加过 Arduino Day，甚至还有一张合照，哈哈哈！这时我又一次发现，尼加拉瓜的食物分量很足，而且比危地马拉便宜不少：午饭吃了一大堆，现在一碗手撕牛肉我都吃不下了。不过这里的 cocoa（热可可牛奶）是我喝过最好喝的之一。",
+          "我们聊了社区、项目，以及明年要建立的合作。所以是的：Lua 已经成为我们在尼加拉瓜的正式合作伙伴，会帮我们办更多、更好的活动。我没吃完，我们录了今天的视频，然后早早睡了，因为第二天早上 7 点就要出发。",
+          "我觉得这是我第一次允许自己拍照、当个游客。前几天并不糟，但今天我们是真的休息、真的去看、真的观光，因为平时我们一直在工作、赶路、骑车、吃饭、睡觉，根本没空参观。最要命的是我们俩都是工作狂，所以挺难的。",
+          "我们一点点地改进计划。重要的依然不是拥有完美的计划，而是在每一次迭代中改进它，我和 José 每天都在改进。有好日子，有坏日子，有比别的日子更累的时候，但每天都能学到新东西。希望一切顺利。我们会继续建立合作、壮大这场运动。谢谢大家读到这里，希望你们喜欢这些照片。"
+        ]
+      },
+      "photos": [
+        {
+          "src": "images/ruta/dia-10-palacio.jpg",
+          "alt": {
+            "es": "Fachada del Palacio Nacional de Managua con una bandera",
+            "en": "The facade of Managua's National Palace with a flag",
+            "de": "Fassade des Nationalpalasts in Managua mit einer Flagge",
+            "zh": "马那瓜国家宫的立面和旗帜"
+          },
+          "caption": {
+            "es": "El Palacio Nacional, en el centro histórico.",
+            "en": "The National Palace, in the historic center.",
+            "de": "Der Nationalpalast im historischen Zentrum.",
+            "zh": "老城区的国家宫。"
+          },
+          "after": 4
+        },
+        {
+          "src": "images/ruta/dia-10-arboles.jpg",
+          "alt": {
+            "es": "Tres árboles de la vida metálicos, dorado, plateado y rojo",
+            "en": "Three metal Trees of Life, gold, silver and red",
+            "de": "Drei metallene Lebensbäume in Gold, Silber und Rot",
+            "zh": "三棵金属“生命之树”：金色、银色和红色"
+          },
+          "caption": {
+            "es": "Los árboles de la vida de Managua.",
+            "en": "Managua's Trees of Life.",
+            "de": "Die Lebensbäume von Managua.",
+            "zh": "马那瓜的“生命之树”。"
+          },
+          "after": 4
+        },
+        {
+          "src": "images/ruta/dia-10-baile.jpg",
+          "alt": {
+            "es": "Bailarina con vestido folclórico azul girando bajo los árboles",
+            "en": "A dancer in a blue folk dress twirling under the trees",
+            "de": "Eine Tänzerin im blauen Folklorekleid dreht sich unter den Bäumen",
+            "zh": "身穿蓝色民族服装的舞者在树下旋转"
+          },
+          "caption": {
+            "es": "Baile folclórico en el centro.",
+            "en": "Folk dancing downtown.",
+            "de": "Volkstanz im Zentrum.",
+            "zh": "市中心的民族舞蹈。"
+          },
+          "after": 4
+        },
+        {
+          "src": "images/ruta/dia-10-catedral-lateral.jpg",
+          "alt": {
+            "es": "La antigua catedral de Managua vista de lado, con sus torres y la fachada desgastada",
+            "en": "Managua's old cathedral seen from the side, with its towers and weathered facade",
+            "de": "Die alte Kathedrale von Managua von der Seite, mit Türmen und verwitterter Fassade",
+            "zh": "从侧面看马那瓜老教堂，钟楼和斑驳的外墙"
+          },
+          "caption": {
+            "es": "La antigua catedral. Muy Breath of the Wild.",
+            "en": "The old cathedral. Very Breath of the Wild.",
+            "de": "Die alte Kathedrale. Sehr Breath of the Wild.",
+            "zh": "老教堂。很有《旷野之息》的感觉。"
+          },
+          "after": 5
+        },
+        {
+          "src": "images/ruta/dia-10-catedral-detalle.jpg",
+          "alt": {
+            "es": "Detalle de la fachada de la antigua catedral con estatuas y columnas",
+            "en": "Detail of the old cathedral's facade with statues and columns",
+            "de": "Detail der Fassade der alten Kathedrale mit Statuen und Säulen",
+            "zh": "老教堂立面细节：雕像与立柱"
+          },
+          "caption": {
+            "es": "Los detalles de la fachada.",
+            "en": "The details of the facade.",
+            "de": "Die Details der Fassade.",
+            "zh": "立面的细节。"
+          },
+          "after": 5
+        },
+        {
+          "src": "images/ruta/dia-10-catedral-navidad.jpg",
+          "alt": {
+            "es": "Fachada de la antigua catedral con decoraciones navideñas al frente",
+            "en": "The old cathedral's facade with Christmas decorations in front",
+            "de": "Die Fassade der alten Kathedrale mit Weihnachtsschmuck davor",
+            "zh": "老教堂正面，前方摆着圣诞装饰"
+          },
+          "caption": {
+            "es": "Y ya con adornos navideños.",
+            "en": "Already with Christmas decorations.",
+            "de": "Schon mit Weihnachtsschmuck.",
+            "zh": "已经挂上了圣诞装饰。"
+          },
+          "after": 5
+        },
+        {
+          "src": "images/ruta/dia-10-mirador.jpg",
+          "alt": {
+            "es": "Vista desde el mirador de Tiscapa hacia el lago de Managua y los volcanes",
+            "en": "View from the Tiscapa viewpoint toward Lake Managua and the volcanoes",
+            "de": "Blick vom Aussichtspunkt Tiscapa auf den Managua-See und die Vulkane",
+            "zh": "从蒂斯卡帕观景台眺望马那瓜湖和火山"
+          },
+          "caption": {
+            "es": "Managua desde el mirador de Tiscapa.",
+            "en": "Managua from the Tiscapa viewpoint.",
+            "de": "Managua vom Aussichtspunkt Tiscapa.",
+            "zh": "从蒂斯卡帕观景台看马那瓜。"
+          },
+          "after": 6
+        },
+        {
+          "src": "images/ruta/dia-10-tiscapa.jpg",
+          "alt": {
+            "es": "La laguna de Tiscapa rodeada de vegetación, con la ciudad al fondo",
+            "en": "The Tiscapa lagoon surrounded by greenery, with the city behind",
+            "de": "Die Lagune von Tiscapa, umgeben von Grün, im Hintergrund die Stadt",
+            "zh": "被绿植环绕的蒂斯卡帕湖，远处是城市"
+          },
+          "caption": {
+            "es": "La laguna de Tiscapa. Las fotos no le hacen justicia.",
+            "en": "The Tiscapa lagoon. The photos don't do it justice.",
+            "de": "Die Lagune von Tiscapa. Die Fotos werden ihr nicht gerecht.",
+            "zh": "蒂斯卡帕湖。照片拍不出它的美。"
+          },
+          "after": 6
+        },
+        {
+          "src": "images/ruta/dia-10-lua.jpg",
+          "alt": {
+            "es": "Collage: Lua y Yeffri en el Arduino Day del año pasado, y la cena de hoy con Lua y José",
+            "en": "Collage: Lua and Yeffri at last year's Arduino Day, and today's dinner with Lua and José",
+            "de": "Collage: Lua und Yeffri beim Arduino Day letztes Jahr und das heutige Abendessen mit Lua und José",
+            "zh": "拼图：去年 Arduino Day 上的 Lua 和 Yeffri，以及今天和 Lua、José 的晚餐"
+          },
+          "caption": {
+            "es": "Lua en el Arduino Day del año pasado, y hoy en Managua.",
+            "en": "Lua at last year's Arduino Day, and today in Managua.",
+            "de": "Lua beim Arduino Day letztes Jahr und heute in Managua.",
+            "zh": "去年 Arduino Day 上的 Lua，和今天在马那瓜。"
+          },
+          "after": 10
+        }
+      ],
+      "videos": [],
+      "links": [
+        {
+          "url": "https://t.me/software_libre_gt",
+          "after": 2,
+          "label": {
+            "es": "Grupo de Telegram: Software Libre Guatemala",
+            "en": "Telegram group: Software Libre Guatemala",
+            "de": "Telegram-Gruppe: Software Libre Guatemala",
+            "zh": "Telegram 群组：Software Libre Guatemala"
+          }
+        },
+        {
+          "url": "https://t.me/slcentroamerica",
+          "after": 2,
+          "label": {
+            "es": "Grupo de Telegram: Software Libre Centroamérica",
+            "en": "Telegram group: Software Libre Centroamérica",
+            "de": "Telegram-Gruppe: Software Libre Centroamérica",
+            "zh": "Telegram 群组：Software Libre Centroamérica"
+          }
+        }
+      ],
+      "cover": "images/ruta/dia-10-portada.jpg"
     }
   ],
   "purpose": {
