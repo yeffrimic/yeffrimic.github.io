@@ -1,0 +1,29 @@
+{
+  // Escribir la bitácora sin distracciones: nada de sugerencias y texto ajustado al ancho
+  "[markdown]": {
+    "editor.quickSuggestions": { "other": "off", "comments": "off", "strings": "off" },
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.snippetSuggestions": "none",
+    "editor.inlineSuggest.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 90,
+    "editor.wrappingIndent": "same",
+    "editor.lineHeight": 1.7,
+    "editor.fontSize": 15,
+    "editor.lineNumbers": "off",
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [],
+    "editor.renderWhitespace": "none",
+    "editor.guides.indentation": false,
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.padding.top": 24
+  },
+  "github.copilot.enable": { "markdown": false }
+}

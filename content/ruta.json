@@ -2355,6 +2355,248 @@
         }
       ],
       "cover": "images/ruta/dia-10-portada.jpg"
+    },
+    {
+      "slug": "dia-11-el-paraiso-de-nicaragua",
+      "date": "2026-11-04",
+      "from": {
+        "es": "Managua",
+        "en": "Managua",
+        "de": "Managua",
+        "zh": "马那瓜"
+      },
+      "place": {
+        "es": "San Juan del Sur",
+        "en": "San Juan del Sur",
+        "de": "San Juan del Sur",
+        "zh": "圣胡安德尔苏尔"
+      },
+      "country": "ni",
+      "km": 145,
+      "coords": [
+        11.253,
+        -85.871
+      ],
+      "via": [
+        {
+          "coords": [
+            11.437,
+            -85.826
+          ],
+          "country": "ni",
+          "place": {
+            "es": "Rivas",
+            "en": "Rivas",
+            "de": "Rivas",
+            "zh": "里瓦斯"
+          }
+        }
+      ],
+      "title": {
+        "es": "El paraíso de Nicaragua",
+        "en": "Nicaragua's paradise",
+        "de": "Nicaraguas Paradies",
+        "zh": "尼加拉瓜的天堂"
+      },
+      "body": {
+        "es": [
+          "Los días que no hagamos nada, como hoy, voy a tratar de sacar adelante algunas reflexiones. Todavía estoy encontrando el tono de mi escritura, así que disculparán si no es tan consistente como debería. He notado que también necesito tiempo y espacio para dejar las ideas en el pensadero, como Dumbledore en Harry Potter: analizarlas, diseccionarlas y, obviamente, ponerme a escribirlas. Hay días muy corridos, como el domingo, en que no descansamos, e incluso hoy, que salimos de Managua rumbo a San Juan del Sur esperando que no nos detuviera la policía de nuevo, JAJAJA. La presión es real, JAJAJA.",
+          "El miércoles nos levantamos tempranito para ir a una reunión con un posible socio, para unos proyectos que no tienen nada que ver con lo que estamos haciendo en este viaje. En la era del internet y las videollamadas, ahora sí veo el valor y la diferencia de estar físicamente: las videollamadas pueden volverse algo rutinario y sin mucho coco. Así que voy a empezar a hacer reuniones presenciales la mayor parte del tiempo.",
+          "Hablamos de fintechs y de inversión. Y si necesitan un core bancario, José y yo tenemos uno: no se olviden de escribirme por Instagram, o a José. Fue una reunión muy entretenida y nutritiva; hay personas con mucha experiencia y siempre es bonito aprender de otros temas. Lo he dicho antes: el mal del tecnólogo, del ingeniero, del genio, es pensar que todo lo sabe, que todo lo puede resolver y, sobre todo, que todo se resuelve como él piensa, sin ensuciarse las manos: sin ir al lugar a preguntar, a ver, a aplicar el método científico y proponer soluciones. Ojalá podamos hacer negocios en Nicaragua en un futuro cercano.",
+          "Acabo de pasar 30 minutos configurando VS Code para que me detecte bien los archivos. Escribo en algo que se llama Markdown, un formato que me encanta, AJAJAJ, pero el editor no lo reconocía, y resulta que el archivo tenía un espacio al final del nombre. Bueno, sigamos.",
+          "Regresamos al hotel a descansar, según nosotros a dormir, jajaja, pero no se pudo: me puse a hacer mis cosas y a ver unos proyectos, y luego salimos rumbo a San Juan del Sur. Voy a ser repetitivo con lo de las carreteras, pero es que sí me sorprende lo bien señalizadas que están. Obviamente no todas están igual de cuidadas, pero las principales sí, y eso es algo que me encantaría ver en Guatemala, en la Roosevelt, en la carretera a El Salvador o en la Interamericana.",
+          "Gracias a Dios llovió, y eso hizo que hubiera menos gente en la carretera. Nosotros siempre a 50 km/h, como indica la ley. Pasamos por un tramo hermoso, unas planicies de Nicaragua llenas de ganado, muchísimo ganado; vimos lagunas pequeñas en el camino y todo tranquilo y, lo mejor del mundo, sin mucho calor gracias a la lluvia. La carretera estaba súper cuidada, bastante amplia y, sobre todo, con espacios para hacer bicicleta de forma segura. Había tramos de 100 metros de ciclovía que eran bien graciosos, pero le decía a José: «Es que esos 100 metros no los tenemos en ninguna carretera fuera de la capital, jajaja. Así que nos ganan aunque sea por 100 metros».",
+          "Pasamos por Rivas, el departamento de José, que pensábamos que iba a ser otra ciudad grande, pero es más un pueblo: bonito, pequeño, desarrollado, con centros comerciales, una ciudad en transición. Seguimos hacia San Juan del Sur por una recta preciosa, rodeada de árboles, donde se podía hacer bicicleta por todos lados. Se la recomiendo bastante.",
+          "Por fin llegamos a San Juan del Sur y nos recibió una rotonda. Yo pensaba que en Xela abundaban las rotondas, pero el premio se lo lleva Nicaragua, el país de las rotondas. No es que sea malo, jajajaja, me impresiona la cantidad que hay, y la verdad me gusta mucho.",
+          "Nos quedamos en un hotel precioso, que se los recomiendo al 100%. Nos recibió un segundo piso desde donde se ve no solo la piscina, sino el mar, que aunque me parezca increíble porque tiene montañas a la par, sí es salado. Ese contraste de montaña y playa siempre me parece increíble: las playas de Guatemala suelen estar lejos de las montañas, nuestra costa es más plana, así que ver estas montañas es súper interesante.",
+          "Fuimos a almorzar un pescado del tamaño de mi gatita, contemplando el mar. Qué bonito es estar cerca sin tanto calor, porque había tormenta cerca, y nosotros felices.",
+          "Saliendo del almuerzo hacia el hotel nos dimos cuenta de que íbamos con pants, playera, tenis y calcetines, AJAJAJA. Estábamos en la playa y ni en cuenta: el plan era ir a almorzar y simplemente no lo pensamos, hasta que dije: «Ay, pero sí se puede uno ir a meter al mar», jajajaj. Luego me vi, vi a José y dije: «Uhmmm, ya», JAJAJAJA. Ese día no nos metimos al mar.",
+          "La playa tiene una extraña combinación de tierra con arena y muchas, demasiadas piedras; parecen piedras de río, JAJAJA. Es raro ver las piedras y luego conchas, y otra vez, SON UN MONTÓN, tantas que hay que ponerse zapatos porque duele caminar sobre ellas. Pero todo siempre muy limpio.",
+          "Ese día no cenamos de lo mucho que comimos. Pasamos horas en la piscina y luego nos fuimos a acostar.",
+          "Fue un buen día. Increíble lo limpia que mantienen la playa, lo ordenado que se ve todo, e incluso cómo los vendedores ambulantes no son tan insistentes como en otros lugares. Me encantaría que algo así existiera en Guatemala, y creo que es posible si las autoridades, tanto nacionales como locales, y todos nosotros le ponemos cariño a nuestras playas.",
+          "Me fui a dormir con una extraña sensación."
+        ],
+        "en": [
+          "On days when we don't do much, like today, I'll try to work through some reflections. I'm still finding my writing voice, so please forgive me if it isn't as consistent as it should be. I've noticed I also need time and space to put my ideas in the Pensieve, like Dumbledore in Harry Potter: analyze them, dissect them and, of course, sit down and write them. Some days are packed, like Sunday, when we didn't rest, and even today, when we left Managua for San Juan del Sur hoping the police wouldn't stop us again, HAHAHA. The pressure is real, HAHAHA.",
+          "On Wednesday we got up early for a meeting with a potential partner, about some projects that have nothing to do with what we're doing on this trip. In the age of the internet and video calls, I now really see the value and the difference of being there in person: video calls can become routine and soulless. So I'm going to start holding in-person meetings most of the time.",
+          "We talked about fintechs and investment. And if you need a core banking system, José and I have one: don't forget to message me on Instagram, or José. It was a really fun and enriching meeting; there are people with a lot of experience, and it's always nice to learn about other topics. I've said it before: the flaw of the technologist, the engineer, the genius, is thinking they know everything, that they can solve everything and, above all, that everything should be solved the way they think, without getting their hands dirty: without going there to ask, to look, to apply the scientific method and propose solutions. I hope we can do business in Nicaragua in the near future.",
+          "I just spent 30 minutes setting up VS Code so it would recognize my files properly. I write in something called Markdown, a format I love, HAHAHA, but the editor wouldn't recognize it, and it turns out the file had a space at the end of its name. Anyway, moving on.",
+          "We went back to the hotel to rest, supposedly to sleep, haha, but it didn't happen: I got to work on my stuff and some projects, and then we headed for San Juan del Sur. I'll be repetitive about the roads, but I'm genuinely surprised by how well marked they are. Obviously not all of them are equally well kept, but the main ones are, and that's something I'd love to see in Guatemala, on the Roosevelt, on the highway to El Salvador or on the Pan-American.",
+          "Thank God it rained, which meant fewer people on the road. We always drove at 50 km/h, as the law says. We passed through a beautiful stretch, Nicaraguan plains full of cattle, lots and lots of cattle; we saw small lagoons along the way, everything calm and, best of all, not too hot thanks to the rain. The road was really well kept, quite wide and, above all, with room to ride a bike safely. There were 100-meter stretches of bike lane that were kind of funny, but I told José: \"We don't have those 100 meters on any road outside the capital, haha. So they beat us, even if only by 100 meters.\"",
+          "We went through Rivas, José's department, which we thought would be another big city, but it's more of a town: pretty, small, developed, with shopping centers, a city in transition. We kept going toward San Juan del Sur along a gorgeous straight road lined with trees, where you could ride a bike everywhere. I highly recommend it.",
+          "We finally arrived in San Juan del Sur and were greeted by a roundabout. I thought Xela had a lot of roundabouts, but the prize goes to Nicaragua, the land of roundabouts. Not that it's bad, hahahaha; I'm just amazed by how many there are, and honestly I really like it.",
+          "We stayed at a beautiful hotel, which I recommend 100%. A second-floor terrace welcomed us with a view not only of the pool but of the sea, which, as unbelievable as it seems to me with mountains right next to it, really is salt water. That contrast of mountains and beach always amazes me: Guatemala's beaches are usually far from the mountains, our coast is flatter, so seeing these mountains is really interesting.",
+          "We had lunch, a fish the size of my kitty, gazing at the sea. How nice to be by the water without too much heat, because there was a storm nearby, and we were happy.",
+          "Walking back from lunch to the hotel, we realized we were wearing sweatpants, T-shirts, sneakers and socks, HAHAHAHA. We were at the beach and had no clue: the plan was just to go to lunch and we didn't think about it at all, until I said: \"Oh, but you can go into the sea here,\" hahahah. Then I looked at myself, looked at José and said: \"Hmmm, never mind,\" HAHAHAHA. We didn't go into the sea that day.",
+          "The beach is a strange mix of dirt and sand with lots, way too many, stones; they look like river stones, HAHAHA. It's odd to see the stones and then shells, and again, THERE ARE SO MANY, so many you need shoes because it hurts to walk on them. But everything is always very clean.",
+          "We didn't have dinner that day because we'd eaten so much. We spent hours in the pool and then went to bed.",
+          "It was a good day. It's amazing how clean they keep the beach, how orderly everything looks, and even how the street vendors aren't as pushy as in other places. I'd love for something like this to exist in Guatemala, and I think it's possible if the authorities, national and local, and all of us put some love into our beaches.",
+          "I went to sleep with a strange feeling."
+        ],
+        "de": [
+          "An Tagen, an denen wir nicht viel machen, wie heute, versuche ich, ein paar Gedanken festzuhalten. Ich suche noch meinen Schreibstil, also verzeiht, wenn er nicht so konsistent ist, wie er sein sollte. Ich habe gemerkt, dass ich auch Zeit und Raum brauche, um meine Gedanken ins Denkarium zu legen, wie Dumbledore in Harry Potter: sie analysieren, sezieren und natürlich aufschreiben. Manche Tage sind voll, wie der Sonntag, an dem wir nicht ausgeruht haben, und sogar heute, als wir von Managua nach San Juan del Sur fuhren und hofften, dass uns die Polizei nicht wieder anhält, HAHAHA. Der Druck ist real, HAHAHA.",
+          "Am Mittwoch standen wir früh auf für ein Treffen mit einem möglichen Partner, für Projekte, die mit dieser Reise nichts zu tun haben. Im Zeitalter von Internet und Videoanrufen sehe ich jetzt wirklich den Wert und den Unterschied, persönlich da zu sein: Videoanrufe können zur Routine werden und seelenlos. Deshalb werde ich Meetings künftig meistens persönlich machen.",
+          "Wir sprachen über Fintechs und Investitionen. Und falls ihr ein Kernbankensystem braucht: José und ich haben eins, schreibt mir auf Instagram oder José. Es war ein sehr unterhaltsames und lehrreiches Treffen; es gibt Menschen mit viel Erfahrung, und es ist immer schön, über andere Themen zu lernen. Ich habe es schon mal gesagt: Das Übel des Technikers, des Ingenieurs, des Genies ist zu glauben, alles zu wissen, alles lösen zu können und vor allem, dass alles so gelöst wird, wie er denkt, ohne sich die Hände schmutzig zu machen: ohne hinzugehen, zu fragen, zu beobachten, die wissenschaftliche Methode anzuwenden und Lösungen vorzuschlagen. Hoffentlich können wir bald in Nicaragua Geschäfte machen.",
+          "Ich habe gerade 30 Minuten damit verbracht, VS Code so einzurichten, dass es meine Dateien richtig erkennt. Ich schreibe in etwas, das Markdown heißt, ein Format, das ich liebe, HAHAHA, aber der Editor erkannte es nicht, und es stellte sich heraus, dass der Dateiname am Ende ein Leerzeichen hatte. Na gut, weiter geht's.",
+          "Wir fuhren ins Hotel zurück, um uns auszuruhen, angeblich um zu schlafen, haha, aber daraus wurde nichts: Ich kümmerte mich um meine Sachen und ein paar Projekte, und dann fuhren wir nach San Juan del Sur. Ich wiederhole mich mit den Straßen, aber es überrascht mich wirklich, wie gut sie ausgeschildert sind. Natürlich sind nicht alle gleich gut gepflegt, aber die Hauptstraßen schon, und das würde ich gern auch in Guatemala sehen, auf der Roosevelt, auf der Straße nach El Salvador oder auf der Panamericana.",
+          "Gott sei Dank regnete es, sodass weniger Leute unterwegs waren. Wir fuhren immer 50 km/h, wie es das Gesetz vorschreibt. Wir kamen durch einen wunderschönen Abschnitt, Ebenen Nicaraguas voller Rinder, sehr vieler Rinder; unterwegs sahen wir kleine Lagunen, alles ruhig und, das Beste überhaupt, dank des Regens nicht so heiß. Die Straße war super gepflegt, ziemlich breit und vor allem mit Platz, um sicher Rad zu fahren. Es gab 100 Meter lange Radwegabschnitte, die ziemlich lustig waren, aber ich sagte zu José: „Diese 100 Meter haben wir auf keiner Straße außerhalb der Hauptstadt, haha. Also schlagen sie uns, und sei es nur um 100 Meter.“",
+          "Wir fuhren durch Rivas, Josés Departamento, das wir für eine weitere Großstadt gehalten hatten, aber es ist eher ein Ort: hübsch, klein, entwickelt, mit Einkaufszentren, eine Stadt im Wandel. Weiter ging es nach San Juan del Sur auf einer wunderschönen, von Bäumen gesäumten Geraden, auf der man überall Rad fahren konnte. Sehr zu empfehlen.",
+          "Endlich kamen wir in San Juan del Sur an, und ein Kreisverkehr begrüßte uns. Ich dachte, Xela hätte viele Kreisverkehre, aber den Preis gewinnt Nicaragua, das Land der Kreisverkehre. Nicht, dass es schlecht wäre, hahahaha; mich beeindruckt nur, wie viele es gibt, und ehrlich gesagt gefällt es mir sehr.",
+          "Wir wohnten in einem wunderschönen Hotel, das ich zu 100 % empfehle. Eine Terrasse im zweiten Stock empfing uns mit Blick nicht nur auf den Pool, sondern aufs Meer, das, so unglaublich es mir mit den Bergen direkt daneben vorkommt, wirklich salzig ist. Dieser Kontrast von Bergen und Strand fasziniert mich immer: Die Strände Guatemalas liegen meist weit von den Bergen entfernt, unsere Küste ist flacher, deshalb sind diese Berge super interessant.",
+          "Zum Mittagessen gab es einen Fisch so groß wie meine Katze, mit Blick aufs Meer. Wie schön, am Wasser zu sein, ohne dass es zu heiß ist, weil ein Gewitter in der Nähe war, und wir waren glücklich.",
+          "Auf dem Weg vom Mittagessen zurück ins Hotel merkten wir, dass wir Jogginghose, T-Shirt, Turnschuhe und Socken trugen, HAHAHAHA. Wir waren am Strand und hatten es überhaupt nicht bemerkt: Der Plan war nur, zu Mittag zu essen, und wir hatten nicht daran gedacht, bis ich sagte: „Ach, aber man kann ja ins Meer gehen“, hahahah. Dann sah ich an mir herunter, sah José an und sagte: „Hmmm, lassen wir das“, HAHAHAHA. An dem Tag gingen wir nicht ins Meer.",
+          "Der Strand ist eine seltsame Mischung aus Erde und Sand mit vielen, viel zu vielen Steinen; sie sehen aus wie Flusssteine, HAHAHA. Komisch, die Steine zu sehen und dann Muscheln, und wieder: ES SIND SO VIELE, dass man Schuhe braucht, weil das Laufen darauf wehtut. Aber alles immer sehr sauber.",
+          "An dem Tag aßen wir nicht zu Abend, so viel hatten wir gegessen. Wir verbrachten Stunden im Pool und gingen dann schlafen.",
+          "Es war ein guter Tag. Unglaublich, wie sauber sie den Strand halten, wie ordentlich alles aussieht und dass selbst die Straßenverkäufer nicht so aufdringlich sind wie anderswo. Ich würde mir so etwas in Guatemala wünschen, und ich glaube, es ist möglich, wenn die Behörden, national und lokal, und wir alle unseren Stränden etwas Liebe schenken.",
+          "Ich ging mit einem seltsamen Gefühl schlafen."
+        ],
+        "zh": [
+          "像今天这样没什么安排的日子，我会试着整理一些想法。我还在摸索自己的写作风格，所以如果不够连贯，请多包涵。我发现自己也需要时间和空间，把想法放进“冥想盆”里，就像《哈利·波特》里的邓布利多那样：分析、拆解，然后当然要动笔写下来。有些日子排得很满，比如周日我们就没休息；甚至今天，我们从马那瓜出发去圣胡安德尔苏尔，一路祈祷别再被警察拦下，哈哈哈。压力是真的，哈哈哈。",
+          "周三我们一早起来，去和一位潜在合作伙伴开会，谈的是一些和这趟旅行毫不相干的项目。在互联网和视频通话的时代，我现在才真正体会到当面见的价值和不同：视频通话很容易变得例行公事、没什么灵魂。所以以后我会尽量多面对面开会。",
+          "我们聊了金融科技和投资。如果你需要一套核心银行系统，我和 José 就有一套：别忘了在 Instagram 上联系我，或者联系 José。这次会面很有趣，也很有收获；有些人经验非常丰富，学习别的领域总是很美好。我之前说过：技术人员、工程师、天才的毛病，就是以为自己什么都懂、什么都能解决，最重要的是以为一切都该按他们的想法来解决，却不肯弄脏双手：不去现场问、不去看、不用科学方法，也不提出解决方案。希望不久的将来我们能在尼加拉瓜做生意。",
+          "我刚刚花了 30 分钟设置 VS Code，好让它正确识别我的文件。我用一种叫 Markdown 的格式写作，我超爱这个格式，哈哈哈，可编辑器就是认不出来，结果发现是文件名末尾多了一个空格。好吧，继续。",
+          "我们回酒店休息，本来说要睡一觉，哈哈，结果没睡成：我忙自己的事、看了几个项目，然后出发去圣胡安德尔苏尔。关于公路我可能要啰嗦一下，但它们的标识之完善真的让我吃惊。当然不是每条路都一样好，但主干道确实如此，我很希望在危地马拉也能看到这样的路，比如 Roosevelt 大道、通往萨尔瓦多的公路，或者泛美公路。",
+          "感谢老天下了雨，路上的人少了很多。我们一直按法律规定开 50 公里时速。路过一段美丽的路段，尼加拉瓜的平原上满是牛群，好多好多牛；路上看到几个小湖，一切都很宁静，最棒的是，多亏了下雨，一点都不热。公路维护得特别好，很宽，最重要的是有可以安全骑车的空间。有些 100 米长的自行车道，看着挺好笑，但我对 José 说：“首都以外，我们哪条公路上都没有这 100 米，哈哈。所以哪怕只差 100 米，他们也赢了我们。”",
+          "我们经过 José 的家乡省份里瓦斯（Rivas），本以为是另一座大城市，其实更像一个小镇：漂亮、小巧、发展得不错，有购物中心，是一座正在转型的城市。我们继续沿着一条两旁绿树成荫的漂亮直路开往圣胡安德尔苏尔，到处都能骑车。强烈推荐。",
+          "终于到了圣胡安德尔苏尔，迎接我们的是一个环岛。我以为 Xela 的环岛够多了，但冠军要颁给尼加拉瓜，环岛之国。倒不是说不好，哈哈哈哈；只是环岛多得让我惊讶，说实话我很喜欢。",
+          "我们住在一家很漂亮的酒店，百分之百推荐。二楼的露台不仅能看到泳池，还能看到大海；旁边就是山，我都不敢相信那是咸水。山和海的这种反差总让我惊叹：危地马拉的海滩通常离山很远，我们的海岸比较平，所以看到这些山特别有意思。",
+          "午饭吃了一条和我家小猫一样大的鱼，一边吃一边看海。能靠近大海又不那么热，真好，因为附近有暴风雨，我们开心得很。",
+          "吃完午饭走回酒店的路上，我们才发现自己穿着运动裤、T 恤、运动鞋和袜子，哈哈哈哈。人都在海滩了，我们却完全没意识到：计划只是去吃午饭，根本没想过这回事，直到我说：“哎，这里可以下海啊”，哈哈哈。然后我看了看自己，又看了看 José，说：“嗯……算了”，哈哈哈哈。那天我们没下海。",
+          "这里的海滩是泥土和沙子的奇怪组合，还有很多、太多石头，看起来像河里的石头，哈哈哈。看到石头之后又是贝壳，而且又是多得不得了，多到必须穿鞋，不然走上去很疼。不过一切总是很干净。",
+          "那天吃得太多，晚饭就没吃。我们在泳池里泡了好几个小时，然后就去睡了。",
+          "这是美好的一天。海滩保持得这么干净、一切这么井然有序，连街头小贩都不像别处那样纠缠，真让人惊叹。我很希望危地马拉也能有这样的地方，而且我觉得是可能的，只要国家和地方政府，还有我们每个人，都对自己的海滩多用一点心。",
+          "我带着一种奇怪的感觉睡着了。"
+        ]
+      },
+      "photos": [
+        {
+          "src": "images/ruta/dia-11-desayuno.jpg",
+          "alt": {
+            "es": "Desayuno con huevos, plátano, carne y frijoles junto a una taza de café",
+            "en": "Breakfast with eggs, plantain, meat and beans next to a cup of coffee",
+            "de": "Frühstück mit Eiern, Kochbanane, Fleisch und Bohnen neben einer Tasse Kaffee",
+            "zh": "鸡蛋、芭蕉、肉和豆子的早餐，旁边一杯咖啡"
+          },
+          "caption": {
+            "es": "Desayuno antes de la reunión.",
+            "en": "Breakfast before the meeting.",
+            "de": "Frühstück vor dem Treffen.",
+            "zh": "会前的早餐。"
+          },
+          "after": 2
+        },
+        {
+          "src": "images/ruta/dia-11-carretera.jpg",
+          "alt": {
+            "es": "Carretera amplia bajo un cielo nublado, vista desde el carro",
+            "en": "A wide road under a cloudy sky, seen from the car",
+            "de": "Eine breite Straße unter bewölktem Himmel, vom Auto aus gesehen",
+            "zh": "车窗外阴云下宽阔的公路"
+          },
+          "caption": {
+            "es": "Con lluvia y sin calor, rumbo a San Juan del Sur.",
+            "en": "Rainy and cool, heading to San Juan del Sur.",
+            "de": "Mit Regen und ohne Hitze Richtung San Juan del Sur.",
+            "zh": "下着雨、不热，开往圣胡安德尔苏尔。"
+          },
+          "after": 6
+        },
+        {
+          "src": "images/ruta/dia-11-piscina.jpg",
+          "alt": {
+            "es": "Piscina del hotel con montañas verdes al fondo",
+            "en": "The hotel pool with green mountains behind",
+            "de": "Der Hotelpool mit grünen Bergen im Hintergrund",
+            "zh": "酒店泳池，背后是青山"
+          },
+          "caption": {
+            "es": "Piscina y montañas.",
+            "en": "Pool and mountains.",
+            "de": "Pool und Berge.",
+            "zh": "泳池与群山。"
+          },
+          "after": 9
+        },
+        {
+          "src": "images/ruta/dia-11-pescado.jpg",
+          "alt": {
+            "es": "Pescado frito entero con papas fritas sobre un plato",
+            "en": "A whole fried fish with fries on a plate",
+            "de": "Ein ganzer frittierter Fisch mit Pommes auf einem Teller",
+            "zh": "盘子里的整条炸鱼配薯条"
+          },
+          "caption": {
+            "es": "El pescado del tamaño de mi gatita.",
+            "en": "The fish the size of my kitty.",
+            "de": "Der Fisch, so groß wie meine Katze.",
+            "zh": "和我家小猫一样大的鱼。"
+          },
+          "after": 10
+        },
+        {
+          "src": "images/ruta/dia-11-playa.jpg",
+          "alt": {
+            "es": "Playa de tierra, arena y piedras con montañas a lo lejos bajo nubes",
+            "en": "A beach of dirt, sand and stones with mountains in the distance under clouds",
+            "de": "Ein Strand aus Erde, Sand und Steinen, in der Ferne Berge unter Wolken",
+            "zh": "泥土、沙子和石头混合的海滩，远处云下的群山"
+          },
+          "caption": {
+            "es": "Tierra, arena y muchísimas piedras.",
+            "en": "Dirt, sand and lots of stones.",
+            "de": "Erde, Sand und sehr viele Steine.",
+            "zh": "泥土、沙子，还有好多石头。"
+          },
+          "after": 12
+        },
+        {
+          "src": "images/ruta/dia-11-atardecer.jpg",
+          "alt": {
+            "es": "Atardecer sobre la bahía de San Juan del Sur, con el cielo reflejado en la arena mojada",
+            "en": "Sunset over the San Juan del Sur bay, with the sky reflected on the wet sand",
+            "de": "Sonnenuntergang über der Bucht von San Juan del Sur, der Himmel spiegelt sich im nassen Sand",
+            "zh": "圣胡安德尔苏尔海湾的日落，天空倒映在湿沙上"
+          },
+          "caption": {
+            "es": "Atardecer en San Juan del Sur.",
+            "en": "Sunset in San Juan del Sur.",
+            "de": "Sonnenuntergang in San Juan del Sur.",
+            "zh": "圣胡安德尔苏尔的日落。"
+          },
+          "after": 14
+        },
+        {
+          "src": "images/ruta/dia-11-vista.jpg",
+          "alt": {
+            "es": "Vista de la bahía al anochecer desde el hotel, con luces en el jardín",
+            "en": "View of the bay at dusk from the hotel, with lights in the garden",
+            "de": "Blick auf die Bucht in der Abenddämmerung vom Hotel aus, mit Lichtern im Garten",
+            "zh": "黄昏时从酒店望向海湾，花园里亮着灯"
+          },
+          "caption": {
+            "es": "La vista desde el segundo piso.",
+            "en": "The view from the second floor.",
+            "de": "Der Blick vom zweiten Stock.",
+            "zh": "从二楼看出去的景色。"
+          },
+          "after": 14
+        }
+      ],
+      "videos": [
+        {
+          "url": "videos/ruta/dia-11-ganado.mp4",
+          "after": 6
+        },
+        {
+          "url": "videos/ruta/dia-11-playa.mp4",
+          "after": 11
+        },
+        {
+          "url": "videos/ruta/dia-11-piscina-noche.mp4",
+          "after": 13
+        }
+      ],
+      "cover": "images/ruta/dia-11-portada.jpg"
     }
   ],
   "purpose": {
