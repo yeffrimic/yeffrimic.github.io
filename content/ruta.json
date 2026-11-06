@@ -2597,6 +2597,172 @@
         }
       ],
       "cover": "images/ruta/dia-11-portada.jpg"
+    },
+    {
+      "slug": "dia-12-el-destino-es-una-guia",
+      "date": "2026-11-05",
+      "place": {
+        "es": "San Juan del Sur",
+        "en": "San Juan del Sur",
+        "de": "San Juan del Sur",
+        "zh": "圣胡安德尔苏尔"
+      },
+      "country": "ni",
+      "coords": [
+        11.253,
+        -85.871
+      ],
+      "title": {
+        "es": "El destino es una guía, no una sentencia",
+        "en": "The destination is a guide, not a sentence",
+        "de": "Das Ziel ist ein Wegweiser, kein Urteil",
+        "zh": "目的地是指引，不是判决"
+      },
+      "body": {
+        "es": [
+          "Como les conté en el post anterior, me quedé con una sensación extraña. Cuando trabajaba en 1bot estaba cansado, tenía un burnout increíble y, sobre toooodo, no tenía más ganas de hacer nada. Irme a Xela me salvó la vida, porque fue una forma de desconectarme de todo. Cuatro años después veo todo lo que había y que no avanzó, pero también me veo a mí: con más experiencia, con más ganas y entendiendo bastante mejor las reglas del juego.",
+          "Yo vivía muy contento, muy feliz, cuando trabajaba en 1bot, un emprendimiento que en su momento ayudé a fundar. Justo de eso hablábamos con José: ¿cuándo puede uno decir «cofundé esto» o «fui el fundador de aquello»? ¿Dónde está la línea entre «lo hicimos varias personas», «lo hice yo solo» o «les pagué a otros para que lo hicieran»?",
+          "Coincidimos en que el nivel de involucramiento y la inversión son parte de ser cofundador, y no solo la inversión económica: también tiempo, amor y mucha paciencia para poder crear algo. Y lo más importante es que quede claro entre los involucrados. En el caso de 1bot, por inexperiencia, no lo dejé claro: yo me considero cofundador, pero nunca lo pusimos por escrito y cada quien lo ve a su manera. Así que si tienen o van a formar una empresa o un emprendimiento, dejen esto claro. Háblenlo como amigos, déjenlo totalmente explícito y tendrán un mejor camino, incluso al momento de partir hacia rumbos diferentes.",
+          "Saco esto a colación porque hubo una reunión en la que me preguntaron: «¿Hacia dónde deberíamos ir?». En ese momento yo era el encargado de tecnología. Veía la parte educativa, tutoriales y clases; diseñé el primer borrador del currículum que se iba a usar, armé el equipo que lo iba a llevar a cabo, revisaba plataformas, usuarios, etc. No era el líder, y en mi mente todo era muy cuadrado: cuando uno está arriba liderando tiene que saber de todo un poco, pero no hacerlo todo.",
+          "Así que le dije: «Mira, dirigir no es mi trabajo. Yo soy la persona que va a hacer que tu visión se haga realidad». Le propuse ir por algo más comunitario: redes inalámbricas comunitarias y llevar ADA, un proyecto multiplataforma basado en Kolibri (una LMS abierta muy buena) que con un servidor local da wifi y acceso a clases virtuales, hasta donde la gente no tiene internet, para que todas esas comunidades se conectaran. Era algo ambicioso, pero muy técnico. La visión de 1bot en ese momento era que los niños que no podían acceder a la robótica lo hicieran con un modelo de negocio 1 a 1: un colegio compraba un kit de robótica y con eso se ayudaba a pagar otro igual para una escuela pública. Así se llevaba la robótica de lo privado a lo público sin regalar nada ni quitarle a nadie, con un modelo de negocio que ya habíamos probado y que funcionaba bastante bien.",
+          "Estuvimos hablando bastante tiempo y le dije: «Mira, como gerente de tecnología no me toca proponer la visión; esa es tu tarea, es tu trabajo. Por donde vos querás ir, yo me encargo de cumplirlo». Creo que dejarle a la otra persona la responsabilidad de decidir hacia dónde íbamos fue demasiado, y empezó un distanciamiento que se fue poniendo cada vez más difícil, hasta que lo mejor fue renunciar.",
+          "Pero esa será otra historia. En ese momento no teníamos un destino, no teníamos un lugar a dónde llegar; navegábamos un poco a oscuras, sin una estrella que seguir. El emprendimiento sigue funcionando: yo me salí, me mudé, y tuvieron que pasar un par de años para que recuperara la velocidad con la que veníamos haciendo cosas y pivoteando. Eso me alegra mucho, pero me deja pensando qué sería del emprendimiento si hubiéramos tenido (ni siquiera un mejor norte, sino tan siquiera) un norte.",
+          "Estos días con José, a quien conozco desde hace tiempo pero ahora con más experiencia los dos, me he dado cuenta de la diferencia entre un líder que sabe a dónde quiere llegar y los que van improvisando el rumbo. Mi postura sigue siendo la misma: ayudar a llegar a ese norte. La idea desde el principio fue sencilla: llegar a Costa Rica para X fecha. No necesitábamos más. Teníamos las herramientas: el carro, la bici y las computadoras para seguir trabajando mientras rodamos. (Mientras escribo me estoy dando cuenta de que ya se me pegó la escritura de ChatGPT de «no es X, es Y» JAJAJA, qué horrible la verdad. Dejen de escribir con IA, que nos hace menos productivos). Di el salto de fe: me mudé de Xela a La Antigua, a la casa de mi abuela, más cerca de la capital. El sábado, antes de arrancar la travesía, ya llevaba 200 km en la espalda, y el domingo salimos rumbo a El Salvador.",
+          "Con José tenemos una dinámica: él ve en el trayecto dónde nos vamos a quedar a dormir y mi trabajo es llevarnos ahí. Hay veces que en el mapa se ve una buena carretera para pedalear y José dice: «Mira, por aquí me dejás y pedaleo». O al revés: yo veo que la carretera está bonita y grande y le digo «dale por aquí» o «le voy a dar yo por aquí», y así nos vamos. José marca el destino, pero el cómo llegar nos lo dividimos; no a partes iguales, porque no se puede, pero unos días le toca más a él y otros más a mí.",
+          "Mientras manejaba hacia San Juan del Sur me di cuenta de que eso es justo lo que se necesita. No importa si el norte no es el correcto, porque se puede cambiar; lo importante es moverse hacia algún punto. Como decía Fernando Birri: la utopía está en el horizonte… para eso sirve, para caminar.",
+          "Eso sí, muchas veces los líderes son tan cuadrados que, si no se hace lo que ellos dicen, para ellos está mal. Cuando ponen un destino, lo que normalmente hacen es poner en aprietos a los demás: no toman en consideración lo que los demás tienen para decir y, en vez de ser una aventura placentera, el camino solo sirve para que se entreguen las cosas, y al final los colaboradores terminan renunciando. He de decir que ser duro no necesariamente es malo, pero hay que tener flexibilidad cuando se dirige.",
+          "He tenido bastantes proyectos; en unos cuesta más y en otros menos, pero mi plan y mi función siempre han sido los de resolvedor. Unas veces aconsejo, otras me involucro, pero siempre llevo a la gente a su norte, que se va definiendo mientras se hace el proyecto. En Creabot el rol ha sido diferente, porque como socio me toca dirigir la empresa hacia donde YO quiero que llegue, donde quiero estar y donde puedo apoyar mejor a nuestros clientes. Ya no se trata de solucionar problemas, sino de marcar la línea y decir: «Guatemala tiene que hacer esto en la industria de tecnología y de hardware». Gracias a eso, últimamente me han invitado no solo a dar charlas técnicas, sino también a aconsejar, a inspirar e incluso a ayudar a crear leyes para que la electrónica sea una industria real en Guatemala.",
+          "Con José sabemos que tenemos que llegar a Costa Rica en un tiempo específico, pero lo que hagamos en ese tiempo es decisión nuestra. Tendremos retrasos y cosas que no sabremos resolver, como lo del seguro del carro, pero estamos seguros de que no hay nada que nos detenga.",
+          "Así que les dejo una pregunta: ¿cuál es su norte y qué están haciendo para llegar ahí?"
+        ],
+        "en": [
+          "As I told you in the previous post, I was left with a strange feeling. When I worked at 1bot I was tired, I had an incredible burnout and, above aaaall, I didn't feel like doing anything anymore. Moving to Xela saved my life, because it was a way to disconnect from everything. Four years later I see everything that was there and didn't move forward, but I also see myself: with more experience, more drive, and a much better understanding of the rules of the game.",
+          "I was really happy, really content, when I worked at 1bot, a venture I helped found back then. That's exactly what José and I were talking about: when can you say \"I co-founded this\" or \"I was the founder of that\"? Where's the line between \"several of us did it\", \"I did it alone\" or \"I paid others to do it\"?",
+          "We agreed that the level of involvement and the investment are part of being a co-founder, and not just the money: also time, love and a lot of patience to be able to build something. And most importantly, it has to be clear among everyone involved. In 1bot's case, out of inexperience, I didn't make it clear: I consider myself a co-founder, but we never put it in writing and everyone sees it their own way. So if you have or are about to start a company or a venture, make this clear. Talk about it as friends, make it completely explicit and you'll have a better road ahead, even when the time comes to go separate ways.",
+          "I bring this up because there was a meeting where I was asked: \"Where should we be heading?\". At the time I was in charge of technology. I handled the educational side, tutorials and classes; I designed the first draft of the curriculum we were going to use, put together the team that would carry it out, looked at platforms, users, etc. I wasn't the leader, and in my mind everything was very rigid: when you're at the top leading, you have to know a bit of everything, but not do everything.",
+          "So I told them: \"Look, leading isn't my job. I'm the person who's going to make your vision come true\". I proposed going for something more community-based: community wireless networks, and taking ADA, a cross-platform project based on Kolibri (a really good open LMS) that uses a local server to provide wifi and access to online classes, to places where people don't have internet, so all those communities could connect. It was ambitious, but very technical. 1bot's vision at the time was for kids who couldn't access robotics to do so through a one-for-one business model: a private school bought a robotics kit and that helped pay for an identical one for a public school. That's how robotics went from private to public without giving anything away or taking from anyone, with a business model we had already tested and that worked quite well.",
+          "We talked for quite a while and I told them: \"Look, as head of technology it's not my place to propose the vision; that's your task, your job. Whichever way you want to go, I'll make sure it gets done\". I think putting the responsibility of deciding where we were going on the other person was too much, and a distance began that kept getting harder, until the best thing was to resign.",
+          "But that's a story for another time. Back then we didn't have a destination, we didn't have a place to get to; we were sailing a bit in the dark, without a star to follow. The venture is still running: I left, I moved, and it took a couple of years for it to get back the speed at which we had been doing things and pivoting. That makes me really happy, but it leaves me wondering what would have become of it if we'd had (not even a better north, but at least) a north.",
+          "These days with José, whom I've known for a long time but now with both of us more experienced, I've noticed the difference between a leader who knows where they want to go and those who improvise the course as they go. My stance is still the same: help get to that north. The idea from the start was simple: get to Costa Rica by a certain date. We didn't need more. We had the tools: the car, the bike and the computers to keep working while we ride. (As I write I'm realizing I've picked up ChatGPT's \"it's not X, it's Y\" style HAHAHA, honestly awful. Stop writing with AI, it makes us less productive). I took the leap of faith: I moved from Xela to La Antigua, to my grandmother's house, closer to the capital. On Saturday, before the journey even started, I already had 200 km on my back, and on Sunday we set off toward El Salvador.",
+          "José and I have a routine: on the way, he finds where we're going to sleep and my job is to get us there. Sometimes the map shows a good road for pedaling and José says: \"Look, drop me off here and I'll ride\". Or the other way around: I see the road is nice and wide and tell him \"go for it here\" or \"I'm riding this one\", and off we go. José sets the destination, but we split how to get there; not evenly, because that's not possible, but some days it's more him and other days more me.",
+          "While I was driving to San Juan del Sur I realized that's exactly what you need. It doesn't matter if the north isn't the right one, because it can change; what matters is moving toward some point. As Fernando Birri said: utopia is on the horizon… that's what it's for, for walking.",
+          "That said, leaders are often so rigid that if things aren't done their way, it's wrong. When they set a destination, what they usually do is put everyone else in a tight spot: they don't consider what others have to say and, instead of being an enjoyable adventure, the journey only serves to get things delivered, and in the end the collaborators end up quitting. I have to say that being tough isn't necessarily bad, but you need flexibility when you lead.",
+          "I've had quite a few projects; some are harder and some less so, but my plan and my role have always been the problem-solver's. Sometimes I advise, other times I get involved, but I always take people toward their north, which gets defined as the project moves along. At Creabot the role has been different, because as a partner it's up to me to steer the company where I want it to go, where I want to be and where I can best support our clients. It's no longer about solving problems, but about drawing the line and saying: \"Guatemala has to do this in the tech and hardware industry\". Thanks to that, lately I've been invited not only to give technical talks, but also to advise, to inspire and even to help create laws so that electronics becomes a real industry in Guatemala.",
+          "José and I know we have to reach Costa Rica within a specific time, but what we do in that time is our decision. We'll have delays and things we won't know how to solve, like the car insurance thing, but we're sure nothing will stop us.",
+          "So I'll leave you with a question: what's your north, and what are you doing to get there?"
+        ],
+        "de": [
+          "Wie ich im letzten Beitrag erzählt habe, blieb bei mir ein seltsames Gefühl zurück. Als ich bei 1bot arbeitete, war ich müde, hatte einen unglaublichen Burnout und vor aaaallem keine Lust mehr auf irgendetwas. Nach Xela zu gehen hat mir das Leben gerettet, weil es eine Möglichkeit war, von allem abzuschalten. Vier Jahre später sehe ich alles, was da war und nicht vorangekommen ist, aber ich sehe auch mich selbst: mit mehr Erfahrung, mit mehr Lust und mit einem viel besseren Verständnis der Spielregeln.",
+          "Ich war sehr zufrieden, sehr glücklich, als ich bei 1bot arbeitete, einem Unternehmen, das ich damals mitgegründet habe. Genau darüber haben José und ich gesprochen: Wann kann man sagen „Ich habe das mitgegründet“ oder „Ich war der Gründer von jenem“? Wo liegt die Grenze zwischen „Wir haben es zu mehreren gemacht“, „Ich habe es allein gemacht“ oder „Ich habe andere dafür bezahlt“?",
+          "Wir waren uns einig, dass der Grad der Beteiligung und die Investition dazugehören, Mitgründer zu sein, und zwar nicht nur Geld: auch Zeit, Liebe und viel Geduld, um etwas aufzubauen. Und das Wichtigste ist, dass es unter allen Beteiligten klar ist. Im Fall von 1bot habe ich das aus Unerfahrenheit nicht geklärt: Ich sehe mich als Mitgründer, aber wir haben es nie schriftlich festgehalten, und jeder sieht es auf seine Weise. Wenn ihr also ein Unternehmen oder Start-up habt oder gründen wollt, klärt das. Sprecht als Freunde darüber, macht es völlig explizit, und ihr werdet einen besseren Weg haben, selbst wenn ihr irgendwann getrennte Wege geht.",
+          "Ich spreche das an, weil es ein Treffen gab, bei dem man mich fragte: „Wohin sollten wir gehen?“. Damals war ich für die Technik zuständig. Ich kümmerte mich um den Bildungsteil, Tutorials und Kurse; ich entwarf den ersten Entwurf des Lehrplans, stellte das Team zusammen, das ihn umsetzen sollte, schaute mir Plattformen, Nutzer usw. an. Ich war nicht der Leiter, und in meinem Kopf war alles sehr starr: Wer oben führt, muss von allem ein bisschen wissen, aber nicht alles selbst machen.",
+          "Also sagte ich: „Schau, Führen ist nicht mein Job. Ich bin die Person, die deine Vision Wirklichkeit werden lässt“. Ich schlug etwas Gemeinschaftlicheres vor: gemeinschaftliche Funknetze und ADA, ein plattformübergreifendes Projekt auf Basis von Kolibri (einem sehr guten offenen LMS), das mit einem lokalen Server WLAN und Zugang zu Online-Kursen bietet, dorthin zu bringen, wo die Menschen kein Internet haben, damit sich all diese Gemeinden verbinden. Es war ehrgeizig, aber sehr technisch. Die Vision von 1bot war damals, dass Kinder ohne Zugang zur Robotik ihn über ein Eins-zu-eins-Geschäftsmodell bekommen: Eine Privatschule kaufte einen Robotik-Bausatz, und damit wurde ein gleicher für eine öffentliche Schule mitfinanziert. So kam die Robotik vom Privaten ins Öffentliche, ohne etwas zu verschenken oder jemandem etwas wegzunehmen, mit einem Geschäftsmodell, das wir schon getestet hatten und das ziemlich gut funktionierte.",
+          "Wir sprachen ziemlich lange, und ich sagte: „Schau, als Technikleiter ist es nicht meine Aufgabe, die Vision vorzugeben; das ist deine Aufgabe, dein Job. Wohin du auch gehen willst, ich sorge dafür, dass es umgesetzt wird“. Ich glaube, der anderen Person die Verantwortung zu überlassen, die Richtung zu bestimmen, war zu viel, und es begann eine Distanz, die immer schwieriger wurde, bis es das Beste war zu kündigen.",
+          "Aber das ist eine andere Geschichte. Damals hatten wir kein Ziel, keinen Ort, an dem wir ankommen wollten; wir segelten ein bisschen im Dunkeln, ohne einen Stern, dem wir folgen konnten. Das Unternehmen gibt es noch: Ich bin gegangen, umgezogen, und es dauerte ein paar Jahre, bis es wieder das Tempo hatte, mit dem wir Dinge gemacht und pivotiert hatten. Das freut mich sehr, aber es lässt mich darüber nachdenken, was aus dem Unternehmen geworden wäre, wenn wir (nicht einmal einen besseren Norden, sondern überhaupt) einen Norden gehabt hätten.",
+          "In diesen Tagen mit José, den ich schon lange kenne, aber jetzt mit mehr Erfahrung auf beiden Seiten, ist mir der Unterschied klar geworden zwischen einem Leiter, der weiß, wohin er will, und denen, die den Kurs improvisieren. Meine Haltung ist dieselbe geblieben: helfen, diesen Norden zu erreichen. Die Idee war von Anfang an einfach: bis zu einem bestimmten Datum Costa Rica erreichen. Mehr brauchten wir nicht. Wir hatten die Werkzeuge: das Auto, das Fahrrad und die Computer, um unterwegs weiterzuarbeiten. (Während ich schreibe, merke ich, dass ich mir den ChatGPT-Stil „Es ist nicht X, es ist Y“ angewöhnt habe HAHAHA, ehrlich furchtbar. Hört auf, mit KI zu schreiben, sie macht uns weniger produktiv). Ich wagte den Sprung ins Ungewisse: Ich zog von Xela nach La Antigua, ins Haus meiner Großmutter, näher an der Hauptstadt. Am Samstag, noch vor Beginn der Reise, hatte ich schon 200 km hinter mir, und am Sonntag brachen wir Richtung El Salvador auf.",
+          "José und ich haben eine Routine: Unterwegs sucht er, wo wir übernachten, und meine Aufgabe ist es, uns dorthin zu bringen. Manchmal sieht man auf der Karte eine gute Straße zum Radeln, und José sagt: „Schau, lass mich hier raus, ich fahre“. Oder umgekehrt: Ich sehe, dass die Straße schön und breit ist, und sage ihm „Fahr hier“ oder „Die hier fahre ich“, und so geht es weiter. José bestimmt das Ziel, aber wie wir hinkommen, teilen wir uns; nicht zu gleichen Teilen, weil das nicht geht, aber an manchen Tagen mehr er und an anderen mehr ich.",
+          "Auf der Fahrt nach San Juan del Sur wurde mir klar, dass genau das gebraucht wird. Es ist egal, ob der Norden nicht der richtige ist, denn er lässt sich ändern; wichtig ist, sich auf irgendeinen Punkt zuzubewegen. Wie Fernando Birri sagte: Die Utopie liegt am Horizont … dafür ist sie da, damit wir gehen.",
+          "Allerdings sind Führungskräfte oft so starr, dass für sie alles falsch ist, was nicht so gemacht wird, wie sie es sagen. Wenn sie ein Ziel setzen, bringen sie die anderen meist in die Klemme: Sie berücksichtigen nicht, was die anderen zu sagen haben, und statt eines angenehmen Abenteuers dient der Weg nur dazu, Dinge abzuliefern, und am Ende kündigen die Mitarbeitenden. Ich muss sagen, dass Härte nicht unbedingt schlecht ist, aber wer führt, braucht Flexibilität.",
+          "Ich hatte ziemlich viele Projekte; manche sind schwieriger, andere weniger, aber mein Plan und meine Rolle waren immer die des Problemlösers. Manchmal berate ich, manchmal packe ich mit an, aber immer bringe ich die Leute zu ihrem Norden, der sich im Laufe des Projekts herausbildet. Bei Creabot ist meine Rolle eine andere, denn als Partner muss ich das Unternehmen dorthin lenken, wohin ICH es bringen will, wo ich sein will und wo ich unsere Kunden am besten unterstützen kann. Es geht nicht mehr darum, Probleme zu lösen, sondern darum, die Linie vorzugeben und zu sagen: „Guatemala muss das in der Technologie- und Hardwarebranche tun“. Dadurch werde ich in letzter Zeit nicht nur zu technischen Vorträgen eingeladen, sondern auch, um zu beraten, zu inspirieren und sogar dabei zu helfen, Gesetze zu schaffen, damit Elektronik in Guatemala eine echte Industrie wird.",
+          "José und ich wissen, dass wir Costa Rica in einer bestimmten Zeit erreichen müssen, aber was wir in dieser Zeit tun, entscheiden wir. Es wird Verzögerungen geben und Dinge, die wir nicht zu lösen wissen, wie die Sache mit der Autoversicherung, aber wir sind sicher, dass uns nichts aufhalten wird.",
+          "Deshalb lasse ich euch eine Frage da: Was ist euer Norden, und was tut ihr, um dorthin zu kommen?"
+        ],
+        "zh": [
+          "正如上一篇说的，我心里留下了一种奇怪的感觉。在 1bot 工作的时候，我很累，严重倦怠，最——重要的是，什么都不想做了。搬去克萨尔特南戈（Xela）救了我的命，因为那是一种和一切断开的方式。四年后，我看到那些原本存在却没有推进的事情，但也看到了自己：经验更多了，劲头更足了，也更懂游戏规则了。",
+          "在 1bot 工作的时候，我过得很开心、很幸福，那是我当年参与创办的一个创业项目。这正是我和何塞聊过的话题：什么时候才能说“这是我联合创办的”或者“那是我创办的”？“我们几个人一起做的”“我一个人做的”和“我花钱请别人做的”之间，界线在哪里？",
+          "我们一致认为，投入的程度和投资都是联合创始人身份的一部分，而且不只是钱：还有时间、热爱和大量的耐心，才能把东西做出来。最重要的是，所有参与者之间要讲清楚。在 1bot 的事情上，因为没经验，我没讲清楚：我认为自己是联合创始人，但我们从来没写下来，每个人的看法都不一样。所以，如果你们已经有或者打算创办一家公司或创业项目，一定要把这件事讲清楚。像朋友一样谈，把它完全说明白，这样路会好走得多，哪怕将来要各奔东西。",
+          "我提起这个，是因为有一次开会，有人问我：“我们该往哪个方向走？”。那时我负责技术。我管教育这块、教程和课程；我设计了要用的课程大纲初稿，组建了执行团队，研究平台、用户等等。我不是领导，而且当时我的想法很死板：在上面当领导的人什么都要懂一点，但不必什么都亲自做。",
+          "于是我说：“听着，领导不是我的工作。我是那个把你的愿景变成现实的人。”我提议做一些更社区化的东西：社区无线网络，再把 ADA 带到没有网络的地方，让这些社区都连起来。ADA 是一个基于 Kolibri（一个非常好的开源学习管理系统）的跨平台项目，用本地服务器提供 Wi-Fi 和在线课程。这个想法很有野心，但非常技术化。当时 1bot 的愿景，是让接触不到机器人教育的孩子通过“买一捐一”的商业模式接触到它：一所私立学校买一套机器人套件，就能帮忙为一所公立学校负担同样的一套。这样，机器人教育就从私立走进了公立，不用白送，也不用从谁那里拿走什么，而且这个商业模式我们已经验证过，效果相当好。",
+          "我们聊了很久，我说：“听着，作为技术负责人，提出愿景不是我的事；那是你的任务、你的工作。你想往哪走，我负责把它做到。”我想，把决定方向的责任交给对方，对他来说太重了，于是开始有了距离，而且越来越难相处，直到辞职成了最好的选择。",
+          "不过那是另一个故事了。那时我们没有目的地，没有要到达的地方；我们有点像在黑暗中航行，没有可以追随的星星。那个创业项目还在运营：我离开了，搬了家，过了好几年，它才恢复了我们当初做事和转型的速度。这让我很高兴，但也让我想，如果我们当时有（甚至不是一个更好的方向，而是哪怕只有）一个方向，它会变成什么样。",
+          "这些天和何塞在一起——我认识他很久了，但现在我们俩都更有经验了——我意识到，一个知道自己要去哪里的领导者，和那些边走边临时决定方向的人，差别有多大。我的立场还是一样：帮忙到达那个方向。从一开始想法就很简单：在某个日期前到达哥斯达黎加。不需要更多。我们有工具：车、自行车，还有边骑边继续工作的电脑。（写着写着我发现自己已经染上了 ChatGPT 那种“不是 X，而是 Y”的写法 哈哈哈，说真的太可怕了。别再用 AI 写东西了，它让我们效率更低。）我做出了信念的一跃：从 Xela 搬到安提瓜，住进我奶奶家，离首都更近。星期六，旅程还没开始，我就已经开了 200 公里，星期天我们出发前往萨尔瓦多。",
+          "我和何塞有个默契：路上由他找住的地方，我的任务是把我们送到那里。有时候地图上看到一段适合骑车的好路，何塞就说：“你在这儿放我下来，我骑一段。”或者反过来：我看到路又漂亮又宽，就跟他说“这段你骑吧”或者“这段我来骑”，就这样一路走。何塞定目的地，但怎么到达由我们分担；不是平分，因为做不到，但有些天他多一些，有些天我多一些。",
+          "开车去圣胡安德尔苏尔的路上，我意识到这正是需要的东西。方向不对也没关系，因为可以改；重要的是朝某个点前进。正如费尔南多·比里所说：乌托邦在地平线上……它的用处就在于让我们前行。",
+          "不过，很多领导者死板到这种程度：只要不按他们说的做，在他们眼里就是错的。他们定下目的地后，通常做的是把别人逼进困境：不考虑别人想说什么，这段路本该是一场愉快的冒险，却只剩下交差，最后合作者纷纷辞职。我得说，强硬不一定是坏事，但领导时必须要有灵活性。",
+          "我做过不少项目；有的难一些，有的容易一些，但我的计划和角色一直是“解决问题的人”。有时出主意，有时亲自参与，但总是带着大家走向他们的方向，而这个方向会在项目推进中逐渐明确。在 Creabot，角色不一样了，因为作为合伙人，我要把公司带到“我”想去的地方、我想在的位置，以及我最能帮到客户的地方。这已经不是解决问题，而是划定方向，说：“危地马拉在科技和硬件行业必须这样做。”也正因如此，最近我受邀的不仅是技术讲座，还有提供建议、激励他人，甚至帮助制定法律，让电子产业在危地马拉成为真正的产业。",
+          "我和何塞知道，我们必须在特定时间内到达哥斯达黎加，但在这段时间里做什么，由我们自己决定。会有延误，也会有不知道怎么解决的事情，比如车险那件事，但我们确信没有什么能阻止我们。",
+          "所以我留给你们一个问题：你的方向是什么？你正在做什么来到达那里？"
+        ]
+      },
+      "links": [
+        {
+          "url": "https://learningequality.org/kolibri/",
+          "label": {
+            "es": "Conoce Kolibri",
+            "en": "Learn about Kolibri",
+            "de": "Mehr über Kolibri",
+            "zh": "了解 Kolibri"
+          },
+          "after": 4
+        }
+      ],
+      "photos": [
+        {
+          "src": "images/ruta/dia-12-desayuno.jpg",
+          "alt": {
+            "es": "Plato de gallo pinto con huevos revueltos con jamón y plátano frito",
+            "en": "A plate of gallo pinto with scrambled eggs, ham and fried plantain",
+            "de": "Ein Teller Gallo Pinto mit Rührei, Schinken und gebratener Kochbanane",
+            "zh": "一盘加洛平托配火腿炒蛋和煎芭蕉"
+          },
+          "caption": {
+            "es": "Gallo pinto para arrancar el día.",
+            "en": "Gallo pinto to start the day.",
+            "de": "Gallo Pinto zum Start in den Tag.",
+            "zh": "用加洛平托开启一天。"
+          },
+          "after": 2
+        },
+        {
+          "src": "images/ruta/dia-12-almuerzo.jpg",
+          "alt": {
+            "es": "Mesa con un arroz con mariscos y un plato de brochetas de camarón",
+            "en": "A table with seafood rice and a plate of shrimp skewers",
+            "de": "Ein Tisch mit Meeresfrüchtereis und einem Teller Garnelenspießen",
+            "zh": "桌上一份海鲜饭和一盘虾串"
+          },
+          "caption": {
+            "es": "Almuerzo frente al mar.",
+            "en": "Lunch by the sea.",
+            "de": "Mittagessen am Meer.",
+            "zh": "海边的午餐。"
+          },
+          "after": 6
+        },
+        {
+          "src": "images/ruta/dia-12-atardecer.jpg",
+          "alt": {
+            "es": "Atardecer nublado sobre el mar visto desde un restaurante en la playa",
+            "en": "A cloudy sunset over the sea seen from a beach restaurant",
+            "de": "Ein bewölkter Sonnenuntergang über dem Meer, von einem Strandrestaurant aus",
+            "zh": "从海滩餐厅望去的多云海上日落"
+          },
+          "caption": {
+            "es": "La utopía está en el horizonte.",
+            "en": "Utopia is on the horizon.",
+            "de": "Die Utopie liegt am Horizont.",
+            "zh": "乌托邦在地平线上。"
+          },
+          "after": 9
+        },
+        {
+          "src": "images/ruta/dia-12-playa.jpg",
+          "alt": {
+            "es": "Playa al anochecer con nubes grises y una franja rosada en el horizonte",
+            "en": "The beach at dusk with grey clouds and a pink strip on the horizon",
+            "de": "Der Strand in der Abenddämmerung mit grauen Wolken und einem rosa Streifen am Horizont",
+            "zh": "黄昏的海滩，灰色云层，地平线上一抹粉色"
+          },
+          "caption": {
+            "es": "¿Cuál es su norte?",
+            "en": "What's your north?",
+            "de": "Was ist euer Norden?",
+            "zh": "你的方向是什么？"
+          },
+          "after": 13
+        }
+      ],
+      "cover": "images/ruta/dia-12-cover.jpg"
     }
   ],
   "purpose": {
