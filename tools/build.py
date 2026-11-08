@@ -712,6 +712,9 @@ def render_chapter(data, ruta, L, entries, i):
     for v in videos:
         if v.get("after"):
             inline.setdefault(v["after"], []).append(f'<div class="embed inline">{embed(v["url"], ru, lang, root)}</div>')
+    # Carrusel: {"after": n, "photos": [...]} se desliza de lado (scroll-snap, sin JS)
+    for g in e.get("galleries", []):
+        inline.setdefault(g["after"], []).append('<div class="carousel">' + "".join(figure(p) for p in g["photos"]) + "</div>")
     # Enlaces externos sueltos: {"url": ..., "label": {...}, "after": n}
     for k in e.get("links", []):
         inline.setdefault(k["after"], []).append(f'<p><a class="more" href="{attr(k["url"])}">{esc(tr(k["label"], lang))} →</a></p>')

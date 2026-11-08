@@ -189,6 +189,9 @@
   .chapter .photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 8px; margin: 24px 0; }
   .chapter figure { margin: 0; }
   .chapter figure.inline { margin: 8px 0 28px; }
+  .chapter .carousel { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 8px 0 28px; padding-bottom: 8px; }
+  .chapter .carousel figure { flex: 0 0 85%; scroll-snap-align: center; }
+  .chapter .carousel img { width: 100%; height: min(480px, 70vh); object-fit: cover; }
   .chapter figure.inline img { aspect-ratio: auto; max-height: min(640px, 85vh); object-fit: cover; }
   .chapter img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; display: block; }
   .chapter figcaption { font-size: 13px; color: var(--muted); margin-top: 4px; }
