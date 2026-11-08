@@ -2890,33 +2890,33 @@
               }
             },
             {
-              "src": "images/ruta/dia-13-mirador-yeffri.jpg",
+              "src": "images/ruta/dia-13-mirador-jose.jpg",
               "alt": {
-                "es": "Yeffri sentado en la baranda del mirador con el mar de fondo",
-                "en": "Yeffri sitting on the lookout railing with the sea behind",
-                "de": "Yeffri sitzt am Geländer des Aussichtspunkts, dahinter das Meer",
-                "zh": "Yeffri 坐在观景台栏杆上，背后是大海"
+                "es": "José sentado en la baranda del mirador con el mar de fondo",
+                "en": "José sitting on the lookout railing with the sea behind",
+                "de": "José sitzt am Geländer des Aussichtspunkts, dahinter das Meer",
+                "zh": "何塞坐在观景台栏杆上，背后是大海"
               },
               "caption": {
-                "es": "Yo en el mirador.",
-                "en": "Me at the lookout.",
-                "de": "Ich am Aussichtspunkt.",
-                "zh": "我在观景台。"
+                "es": "José en el mirador.",
+                "en": "José at the lookout.",
+                "de": "José am Aussichtspunkt.",
+                "zh": "何塞在观景台。"
               }
             },
             {
-              "src": "images/ruta/dia-13-mirador-jose.jpg",
+              "src": "images/ruta/dia-13-mirador-yeffri.jpg",
               "alt": {
-                "es": "José frente a la base de la estatua",
-                "en": "José in front of the statue's base",
-                "de": "José vor dem Sockel der Statue",
-                "zh": "何塞在雕像底座前"
+                "es": "Yeffri frente a la base de la estatua",
+                "en": "Yeffri in front of the statue's base",
+                "de": "Yeffri vor dem Sockel der Statue",
+                "zh": "Yeffri 在雕像底座前"
               },
               "caption": {
-                "es": "José al pie del Cristo.",
-                "en": "José at the foot of the statue.",
-                "de": "José am Fuß der Statue.",
-                "zh": "何塞在基督像脚下。"
+                "es": "Yo al pie del Cristo.",
+                "en": "Me at the foot of the statue.",
+                "de": "Ich am Fuß der Statue.",
+                "zh": "我在基督像脚下。"
               }
             }
           ]
