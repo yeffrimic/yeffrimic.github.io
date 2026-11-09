@@ -697,6 +697,10 @@ def render_chapter(data, ruta, L, entries, i):
     head, where = chapter_meta(e, i + 1, ruta, lang)
     page_title = f'{head.split(" · ")[0]}: {title} · {u("short_title")}'
 
+    def rich(t):
+        # **negrita** y saltos de línea (diálogos, escala de Adas) dentro de un párrafo
+        return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc(t)).replace("\n", "<br>")
+
     def figure(p, cls=""):
         return (f'<figure{cls}><img src="{attr(root + p["src"])}" alt="{attr(tr(p.get("alt", ""), lang))}" loading="lazy" />'
                 + (f'<figcaption>{esc(tr(p["caption"], lang))}</figcaption>' if p.get("caption") else "")
@@ -714,11 +718,17 @@ def render_chapter(data, ruta, L, entries, i):
             inline.setdefault(v["after"], []).append(f'<div class="embed inline">{embed(v["url"], ru, lang, root)}</div>')
     # Carrusel: {"after": n, "photos": [...]} se desliza de lado (scroll-snap, sin JS)
     for g in e.get("galleries", []):
-        inline.setdefault(g["after"], []).append('<div class="carousel">' + "".join(figure(p) for p in g["photos"]) + "</div>")
+        n = len(g["photos"])
+        inline.setdefault(g["after"], []).append(
+            '<div class="carousel-wrap">'
+            f'<div class="carousel">{"".join(figure(p) for p in g["photos"])}</div>'
+            f'<span class="count">1/{n}</span>'
+            '<button class="nav prev" type="button" aria-label="‹">‹</button><button class="nav next" type="button" aria-label="›">›</button>'
+            f'<div class="dots">{"".join("<span></span>" for _ in range(n))}</div></div>')
     # Enlaces externos sueltos: {"url": ..., "label": {...}, "after": n}
     for k in e.get("links", []):
         inline.setdefault(k["after"], []).append(f'<p><a class="more" href="{attr(k["url"])}">{esc(tr(k["label"], lang))} →</a></p>')
-    body = "".join(f"\n      <p>{esc(t)}</p>" + "".join(f"\n      {h}" for h in inline.get(n, []))
+    body = "".join(f"\n      <p>{rich(t)}</p>" + "".join(f"\n      {h}" for h in inline.get(n, []))
                    for n, t in enumerate(tr(e["body"], lang), 1))
     photos = "".join(figure(p) for p in e.get("photos", []) if not p.get("after"))
     embeds = "".join(f'<div class="embed">{embed(v["url"], ru, lang, root)}</div>' for v in videos if not v.get("after"))

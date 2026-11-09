@@ -66,6 +66,27 @@
     map.fitBounds(L.latLngBounds(latlngs).pad(0.2), { maxZoom: 9 });
   })();
 
+  // Carruseles tipo Instagram: puntos, contador y flechas en compu
+  document.querySelectorAll('.carousel-wrap').forEach(function (w) {
+    var track = w.querySelector('.carousel');
+    var dots = w.querySelectorAll('.dots span');
+    var count = w.querySelector('.count');
+    var prev = w.querySelector('.nav.prev'), next = w.querySelector('.nav.next');
+    var n = dots.length;
+    function current() { return Math.round(track.scrollLeft / track.clientWidth); }
+    function update() {
+      var i = Math.max(0, Math.min(n - 1, current()));
+      dots.forEach(function (d, k) { d.classList.toggle('on', k === i); });
+      count.textContent = (i + 1) + '/' + n;
+      prev.disabled = i === 0; next.disabled = i === n - 1;
+    }
+    function go(d) { track.scrollTo({ left: (current() + d) * track.clientWidth }); }
+    prev.addEventListener('click', function () { go(-1); });
+    next.addEventListener('click', function () { go(1); });
+    track.addEventListener('scroll', function () { window.requestAnimationFrame(update); }, { passive: true });
+    update();
+  });
+
   // Copiar el enlace del capítulo para pegarlo en Facebook, LinkedIn, etc.
   (function () {
     var btn = document.querySelector('.copy-link');

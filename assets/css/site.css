@@ -189,9 +189,20 @@
   .chapter .photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 8px; margin: 24px 0; }
   .chapter figure { margin: 0; }
   .chapter figure.inline { margin: 8px 0 28px; }
-  .chapter .carousel { display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 8px 0 28px; padding-bottom: 8px; }
-  .chapter .carousel figure { flex: 0 0 85%; scroll-snap-align: center; }
-  .chapter .carousel img { width: 100%; height: min(480px, 70vh); object-fit: cover; }
+  /* Carrusel tipo Instagram: una foto a la vez en 4:5, puntos y contador */
+  .chapter .carousel-wrap { position: relative; margin: 8px 0 28px; max-width: 540px; margin-left: auto; margin-right: auto; }
+  .chapter .carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; border-radius: 12px; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .chapter .carousel::-webkit-scrollbar { display: none; }
+  .chapter .carousel figure { flex: 0 0 100%; scroll-snap-align: start; scroll-snap-stop: always; }
+  .chapter .carousel img { aspect-ratio: 4 / 5; border-radius: 0; }
+  .chapter .carousel figcaption { padding: 0 2px; }
+  .chapter .carousel-wrap .count { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,.6); color: #fff; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; pointer-events: none; }
+  .chapter .carousel-wrap .dots { display: flex; justify-content: center; gap: 6px; margin-top: 8px; }
+  .chapter .carousel-wrap .dots span { width: 6px; height: 6px; border-radius: 50%; background: var(--line); transition: background .2s, transform .2s; }
+  .chapter .carousel-wrap .dots span.on { background: var(--accent); transform: scale(1.25); }
+  .chapter .carousel-wrap .nav { display: none; position: absolute; top: calc(50% - 30px); width: 32px; height: 32px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); color: #111; font-size: 22px; line-height: 1; cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+  .chapter .carousel-wrap .nav.prev { left: 10px; } .chapter .carousel-wrap .nav.next { right: 10px; }
+  @media (hover: hover) { .chapter .carousel-wrap .nav { display: block; } .chapter .carousel-wrap .nav[disabled] { opacity: 0; pointer-events: none; } }
   .chapter figure.inline img { aspect-ratio: auto; max-height: min(640px, 85vh); object-fit: cover; }
   .chapter img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; display: block; }
   .chapter figcaption { font-size: 13px; color: var(--muted); margin-top: 4px; }
