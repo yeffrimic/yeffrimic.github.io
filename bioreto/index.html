@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BioReto · Hackatón cepa CR-07</title>
+<meta name="description" content="Un hackatón donde cada equipo mantiene viva una colonia de bacterias que come plástico, programando su propia plataforma. Las reglas se revelan el 20 de noviembre en la UCR.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BioReto · Hackatón cepa CR-07">
+<meta property="og:description" content="Una colonia de bacterias que come plástico vive en nuestro servidor. Las reglas se revelan el 20 de noviembre en la UCR.">
+<meta property="og:url" content="https://yeffrimic.github.io/bioreto/">
+<meta name="theme-color" content="#17131f">
+<style>
+  :root {
+    --fondo: #17131f; --panel: #211b2d; --borde: #342b45;
+    --texto: #efe9f7; --suave: #a99fbd; --coral: #f26b4e; --coral-osc: #2b0f08;
+    --menta: #8fe0b0; --ambar: #f4c152; --lcd: #c9e2bd; --lcd-osc: #1f3b2a;
+    --mono: ui-monospace, "JetBrains Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    --redonda: ui-rounded, "Nunito", "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: dark; }
+  body {
+    margin: 0; color: var(--texto); font: 16px/1.6 var(--redonda);
+    background: radial-gradient(70rem 34rem at 78% -8rem, #3a2752, transparent 68%), var(--fondo);
+  }
+  a { color: inherit; }
+  .ancho { width: min(100% - 32px, 1000px); margin-inline: auto; }
+
+  .barra { border-bottom: 1px solid var(--borde); }
+  .barra .ancho { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 52px; }
+  .marca { font-weight: 900; font-size: 18px; text-decoration: none; }
+  .marca i { font-style: normal; color: var(--coral); }
+  .volver { color: var(--suave); font-size: 14px; font-weight: 700; text-decoration: none; }
+  .volver:hover, .volver:focus-visible { color: var(--texto); }
+
+  .portada { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 40px; align-items: center; padding-block: 56px 52px; }
+  .ceja { font: 700 12px var(--mono); letter-spacing: .22em; text-transform: uppercase; color: var(--menta); margin: 0 0 10px; }
+  h1 { font-size: clamp(56px, 12vw, 104px); line-height: .92; margin: 0; font-weight: 900; letter-spacing: -.01em; }
+  h1 i { font-style: normal; color: var(--coral); }
+  .bajada { font-size: clamp(18px, 2.4vw, 22px); line-height: 1.45; margin: 18px 0 0; max-width: 28em; text-wrap: pretty; }
+  .bajada b { color: var(--menta); }
+
+  .cita { margin-top: 28px; display: inline-grid; gap: 4px; padding: 16px 20px; border-radius: 18px; background: var(--lcd); color: var(--lcd-osc); box-shadow: 0 5px 0 #8fae84; }
+  .cita .cuando { font: 800 22px var(--mono); }
+  .cita .donde { font: 700 14px var(--mono); letter-spacing: .04em; }
+  .cuenta { margin-top: 14px; font: 700 14px var(--mono); color: var(--ambar); min-height: 1.6em; }
+
+  .aparato { justify-self: center; width: min(100%, 320px); background: var(--coral); border-radius: 34px; padding: 16px 16px 14px; box-shadow: 0 10px 0 #b64530, 0 30px 60px #0008; rotate: 2deg; }
+  .aparato .lcd { background: var(--lcd); border-radius: 18px; padding: 12px; border: 3px solid var(--lcd-osc); color: var(--lcd-osc); }
+  .aparato .tira { display: flex; justify-content: space-between; font: 700 12px var(--mono); letter-spacing: .08em; margin-bottom: 6px; }
+  .aparato canvas { display: block; width: 100%; aspect-ratio: 1; image-rendering: pixelated; }
+  .aparato p { margin: 10px 4px 0; font: 700 11px var(--mono); letter-spacing: .06em; color: var(--coral-osc); text-align: center; }
+
+  section { padding-block: 44px; border-top: 1px solid var(--borde); }
+  h2 { font-size: clamp(26px, 4.4vw, 36px); line-height: 1.15; margin: 0 0 8px; font-weight: 900; text-wrap: balance; }
+  .intro { color: var(--suave); margin: 0 0 24px; max-width: 42em; font-size: 17px; text-wrap: pretty; }
+  .intro b { color: var(--texto); }
+  .grilla { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+  .tarjeta { background: var(--panel); border: 1px solid var(--borde); border-radius: 18px; padding: 18px; }
+  .tarjeta h3 { margin: 0 0 4px; font-size: 18px; font-weight: 800; }
+  .tarjeta p { margin: 0; color: var(--suave); font-size: 15px; }
+
+  .secreto { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .secreto li { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding: 14px 16px; border-radius: 14px; background: #f4c15210; border: 1px dashed #f4c15266; }
+  .secreto b { font-weight: 800; }
+  .tapado { font: 700 14px var(--mono); color: transparent; background: repeating-linear-gradient(90deg, var(--ambar) 0 9px, #0000 9px 11px); border-radius: 3px; user-select: none; }
+  .sello { margin-top: 22px; display: inline-block; font: 800 13px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--coral); border: 3px solid var(--coral); border-radius: 8px; padding: 6px 12px; rotate: -2deg; }
+
+  footer { border-top: 1px solid var(--borde); padding-block: 28px 40px; color: var(--suave); font-size: 14px; }
+  footer a { color: var(--texto); }
+
+  @media (max-width: 760px) {
+    .portada { grid-template-columns: 1fr; padding-block: 36px 40px; }
+    .aparato { width: min(80%, 280px); }
+  }
+  @media (prefers-reduced-motion: reduce) { .aparato { rotate: 0deg; } }
+</style>
+</head>
+<body>
+
+<header class="barra">
+  <div class="ancho">
+    <a class="marca" href="./">Bio<i>Reto</i></a>
+    <a class="volver" href="../">← yeffrimic</a>
+  </div>
+</header>
+
+<main>
+  <div class="ancho portada">
+    <div>
+      <p class="ceja">Hackatón · cepa CR-07</p>
+      <h1>Bio<i>Reto</i></h1>
+      <p class="bajada">Una colonia de bacterias que come plástico vive en nuestro servidor. Tu equipo la tiene que mantener viva con <b>una plataforma programada por ustedes</b>.</p>
+      <div class="cita">
+        <span class="cuando">20 de noviembre · 9:00 a. m.</span>
+        <span class="donde">Universidad de Costa Rica · se revelan las reglas</span>
+      </div>
+      <p class="cuenta" id="cuenta"></p>
+    </div>
+    <div class="aparato" aria-hidden="true">
+      <div class="lcd">
+        <div class="tira"><span>CR-07</span><span id="pob">● ●●●</span></div>
+        <canvas id="placa" width="64" height="64"></canvas>
+      </div>
+      <p>DIBUJO DE ADORNO · LA DE VERDAD NO SE VE TAN FÁCIL</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="ancho">
+      <h2>¿Qué es?</h2>
+      <p class="intro">Un hackatón donde <b>no te damos la aplicación hecha</b>. Cada equipo recibe una colonia viva, una dirección y un manual. Lo demás lo construyen ustedes.</p>
+      <div class="grilla">
+        <div class="tarjeta"><h3>Una colonia por equipo</h3><p>Bacterias de la cepa CR-07 que se alimentan de plástico PET. Si el ambiente no les gusta, se mueren.</p></div>
+        <div class="tarjeta"><h3>Vive en el servidor</h3><p>No está en tu computadora y nadie te pasa las fórmulas. Cómo funciona por dentro lo vas a descubrir midiendo y probando.</p></div>
+        <div class="tarjeta"><h3>Se cuida con código</h3><p>Todo se hace con pedidos a una API: preguntar cómo está, medirla y actuar sobre ella.</p></div>
+        <div class="tarjeta"><h3>La plataforma es de ustedes</h3><p>Una página, un tablero, un bot. En el lenguaje que quieran, mientras sepa hablar con la API.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="ancho">
+      <h2>Lo que todavía no te contamos</h2>
+      <p class="intro">Las reglas completas se presentan en vivo, el <b>20 de noviembre en la UCR</b>. Hasta entonces, esto queda sellado:</p>
+      <ul class="secreto">
+        <li><b>Cuánto dura y qué tan rápido vive la colonia</b><span class="tapado">buen intento, curioso</span></li>
+        <li><b>Qué cuesta cada cosa que hagás</b><span class="tapado">el código no lo dice</span></li>
+        <li><b>Los retos sorpresa del día</b><span class="tapado">tampoco está aquí, no</span></li>
+        <li><b>Qué hay que entregar al final</b><span class="tapado">nos vemos el 20 :)</span></li>
+      </ul>
+      <span class="sello">Se abre el 20/11 · UCR</span>
+    </div>
+  </section>
+
+  <section>
+    <div class="ancho">
+      <h2>¿Qué conviene traer?</h2>
+      <div class="grilla">
+        <div class="tarjeta"><h3>Un equipo</h3><p>Gente que programe, gente que observe y gente a la que le guste tomar decisiones con pocos datos.</p></div>
+        <div class="tarjeta"><h3>Una computadora</h3><p>Con lo que ya usás para programar. No hace falta instalar nada especial.</p></div>
+        <div class="tarjeta"><h3>Curiosidad</h3><p>Ganan los que preguntan bien, no los que más acciones hacen.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="ancho">
+    BioReto lo organiza <a href="../">Yeffri J. Salazar</a>. Más detalles el 20 de noviembre en la Universidad de Costa Rica.
+  </div>
+</footer>
+
+<script>
+(function () {
+  // Cuenta regresiva al 20 de noviembre de 2026 9:00 a. m. hora de Costa Rica (UTC−6)
+  var meta = Date.UTC(2026, 10, 20, 15, 0, 0);
+  var el = document.getElementById('cuenta');
+  function cuenta() {
+    var falta = meta - Date.now();
+    if (falta <= 0) {
+      el.textContent = Date.now() - meta < 864e5 ? '› Hoy se revelan las reglas.' : '› Las reglas ya se revelaron.';
+      return;
+    }
+    var d = Math.floor(falta / 864e5);
+    var h = Math.floor(falta % 864e5 / 36e5);
+    el.textContent = '› Faltan ' + d + (d === 1 ? ' día' : ' días') + ' y ' + h + (h === 1 ? ' hora' : ' horas');
+  }
+  cuenta();
+  setInterval(cuenta, 60000);
+
+  // Colonia de adorno: puntos que caminan dentro de la placa
+  var c = document.getElementById('placa');
+  var g = c.getContext('2d');
+  var R = 30, N = 70, b = [];
+  for (var i = 0; i < N; i++) {
+    var a = Math.random() * 6.283, r = Math.sqrt(Math.random()) * 12;
+    b.push({ x: 32 + Math.cos(a) * r, y: 32 + Math.sin(a) * r });
+  }
+  var quieto = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function cuadro() {
+    g.fillStyle = '#c9e2bd'; g.fillRect(0, 0, 64, 64);
+    g.strokeStyle = '#1f3b2a'; g.lineWidth = 1;
+    g.beginPath(); g.arc(32, 32, R + .5, 0, 6.283); g.stroke();
+    g.fillStyle = '#1f3b2a';
+    for (var i = 0; i < b.length; i++) {
+      var p = b[i];
+      if (!quieto) {
+        p.x += (Math.random() - .5) * 1.2; p.y += (Math.random() - .5) * 1.2;
+        var dx = p.x - 32, dy = p.y - 32, d = Math.hypot(dx, dy);
+        if (d > R - 2) { p.x = 32 + dx / d * (R - 2); p.y = 32 + dy / d * (R - 2); }
+      }
+      g.fillRect(Math.round(p.x), Math.round(p.y), 2, 2);
+    }
+  }
+  cuadro();
+  if (!quieto) setInterval(cuadro, 160);
+})();
+</script>
+</body>
+</html>

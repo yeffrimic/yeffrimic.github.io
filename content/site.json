@@ -450,6 +450,44 @@
   ],
   "projects": [
     {
+      "cat": "software edu",
+      "date": "2026-11",
+      "title": {
+        "es": "BioReto: hackatón de la cepa CR-07",
+        "en": "BioReto: the CR-07 strain hackathon",
+        "de": "BioReto: Hackathon um den Stamm CR-07",
+        "zh": "BioReto：CR-07 菌株黑客马拉松"
+      },
+      "text": {
+        "es": "Un hackatón donde cada equipo mantiene viva una colonia de bacterias que come plástico. La colonia vive en un servidor y solo se cuida por una API, así que cada equipo programa su propia plataforma y descubre midiendo cómo funciona. Las reglas se revelan el 20 de noviembre en la Universidad de Costa Rica.",
+        "en": "A hackathon where each team keeps a colony of plastic-eating bacteria alive. The colony lives on a server and can only be cared for through an API, so every team builds its own platform and figures out how it works by measuring. The rules will be revealed on November 20 at the University of Costa Rica.",
+        "de": "Ein Hackathon, bei dem jedes Team eine Kolonie plastikfressender Bakterien am Leben hält. Die Kolonie lebt auf einem Server und lässt sich nur über eine API pflegen; jedes Team programmiert also seine eigene Plattform und findet durch Messen heraus, wie sie funktioniert. Die Regeln werden am 20. November an der Universität von Costa Rica enthüllt.",
+        "zh": "一场黑客马拉松：每支队伍要让一群会吃塑料的细菌活下去。菌落运行在服务器上，只能通过 API 照料，因此每支队伍都要自己编写平台，并通过测量摸清它的运作方式。规则将于 11 月 20 日在哥斯达黎加大学公布。"
+      },
+      "tags": [
+        "Node.js",
+        "API",
+        {
+          "es": "Hackatones",
+          "en": "Hackathons",
+          "de": "Hackathons",
+          "zh": "黑客马拉松"
+        },
+        {
+          "es": "Simulación",
+          "en": "Simulation",
+          "de": "Simulation",
+          "zh": "模拟"
+        }
+      ],
+      "links": [
+        {
+          "label": "link_event",
+          "url": "bioreto/"
+        }
+      ]
+    },
+    {
       "cat": "robotica software",
       "date": "2026-10",
       "title": {
