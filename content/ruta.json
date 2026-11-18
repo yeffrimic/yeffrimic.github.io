@@ -3932,6 +3932,382 @@
         }
       ],
       "cover": "images/ruta/dia-16-cover.jpg"
+    },
+    {
+      "slug": "dia-17-cerrando-el-ciclo",
+      "date": "2026-11-10",
+      "from": {
+        "es": "Puntarenas",
+        "en": "Puntarenas",
+        "de": "Puntarenas",
+        "zh": "蓬塔雷纳斯"
+      },
+      "place": {
+        "es": "San José",
+        "en": "San José",
+        "de": "San José",
+        "zh": "圣何塞"
+      },
+      "country": "cr",
+      "km": 115,
+      "coords": [
+        9.933,
+        -84.08
+      ],
+      "title": {
+        "es": "Cerrando el ciclo más grande de mi vida",
+        "en": "Closing the biggest cycle of my life",
+        "de": "Den größten Kreis meines Lebens schließen",
+        "zh": "合上我人生中最大的一个圆"
+      },
+      "body": {
+        "es": [
+          "**Julio de 2016**",
+          "Algún viernes o sábado de finales de julio de 2016 estaba yo, como siempre, en un evento de tecnología; esta vez en La Antigua Guatemala, de impresión 3D y emprendimiento. Uno de mis mejores amigos, Sebas, estaba dando el taller. Me regresé a las 2 de la tarde porque tenía partido a las 3: tenía 30 minutos para llegar a mi casa por los tarugos y el uniforme, y caminar otros 15 al estadio. En ese tiempo andaba con un frijolito (uno de esos teléfonos que no eran inteligentes y solo servían para llamar; la verdad, ahora se me vuelven a antojar), así que la única manera de contactarme era llamándome, y poca gente tenía mi número.",
+          "Me bajé de la camioneta en la parada de Santa Lucía y caminé hacia la casa donde vivía entonces, a unos 500 metros. En eso se para un carro: era el tío de un primo, amigo de la familia, de esos que solían hacer bromas pesadas. Iban su esposa y la nena.",
+          "—Colocho, ¿a dónde vas?\n—A la casa, que tengo que ir a jugar.",
+          "Se me quedó viendo sorprendido y se hizo un silencio incómodo. Entonces me dijo:\n—Mira, tu hermano se murió ahogado en el lago.",
+          "Yo, sin entender lo que me estaba diciendo, pensé: «Ahh, es una de sus bromas». Como siempre, no le creo nada a nadie JAJAJA. Le dije que acababa de venir, que nadie me había llamado ni dicho nada, y que iba a ir allá arriba a preguntar.\n—Ah, bueno. Cualquier cosa me llamas, aquí estamos.\n—Sí, gracias.",
+          "Pasé por la casa del que, según yo, era uno de mis mejores amigos JAJAJA (él dice que no, pero como esta historia la cuento yo, digo que sí).\n—¡JUAAAAAAAANJOOOOO! —grité, como siempre.\nSalió y le dije:\n—Vos, dicen que Hanz se murió.\n—Sí, vos. Me acaban de llamar para ver si sabía algo. Me dijeron: «Mire, no sabemos si es cierto, pero sabemos que ustedes eran muy unidos, y al parecer se murió en el lago».",
+          "Los dos nos quedamos extrañados. Le pedí que me acompañara y nos fuimos a la casa de mi abuela. Hay una subida bien pronunciada, y en el camino se pararon como tres personas a darme el pésame. Yo seguía sin entender.",
+          "**Marzo de 2017**",
+          "Mi primer viaje a Costa Rica fue la semana del 14 de marzo de 2017, con 300 dólares ahorrados: gasté 140 en boletos y llevaba el resto en colones. Dos días antes le hablé a un amigo que recién había conocido porque salimos juntos en Forbes:\n—Mae, vea, ¿me da posada en su casa?\n—Sí, véngase.\n—Ok, llego en dos días.\nYo ya tenía todo comprado, y sabía en mi corazón que me iba a decir que sí.",
+          "Fui a Costa Rica a huir de la soledad, de la tristeza, del vacío que dejó mi hermano ocho meses antes. Fue mi primer viaje en avión de forma consciente. Conocí Carrizal, San José, La Sabana, el estadio gigantesco que está en ese mismo parque, y poco más. Mi equipaje era un par de playeras, unos pantalones, un cuaderno, un lapicero y unas fotos.",
+          "Pasé mi cumpleaños número 22 en Costa Rica con una familia que para mí era desconocida, pero que en esos tres días me trató como uno más. Compramos un queque (pastel, en costarricense) y, por primera vez en más de ocho meses, se me olvidó que estaba triste.",
+          "La segunda vez fue en julio, para dar un taller en el ECSL (Encuentro Centroamericano de Software Libre), en la Universidad de Costa Rica. Lo bonito fue que llegó Lexo, uno de mis mejores amigos (después nos peleamos JAJAJA): lo fui a traer, nos fuimos a dar charlas y estuvo genial.",
+          "**2026**",
+          "De ahí me salto hasta este año. Hace unos meses vivía en Xela y pensaba en lo difícil que sería volver a salir del país: por el dinero, porque uno cambia, las personas cambian y la pandemia nos dejó un gran agujero en el corazón. Habíamos hablado con amigos de toda Centroamérica, pero no se veía nada concreto. Yo sí quería, tenía el deseo, pero como muchas veces, me faltaba convicción para hacerlo por mis propios medios, para perseguir mis sueños y dirigirlos.",
+          "En febrero llegó una noticia: «Mirá, vamos a hacer un humanoide para una empresa». Y yo: «Ay, no chinguen JAJAJA, qué pereza, es un montón de trabajo, no quiero». Se me pasó el berrinche y dije que bueno. El humanoide llegó en abril y teníamos tres días para armarlo y presentarlo en un evento de tecnología. No dormimos esos tres días, y gracias a Claude me volví experto en IA en tres días y tres noches. En ese evento nos invitaron a El Salvador a presentar a Hermes, y dijimos: ¿por qué no? Volver a El Salvador después de siete años se sintió como la primera vez, pero esta vez fui yo manejando: mi primera vez manejando fuera del país, y mi primera vez manejando tanto.",
+          "Por esos meses pasé a ver a mi mamá y me preguntó:\n—¿Y te están pagando bien ahí donde trabajas?\n¿Cómo le explico que soy socio y que soy yo el que paga? JAJAJA.\n—Sí, sí, claro.\nPero le expliqué que este trabajo me permite un estilo de vida más relajado: trabajo mucho por poco tiempo y el resto del mes paso más tranquilo, así que puedo hacer más cosas. Y así estoy bien, porque sé que cuando empiece a trabajar como sé trabajar no voy a parar, entonces estoy aprovechando.",
+          "En junio estábamos hablando con José y otros amigos, y José soltó:\n—Quiero irme a Costa Rica en bicicleta.\nY yo: «Ahh, qué perro, interesante». En septiembre volvimos a hacer un hackatón juntos y la idea ya iba más en serio, así que le dije:\n—Bueno, vamos. Yo voy en el carro y te voy cuidando.\nDicho y hecho.",
+          "En octubre le avisé a la señora que me alquilaba que me iba en tres días y que le dejaba todo limpio. Empecé a empacar el jueves, seguí el viernes, y el sábado en la mañana ya estábamos metiendo todo en el camión y limpiando para irme oficialmente de Xela. Las cosas se fueron a la casa de mi abuela; yo salí a las 3 de la tarde y llegué a las 7, solo a dormir, sacar la ropa para el viaje y salir temprano a la capital y a La Antigua. Ahí empieza la ruta de todo este blog.",
+          "**10 de noviembre: Puntarenas → San José**",
+          "Y así llegamos a hoy. Salimos de Puntarenas rumbo a San José, pero antes pasamos al Parque Marino del Pacífico. Sí, el que estaba cerrado ayer JAJAJA. Hoy sí abrió, y soy tan feliz viendo animales. Les dejo unas fotitos:",
+          "José salió de la playa del faro a pedalear y... ¿adivinen qué pasó? JAJAJA. Como la dinámica es dejarlo pedalear y esperarlo más adelante, lo esperé frente a la sede de la UCR en Puntarenas, y pum: me sale una alerta de presión baja en las llantas. Me bajé, las vi y dije: «Ahh, aguantan». Y sí aguantaron, otros 10 km más o menos.",
+          "José terminó sus 20 km, subimos la bicicleta, se subió al carro y pum: la llanta se desinfló por completo.",
+          "Pusimos la de repuesto y resulta que también estaba desinflada JAJAJA. Pasamos de 80 km/h a 5 y nos fuimos despaciiiito hasta un lugar donde aparentemente cambiaban llantas, y nel: era un taller mecánico, y ni siquiera nos hicieron el paro de echarle aire. Al final encontramos dónde arreglarla; en Costa Rica se llaman llanteras, en Nicaragua vulcanizadoras y en Guatemala pinchazos. PEEEEEEEEERO no teníamos efectivo :)",
+          "Nos cobraron 2,700 colones y, si han estado al día con el blog, se acordarán de los 4,000 colones que me sobraron del cajero en la frontera. Por fin sirvieron: pagué el pinchazo y nos fuimos.",
+          "Pasamos por carreteras muy bonitas, de esas que uno espera al llegar a Costa Rica, y vimos cosas bien interesantes, como las presas (así les dicen aquí a los embotellamientos) y los peajes: la carretera va de dos carriles, llega el peaje, se abre a diez solo para cobrar y luego vuelve a bajar a uno. Me pareció tan surreal JAJAJA.",
+          "Llegamos a casa de la amiga de José, nos acomodamos y bajamos las cosas. Íbamos a cenar cuando el novio nos dice:\n—Bueno, voy a ir a la municipalidad, ¿quieren ir?\nY yo, después de manejar tres horas:\n—Sí, vamos JAJAJAJA.\nTerminé en la asamblea de la Municipalidad de Alajuelita JAJAJAJA.",
+          "Regresamos a la casa, platicamos hasta como las 12 y nos dormimos como a la 1. A la mañana siguiente nos contaron que, mientras yo dormía, LA POLICÍA llegó a la casa a ver quiénes éramos y qué hacíamos ahí JAJAJA. Los amigos de José lo resolvieron, y a mí solo me tocó la anécdota.",
+          "Entrar a San José significa mucho para mí, porque llegué diez años después. Menos triste, menos joven. Ya no soy el patojo chispudo que era antes, pero soy el ingeniero que diseña robots. Ya no soy el chico que da charlas: soy el que organiza eventos e invita a más gente, incluso en otros países. Ya no soy el miedoso que no sabía qué hacer: soy el miedoso que cree saber lo que quiere, y que anda en Costa Rica para cumplir su sueño de tener una empresa multinacional.",
+          "La muerte de mi hermano ya no duele como hace diez años. Duele menos, pero no deja de doler: el vacío, la soledad, la vida se siente diferente. Esta vez no vengo solo, vengo con José, que se parece un poco a mi hermano, porque no tenemos filtros y no sabemos medir riesgos. Pero también se parece a mí, o a como quiero ser cuando sea grande.",
+          "José me recuerda que hay que hacer cosas por el simple motivo de hacerlas. Como hace diez años, cuando le decía a mi hermano: «Wey, vamos a jugar pelota a las 2 de la mañana a las canchas, y de paso encendemos las luces, que para eso se pagan los impuestos». Y ahí íbamos un grupo de pendejos a las 2 de la mañana a jugar pelota, porque se podía, porque mi pueblito era un lugar seguro.",
+          "José no es Hanz, José no es Yeffri, José es José. Pero me recuerda lo que en su momento había dejado de lado.",
+          "Así terminamos el viaje de ida, de Guatemala a Costa Rica: 1,366 km en 17 días. Estas semanas van a ser complicadas y muy ajetreadas, pero aquí estamos, y miedo no tenemos.",
+          "Gracias por leerme hasta aquí. Si me leyeron, me gustaría que me lo dijeran, para saber quiénes me acompañaron en todo este trayecto. Los tkm, y nos vemos en Guatemala el 25."
+        ],
+        "en": [
+          "**July 2016**",
+          "One Friday or Saturday in late July 2016 I was, as usual, at a tech event; this time in Antigua Guatemala, about 3D printing and entrepreneurship. One of my best friends, Sebas, was running the workshop. I headed back at 2 p.m. because I had a soccer game at 3: I had 30 minutes to get home for my cleats and uniform, and then walk another 15 to the stadium. Back then I carried a “frijolito” (one of those phones that weren't smart and were only good for calls; honestly, I kind of want one again), so the only way to reach me was to call, and few people had my number.",
+          "I got off the bus at the Santa Lucía stop and walked toward the house where I lived then, about 500 meters away. A car pulled over: it was a cousin's uncle, a family friend, the kind who used to make heavy jokes. His wife and little girl were with him.",
+          "“Colocho, where are you going?”\n“Home, I've got a game.”",
+          "He stared at me, surprised, and there was an awkward silence. Then he said:\n“Look, your brother drowned in the lake.”",
+          "Not understanding what he was telling me, I thought: “Ahh, it's one of his jokes.” As always, I don't believe anything anyone says HAHAHA. I told him I'd just gotten back, nobody had called me or told me anything, and I'd go up the hill to ask.\n“Oh, okay. Call me if you need anything, we're here.”\n“Yeah, thanks.”",
+          "I stopped by the house of someone who, according to me, was one of my best friends HAHAHA (he says no, but since I'm the one telling this story, I say yes).\n“JUAAAAAAAANJOOOOO!” I yelled, like always.\nHe came out and I said:\n“Hey, they're saying Hanz died.”\n“Yeah, man. They just called me to see if I knew anything. They told me: ‘Look, we don't know if it's true, but we know you two were very close, and it seems he died in the lake.’”",
+          "We both just stood there, puzzled. I asked him to come with me and we went to my grandmother's house. There's a really steep hill, and on the way about three people stopped to give me their condolences. I still didn't understand.",
+          "**March 2017**",
+          "My first trip to Costa Rica was the week of March 14, 2017, with 300 dollars saved: I spent 140 on tickets and carried the rest in colones. Two days before, I asked a friend I'd just met because we were both featured in Forbes:\n“Mae, look, can I stay at your place?”\n“Sure, come on over.”\n“Ok, I'll be there in two days.”\nI'd already bought everything, and I knew in my heart he'd say yes.",
+          "I went to Costa Rica to run away from the loneliness, the sadness, the emptiness my brother left eight months earlier. It was my first plane trip that I actually remember. I saw Carrizal, San José, La Sabana, the huge stadium in that same park, and not much else. My luggage was a couple of T-shirts, some pants, a notebook, a pen and some photos.",
+          "I spent my 22nd birthday in Costa Rica with a family that was a stranger to me, but who in those three days treated me like one of their own. We bought a “queque” (cake, in Costa Rican) and, for the first time in more than eight months, I forgot I was sad.",
+          "The second time was in July, to give a workshop at ECSL (the Central American Free Software Meeting) at the University of Costa Rica. The nice part was that Lexo, one of my best friends, came too (we fell out later HAHAHA): I picked him up, we went to give talks, and it was great.",
+          "**2026**",
+          "From there I jump to this year. A few months ago I was living in Xela, thinking about how hard it would be to leave the country again: because of money, because you change, people change, and the pandemic left a big hole in our hearts. We'd talked with friends all over Central America, but nothing concrete came of it. I did want to, I had the desire, but as so many times before, I lacked the conviction to do it on my own, to chase my dreams and steer them.",
+          "In February some news arrived: “Hey, we're going to build a humanoid for a company.” And I was like: “Oh come on HAHAHA, what a drag, that's a ton of work, I don't want to.” The tantrum passed and I said okay. The humanoid arrived in April and we had three days to assemble it and present it at a tech event. We didn't sleep those three days, and thanks to Claude I became an AI expert in three days and three nights. At that event we were invited to El Salvador to present Hermes, and we said: why not? Going back to El Salvador after seven years felt like the first time, but this time I was the one driving: my first time driving outside the country, and my first time driving that much.",
+          "Around then I went to see my mom and she asked me:\n“So, are they paying you well where you work?”\nHow do I explain that I'm a partner and I'm the one who pays? HAHAHA.\n“Yeah, yeah, of course.”\nBut I explained that this job lets me have a more relaxed lifestyle: I work a lot for a short time and spend the rest of the month calmer, so I can do more things. And I'm fine like that, because I know that once I start working the way I know how to work, I won't stop, so I'm making the most of it.",
+          "In June we were talking with José and some other friends, and José blurted out:\n“I want to go to Costa Rica by bike.”\nAnd I was like: “Ahh, cool, interesting.” In September we did another hackathon together and the idea got more serious, so I told him:\n“Okay, let's go. I'll drive the car and look after you.”\nNo sooner said than done.",
+          "In October I told the lady I was renting from that I was leaving in three days and would leave everything clean. I started packing on Thursday, kept going on Friday, and on Saturday morning we were loading everything into the truck and cleaning so I could officially leave Xela. My things went to my grandmother's house; I left at 3 p.m. and arrived at 7, just to sleep, pull out the clothes for the trip and leave early for the capital and Antigua. That's where the route of this whole blog begins.",
+          "**November 10: Puntarenas → San José**",
+          "And that brings us to today. We left Puntarenas for San José, but first we stopped at the Parque Marino del Pacífico. Yes, the one that was closed yesterday HAHAHA. Today it was open, and I'm so happy watching animals. Here are some photos:",
+          "José set off pedaling from the lighthouse beach and... guess what happened? HAHAHA. Since the routine is to let him ride and wait for him further ahead, I waited across from the UCR campus in Puntarenas, and boom: a low tire pressure alert. I got out, looked at the tires and said: “Ahh, they'll hold.” And they did hold, for about another 10 km.",
+          "José finished his 20 km, we loaded the bike, he got in the car and boom: the tire went completely flat.",
+          "We put on the spare and it turns out it was flat too HAHAHA. We went from 80 km/h to 5 and crawled along veeeery slowly to a place that apparently changed tires, and nope: it was a mechanic's shop, and they didn't even do us the favor of putting some air in. In the end we found a place to fix it; in Costa Rica they're called llanteras, in Nicaragua vulcanizadoras and in Guatemala pinchazos. BUUUUUUUT we had no cash :)",
+          "They charged us 2,700 colones and, if you've been keeping up with the blog, you'll remember the 4,000 colones I had left over from the ATM at the border. They finally came in handy: I paid for the tire and off we went.",
+          "We drove on really beautiful roads, the kind you expect when you arrive in Costa Rica, and saw some really interesting things, like the “presas” (that's what they call traffic jams here) and the tolls: the road has two lanes, you reach the toll, it opens up to ten lanes just to charge you, and then it goes back down to one. It felt so surreal HAHAHA.",
+          "We got to José's friend's house, settled in and unloaded our things. We were about to have dinner when her boyfriend said:\n“Well, I'm going to the municipality, want to come?”\nAnd me, after driving for three hours:\n“Sure, let's go HAHAHAHA.”\nI ended up at the council meeting of the Municipality of Alajuelita HAHAHAHA.",
+          "We went back to the house, talked until around 12 and fell asleep around 1. The next morning they told us that, while I was asleep, THE POLICE came to the house to see who we were and what we were doing there HAHAHA. José's friends sorted it out, and all I got was the story.",
+          "Entering San José means a lot to me, because I arrived ten years later. Less sad, less young. I'm no longer the lively kid I used to be, but I'm the engineer who designs robots. I'm no longer the guy who gives talks: I'm the one who organizes events and invites more people, even in other countries. I'm no longer the scaredy-cat who didn't know what to do: I'm the scaredy-cat who thinks he knows what he wants, and who's in Costa Rica to make his dream of a multinational company come true.",
+          "My brother's death doesn't hurt like it did ten years ago. It hurts less, but it never stops hurting: the emptiness, the loneliness, life feels different. This time I'm not coming alone; I'm coming with José, who's a bit like my brother, because we have no filters and don't know how to measure risks. But he's also like me, or like who I want to be when I grow up.",
+          "José reminds me that you have to do things simply for the sake of doing them. Like ten years ago, when I'd tell my brother: “Dude, let's go play ball at 2 a.m. at the fields, and we'll turn on the lights while we're at it, that's what taxes are for.” And there we went, a bunch of idiots playing ball at 2 a.m., because we could, because my little town was a safe place.",
+          "José isn't Hanz, José isn't Yeffri, José is José. But he reminds me of what I had once set aside.",
+          "And so we've finished the outbound trip, from Guatemala to Costa Rica: 1,366 km in 17 days. These weeks are going to be complicated and very hectic, but here we are, and we're not afraid.",
+          "Thanks for reading this far. If you read me, I'd love for you to tell me, so I know who came along with me on this whole journey. Love you all, and see you in Guatemala on the 25th."
+        ],
+        "de": [
+          "**Juli 2016**",
+          "An einem Freitag oder Samstag Ende Juli 2016 war ich, wie immer, auf einer Tech-Veranstaltung; diesmal in Antigua Guatemala, zu 3D-Druck und Unternehmertum. Einer meiner besten Freunde, Sebas, leitete den Workshop. Ich fuhr um 14 Uhr zurück, weil ich um 15 Uhr ein Fußballspiel hatte: 30 Minuten, um nach Hause zu kommen, Schuhe und Trikot zu holen und dann noch 15 Minuten zum Stadion zu laufen. Damals hatte ich ein „frijolito“ (eins dieser Handys, die nicht smart waren und nur zum Telefonieren taugten; ehrlich gesagt hätte ich gern wieder eins), also konnte man mich nur anrufen, und wenige hatten meine Nummer.",
+          "Ich stieg an der Haltestelle Santa Lucía aus dem Bus und ging zu dem Haus, in dem ich damals wohnte, etwa 500 Meter entfernt. Da hielt ein Auto an: der Onkel eines Cousins, ein Freund der Familie, einer von denen, die gern derbe Witze machten. Seine Frau und seine kleine Tochter saßen mit drin.",
+          "„Colocho, wohin gehst du?“\n„Nach Hause, ich muss zum Spiel.“",
+          "Er sah mich überrascht an, und es entstand eine unangenehme Stille. Dann sagte er:\n„Hör mal, dein Bruder ist im See ertrunken.“",
+          "Ohne zu verstehen, was er mir sagte, dachte ich: „Ahh, wieder einer seiner Witze.“ Wie immer glaube ich niemandem etwas HAHAHA. Ich sagte ihm, ich sei gerade erst zurückgekommen, niemand habe mich angerufen oder mir etwas gesagt, und ich würde hoch gehen und fragen.\n„Ah, gut. Wenn was ist, ruf mich an, wir sind da.“\n„Ja, danke.“",
+          "Ich ging beim Haus von dem vorbei, der laut mir einer meiner besten Freunde war HAHAHA (er sagt nein, aber da ich diese Geschichte erzähle, sage ich ja).\n„JUAAAAAAAANJOOOOO!“, rief ich wie immer.\nEr kam raus und ich sagte:\n„Du, sie sagen, Hanz ist gestorben.“\n„Ja, Mann. Sie haben mich gerade angerufen, ob ich was weiß. Sie sagten: ‚Wir wissen nicht, ob es stimmt, aber wir wissen, dass ihr euch sehr nahestandet, und anscheinend ist er im See gestorben.‘“",
+          "Wir standen beide ratlos da. Ich bat ihn mitzukommen, und wir gingen zum Haus meiner Großmutter. Es gibt dort einen sehr steilen Anstieg, und unterwegs blieben etwa drei Leute stehen, um mir ihr Beileid auszusprechen. Ich verstand immer noch nicht.",
+          "**März 2017**",
+          "Meine erste Reise nach Costa Rica war in der Woche des 14. März 2017, mit 300 gesparten Dollar: 140 gab ich für Tickets aus, den Rest hatte ich in Colones dabei. Zwei Tage vorher fragte ich einen Freund, den ich gerade kennengelernt hatte, weil wir beide bei Forbes erschienen waren:\n„Mae, schau, kann ich bei dir übernachten?“\n„Klar, komm.“\n„Okay, ich bin in zwei Tagen da.“\nIch hatte schon alles gekauft und wusste in meinem Herzen, dass er Ja sagen würde.",
+          "Ich fuhr nach Costa Rica, um vor der Einsamkeit zu fliehen, vor der Traurigkeit, vor der Leere, die mein Bruder acht Monate zuvor hinterlassen hatte. Es war mein erster Flug, an den ich mich bewusst erinnere. Ich sah Carrizal, San José, La Sabana, das riesige Stadion in demselben Park, und nicht viel mehr. Mein Gepäck: ein paar T-Shirts, eine Hose, ein Heft, ein Kuli und ein paar Fotos.",
+          "Meinen 22. Geburtstag verbrachte ich in Costa Rica mit einer Familie, die mir fremd war, mich aber in diesen drei Tagen wie einen von ihnen behandelte. Wir kauften einen „queque“ (Kuchen, auf Costa-Ricanisch), und zum ersten Mal seit über acht Monaten vergaß ich, dass ich traurig war.",
+          "Das zweite Mal war im Juli, um beim ECSL (dem Zentralamerikanischen Treffen für Freie Software) an der Universität von Costa Rica einen Workshop zu geben. Das Schöne: Lexo, einer meiner besten Freunde, kam auch (später haben wir uns zerstritten HAHAHA). Ich holte ihn ab, wir hielten Vorträge, und es war großartig.",
+          "**2026**",
+          "Von da springe ich in dieses Jahr. Vor ein paar Monaten lebte ich in Xela und dachte daran, wie schwer es wäre, das Land wieder zu verlassen: wegen des Geldes, weil man sich verändert, weil Menschen sich verändern und die Pandemie ein großes Loch in unseren Herzen hinterlassen hat. Wir hatten mit Freunden aus ganz Zentralamerika gesprochen, aber nichts Konkretes zeichnete sich ab. Ich wollte, ich hatte den Wunsch, aber wie so oft fehlte mir die Überzeugung, es aus eigener Kraft zu tun, meinen Träumen nachzugehen und sie selbst zu lenken.",
+          "Im Februar kam eine Nachricht: „Schau, wir bauen einen Humanoiden für eine Firma.“ Und ich: „Ach nee HAHAHA, wie lästig, das ist ein Haufen Arbeit, ich will nicht.“ Der Trotz verflog und ich sagte zu. Der Humanoide kam im April, und wir hatten drei Tage, um ihn zusammenzubauen und auf einer Tech-Veranstaltung zu präsentieren. Wir schliefen drei Tage nicht, und dank Claude wurde ich in drei Tagen und drei Nächten zum KI-Experten. Auf dieser Veranstaltung wurden wir nach El Salvador eingeladen, um Hermes vorzustellen, und wir sagten: Warum nicht? Nach sieben Jahren wieder nach El Salvador zu fahren fühlte sich wie das erste Mal an, aber diesmal saß ich am Steuer: das erste Mal im Ausland gefahren, und das erste Mal so weit.",
+          "In diesen Monaten besuchte ich meine Mutter, und sie fragte:\n„Und, bezahlen sie dich gut, wo du arbeitest?“\nWie erkläre ich ihr, dass ich Teilhaber bin und derjenige, der bezahlt? HAHAHA.\n„Ja, ja, klar.“\nAber ich erklärte ihr, dass mir diese Arbeit einen entspannteren Lebensstil erlaubt: Ich arbeite kurze Zeit sehr viel und den Rest des Monats ruhiger, also kann ich mehr machen. Und so geht es mir gut, denn ich weiß: Wenn ich einmal so arbeite, wie ich arbeiten kann, höre ich nicht mehr auf. Also nutze ich die Zeit.",
+          "Im Juni redeten wir mit José und ein paar anderen Freunden, und José platzte heraus:\n„Ich will mit dem Fahrrad nach Costa Rica.“\nUnd ich: „Ahh, krass, interessant.“ Im September machten wir wieder zusammen einen Hackathon, und die Idee wurde ernster, also sagte ich:\n„Gut, los. Ich fahre mit dem Auto und passe auf dich auf.“\nGesagt, getan.",
+          "Im Oktober sagte ich meiner Vermieterin, dass ich in drei Tagen ausziehe und alles sauber hinterlasse. Am Donnerstag fing ich an zu packen, machte am Freitag weiter, und am Samstagmorgen luden wir schon alles in den Lastwagen und putzten, damit ich Xela offiziell verlassen konnte. Meine Sachen kamen zum Haus meiner Großmutter; ich fuhr um 15 Uhr los und kam um 19 Uhr an, nur um zu schlafen, die Kleidung für die Reise herauszusuchen und früh in die Hauptstadt und nach Antigua aufzubrechen. Da beginnt die Route dieses ganzen Blogs.",
+          "**10. November: Puntarenas → San José**",
+          "Und so kommen wir zu heute. Wir verließen Puntarenas Richtung San José, aber vorher besuchten wir den Parque Marino del Pacífico. Ja, den, der gestern geschlossen war HAHAHA. Heute war er offen, und ich bin so glücklich, wenn ich Tiere sehe. Hier ein paar Fotos:",
+          "José startete am Leuchtturmstrand und ... ratet mal, was passiert ist? HAHAHA. Da wir ihn immer vorausfahren lassen und weiter vorne auf ihn warten, wartete ich gegenüber dem UCR-Campus in Puntarenas, und zack: Warnung für niedrigen Reifendruck. Ich stieg aus, sah mir die Reifen an und dachte: „Ahh, die halten.“ Und sie hielten, noch etwa 10 km.",
+          "José beendete seine 20 km, wir luden das Rad ein, er stieg ins Auto, und zack: Der Reifen war komplett platt.",
+          "Wir zogen das Reserverad auf, und es stellte sich heraus, dass es auch platt war HAHAHA. Wir gingen von 80 km/h auf 5 runter und schlichen gaaanz langsam zu einem Ort, an dem angeblich Reifen gewechselt wurden, und nö: Es war eine Autowerkstatt, und sie haben uns nicht mal Luft aufgefüllt. Am Ende fanden wir eine Reifenwerkstatt; in Costa Rica heißen sie llanteras, in Nicaragua vulcanizadoras und in Guatemala pinchazos. ABEEEEEEER wir hatten kein Bargeld :)",
+          "Sie verlangten 2.700 Colones, und wer den Blog verfolgt, erinnert sich an die 4.000 Colones, die mir vom Geldautomaten an der Grenze übrig geblieben waren. Endlich hatten sie einen Zweck: Ich bezahlte den Reifen, und weiter ging's.",
+          "Wir fuhren über sehr schöne Straßen, solche, die man erwartet, wenn man nach Costa Rica kommt, und sahen interessante Dinge, wie die „presas“ (so nennt man hier Staus) und die Mautstellen: Die Straße hat zwei Spuren, dann kommt die Maut, sie öffnet sich auf zehn Spuren, nur zum Kassieren, und danach geht es wieder auf eine runter. Das fand ich so surreal HAHAHA.",
+          "Wir kamen bei Josés Freundin an, richteten uns ein und luden die Sachen aus. Wir wollten gerade essen, als ihr Freund sagte:\n„Ich gehe zur Gemeinde, wollt ihr mit?“\nUnd ich, nach drei Stunden Fahrt:\n„Klar, gehen wir HAHAHAHA.“\nIch landete in der Ratssitzung der Gemeinde Alajuelita HAHAHAHA.",
+          "Wir gingen zurück ins Haus, redeten bis etwa Mitternacht und schliefen gegen 1 Uhr ein. Am nächsten Morgen erzählten sie uns, dass, während ich schlief, DIE POLIZEI zum Haus kam, um zu sehen, wer wir waren und was wir dort machten HAHAHA. Josés Freunde klärten das, und mir blieb nur die Anekdote.",
+          "Nach San José zu kommen bedeutet mir viel, denn ich kam zehn Jahre später an. Weniger traurig, weniger jung. Ich bin nicht mehr der aufgeweckte Junge von früher, aber ich bin der Ingenieur, der Roboter entwirft. Ich bin nicht mehr der Junge, der Vorträge hält: Ich bin der, der Veranstaltungen organisiert und mehr Leute einlädt, sogar in anderen Ländern. Ich bin nicht mehr der Angsthase, der nicht wusste, was er tun sollte: Ich bin der Angsthase, der glaubt zu wissen, was er will, und der in Costa Rica unterwegs ist, um seinen Traum von einem multinationalen Unternehmen zu verwirklichen.",
+          "Der Tod meines Bruders tut nicht mehr so weh wie vor zehn Jahren. Weniger, aber er hört nie auf wehzutun: die Leere, die Einsamkeit, das Leben fühlt sich anders an. Diesmal komme ich nicht allein, sondern mit José, der meinem Bruder ein bisschen ähnelt, weil wir keine Filter haben und Risiken nicht abschätzen können. Aber er ähnelt auch mir, oder dem, der ich sein will, wenn ich groß bin.",
+          "José erinnert mich daran, dass man Dinge einfach um ihrer selbst willen tun muss. Wie vor zehn Jahren, als ich zu meinem Bruder sagte: „Alter, lass uns um 2 Uhr nachts auf dem Platz Fußball spielen, und wir machen gleich das Flutlicht an, dafür zahlt man ja Steuern.“ Und da zogen wir los, ein Haufen Idioten, um 2 Uhr nachts Fußball spielen, weil es ging, weil mein Dörfchen ein sicherer Ort war.",
+          "José ist nicht Hanz, José ist nicht Yeffri, José ist José. Aber er erinnert mich an das, was ich damals beiseitegelegt hatte.",
+          "Damit haben wir die Hinreise beendet, von Guatemala nach Costa Rica: 1.366 km in 17 Tagen. Diese Wochen werden kompliziert und sehr hektisch, aber hier sind wir, und Angst haben wir keine.",
+          "Danke, dass ihr bis hierher gelesen habt. Wenn ihr mich gelesen habt, sagt es mir gern, damit ich weiß, wer mich auf dieser ganzen Strecke begleitet hat. Hab euch lieb, und wir sehen uns am 25. in Guatemala."
+        ],
+        "zh": [
+          "**2016 年 7 月**",
+          "2016 年 7 月底的某个周五还是周六，我照常在参加一个科技活动；这次在危地马拉安提瓜，主题是 3D 打印和创业。我最好的朋友之一 Sebas 在那里带工作坊。下午两点我就往回赶，因为三点有一场球赛：我有 30 分钟回家拿球鞋和球衣，再走 15 分钟去球场。那时我用的是一部“小豆子”手机（那种不智能、只能打电话的手机；说实话，现在我又有点想要了），所以想联系我只能打电话，而且没几个人有我的号码。",
+          "我在 Santa Lucía 站下了公交车，往当时住的房子走，大概 500 米。这时一辆车停下来：是我一个表兄弟的叔叔，家里的朋友，平时爱开过分的玩笑。车上还有他太太和小女儿。",
+          "“卷毛，去哪儿？”\n“回家，我要去踢球。”",
+          "他吃惊地看着我，气氛一下子尴尬起来。然后他说：\n“听着，你哥哥在湖里淹死了。”",
+          "我没听懂他在说什么，心想：“啊，又是他的玩笑吧。”和往常一样，我谁的话都不信 哈哈哈。我告诉他我刚回来，没人给我打电话，也没人跟我说什么，我上去问问。\n“啊，好。有事给我打电话，我们在这儿。”\n“好，谢谢。”",
+          "我路过一个朋友家，在我看来他是我最好的朋友之一 哈哈哈（他说不是，但这个故事是我在讲，所以我说是）。\n“JUAAAAAAAANJOOOOO！”我像往常一样大喊。\n他出来了，我说：\n“喂，他们说 Hanz 死了。”\n“是啊，兄弟。刚有人打电话问我知不知道什么。他们说：‘我们不确定是不是真的，但知道你们俩关系很好，好像他死在湖里了。’”",
+          "我们俩都愣住了。我让他陪我一起，我们去了我外婆家。那里有一段很陡的上坡，路上大概有三个人停下来向我致哀。我还是没明白过来。",
+          "**2017 年 3 月**",
+          "我第一次去哥斯达黎加是 2017 年 3 月 14 日那一周，带着攒下的 300 美元：140 花在机票上，剩下的换成了科朗。出发前两天，我联系了一个刚认识的朋友，我们是因为一起上了《福布斯》才认识的：\n“兄弟，能让我在你家借住吗？”\n“行啊，来吧。”\n“好，我两天后到。”\n我早就把票都买好了，心里知道他一定会答应。",
+          "我去哥斯达黎加，是为了逃离孤独、悲伤，和八个月前哥哥留下的空洞。那是我第一次有清晰记忆的坐飞机。我去了 Carrizal、圣何塞、La Sabana 公园，还有公园里那座巨大的体育场，别的没去什么地方。我的行李就是几件 T 恤、一条裤子、一个本子、一支笔和几张照片。",
+          "我在哥斯达黎加过了 22 岁生日，和一个我原本完全不认识的家庭一起；但在那三天里，他们把我当成自家人。我们买了一个“queque”（哥斯达黎加人对蛋糕的叫法），八个多月来，我第一次忘了自己在难过。",
+          "第二次是 7 月，去哥斯达黎加大学参加 ECSL（中美洲自由软件大会）带工作坊。最开心的是，我最好的朋友之一 Lexo 也来了（后来我们闹翻了 哈哈哈）：我去接他，我们一起去讲课，特别棒。",
+          "**2026 年**",
+          "从那里我直接跳到今年。几个月前我住在 Xela（克萨尔特南戈），心想再出国会有多难：因为钱，因为人会变，大家都变了，疫情也在我们心里留下一个大洞。我们和中美洲各地的朋友聊过，但一直没有什么实际进展。我是想去的，我有这个愿望，但和很多次一样，我缺少靠自己去做、去追梦、去掌控梦想的决心。",
+          "二月来了一个消息：“喂，我们要给一家公司做一个人形机器人。”我当时：“啊，别闹了 哈哈哈，好麻烦，工作量太大，我不想做。”闹完脾气，我还是答应了。机器人四月到货，我们只有三天时间组装好，并在一个科技活动上展示。三天三夜我们没睡，多亏了 Claude，我三天三夜就成了 AI 专家。在那个活动上，有人邀请我们去萨尔瓦多展示 Hermes，我们说：为什么不呢？时隔七年再去萨尔瓦多，感觉像第一次一样，但这次是我自己开车：第一次在国外开车，也是第一次开这么远。",
+          "那几个月我去看我妈，她问我：\n“你在那儿上班，他们给你的钱多吗？”\n我怎么跟她解释我是合伙人，付钱的是我？哈哈哈。\n“多，多，当然。”\n但我跟她解释，这份工作让我的生活方式更轻松：我在短时间里拼命干，月里剩下的时间过得比较悠闲，所以能做更多事情。我这样挺好，因为我知道，一旦我按我会的方式全力工作，就停不下来了，所以现在要好好把握。",
+          "六月我们和 José 还有几个朋友聊天，José 突然说：\n“我想骑自行车去哥斯达黎加。”\n我：“啊，酷，有意思。”九月我们又一起办了一场黑客松，这个想法变得更认真了，于是我对他说：\n“好，走吧。我开车跟着，一路照顾你。”\n说到做到。",
+          "十月我告诉房东阿姨，我三天后搬走，会把一切打扫干净。周四开始打包，周五继续，周六早上我们已经在把东西搬上卡车、打扫卫生，我正式离开 Xela。东西运到了外婆家；我下午三点出发，晚上七点到，只是睡一觉、拿出旅行的衣服，第二天一早去首都和安提瓜。这个博客的整条路线，就是从那里开始的。",
+          "**11 月 10 日：蓬塔雷纳斯 → 圣何塞**",
+          "就这样来到了今天。我们离开蓬塔雷纳斯前往圣何塞，但出发前先去了太平洋海洋公园。对，就是昨天关门的那个 哈哈哈。今天开门了，我看到动物就特别开心。给大家放几张照片：",
+          "José 从灯塔海滩出发骑车，然后……猜猜发生了什么？哈哈哈。我们的惯例是让他先骑，我在前面等他，所以我在蓬塔雷纳斯的哥斯达黎加大学校区对面等着，砰：胎压过低警报。我下车看了看轮胎，心想：“啊，撑得住。”确实撑住了，又开了大概 10 公里。",
+          "José 骑完了他的 20 公里，我们把自行车装上车，他坐进车里，砰：轮胎彻底瘪了。",
+          "我们换上备胎，结果备胎也是瘪的 哈哈哈。车速从 80 公里降到 5 公里，我们慢——慢——地挪到一个看起来能换轮胎的地方，结果不是：那是个修车铺，连气都没帮我们打。最后终于找到了补胎的地方；在哥斯达黎加叫 llantera，在尼加拉瓜叫 vulcanizadora，在危地马拉叫 pinchazo。可——是——我们没有现金 :)",
+          "他们收了 2,700 科朗。如果你一直在追这个博客，应该记得我在边境取款机剩下的 4,000 科朗。它们终于派上用场了：我付了补胎钱，我们继续上路。",
+          "我们走过很漂亮的公路，就是那种你来哥斯达黎加时期待看到的路，还看到一些很有意思的东西，比如“presas”（这里对堵车的叫法），还有收费站：路本来是两车道，到了收费站突然扩成十车道，就为了收费，过后又收窄成一条。我觉得太超现实了 哈哈哈。",
+          "我们到了 José 朋友家，安顿下来，卸了东西。正准备吃晚饭，她男朋友说：\n“我要去市政府一趟，你们去吗？”\n我开了三个小时车之后：\n“去啊，走 哈哈哈哈。”\n结果我坐进了 Alajuelita 市议会的会议 哈哈哈哈。",
+          "我们回到家，聊到大概十二点，一点左右睡下。第二天早上他们告诉我们，我睡着的时候，警察来了，想看看我们是谁、在这里干什么 哈哈哈。José 的朋友们把事情解决了，我只听到了这段趣事。",
+          "进入圣何塞对我意义重大，因为我是十年后再来到这里。没那么悲伤了，也没那么年轻了。我不再是从前那个机灵的毛头小子，但我是设计机器人的工程师。我不再是那个只会讲课的小伙子：我是组织活动、邀请更多人参与的人，甚至在其他国家。我不再是那个不知道该做什么的胆小鬼：我是那个以为自己知道想要什么的胆小鬼，来到哥斯达黎加，是为了实现拥有一家跨国公司的梦想。",
+          "哥哥的离世已经不像十年前那么痛了。痛少了，但从未停止：那种空洞、孤独，生活感觉不一样了。这一次我不是一个人来，而是和 José 一起。他有点像我哥哥，因为我们都没有顾忌，不懂得衡量风险。但他也像我，或者说像我长大后想成为的样子。",
+          "José 提醒我，有些事就是为了做而做。就像十年前，我对哥哥说：“兄弟，凌晨两点去球场踢球吧，顺便把灯打开，交税不就是为了这个嘛。”于是我们一群傻小子凌晨两点去踢球，因为可以，因为我的小镇很安全。",
+          "José 不是 Hanz，José 也不是 Yeffri，José 就是 José。但他让我想起了曾经被我放下的东西。",
+          "就这样，我们完成了去程，从危地马拉到哥斯达黎加：17 天，1,366 公里。接下来的几周会很复杂、很忙碌，但我们在这里，而且我们不害怕。",
+          "谢谢你读到这里。如果你读了，希望你告诉我，让我知道一路上都有谁陪着我。爱你们，25 号危地马拉见。"
+        ]
+      },
+      "videos": [
+        {
+          "url": "videos/ruta/dia-17-jose-pedaleando.mp4",
+          "after": 22
+        },
+        {
+          "url": "videos/ruta/dia-17-llantera.mp4",
+          "after": 25
+        },
+        {
+          "url": "videos/ruta/dia-17-lluvia.mp4",
+          "after": 26
+        }
+      ],
+      "photos": [
+        {
+          "src": "images/ruta/dia-17-cambio-llanta.jpg",
+          "alt": {
+            "es": "José aflojando las tuercas de la llanta junto al carro, con el gato rojo en el suelo",
+            "en": "José loosening the wheel nuts next to the car, with the red jack on the ground",
+            "de": "José löst die Radmuttern am Auto, der rote Wagenheber liegt am Boden",
+            "zh": "José 在车旁拧松轮胎螺母，红色千斤顶放在地上"
+          },
+          "caption": {
+            "es": "La de repuesto también venía desinflada.",
+            "en": "The spare was flat too.",
+            "de": "Das Reserverad war auch platt.",
+            "zh": "备胎也是瘪的。"
+          },
+          "after": 24
+        }
+      ],
+      "galleries": [
+        {
+          "after": 21,
+          "photos": [
+            {
+              "src": "images/ruta/dia-17-boleteria.jpg",
+              "alt": {
+                "es": "Boletería del Parque Marino pintada con peces",
+                "en": "The Marine Park ticket booth painted with fish",
+                "de": "Das mit Fischen bemalte Ticketschalter des Meeresparks",
+                "zh": "画着鱼的海洋公园售票处"
+              },
+              "caption": {
+                "es": "Hoy sí estaba abierto.",
+                "en": "Today it was open.",
+                "de": "Heute war offen.",
+                "zh": "今天开门了。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-tortugas.jpg",
+              "alt": {
+                "es": "Dos tortugas descansando en el borde de un estanque",
+                "en": "Two turtles resting on the edge of a pond",
+                "de": "Zwei Schildkröten am Rand eines Teichs",
+                "zh": "池塘边休息的两只乌龟"
+              },
+              "caption": {
+                "es": "Las primeras en recibirnos.",
+                "en": "The first to greet us.",
+                "de": "Die ersten, die uns begrüßten.",
+                "zh": "最先迎接我们的。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-iguana.jpg",
+              "alt": {
+                "es": "Iguana caminando sobre el césped junto a unos juegos",
+                "en": "An iguana walking on the grass next to a playground",
+                "de": "Ein Leguan läuft über den Rasen neben einem Spielplatz",
+                "zh": "在游乐设施旁草地上爬的鬣蜥"
+              },
+              "caption": {
+                "es": "Otra iguana, ahora con boleto.",
+                "en": "Another iguana, this time with a ticket.",
+                "de": "Noch ein Leguan, diesmal mit Ticket.",
+                "zh": "又一只鬣蜥，这次买了票。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-pez-globo.jpg",
+              "alt": {
+                "es": "Pez globo mirando de frente a la cámara",
+                "en": "A pufferfish looking straight at the camera",
+                "de": "Ein Kugelfisch schaut direkt in die Kamera",
+                "zh": "正对镜头的河豚"
+              },
+              "caption": {
+                "es": "Posando.",
+                "en": "Posing.",
+                "de": "Er posiert.",
+                "zh": "摆拍中。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-raya.jpg",
+              "alt": {
+                "es": "Raya nadando en un estanque poco profundo",
+                "en": "A ray swimming in a shallow pool",
+                "de": "Ein Rochen schwimmt in einem flachen Becken",
+                "zh": "在浅池里游动的鳐鱼"
+              },
+              "caption": {
+                "es": "Las rayas.",
+                "en": "The rays.",
+                "de": "Die Rochen.",
+                "zh": "鳐鱼。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-tiburon.jpg",
+              "alt": {
+                "es": "Tiburón gata descansando en el fondo de una piscina",
+                "en": "A nurse shark resting at the bottom of a pool",
+                "de": "Ein Ammenhai ruht am Boden eines Beckens",
+                "zh": "躺在池底休息的铰口鲨"
+              },
+              "caption": {
+                "es": "Un tiburón gata.",
+                "en": "A nurse shark.",
+                "de": "Ein Ammenhai.",
+                "zh": "一条铰口鲨。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-estrella.jpg",
+              "alt": {
+                "es": "Estrella de mar sobre la arena de un acuario",
+                "en": "A starfish on the sand of an aquarium",
+                "de": "Ein Seestern auf dem Sand eines Aquariums",
+                "zh": "水族箱沙子上的海星"
+              },
+              "caption": {
+                "es": "Estrella de mar.",
+                "en": "Starfish.",
+                "de": "Seestern.",
+                "zh": "海星。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-payasos.jpg",
+              "alt": {
+                "es": "Tres peces payaso naranjas en un acuario azul",
+                "en": "Three orange clownfish in a blue tank",
+                "de": "Drei orange Clownfische in einem blauen Becken",
+                "zh": "蓝色水族箱里的三条橙色小丑鱼"
+              },
+              "caption": {
+                "es": "Encontramos a Nemo.",
+                "en": "We found Nemo.",
+                "de": "Nemo gefunden.",
+                "zh": "找到尼莫了。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-morena.jpg",
+              "alt": {
+                "es": "Morena rayada asomada entre las rocas",
+                "en": "A striped moray eel peeking out between rocks",
+                "de": "Eine gestreifte Muräne lugt zwischen Felsen hervor",
+                "zh": "从岩石间探出头的条纹海鳝"
+              },
+              "caption": {
+                "es": "La morena.",
+                "en": "The moray eel.",
+                "de": "Die Muräne.",
+                "zh": "海鳝。"
+              }
+            },
+            {
+              "src": "images/ruta/dia-17-tortuga-rescatada.jpg",
+              "alt": {
+                "es": "Tortuga marina en una piscina plástica azul del área de rehabilitación",
+                "en": "A sea turtle in a blue plastic pool in the rehabilitation area",
+                "de": "Eine Meeresschildkröte in einem blauen Plastikbecken im Rehabilitationsbereich",
+                "zh": "康复区蓝色塑料池里的海龟"
+              },
+              "caption": {
+                "es": "Una tortuga en rehabilitación.",
+                "en": "A turtle in rehabilitation.",
+                "de": "Eine Schildkröte in der Reha.",
+                "zh": "正在康复的海龟。"
+              }
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "url": "/hermes/",
+          "after": 16,
+          "label": {
+            "es": "Hermes",
+            "en": "Hermes",
+            "de": "Hermes",
+            "zh": "Hermes"
+          }
+        }
+      ],
+      "cover": "images/ruta/dia-17-cover.jpg"
     }
   ],
   "purpose": {
